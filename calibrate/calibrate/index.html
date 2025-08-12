@@ -1,0 +1,2723 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../101/">
+      
+      
+        <link rel="next" href="../troubleshoot/">
+      
+      
+      <link rel="icon" href="../../xDrip+logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Calibrate - xDrip+</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/admonitions.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general-considerations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="xDrip+" class="md-header__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            xDrip+
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Calibrate
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../install/usethedoc/" class="md-tabs__link">
+          
+  
+  
+  Getting started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../use/mainUI/" class="md-tabs__link">
+          
+  
+  
+  Discover and use
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../101/" class="md-tabs__link">
+          
+  
+  
+  Calibrations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../use/settings/" class="md-tabs__link">
+          
+  
+  
+  Settings
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../smartwatch/smartwatch/" class="md-tabs__link">
+          
+  
+  
+  Smartwatch
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../troubleshoot/install/" class="md-tabs__link">
+          
+  
+  
+  Troubleshooting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../changelog/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Change Log
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="xDrip+" class="md-nav__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    xDrip+
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Getting started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Getting started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/usethedoc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to use this documentation?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/prerequisites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prerequisites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/download/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Download
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/datasource/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data source
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    G6, 1, 1+, G7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreNFC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre NFC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreBT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre bridge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre 2 Direct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2patch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre patched app
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/eversense/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eversense
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/640_670/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    640G/670G
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/xdripfollower/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    xDrip+ follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/nightscoutfollower/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nightscout follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/dexshare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dex Share follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/carelinkfollow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CareLink follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/byod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BYODA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/companion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Companion app
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/aidex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GlucoRx/Aidex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/caresens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CareSens Air
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/webfollower/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Web Follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discover and use
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Discover and use
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/mainUI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Main view
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/hamburger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Main menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/startsensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Start sensor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/stopsensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stop sensor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/statistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Statistics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/alarms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Alarms and Alerts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/speak/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Speak Readings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/glucometer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glucose Meter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/syncsetup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sync Follower setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Calibrations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Calibrations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../101/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibration basics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Calibrate
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibrate
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      General considerations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#native-and-xdrip-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Native and xDrip+ algorithms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Native and xDrip+ algorithms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#libre-2-patched-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Libre 2 patched app
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xdrip-calibration-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      xDrip+ calibration settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      First calibration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#successive-calibrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successive calibrations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-a-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable a calibration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reset-all-calibrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reset all calibrations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshoot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Settings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/display/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Display
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/3dotsmenu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3 Dots menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/copysettings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Copy settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/loadsavesettings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Load / Save Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/sync/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    xDrip+ Sync
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cloud Upload
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/predictions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Predictive Simulation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Motion Tracking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/update/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Update
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/interapp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inter-apps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/lesscommon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Less Common Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advancedcal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Calibration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/bluetooth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bluetooth Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/misc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Other Misc. Options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/NFC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFC Scan Features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/OOP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Out of Process Algorithm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/pens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Insulin Pens
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use/spokencommands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spoken Commands
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Smartwatch
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Smartwatch
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/smartwatch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Smartwatches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/wear/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Android Wear
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/wearinstall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Install on Android Wear
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/usewear/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Use Wear Extension
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/pebble/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pebble
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/miband/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MiBand
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/bluejay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BlueJay Watch
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Troubleshooting
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/reinstall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reinstallation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/systemstatus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    System Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/librebridge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre Bridge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/libre2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/libre2direct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre 2 Direct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/webfollow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre Web Follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/bridgeFW/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bridge Firmware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/ADB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Android Debug Bridge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/savings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Android Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Change Log
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      General considerations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#native-and-xdrip-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Native and xDrip+ algorithms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Native and xDrip+ algorithms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#libre-2-patched-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Libre 2 patched app
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xdrip-calibration-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      xDrip+ calibration settings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      First calibration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#successive-calibrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Successive calibrations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-a-calibration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable a calibration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reset-all-calibrations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reset all calibrations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Calibrate</h1>
+
+<div class="admonition warning">
+<p class="admonition-title">Calibration</p>
+<p>Never blindly trust a glucose sensor: regularly verify the readings with a blood test.<br />
+A flat line (same number) is <strong>never</strong> a good sign.</p>
+</div>
+<h3 id="general-considerations">General considerations<a class="headerlink" href="#general-considerations" title="Permanent link">⌁</a></h3>
+<p>Calibration is key to CGM mesurement accuracy. Always use a trusted glucometer and make sure you put yourself in the best conditions to have the most accurate blood reading when calibrating.</p>
+<p>Some of the most important prerequisites are:</p>
+<ol>
+<li><strong>Stable BG.</strong> Never calibrate when BG is rising or falling rapidly.</li>
+<li><strong>In range (important for Libre initial calibration).</strong> Try to perform your calibrations when BG is within normal range (80-180 mg/dl or 5-10 mmol/l).</li>
+<li><strong>Don't overcalibrate.</strong> Better few accurate than too many: you will most probably confuse xDrip+. For G6, G7, 1, 1+ use the vendor recommendations.</li>
+</ol>
+<h3 id="native-and-xdrip-algorithms">Native and xDrip+ algorithms<a class="headerlink" href="#native-and-xdrip-algorithms" title="Permanent link">⌁</a></h3>
+<p>xDrip+ can provide its own calibrations algorithms for sensors sending raw data.</p>
+<p>G6, G7, 1, 1+ native calibration means that xDrip+ will not use its algorithm but will send calibration values to the transmitter and let it handle it with its own proprietary algorithm.</p>
+<p>Libre 1, 14 Days, Pro, 2 (EU) and 2+ (EU) sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called <a href="../../use/OOP/">out of process algorithm</a> (short OOP).</p>
+<p>Libre 2 patched app will use its own proprietary algorithm (an old version though).</p>
+<table>
+<thead>
+<tr>
+<th>Sensor</th>
+<th>xDrip+ calibration</th>
+<th>Native calibration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G6 rebatteried</td>
+<td>Available</td>
+<td>Available</td>
+</tr>
+<tr>
+<td>G6, G7, 1, 1+</td>
+<td>Not available</td>
+<td>Mandatory</td>
+</tr>
+<tr>
+<td>Libre 1</td>
+<td>Mandatory</td>
+<td>OOP1 (obsolete)</td>
+</tr>
+<tr>
+<td>Libre 2 EU patched app</td>
+<td>Limited offset (see below)</td>
+<td>By design</td>
+</tr>
+<tr>
+<td>Libre 2/2+ EU, Libre 14 days US</td>
+<td><a href="../../use/OOP/#oop2">Optional</a></td>
+<td>OOP2</td>
+</tr>
+</tbody>
+</table>
+<h5 id="libre-2-patched-app">Libre 2 patched app<a class="headerlink" href="#libre-2-patched-app" title="Permanent link">⌁</a></h5>
+<p>When using the patched app, you can calibrate but correction is applied as an offset with maximum values between -40 mg/dl to +20 mg/dL [-2,2 mmol/l to +1,1 mmol/l]. Calibrations failing this criteria will be <strong>ignored</strong>.</p>
+<h3 id="xdrip-calibration-settings">xDrip+ calibration settings<a class="headerlink" href="#xdrip-calibration-settings" title="Permanent link">⌁</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">xDrip+ calibration only</p>
+<p>The information below is relevant to xDrip+ calibration.<br />
+For G6/G7/1/1+ native mode see <a href="https://navid200.github.io/xDrip/docs/Dexcom_page.html">here</a>.</p>
+</div>
+<p>Before calibrating check your <a href="../advancedcal">settings</a>.</p>
+<p>One thing you want to enable is <a href="../../use/lesscommon/#show-data-tables">data tables</a> in the main menu. This will really help understanding when things go wrong.</p>
+<h3 id="first-calibration">First calibration<a class="headerlink" href="#first-calibration" title="Permanent link">⌁</a></h3>
+<p>If your sensor requires calibrations, after connecting it to xDrip+ and receiving three values you should see this request:</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Calibrate Sensor?</p>
+<p>&emsp;We have some readings!  </p>
+<p>&ensp;Next, we need the first calibration blood test.  </p>
+<p>&ensp;Ready to calibrate now?  </p>
+<p>&emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;CALIBRATE&ensp;</span></p>
+</div>
+<p>Two values initial calibration values are historical from G4. If you want to use that correctly: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default <a href="../advancedcal/#calibrations">here</a>.</p>
+<div class="admonition xdrip">
+<p class="admonition-title">☰&emsp;Initial calibration</p>
+<p>&emsp;<u>Enter First BG Value</u><br />
+&emsp;<u>Enter Second BG Value</u>  </p>
+<p>&emsp;<small>In order to get started, perform one or two finger prick tests and enter the values here!</small>    </p>
+</div>
+<p>If you're using native calibration, the value will be sent to the transmitter for processing.</p>
+<p>If you're using xDrip+ calibration, this value will be processed 10 minutes later to make sure to compensate for all physiological and chemical delays of the CGM measurement, <strong>this is why it's extremely important to calibrate at stable BG</strong>.</p>
+<p>Let's look graphically at what will happen on the main view:</p>
+<ol>
+<li>First reading (brought to calibration value)</li>
+<li>Second reading (brought to calibration value)</li>
+<li>Not visible yet but it's the third reading. The actual value when you calibrated</li>
+<li>Next reading in 5 minutes</li>
+<li>Next reading in 10 minutes and the calibration point (that will be used in 10 minutes)</li>
+</ol>
+<p><img src="../images/CAL03.png" /></p>
+<p>If your BG remained stable during this time you should see it go through the calibration point.</p>
+<p><img src="../images/CAL04.png" /></p>
+<p>Looking into your calibration data table you will see new entries corresponding to raw BG measurements used to define define the calibration:</p>
+<ol>
+<li>This is the value you entered (converted if necessary in mg/dl)</li>
+<li>Same value but in the unit you use with xDrip+ (here in mg/dl but will show also in mmol/l)</li>
+<li>Raw BG from the sensor</li>
+<li>Calculated slope and intercept</li>
+<li>Effective calibration date and time (that is actual + 10 minutes) and corresponding raw BG date and time</li>
+<li>There are two sets of raw data measurement for one calibration one lower one higher</li>
+</ol>
+<p><img src="../images/CAL05.png" style="zoom:75%;"  /></p>
+<p>Your calibration graph it will now be someting like this.<br />
+Depending on the difference between blood samples and the variability of current BG, slope might not be exactly 1.</p>
+<p><img src="../images/CAL06.png" style="zoom:75%;"  /></p>
+<h3 id="successive-calibrations">Successive calibrations<a class="headerlink" href="#successive-calibrations" title="Permanent link">⌁</a></h3>
+<p>For safety reasons you will check regularly your real BG value, at least once per day because you can't trust blindly a sensor. Enter these blood tests as <a href="../../use/mainUI/#treatments">treatments</a>.<br />
+In order to have BG values that are not varying too rapidly, you shouldn't calibrate when you have carbs or insulin active at that time.</p>
+<div class="admonition note">
+<p class="admonition-title">Frequency</p>
+<p>Unless expressly required by your sensor do not calibrate systematically when performing a blood test.<br />
+For Libre sensors, do not necessarily calibrate if difference is less than 15%.</p>
+</div>
+<p><strong>Don't overcalibrate</strong>, you can perform as many blood checks as you want, enter them as treatments in xDrip+ but add calibrations with extra care.</p>
+<p>On your calibration graph you will see active calibration points in blue and old or invalid ones in grey.</p>
+<p><img src="../images/CAL15.png" style="zoom:75%;"  /></p>
+<p>If you see, at stable BG, comparing xDrip+ value 10 minutes after your blood test, that the value differs too much, you will add another calibration point.</p>
+<p>Since BG trends often are difficult to forecast, you can use a trick:</p>
+<ul>
+<li>Check Use Treatment BG Values is not set to Never Use Them in <a href="../advancedcal">Advanced Calibrations</a>.</li>
+<li>Enter your blood test as a treatment.</li>
+</ul>
+<p><img src="../images/CAL07.png" style="zoom:75%;"  /></p>
+<ul>
+<li>Wait 10 minutes and decide if it would have been a good time to calibrate (stable enough).</li>
+</ul>
+<p><img src="../images/CAL08.png" style="zoom:75%;"  /></p>
+<ul>
+<li>If it was, touch your treatment (the new BG test read and white square dot on the graph) and make it a calibration.</li>
+</ul>
+<div class="admonition xdripitem">
+<p class="admonition-title">Blood Test Action</p>
+<p>&emsp;What would you like to do?  </p>
+<p>&emsp;NOTHING&emsp;DELETE&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;CALIBRATE&ensp;</span></p>
+</div>
+<p>You now have another calibration point.</p>
+<p><img src="../images/CAL09.png" style="zoom:75%;"  /></p>
+<h3 id="disable-a-calibration">Disable a calibration<a class="headerlink" href="#disable-a-calibration" title="Permanent link">⌁</a></h3>
+<p>It might happen that a calibration point is clearly bad and you want to delete it.</p>
+<p>Open the Calibration Data Table and <strong>long touch</strong> the calibration you want to disable.</p>
+<p><img src="../images/CAL10.png" style="zoom:75%;"  /></p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Disable this calibration?</p>
+<p>Flagged calibrations will no longer have an effect.  </p>
+<p>&emsp;&emsp;&emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span></p>
+</div>
+<p>It will show in red and will not be used for calculation anymore.</p>
+<p><img src="../images/CAL11.png" style="zoom:75%;"  /></p>
+<h3 id="reset-all-calibrations">Reset all calibrations<a class="headerlink" href="#reset-all-calibrations" title="Permanent link">⌁</a></h3>
+<p>This method only applies to sensors supporting xDrip+ calibration.</p>
+<p><strong>Do not use it for native calibration only sensors (G6 new, G7, 1, 1+ etc.)-</strong></p>
+<p>The fastest way to restart calibration from scratch (Initial Calibration) when it becomes clear that the current ones are wrong, or if you don't have data after calibrating is to reset all calibrations.</p>
+<p>From the main menu, Stop Sensor.</p>
+<div class="admonition xdrip">
+<p class="admonition-title"><img src="../../images/hamburger_menu.png" style="zoom:75%;" /></p>
+<p>&ensp;Stop Sensor  </p>
+</div>
+<p><strong>Do not stop sensor</strong>: only reset all calibrations.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title"><img src="../../images/BDM.png" style="zoom:75%;" /> Stop Sensor <span class='symbol'></span></p>
+<p>&emsp;Only stop your sensor when you actually plan to remove it, otherwise leave it running!  </p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;DON'T STOP, JUST RESET ALL CALIBRATIONS&ensp;</span></p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Are you sure?</p>
+<p>&emsp;Do you want to delete and reset the calibrations for this sensor?  </p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NO &emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span></p>
+</div>
+<p>xDrip+ will bring you back to <a href="#first-calibration">initial calibration</a>. Make sure you perform this action at stable BG, when in range.</p>
+<p></br></p>
+<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26"><em>Last modified 7/12/2024</em></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

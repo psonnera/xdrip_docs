@@ -1,0 +1,3565 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../statistics/">
+      
+      
+        <link rel="next" href="../speak/">
+      
+      
+      <link rel="icon" href="../../xDrip+logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Alarms and Alerts - xDrip+</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/admonitions.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#glucose-level-alerts-list" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="xDrip+" class="md-header__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            xDrip+
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Alarms and Alerts
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../install/usethedoc/" class="md-tabs__link">
+          
+  
+  
+  Getting started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../mainUI/" class="md-tabs__link">
+          
+  
+  
+  Discover and use
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../calibrate/101/" class="md-tabs__link">
+          
+  
+  
+  Calibrations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../settings/" class="md-tabs__link">
+          
+  
+  
+  Settings
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../smartwatch/smartwatch/" class="md-tabs__link">
+          
+  
+  
+  Smartwatch
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../troubleshoot/install/" class="md-tabs__link">
+          
+  
+  
+  Troubleshooting
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../changelog/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Change Log
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="xDrip+" class="md-nav__button md-logo" aria-label="xDrip+" data-md-component="logo">
+      
+  <img src="../../xDrip+logo.png" alt="logo">
+
+    </a>
+    xDrip+
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Getting started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Getting started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/usethedoc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to use this documentation?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/prerequisites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prerequisites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/download/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Download
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/datasource/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data source
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/g6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    G6, 1, 1+, G7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreNFC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre NFC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libreBT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre bridge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre 2 Direct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/libre2patch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre patched app
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/eversense/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eversense
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/640_670/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    640G/670G
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/xdripfollower/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    xDrip+ follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/nightscoutfollower/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nightscout follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/dexshare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dex Share follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/carelinkfollow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CareLink follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/byod/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BYODA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/companion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Companion app
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/aidex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GlucoRx/Aidex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/caresens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CareSens Air
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../install/webfollower/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Web Follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discover and use
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Discover and use
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mainUI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Main view
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hamburger/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Main menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../startsensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Start sensor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stopsensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stop sensor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../statistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Statistics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Alarms and Alerts
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Alarms and Alerts
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#glucose-level-alerts-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glucose Level Alerts List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glucose-alerts-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glucose Alerts Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Glucose Alerts Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert-volume-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert volume profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#audio-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Audio Focus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-snoozing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smart snoozing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-alerting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smart alerting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dont-alarm-during-phone-calls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Don't alarm during phone calls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buttons-silence-alarms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Buttons silence alarms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alert-buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert buttons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-snoozed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start snoozed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wake-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wake Screen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-camera-light" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Camera Light
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shortcut-to-bg-level-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shortcut to BG Level Alerts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suppress-alerts-if-missed-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suppress alerts if missed readings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notification-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notification Channels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ascending-volume-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ascending Volume settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delay-ascending-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Delay Ascending Volume
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ascend-to-medium" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ascend to medium
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calibration-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calibration Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calibration Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initial-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial alert
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#missed-reading-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Missed Reading Alert
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#noisy-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noisy Readings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falling-or-rising-bg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Falling or rising BG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Falling or rising BG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert-preferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert preferences
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extra Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extra Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#persistent-high-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Persistent High Alert
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecasted-low-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forecasted Low Alert
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-xdrip-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other xDrip+ alerts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follower-chime-new" class="md-nav__link">
+    <span class="md-ellipsis">
+      Follower Chime New
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snooze-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Snooze Alert
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Snooze Alert">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-alerts-currently-disabled" class="md-nav__link">
+    <span class="md-ellipsis">
+      ALL ALERTS CURRENTLY DISABLED
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visible-alert-notification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visible alert notification
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../speak/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Speak Readings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glucometer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glucose Meter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syncsetup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sync Follower setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Calibrations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Calibrations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/101/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibration basics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/calibrate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Calibrate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/troubleshoot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Settings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../display/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Display
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3dotsmenu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3 Dots menu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../copysettings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Copy settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../loadsavesettings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Load / Save Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sync/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    xDrip+ Sync
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cloud Upload
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../predictions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Predictive Simulation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Motion Tracking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../update/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Update
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../interapp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inter-apps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lesscommon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Less Common Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../calibrate/advancedcal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Calibration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bluetooth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bluetooth Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../misc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Other Misc. Options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NFC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NFC Scan Features
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OOP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Out of Process Algorithm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Insulin Pens
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spokencommands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spoken Commands
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Smartwatch
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Smartwatch
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/smartwatch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Smartwatches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/wear/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Android Wear
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/wearinstall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Install on Android Wear
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/usewear/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Use Wear Extension
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/pebble/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pebble
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/miband/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MiBand
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../smartwatch/bluejay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BlueJay Watch
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Troubleshooting
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/reinstall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reinstallation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/systemstatus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    System Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/librebridge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre Bridge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/libre2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/libre2direct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre 2 Direct
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/webfollow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Libre Web Follower
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/bridgeFW/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bridge Firmware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/ADB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Android Debug Bridge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../troubleshoot/savings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Android Settings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Change Log
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#glucose-level-alerts-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glucose Level Alerts List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glucose-alerts-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glucose Alerts Settings
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Glucose Alerts Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert-volume-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert volume profile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#audio-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Audio Focus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-snoozing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smart snoozing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-alerting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Smart alerting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dont-alarm-during-phone-calls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Don't alarm during phone calls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buttons-silence-alarms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Buttons silence alarms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alert-buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert buttons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-snoozed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start snoozed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wake-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wake Screen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-camera-light" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Camera Light
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shortcut-to-bg-level-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shortcut to BG Level Alerts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suppress-alerts-if-missed-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suppress alerts if missed readings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notification-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notification Channels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ascending-volume-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ascending Volume settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delay-ascending-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Delay Ascending Volume
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ascend-to-medium" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ascend to medium
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calibration-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calibration Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calibration Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initial-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial alert
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#missed-reading-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Missed Reading Alert
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#noisy-readings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Noisy Readings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falling-or-rising-bg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Falling or rising BG
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Falling or rising BG">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert-preferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert preferences
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extra Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extra Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#persistent-high-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Persistent High Alert
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecasted-low-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forecasted Low Alert
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-xdrip-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other xDrip+ alerts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#follower-chime-new" class="md-nav__link">
+    <span class="md-ellipsis">
+      Follower Chime New
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snooze-alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Snooze Alert
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Snooze Alert">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#all-alerts-currently-disabled" class="md-nav__link">
+    <span class="md-ellipsis">
+      ALL ALERTS CURRENTLY DISABLED
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visible-alert-notification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visible alert notification
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Alarms and Alerts</h1>
+
+<div class="admonition xdrip">
+<p class="admonition-title"><img src="../../images/hamburger_menu.png" style="zoom:75%;" /></p>
+<p>&ensp;Settings<br />
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_add_alert_grey600_48dp.png" style="width:5%;" />&ensp;Alarms and Alerts</p>
+</div>
+<p>Many alerts can be setup with xDrip+.</p>
+<p>It is recommended to enable at least three alerts if xDrip+ is your only glucose monitoring app:</p>
+<ul>
+<li>Low alert</li>
+<li>High Alert</li>
+<li>Missed readings alert</li>
+</ul>
+<h3 id="glucose-level-alerts-list">Glucose Level Alerts List<a class="headerlink" href="#glucose-level-alerts-list" title="Permanent link">⌁</a></h3>
+<div class="admonition xdripitem">
+<p class="admonition-title">Glucose Level Alerts List</p>
+</div>
+<p>By default, one low and one high alert are defined.</p>
+<p>Low alerts will trigger when BG is equal or below the alert value, high alerts when BG is equal or above.</p>
+<p>To create a new alert, touch the <code>CREATE LOW</code> or <code>HIGH ALERT</code> title bar.</p>
+<p>To modify an existing alert, long touch the alert</p>
+<div class="admonition xdrip">
+<p class="admonition-title">☰&emsp;Alert List</p>
+<p><div style="background-color: gray; color: white; text-align: center;">  &emsp;CREATE LOW ALERT&emsp;</div> </p>
+<p><small>&emsp;&emsp;Low alert&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;70&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;All day</small><br />
+<small>Override silent mode&emsp;&emsp;&emsp;Default ringtone (Unknown ringtone)</small>  </p>
+<p><div style="background-color: gray; color: white; text-align: center;">  &emsp;CREATE HIGH ALERT&emsp;</div><br />
+<small>&emsp;&emsp;High alert&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;224&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;All day</small><br />
+<small>Override silent mode&emsp;&emsp;&emsp;Default ringtone (Unknown ringtone)</small>  </p>
+</div>
+<ol>
+<li>You can name an alert the name you want, as long as no other alert has the same name</li>
+<li>The threshold is the BG level that will trigger the alarm, only one alarm can use this value</li>
+<li>Default snooze is the delay that will be proposed when snoozing</li>
+<li>The alarm will trigger again every x minutes if not acknowledged</li>
+</ol>
+<div class="admonition xdrip">
+<p class="admonition-title">☰&emsp;Edit Alert</p>
+<p>&emsp;&emsp;&emsp;editing low alert  </p>
+<p>&emsp;&emsp;<small>Alert Name: <u>Low Alert</u></small>&emsp;<span style="background-color: green; color: white; text-align: center;">1</span><br />
+&emsp;&emsp;<small>Threshold: <u>70</u></small>&emsp;<span style="background-color: green; color: white; text-align: center;">2</span><br />
+&emsp;&emsp;<small>Default Snoze: <u>35</u></small>&emsp;<span style="background-color: green; color: white; text-align: center;">3</span><br />
+&emsp;&emsp;<small>Re-raise every x minutes: <u>1</u></small>&emsp;<span style="background-color: green; color: white; text-align: center;">4</span><br />
+&emsp;&emsp;<small>if unacknowledged</small>  </p>
+<p>&emsp;&emsp;<small>Alert Tone: <u>Default ringtone (unknown ringtone)</u></small>&emsp;<span style="background-color: green; color: white; text-align: center;">5</span>  </p>
+</div>
+<p>&emsp;5. You can customize the alert sound: touch CHOOSE FILE to select the default ringtone for this alarm.</p>
+<ul>
+<li>
+<p>System sound will allow you to choose from your phone ringtones.</p>
+</li>
+<li>
+<p>Custom sound allows you to pick your sound/music.</p>
+</li>
+<li>
+<p>xDrip default sound uses the app default.</p>
+</li>
+</ul>
+<div class="admonition xdripitem">
+<p class="admonition-title">What type of Alert?</p>
+<p>&emsp;System sound/Alarm<br />
+&emsp;Custom Sound/Alarm<br />
+&emsp;Default xDrip Sound</p>
+</div>
+<p>By default the alarm will be setup for the whole day.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>Select time for Alert</small></p>
+<p>&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;✅&ensp;all day</p>
+</div>
+<p>If you unselect the checkbox you can customize activity hours.<br />
+Touch the start hour and end hour to define from what time to what time the alarm will be enabled.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>Select time for Alert</small></p>
+<p>&emsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;☐&ensp;all day<br />
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;0:00&emsp;-&emsp;0:00  </p>
+</div>
+<p>You can disable the alarm (uncheck) when the phone is in silent mode (disabling is not recommended)</p>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>Override phone silent mode</small><span class='symbol'><small>✅</small></span></p>
+</div>
+<p>Force speaker will make the alarm sound on the phone even when you're using other speakers (like Bluetooth)</p>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>Force Speaker</small><span class='symbol'><small>✅</small></span></p>
+</div>
+<p>Vibrate enables phone vibration</p>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>Vibrate on alert</small><span class='symbol'><small>✅</small></span></p>
+</div>
+<p>Disable alert completely disables it, it will show crossed in the Alert List</p>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>Disable alert</small><span class='symbol'><small>☐</small></span></p>
+</div>
+<p><span style="background-color: gray; color: white;">&ensp;TEST ALERT&ensp;</span> will make this alert sound</p>
+<p><span style="background-color: gray; color: white;">&ensp;SAVE ALERT&ensp;</span> will save this new or modified alert</p>
+<p><span style="background-color: gray; color: white;">&ensp;REMOVE ALERT&ensp;</span> will delete this alert</p>
+<p><span style="background-color: gray; color: white;">&ensp;SNOOZE ALERT BEFORE IT FIRES&ensp;</span> will allow you to avoid the alert to trigger, for example if you already treated an expected low or a high and know BG will move anyway you can avoid to hear the alarm for the time you want.</p>
+<h3 id="glucose-alerts-settings">Glucose Alerts Settings<a class="headerlink" href="#glucose-alerts-settings" title="Permanent link">⌁</a></h3>
+<div class="admonition xdripitem">
+<p class="admonition-title">Glucose Alerts Settings</p>
+</div>
+<h5 id="alert-volume-profile">Alert volume profile<a class="headerlink" href="#alert-volume-profile" title="Permanent link">⌁</a></h5>
+<p>You can customize the volume of your alerts</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert volume profile</p>
+<p>&ensp;High <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;<br />
+&ensp;Medium <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;<br />
+&ensp;Ascending volume <span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;<br />
+&ensp;Vibrate only <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;<br />
+&ensp;Silent <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;</p>
+</div>
+<p>Ascending volume is recommended if you don't want the alarm to blare immediately (useful during the night). You can also <a href="#delay-ascending-volume">delay</a> ascending volume to filter noisy readings and limit the maximum volume.</p>
+<h5 id="audio-focus">Audio Focus<a class="headerlink" href="#audio-focus" title="Permanent link">⌁</a></h5>
+<p>Audio Focus allows you to decide how to handle other sounds when an xDrip+ alarm or alert triggers.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Audio Focus</p>
+<p>Choose what to do with other apps while playing alerts and adjusting system volume levels  </p>
+</div>
+<p>You can automatically lower the volume, pause the other apps playing sounds (like media players) or pause all other sounds in order to better focus on xDrip+ sound.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Audio Focus</p>
+<p>&ensp;Don't adjust other app sounds <span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;<br />
+&ensp;Lower volume of other apps <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;<br />
+&ensp;Pause other apps playing audio <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;<br />
+&ensp;Pause all other sounds <span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp; </p>
+</div>
+<h5 id="smart-snoozing">Smart snoozing<a class="headerlink" href="#smart-snoozing" title="Permanent link">⌁</a></h5>
+<h5 id="smart-alerting">Smart alerting<a class="headerlink" href="#smart-alerting" title="Permanent link">⌁</a></h5>
+<p>Smart snoozing and alerting avoid the alert to trigger or re-raise if BG is going in the right direction (upwards for low alerts and downwards for highs). The threshold for acknowledging a sufficient change in the right direction are:</p>
+<ul>
+<li>Change is more than +4mg/dl in 5 minutes from low alert  </li>
+<li>Change is more than -1mg/dl in 5 minutes from high alert</li>
+</ul>
+<div class="admonition xdripitem">
+<p class="admonition-title">Smart snoozing <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span></p>
+<p>&ensp;Keep snoozing if glucose is heading in the right direction</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Smart alerting <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span></p>
+<p>&ensp;Don't alert if glucose is heading in the right direction</p>
+</div>
+<h5 id="dont-alarm-during-phone-calls">Don't alarm during phone calls<a class="headerlink" href="#dont-alarm-during-phone-calls" title="Permanent link">⌁</a></h5>
+<p>Alarms will not sound if they trigger during a phone call.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Don't alarm during phone calls <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span></p>
+<p>&ensp;Alarms silenced during telephone calls</p>
+</div>
+<h5 id="buttons-silence-alarms">Buttons silence alarms<a class="headerlink" href="#buttons-silence-alarms" title="Permanent link">⌁</a></h5>
+<p>Button silence alarms is a quick way to snooze alarms by just pressing volume up or down.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Buttons silence alarms <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span></p>
+<p>&ensp;Pressing the volume up or down button will snooze an active alarm when in the app</p>
+</div>
+<h5 id="alert-buttons">Alert buttons<a class="headerlink" href="#alert-buttons" title="Permanent link">⌁</a></h5>
+<p>Alert button will add an action button in the drop down view of the alert.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert buttons <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span></p>
+<p>&ensp;Show action buttons (like Snooze Alert) within alert notifications</p>
+</div>
+<p><img src="../images/M-S-AA-GAm2.png" style="zoom:75%;" /></p>
+<p><img src="../images/M-S-AA-GAm3.png" style="zoom:75%;" /></p>
+<h5 id="start-snoozed">Start snoozed<a class="headerlink" href="#start-snoozed" title="Permanent link">⌁</a></h5>
+<p>Start snoozed applies the snooze delay before triggering the alarm. Make sure the <code>Default snooze</code> delay is appropriate in the alarm.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Start snoozed <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span></p>
+<p>&ensp;Alerts start out snoozed and must persist for a while to actually trigger</p>
+</div>
+<h5 id="wake-screen">Wake Screen<a class="headerlink" href="#wake-screen" title="Permanent link">⌁</a></h5>
+<p>Wake up screen during alerts.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Wake Screen<img src="../../images/OFF.png" style="zoom:75%;" /></p>
+<p>&ensp;Wake up screen during alerts. Might Unlock devices that don't have screen lock enabled</p>
+</div>
+<h5 id="use-camera-light">Use Camera Light<a class="headerlink" href="#use-camera-light" title="Permanent link">⌁</a></h5>
+<p>Flash the back camera light during alerts (when the phone is in charge).</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Use Camera Light<img src="../../images/OFF.png" style="zoom:75%;" /></p>
+<p>&ensp;Flash camera light during alerts when connected to  charger</p>
+</div>
+<h5 id="shortcut-to-bg-level-alerts">Shortcut to BG Level Alerts<a class="headerlink" href="#shortcut-to-bg-level-alerts" title="Permanent link">⌁</a></h5>
+<p>You can add a shortcut entry to <code>Level Alerts</code> in xDrip+ main menu.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Shortcut to BG Level Alerts<img src="../../images/DIS.png" style="zoom:75%;" /></p>
+<p>&ensp;Create a shortcut from main navigation to BG level screen</p>
+</div>
+<h5 id="suppress-alerts-if-missed-readings">Suppress alerts if missed readings<a class="headerlink" href="#suppress-alerts-if-missed-readings" title="Permanent link">⌁</a></h5>
+<div class="admonition xdripitem">
+<p class="admonition-title">Suppress Alerts if missed readings</p>
+</div>
+<p>Level alerts remain active even if there is no signal (sensor change for example, or follower without network). This option allows you to suppress them. Make sure you have a missed alert enabled if you use this feature.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Suppress Alerts if missed readings <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span></p>
+<p>&ensp;Suppress snoozed and active alerts after predefined period of missed readings</p>
+</div>
+<p>You can define the number of minutes after which you want alerts to stop.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Suppress snoozed and active alerts after .. minutes (minimum 10)</p>
+<p>&ensp;Suppress snoozed and active alerts after predefined period of missed readings</p>
+</div>
+<h5 id="notification-channels">Notification Channels<a class="headerlink" href="#notification-channels" title="Permanent link">⌁</a></h5>
+<p>With Android 8 and above you can use the notification channels for your alerts. This will allow you to customize notifications at Android level.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Notification Channels</p>
+</div>
+<p>In order to setup this feature, go to Android Settings / Notifications / Apps / xDrip+ and allow sound and vibration.<br />
+You'll then be able to decide each notification behaviour. If you have multiple notification and alarms, disable the unwanted ones here.</p>
+<p><img src="../images/M-S-AA-GAj2.png" style="zoom:75%;" /></p>
+<h5 id="ascending-volume-settings">Ascending Volume settings<a class="headerlink" href="#ascending-volume-settings" title="Permanent link">⌁</a></h5>
+<div class="admonition xdripitem">
+<p class="admonition-title">Ascending Volume settings</p>
+</div>
+<h5 id="delay-ascending-volume">Delay Ascending Volume<a class="headerlink" href="#delay-ascending-volume" title="Permanent link">⌁</a></h5>
+<p>You can delay the start of the ascending volume alert without delaying vibration that will start as soon as the alert is triggered.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Delay Ascending Volume<img src="../../images/EN.png" style="zoom:75%;" /></p>
+<p>&ensp;For ascending volume profile, delay the start of the alert sound by 3 minutes. The vibration (if enabled) starts as soon as the alert triggers regardless of this setting</p>
+</div>
+<h5 id="ascend-to-medium">Ascend to medium<a class="headerlink" href="#ascend-to-medium" title="Permanent link">⌁</a></h5>
+<p>You can limit the maximum volume of the ascending volume alerts and alarms to medium instead of maximum.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Ascend to medium<img src="../../images/DIS.png" style="zoom:75%;" /></p>
+<p>&ensp;When enabled, ascending volume profile will ascend to medium volume instead of maximum</p>
+</div>
+<h3 id="calibration-alerts">Calibration Alerts<a class="headerlink" href="#calibration-alerts" title="Permanent link">⌁</a></h3>
+<p>If your sensor requires periodic calibration you can setup xDrip+ to alert you when calibration is due.</p>
+<p>You can setup the period between calibrations, sound to be played, etc ...</p>
+<div class="admonition xdrip">
+<p class="admonition-title">Calibration Alerts</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Calibration Alerts<img src="../../images/OFF.png" style="zoom:75%;" /></p>
+<p>&ensp;Alert when a calibration is requested</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Hours between calibrations</p>
+<p>&ensp;How many hours between calibration requests</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Calibration request sound</p>
+<p>&ensp;Default</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Override Silent mode<img src="../../images/END.png" style="zoom:75%;" /></p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Even when charging<img src="../../images/END.png" style="zoom:75%;" /></p>
+<p>&ensp;Uncheck to not ask calibrations when phone is charging</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Repeat Alerts<img src="../../images/END.png" style="zoom:75%;" /></p>
+<p>&ensp;Keep alerting if no calibration is performed</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert Repeat minutes</p>
+<p>&ensp;20</p>
+</div>
+<h5 id="initial-alert">Initial alert<a class="headerlink" href="#initial-alert" title="Permanent link">⌁</a></h5>
+<p>Initial calibration alert is used when starting a sensor requiring initial calibration: it will trigger when enough good readings are available to calibrate.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Initial Alert<img src="../../images/ON.png" style="zoom:75%;" /></p>
+<p>&ensp;Play sound when Initial Calibration is requested</p>
+</div>
+<h3 id="missed-reading-alert">Missed Reading Alert<a class="headerlink" href="#missed-reading-alert" title="Permanent link">⌁</a></h3>
+<div class="admonition xdripitem">
+<p class="admonition-title">Missed Reading Alert</p>
+</div>
+<p>When relying on xDrip+ to alert you for lows and highs, it is essential to make sure that it is actually receiving BG readings. For this, if you don't have any other alarms, enable this feature for your safety.</p>
+<p>Setup is similar to <a href="#glucose-level-alerts-list">glucose level alerts</a>. <strong>The alarm sound has to be defined in Other Alerts</strong> (See <a href="#alert-preferences">below</a>).  In order to test it, put your phone in airplane mode until it triggers.</p>
+<div class="admonition xdrip">
+<p class="admonition-title">☰&emsp;Configure Missed Readings</p>
+<p>&emsp;<small>✅ Enable missed reading alert</small><br />
+&emsp;<small>Alert if no data is received in:</small><br />
+&emsp;<small><u>&ensp;30&ensp;</u>&ensp;minutes</small><br />
+&emsp;<small>Select time for alert:</small><br />
+&emsp;<small>✅ All day</small>  </p>
+<p>&emsp;<small>Wait before raising the same alert after snooze:</small><br />
+&emsp;<small><u>&ensp;20&ensp;</u>&ensp;minutes</small><br />
+&emsp;<small>☐ Reraise alerts before snooze time</small><br />
+&emsp;<small>Alert Reraise time:</small><br />
+&emsp;<small><u>&ensp;60&ensp;</u>&ensp;seconds</small>  </p>
+</div>
+<h3 id="other-alerts">Other Alerts<a class="headerlink" href="#other-alerts" title="Permanent link">⌁</a></h3>
+<div class="admonition xdrip">
+<p class="admonition-title">Other Alerts</p>
+</div>
+<h4 id="noisy-readings">Noisy Readings<a class="headerlink" href="#noisy-readings" title="Permanent link">⌁</a></h4>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>NOISY READINGS</small></p>
+</div>
+<p>If you enable this feature and your sensor supports it, you can setup an alert for noisy readings.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Bad (noisy) Value Alerts<img src="../../images/DIS.png" style="zoom:75%;" /></p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert after x minutes of noisy values</p>
+<p>&ensp;90</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert snooze</p>
+<p>&ensp;Number of minutes before raising the same alert after snooze</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Reraise alerts before snooze time<img src="../../images/DIS.png" style="zoom:75%;"></p>
+<p>&ensp;Reraise the alert if not snoozed sooner</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert reraise time</p>
+<p>&ensp;Number of SECONDS to pass before raising the same alert</p>
+</div>
+<h4 id="falling-or-rising-bg">Falling or rising BG<a class="headerlink" href="#falling-or-rising-bg" title="Permanent link">⌁</a></h4>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>FALLING/RISING BG</small></p>
+</div>
+<p>You can also setup alerts for fast BG changes and define the 1 minute change triggering value. For example 3 minutes means 15 mg/dl (0.85 mmol/l) every 5 minutes.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">BG falling fast<img src="../../images/DIS.png" style="zoom:75%;"></p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">falling rate threshold</p>
+<p>&ensp;3mg/dl/min (0.17mmol/l/min)</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">BG rising fast<img src="../../images/DIS.png" style="zoom:75%;"></p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">rising rate threshold </p>
+<p>&ensp;3mg/dl/min (0.17mmol/l/min)</p>
+</div>
+<h5 id="alert-preferences">Alert preferences<a class="headerlink" href="#alert-preferences" title="Permanent link">⌁</a></h5>
+<div class="admonition xdripitem">
+<p class="admonition-title"><small>ALERT PREFERENCES (FOR THESE ALERTS)</small></p>
+</div>
+<p>The alerts above and <strong>also Missed Readings</strong> use the sound defined below.<br />
+Some recent Android versions do not ring it unless you use <a href="#notification-channels">Notification channels</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Make sure to test the alarm</p>
+<p>This is an important feature to sleep safely. Reduce the missed readings period and put your phone in airplane mode (no Wi-Fi) to force the alarm to ring.</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert sound</p>
+<p>&ensp;Default</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Override Silent mode on these alerts<img src="../../images/EN.png" style="zoom:75%;" /></p>
+</div>
+<h3 id="extra-alerts">Extra Alerts<a class="headerlink" href="#extra-alerts" title="Permanent link">⌁</a></h3>
+<div class="admonition xdrip">
+<p class="admonition-title">Extra Alerts (xDrip+)</p>
+</div>
+<h5 id="persistent-high-alert">Persistent High Alert<a class="headerlink" href="#persistent-high-alert" title="Permanent link">⌁</a></h5>
+<div class="admonition xdripitem">
+<p class="admonition-title">Persistent High Alert</p>
+</div>
+<p>Instead of a high alert that will trigger as soon as BG reaches the trigger value, you can setup a persistent high alert that will only trigger when BG remains above a setup value for more than a certain time. You can use either xDrip+ <a href="../../use/settings/#glucose-units">High Value</a> or a value you decide for triggering this alert.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Enable<img src="../../images/OFF.png" style="zoom:75%;"></p>
+<p>&ensp;Notify if above threshold for longer than the time specified below</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Threshold: High Value<img src="../../images/ON.png" style="zoom:75%;"></p>
+<p>&ensp;When enabled, High value is the threshold.<br />
+&ensp;When disabled, the threshold is the value defined below.  </p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Threshold</p>
+<p>&ensp;170 mg/dl</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">for longer than (minutes)</p>
+<p>&ensp;60</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Repeating max every (minutes)</p>
+<p>&ensp;20</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alert Sound  </p>
+<p>&ensp;Chose the sound used for the alarm</p>
+</div>
+<h5 id="forecasted-low-alert">Forecasted Low Alert<a class="headerlink" href="#forecasted-low-alert" title="Permanent link">⌁</a></h5>
+<div class="admonition xdripitem">
+<p class="admonition-title">Forecasted Low Alert</p>
+</div>
+<p>You can set an alarm on forecasted low value. This feature will use the <strong>momentum</strong> (extrapolation of the current BG trend) and <strong>not</strong> the <a href="../predictions">prediction</a> settings. Forecasted low (min) is the time in which a low will be forecasted (the one that usually displays in yellow on the graph screen).</p>
+<p>Forecast Lows will display a message on xDrip+ screen. In order to have an alarm sounds when a low is forecast, enable Raise alarm on Forecast Low.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Forecasted Lows<img src="../../images/ON.png" style="zoom:75%;"></p>
+<p>&ensp;Extrapolate data to try to predict lows</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Raise alarm on Forecast Low<img src="../../images/DIS.png" style="zoom:75%;"></p>
+<p>&ensp;Notify when predicted low time reaches threshold</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Alarm at Forecast Low min</p>
+<p>&ensp;40</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Predicted Low Sound </p>
+<p>&ensp;Choose the sound used for the alarm</p>
+</div>
+<p>In the example below if you set Alarm at forecasted low (min) to 50 minutes, il will trigger. The red dotted line is the forecasted BG trend, extrapolated from the previous measurements.</p>
+<p><img src="../images/M-S-AA-EAb2.png" style="zoom:75%;" /></p>
+<h5 id="other-xdrip-alerts">Other xDrip+ alerts<a class="headerlink" href="#other-xdrip-alerts" title="Permanent link">⌁</a></h5>
+<div class="admonition xdripitem">
+<p class="admonition-title">Other xDrip+ Alerts</p>
+</div>
+<p>Some extra alerts are available.<br />
+Battery alerts are available if your bridge sends this information to xDrip+ (historically G4 now Libre bridges).</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Collector battery alerts<img src="../../images/ON.png" style="zoom:75%;"> </p>
+<p>&ensp;Notify when battery level goes below</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Low battery percentage </p>
+<p>&ensp;30</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Parakeet related alerts </p>
+<p>&ensp;Notify when Parakeet device stops checking in</p>
+</div>
+<div class="admonition xdripitem">
+<p class="admonition-title">Silent alert when charging<img src="../../images/DIS.png" style="zoom:75%;"> </p>
+<p>&ensp;Raise Parakeet notification silently when charging</p>
+</div>
+<h5 id="follower-chime-new">Follower Chime New<a class="headerlink" href="#follower-chime-new" title="Permanent link">⌁</a></h5>
+<p>After missed readings, a notification will sound when new data is received after more than 20 minutes.</p>
+<div class="admonition xdripitem">
+<p class="admonition-title">Follower Chime New<img src="../../images/OFF.png" style="zoom:75%;">  </p>
+<p>&ensp;Notify when data arrives from the master if the interval is &gt; 20 mins.</p>
+</div>
+<h2 id="snooze-alert">Snooze Alert<a class="headerlink" href="#snooze-alert" title="Permanent link">⌁</a></h2>
+<div class="admonition xdrip">
+<p class="admonition-title"><img src="../../images/hamburger_menu.png" style="zoom:75%;" /></p>
+<p>&ensp;Snooze Alert</p>
+</div>
+<p>If there is no active alert, you can <strong>pre-snooze</strong> alerts from this menu so that they won't trigger for a certain time.</p>
+<div class="admonition xdrip">
+<p class="admonition-title"><img src="../../images/BDM.png" style="zoom:75%;" />Snooze</p>
+<p><div style="text-align: center;"> No active alert exists</div><br />
+<div style="background-color: gray; color: white; text-align: center;">  &emsp;Disable Low Alerts&emsp;</div><br />
+<div style="background-color: gray; color: white; text-align: center;">  &emsp;Disable High Alerts&emsp;</div><br />
+<div style="background-color: gray; color: white; text-align: center;">  &emsp;Disable All Alerts&emsp;</div></p>
+</div>
+<p>You will be proposed a default snooze period. Scroll up and down to change it.</p>
+<div class="admonition xdrip">
+<p class="admonition-title">Default Snooze</p>
+<p><div style="background-color: darkgray; color: dimgray; text-align: center;">&nbsp;<br />
+    50 minutes<br />
+  </div>
+  <div style="background-color: darkgray; color: black; text-align: center;">&nbsp;<br />
+    60 minutes<br />
+  </div>
+  <div style="background-color: darkgray; color: dimgray; text-align: center;">&nbsp;<br />
+    70 minutes<br />
+</div></p>
+</div>
+<p>If an alert triggers you will see the notification in your phone drop down panel, and eventually hear the sound.</p>
+<p>You can snooze the alert swiping the notification, you can customize it further tapping it.</p>
+<p><img src="../images/M-SNOc.png" style="zoom:75%;" />  </p>
+<p>You can access the snooze menu by touching the notification or from xDrip+ main menu, snooze alert.</p>
+<p>At this point, the snooze menu will also display the active alert.<br />
+Touching snooze will snooze it for the period selected.</p>
+<div class="admonition xdrip">
+<p class="admonition-title"><img src="../../images/BDM.png" style="zoom:75%;" />Snooze</p>
+<p><div style="background-color: dimgray; color: white; text-align: center;"><br />
+<big><big>Snooze</big></big></div> 
+<div style="background-color: dimgray; color: white; text-align: center;">&nbsp;<br />
+<div style="background-color: black; color: dimgray; text-align: center;">&nbsp;<br />
+    20 minutes<br />
+  </div>
+  <div style="background-color: black; color: darkgray; text-align: center;">&nbsp;<br />
+    30 minutes<br />
+  </div>
+  <div style="background-color: black; color: dimgray; text-align: center;">&nbsp;<br />
+    40 minutes<br />
+</div></div>  </p>
+<p>Active alert exists named "Night" alert will rerise at 1:25:01 (0 minutes left)  </p>
+<p><div style="background-color: dimgray; color: white; text-align: center;">  &emsp;Disable Low Alerts&emsp;</div><br />
+<div style="background-color: dimgray; color: white; text-align: center;">  &emsp;Disable High Alerts&emsp;</div><br />
+<div style="background-color: dimgray; color: white; text-align: center;">  &emsp;Disable All Alerts&emsp;</div> </p>
+</div>
+<h5 id="all-alerts-currently-disabled">ALL ALERTS CURRENTLY DISABLED<a class="headerlink" href="#all-alerts-currently-disabled" title="Permanent link">⌁</a></h5>
+<p>If you pre-snooze (disable) all alerts, you will see this warning message.</p>
+<p><img src="../images/M-SNOe.png" style="zoom:75%;" />  </p>
+<p>To remove it you need to re-enable alerts.</p>
+<div class="admonition xdrip">
+<p class="admonition-title"><img src="../../images/BDM.png" style="zoom:75%;" />Snooze</p>
+<p><div style="text-align: center;"> All alerts disabled until 15:09:12</div><br />
+<div style="background-color: gray; color: white; text-align: center;">  &emsp;Re-Enable All Alerts&emsp;</div>  </p>
+</div>
+<p></br></p>
+<h2 id="visible-alert-notification">Visible alert notification<a class="headerlink" href="#visible-alert-notification" title="Permanent link">⌁</a></h2>
+<p>Available for Android 8 and above.</p>
+<p>When an alert triggers you will see it in the notifications drop down panel.</p>
+<p><img src="../images/M-SNOg.png" style="zoom:75%;" />  </p>
+<p>Swiping it will snooze it, touching it will open a preferences menu.<br />
+Deliver quietly will remove <a href="#notification-channels">notifications channel</a> sound and vibration.</p>
+<p><img src="../images/M-SNOh.png" style="zoom:75%;" /></p>
+<p>You can restore it with allow sound and vibration with the <a href="#notification-channels">notifications channels</a>.</p>
+<p><img src="../images/M-SNOi.png" style="zoom:75%;" />  </p>
+<p>Settings will drive you to your phone notifications setup settings.</p>
+<p><img src="../images/M-SNOk.png" style="zoom:75%;" />  </p>
+<p>You can also completely turn off <a href="#notification-channels">notifications channels</a> for xDrip+.</p>
+<p><img src="../images/M-SNOj.png" style="zoom:75%;" />  </p>
+<p><a href="https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26"><em>Last modified 15/12/2024</em></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
