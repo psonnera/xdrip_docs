@@ -1,6 +1,6 @@
 Until a blood glucose data source is selected, xDrip will show the  data source wizard. You can enable or disable it using the [blood drop menu](../../use/mainUI/#blood-drop-menu), then Source wizard button.
 
-<img src="../images/Install08.png" style="zoom:75%;" />
+<img src="../images/ChooseDataSource.png" style="zoom:50%;" />
 
 Scroll down until you see your sensor or use case.
 
@@ -106,7 +106,7 @@ If your bridge paired to Android, unpair it before continuing.
 
 You should now see the the data source selection wizard.
 
-<img src="../images/Install08.png" style="zoom:75%;" />
+<img src="../images/ChooseDataSource.png" style="zoom:50%;" />
 
 If you don't, touching this button will display the wizard.
 

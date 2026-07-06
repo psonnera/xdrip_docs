@@ -1,15 +1,15 @@
 Once downloaded, install the xDrip apk.
 
-<img src="../images/Install02.png" style="zoom:75%;" />
+<img src="../images/InstallConfirm.png" style="zoom:50%;" />
 
 On recent Android versions you will see a Google Play Protect warning that the app is unsafe, was built for older Android versions. Ignore it with More details then, Install anyway.
 
-<img src="../images/Install01a.png" style="zoom:75%;" />
+<img src="../images/PlayProtectWarning.png" style="zoom:50%;" />
 
 **You need to [authorize installation of apps from unknown sources](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources) in Android security settings.**  
 The official versions of xDrip are virus and malware free: being open source and controlled by the main developer make its distribution safe if you download it from GitHub.
 
-<img src="../images/Install04.png" style="zoom:75%;" />
+<img src="../images/AllowUnknownSources.png" style="zoom:50%;" />
 
 Once installed, open xDrip.
 
@@ -19,7 +19,7 @@ Once installed, open xDrip.
 
 !!!warning "**Read** the important Warning"  
 
-!!!xdrip "<img src="../images/Install05.png" style="zoom:75%;" />"  
+!!!xdrip "<img src="../images/ImportantWarning.png" style="zoom:50%;" />"  
     Do NOT use or rely on this software or any associated materials for any medical purpose or decision.  
     Do NOT rely on this system for any real-time alarms or time critical data.  
     Do NOT use or rely on this system for treatment decisions or use as a substitute for professional healthcare judgement.  
@@ -33,7 +33,7 @@ Once installed, open xDrip.
     This is an open-source project which has been created by volunteers. The source code is published free and open-source for you to inspect and evaluate.  
     By using this software and/or website you agree that you are over 18 years of age and have read, understood and agree to all of the above.
 
-<img src="../images/Install06.png" style="zoom:75%;" />
+<img src="../images/WarningAgree.png" style="zoom:50%;" />
 
 </br>
 
@@ -41,7 +41,7 @@ Once installed, open xDrip.
 
 !!!warning "Make sure you fully understand it before saving."
 
-!!!xDrip "<img src="../images/Install06a.png" style="zoom:75%;" />"  
+!!!xDrip "<img src="../images/EULA.png" style="zoom:50%;" />"  
     xDrip MUST NOT BE USED TO MAKE MEDICAL DECISIONS.  
     IT IS A RESEARCH TOOL ONLY AND IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
     THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  

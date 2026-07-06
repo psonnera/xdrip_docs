@@ -20,7 +20,7 @@ You can download it from [here](https://xdrip-plus-updates.appspot.com/stable/xd
 
 You will also find it in the [main repository](https://github.com/NightscoutFoundation/xDrip) selecting Latest.
 
-<img src="../images/GitHubLatest.png" style="zoom:75%;" />
+<img src="../images/GitHubReleaseLatest.png" style="zoom:50%;" />
 
 </br>
 
@@ -44,7 +44,7 @@ All xDrip versions are available [here](https://github.com/NightscoutFoundation/
 
 Expand the assets and select the `.apk` file. You will find it in your phone's `Downloads` directory.
 
-<img src="../images/Install01.png" style="zoom:90%;" />
+<img src="../images/GitHubReleaseAssets.png" style="zoom:50%;" />
 
 !!!note  
     Do **not** use Facebook links to download xDrip but **copy and paste the link** into a browser (like Chrome).
@@ -90,6 +90,10 @@ You can download variants [here](https://drive.google.com/drive/folders/0B6mvYVN
 Sort them by last modified first and choose the variant to download.
 
 <img src="../images/Variant.png" style="zoom:90%;" />
+
+Variants are also bundled as assets alongside the regular apk in the latest release on [GitHub](https://github.com/NightscoutFoundation/xDrip/releases).
+
+<img src="../images/GitHubReleaseLatest.png" style="zoom:50%;" />
 
 Once downloaded a variant, proceed like a normal xDrip install.
 
