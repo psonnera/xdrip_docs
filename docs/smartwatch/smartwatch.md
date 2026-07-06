@@ -3,17 +3,17 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features
 
-## xDrip+ direct integration
+## xDrip direct integration
 
-xDrip+ offers a wide range of smartwatch support.
+xDrip offers a wide range of smartwatch support.
 
 ### [Android Wear Integration](../wear)
 
 !!!xdripitem "Android Wear Integration" 
 
-You'll find the most complete integration in Wear OS watches as they are running a part of the xDrip+ app locally.
+You'll find the most complete integration in Wear OS watches as they are running a part of the xDrip app locally.
 
-The wear extension of xDrip+ is not under development anymore.
+The wear extension of xDrip is not under development anymore.
 
 If you need more watchfaces or customizations you can use [Tasker](https://github.com/FreDiabetics/xDrip--Tasker-Tizen-Watchface-Integration/blob/master/README.md) (but not as a standalone collector).
 
@@ -36,7 +36,7 @@ AmazFit was used only for Pace and Stratos models.
 
 !!!xdripitem "BlueJay Watch" 
 
-BlueJay is an incredible companion of your Dexcom sensor, with or without xDrip+, with or without phone.
+BlueJay is an incredible companion of your Dexcom sensor, with or without xDrip, with or without phone.
 
 ### [LeFun Band](https://www.lefunsmart.com/collections/smartwatches)
 
@@ -52,20 +52,20 @@ Unless you still own a LeFun W3, F3, F3S, F11 or F12 band this is not of any use
 MiBand integration is the result of the huge work of [Artem](https://bigdigital.home.blog/).  
 Many smartwatches and smartbands are now supported using the companion app WatchDrip+.
 
-!!!note "Disable MiBand in xDrip+ if you use WatchDrip+"  
+!!!note "Disable MiBand in xDrip if you use WatchDrip+"  
     !!!xdripitem "Use MiBand <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>" 
 
 ## Smartwatch Sensors
 
-xDrip+ can use supported smartwatches sensors.
+xDrip can use supported smartwatches sensors.
 
 !!!xdripitem "Use Health data <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>" 
 
-xDrip+ can request the heartbeat sensor to activate and you can smooth that graph.
+xDrip can request the heartbeat sensor to activate and you can smooth that graph.
 
 !!!xdripitem "Heart Rate Sensor <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"
 
-When available you can let xDrip+ collect health data like heartrate and steps.
+When available you can let xDrip collect health data like heartrate and steps.
 
 Two additional icons will appear on the main view, and if enabled, graphic representations:
 
@@ -76,14 +76,14 @@ Two additional icons will appear on the main view, and if enabled, graphic repre
 
 ## Other smartwatches
 
-More smartwatches and devices can receive data from xDrip+ even if they are not directly integrated in the app.
+More smartwatches and devices can receive data from xDrip even if they are not directly integrated in the app.
 
 !!!info  
-    In order to have xDrip+ send data you need to enable xDrip+ [web service](../../use/interapp#web-service).
+    In order to have xDrip send data you need to enable xDrip [web service](../../use/interapp#web-service).
 
 ### Android Wear
 
-[GlucoDataHandler](https://github.com/pachi81/GlucoDataHandler) accepts xDrip+ as a data source. The app is available in [Google Play store](https://play.google.com/store/apps/details?id=de.michelinside.glucodatahandler).
+[GlucoDataHandler](https://github.com/pachi81/GlucoDataHandler) accepts xDrip as a data source. The app is available in [Google Play store](https://play.google.com/store/apps/details?id=de.michelinside.glucodatahandler).
 
 ### Android Auto
 
@@ -131,7 +131,7 @@ Ionic/Versa/Versa 2/Versa Lite/Versa 3/Sense
 
 [G-Watch](https://play.google.com/store/apps/details?id=sk.trupici.g_watch) is the easiest way to perform this. See the [wiki](https://github.com/trupici/G-Watch-Wear/wiki).
 
-You can also use [Tasker](https://github.com/FreDiabetics/xDrip--Tasker-Tizen-Watchface-Integration/blob/master/README.md) to display xDrip+ data on your Samsung Gear watch.
+You can also use [Tasker](https://github.com/FreDiabetics/xDrip--Tasker-Tizen-Watchface-Integration/blob/master/README.md) to display xDrip data on your Samsung Gear watch.
 
 ### Garmin
 

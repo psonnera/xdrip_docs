@@ -6,7 +6,7 @@ All settings described below will be available in your phone Android settings, a
 
 ## Battery Saver
 
-Whenever going below a certain battery level, Android will shut down many services and prevent xDrip+ to function normally.  Make sure you always keep a power bank with you to avoid this situation.
+Whenever going below a certain battery level, Android will shut down many services and prevent xDrip to function normally.  Make sure you always keep a power bank with you to avoid this situation.
 
 During normal phone use, make sure it is **not** enabled.
 
@@ -27,7 +27,7 @@ Each phone app can be customized in terms of battery savings. Whenever experienc
 
 <img src="../images/AS-Apps.png" style="zoom:75%;" />
 
-xDrip+ should run unrestricted.
+xDrip should run unrestricted.
 
 <img src="../images/AS-Apps-UR.png" style="zoom:75%;" />
 
@@ -38,11 +38,11 @@ Some Android phones don't show the Bluetooth app.
 
 <img src="../images/AS-Apps-SA.png" style="zoom:75%;" />
 
-Bluetooth should run unrestricted if xDrip+ connects directly to a sensor.
+Bluetooth should run unrestricted if xDrip connects directly to a sensor.
 
 ## Xiaomi MIUI Optimizations
 
-The MIUI Optimizations can have a massive impact (in a negative sense) on the stability of the system and the reliability of xDrip+.
+The MIUI Optimizations can have a massive impact (in a negative sense) on the stability of the system and the reliability of xDrip.
 If you experience an increased number of "missed readings" in MIUI 14 (or possibly earlier MIUI versions), you should try to deactivate the MIUI Optimizations.
 This setting can be found in the \<Developer Options\>, which are hidden by default. The following describes how to display the \<Developer Options\> and deactivate the MIUI Optimizations afterwards.
 

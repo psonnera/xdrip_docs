@@ -106,7 +106,7 @@
 | [19th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.19) | Carelink messages                                            |
 | [17th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | This is a latest **Release**                                 |
 | [16th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.16) | Share button, Sync reconnect, NFC background enable          |
-| [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | c - **[xDripCloud](../use/sync/#use-xdrip-cloud)** for xDrip+ Sync |
+| [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | c - **[xDripCloud](../use/sync/#use-xdrip-cloud)** for xDrip Sync |
 | [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15b) | b - xDripCloud                                               |
 | [15th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15) | xDripCloud, BlueJay                                          |
 | [4th Sep 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04) | GCM reworks                                                  |

@@ -2,7 +2,7 @@ You will find the reference documentation [here](https://github.com/NightscoutFo
 
 ## Discover Wear Extension
 
-Four native watchfaces are available from xDrip+.
+Four native watchfaces are available from xDrip.
 
 |                           XDrip                            |                      XDrip(BigChart)                       |
 | :--------------------------------------------------------: | :--------------------------------------------------------: |
@@ -10,7 +10,7 @@ Four native watchfaces are available from xDrip+.
 |                      **XDrip(Large)**                      |                     **XDrip(Circle)**                      |
 | <img src="../images/M-S-SW-AW-W3.png" style="zoom:75%;" /> | <img src="../images/M-S-SW-AW-W4.png" style="zoom:75%;" /> |
 
-Graph based watchfaces contain some common elements with the xDrip+ main display.
+Graph based watchfaces contain some common elements with the xDrip main display.
 
 1. What's the last measured BG value.  
    What's the BG difference with the previous value received.  
@@ -24,7 +24,7 @@ Double tapping the graph changes the time scale.
 
 <img src="../images/M-S-SW-AW-SC2.png" style="zoom:75%;" />
 
-Since xDrip+ wear extension contains some of the app code, you will find xDrip+ menu items on the watch. You will find them inside the watch apps, some can also be accessed from the watch graph using the three dots menu present on all watchfaces.
+Since xDrip wear extension contains some of the app code, you will find xDrip menu items on the watch. You will find them inside the watch apps, some can also be accessed from the watch graph using the three dots menu present on all watchfaces.
 
 <img src="../images/M-S-SW-AW-3DM.png" style="zoom:75%;" />
 
@@ -63,19 +63,19 @@ Toasts are pop-up messages, you can enable them and have extra information tappi
 
 <img src="../images/M-S-SW-AW-XP9.png" style="zoom:75%;" />
 
-If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have the step counter on the watchface and can have [steps data](../../use/display/) displayed on your phone xDrip+.
+If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have the step counter on the watchface and can have [steps data](../../use/display/) displayed on your phone xDrip.
 
 <img src="../images/M-S-SW-AW-XP10.png" style="zoom:75%;" />
 
-If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have hearth rate on the watchface and can have [hearth rate data](../../use/display/) displayed on your phone xDrip+.
+If your watch supports it and you authorized xDrip Prefs. to access sensor data on the watch you will have hearth rate on the watchface and can have [hearth rate data](../../use/display/) displayed on your phone xDrip.
 
 <img src="../images/M-S-SW-AW-XP11.png" style="zoom:75%;" />
 
-If you use an open source closed loop system (like AAPS) broadcasting data to xDrip+, you can have loop status added to the status line.
+If you use an open source closed loop system (like AAPS) broadcasting data to xDrip, you can have loop status added to the status line.
 
 <img src="../images/M-S-SW-AW-XP12.png" style="zoom:75%;" />
 
-By default the watchface will display the collecting device battery as `uploader` or `wear`. This is a legacy definition that doesn't add value if you're not using xDrip+ as master: it will not display the master phone battery level nor an eventual bridge device battery but only your phone and watch battery.
+By default the watchface will display the collecting device battery as `uploader` or `wear`. This is a legacy definition that doesn't add value if you're not using xDrip as master: it will not display the master phone battery level nor an eventual bridge device battery but only your phone and watch battery.
 
 <img src="../images/M-S-SW-AW-XP13.png" style="zoom:75%;" />
 
@@ -99,7 +99,7 @@ Low color.
 
 <img src="../images/M-S-SW-AW-XP18.png" style="zoom:75%;" />
 
-On xDrip+ and xDrip+ Large, change the divider (status line) color to match backround.
+On xDrip and xDrip Large, change the divider (status line) color to match backround.
 
 <img src="../images/M-S-SW-AW-XP19.png" style="zoom:75%;" />
 
@@ -113,7 +113,7 @@ Demigod is available for [patched watches](https://github.com/NightscoutFoundati
 
 ### Keypad Treatment
 
-Keypad treatment is identical to xDrip+ [syringe icon](../../use/mainUI/#treatments).
+Keypad treatment is identical to xDrip [syringe icon](../../use/mainUI/#treatments).
 
 <img src="../images/M-S-SW-AW-KT.png" style="zoom:75%;" />
 
@@ -121,7 +121,7 @@ Keypad treatment is identical to xDrip+ [syringe icon](../../use/mainUI/#treatme
 
 ### Spoken treatment
 
-Spoken treatment is identical to xDrip+.
+Spoken treatment is identical to xDrip.
 
 <img src="../images/M-S-SW-AW-ST.png" style="zoom:75%;" />
 
@@ -133,21 +133,21 @@ Not all alerts and alarms are available on the watch.
 
 <img src="../images/M-S-SW-AW-SA.png" style="zoom:75%;" />
 
-On wear 1.x alarms and alerts that drive to to opening on the phone means you need to perform snooze from within the phone xDrip+ app.
+On wear 1.x alarms and alerts that drive to to opening on the phone means you need to perform snooze from within the phone xDrip app.
 
 <img src="../images/M-S-SW-AW-SA2.png" style="zoom:75%;" />
 
-On wear 2.x and above alerts might show as notifications and you will need to manually open the snooze alert phone app or snooze them from the phone xDrip+ app.
+On wear 2.x and above alerts might show as notifications and you will need to manually open the snooze alert phone app or snooze them from the phone xDrip app.
 
 <img src="../images/M-S-SW-AW-SA3.png" style="zoom:75%;" />
 
 ## [Standalone collector mode](../wear/#standalone-collector-mode)
 
-xDrip Prefs. menu will contain additional information mirrored from xDrip+ on the phone when both are connected together.
+xDrip Prefs. menu will contain additional information mirrored from xDrip on the phone when both are connected together.
 
 #### Validation
 
-A validation mechanism will make sure both use the same settings. If the watch doesn't accept the settings change from xDrip+, they will be modified automatically to match the watch settings when both are connected.
+A validation mechanism will make sure both use the same settings. If the watch doesn't accept the settings change from xDrip, they will be modified automatically to match the watch settings when both are connected.
 
 1. Settings are modified on the phone
 2. Changes are sent to the watch, when connected
@@ -157,11 +157,11 @@ A validation mechanism will make sure both use the same settings. If the watch d
 
 <img src="../images/M-S-SW-AW-XP1.png" style="zoom:75%;" />
 
-This also works the other way round. If the watch settings are modified, they will be sent to the phone when connected. xDrip+ on the phone will validate the changes and send them back to the watch as a confirmation.
+This also works the other way round. If the watch settings are modified, they will be sent to the phone when connected. xDrip on the phone will validate the changes and send them back to the watch as a confirmation.
 
 1. Settings are modified on the watch
 2. Changes are sent to the phone, when connected
-3. xDrip+ on the phone validates settings modifications
+3. xDrip on the phone validates settings modifications
 4. Phone settings are sent back to the watch (validated or not)
 5. Watch settings are updated to reflect the phone settings, when connected
 
@@ -171,7 +171,7 @@ This also works the other way round. If the watch settings are modified, they wi
 
 When standalone collector is enabled you'll find additional entries in the menu.
 
-BT collector is an information on which hardware data source collector is set on your phone xDrip+.
+BT collector is an information on which hardware data source collector is set on your phone xDrip.
 
 <img src="../images/M-S-SW-AW-ST1.png" style="zoom:75%;" />
 

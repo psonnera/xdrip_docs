@@ -1,21 +1,21 @@
-## Uninstall xDrip+
+## Uninstall xDrip
 
 !!!warning "Historical data"  
-    Uninstalling xDrip+ will also remove all data and settings without possible recovery.  
+    Uninstalling xDrip will also remove all data and settings without possible recovery.  
     Make sure you **[backup](#backup)** database and or all settings before.  
     It is recommended to upload data to [Nightscout](https://nightscout.github.io/).
 
 </br>
 
-This shouldn't usually be necessary but you might need to uninstall xDrip+ to troubleshoot, or if you need to change it to or from a forked version. You can uninstall xDrip+ like any other Android app with a long press on the icon or from Android Settings -> Apps.
+This shouldn't usually be necessary but you might need to uninstall xDrip to troubleshoot, or if you need to change it to or from a forked version. You can uninstall xDrip like any other Android app with a long press on the icon or from Android Settings -> Apps.
 
-## Reinstall xDrip+
+## Reinstall xDrip
 
 Follow this sequence:
 
 1. Backup (locally or in the cloud)
-2. Uninstall xDrip+
-3. Install xDrip+
+2. Uninstall xDrip
+3. Install xDrip
 4. Restore (from local or cloud backup)
 5. Check all your settings and recreate your alarms
 
@@ -30,7 +30,7 @@ Using upload to [Nightscout](https://nightscout.github.io/) is also strongly rec
 
 Exporting the database will also [save settings](../../use/loadsavesettings/#save-settings).
 
-From the main xDrip+ display select the upper right 3 dots menu, Import Export features, Export database.
+From the main xDrip display select the upper right 3 dots menu, Import Export features, Export database.
 
 !!!xdrip "<img src="../../images/3dots_menu.png" style="zoom:75%;" />"  
     &ensp;Import Export features ►  
@@ -39,7 +39,7 @@ From the main xDrip+ display select the upper right 3 dots menu, Import Export f
 </br>
 
 The current database will be saved in `/storage/emulated/0/xDrip` or `Internal Storage/xDrip`
-You need to authorize xDrip+ to access your phone memory.  
+You need to authorize xDrip to access your phone memory.  
 You can make as many backups as your memory can store.
 
 If you're fast enough to touch the `SHARE` writing before it disappears you can use your phone share options to send the database to another device or copy it to another location.
@@ -60,7 +60,7 @@ You can restore the database from a local copy or from your [Google Drive](#clou
 
 ### Restore settings
 
-When xDrip+ install is complete, if a backup is available, xDrip+ will propose to restore it automatically.   
+When xDrip install is complete, if a backup is available, xDrip will propose to restore it automatically.   
 Select RESTORE SETTINGS
 
 !!!xdripitem "Backup detected"  
@@ -75,10 +75,10 @@ If you don't see this message, [restore them manually](../../use/loadsavesetting
 
 !!!warning "Data loss"  
     Restoring a database will **delete all current data**.  
-    Restore a database with **the same version of xDrip+ used to export it**.  
+    Restore a database with **the same version of xDrip used to export it**.  
     Make sure to backup the current database before restoring a database. 
 
-When xDrip+ install is complete, if a database backup is available, xDrip+ might propose to restore it automatically.
+When xDrip install is complete, if a database backup is available, xDrip might propose to restore it automatically.
 
 Make sure this is the database you want to restore then select RESTORE.
 
@@ -89,7 +89,7 @@ Make sure this is the database you want to restore then select RESTORE.
 
     &emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;RESTORE&ensp;</span>
 
-xDrip+ will confirm correct database restore.
+xDrip will confirm correct database restore.
 
 !!!xdripitem "Import result"  
     &emsp;Successfully imported database.
@@ -98,13 +98,13 @@ xDrip+ will confirm correct database restore.
 
 </br>
 
-If you want to restore a specific backup, from the main xDrip+ display select the upper right 3 dots menu, Import Export features, Import database.
+If you want to restore a specific backup, from the main xDrip display select the upper right 3 dots menu, Import Export features, Import database.
 
 !!!xdrip "<img src="../../images/3dots_menu.png" style="zoom:75%;" />"  
     &ensp;Import Export features ►  
     &emsp;Import database
 
-Instructions are displayed. You don't need to move the backup file if you didn't move it from another device, you don't need to unzip it. Be cautious on restoring a database with a different xDrip+ version: it is recommended that you install the [xDrip+ version](../../install/install/#verify-which-version-is-installed) that was used to perform the export before importing, then you can update xDrip+.
+Instructions are displayed. You don't need to move the backup file if you didn't move it from another device, you don't need to unzip it. Be cautious on restoring a database with a different xDrip version: it is recommended that you install the [xDrip version](../../install/install/#verify-which-version-is-installed) that was used to perform the export before importing, then you can update xDrip.
 
 !!!xdripitem "Restore Instructions"  
     &emsp;WARNING: Restoring a database might cause SEVERE DATA LOSS. If ou don't know why you want to use the restore, don't use it. In regular operation of xDrip it is not needed. Just use it in case of previous data loss. If you are not sure what to do, in case you still wnt to use the restore, please ask an expert user.  
@@ -133,7 +133,7 @@ Once sure you're trying to restore the correct backup, `Ok`
 
     &emsp;CANCEL&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 
-xDrip+ will confirm correct database restore.
+xDrip will confirm correct database restore.
 
 !!!xdripitem "Import result"  
     &emsp;Successfully imported database.
@@ -174,17 +174,17 @@ In order to use this feature you should first select a backup location.
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;USE ALTERNATE FILE&ensp;</span>
 
 - Use alternate file will allow you to select a different folder and backup file when **restoring**. 
-- When doing your **first backup**, or when recovering **an xDrip+ reinstall** on the same phone, select Automatically manage.
+- When doing your **first backup**, or when recovering **an xDrip reinstall** on the same phone, select Automatically manage.
 
-You must authorize xDrip+ to access your Google Account. xDrip+ will only store and retrieve the backup file from your Google Drive. **Nothing else.**
+You must authorize xDrip to access your Google Account. xDrip will only store and retrieve the backup file from your Google Drive. **Nothing else.**
 
 <img src="../images/3DM-BR-CB3.png" style="zoom:75%;" />
 
-Once done xDrip+ will confirm access:
+Once done xDrip will confirm access:
 
 <img src="../images/3DM-BR-CB4.png" style="zoom:75%;" />
 
-xDrip+ will create a new folder named xDrip-Backups in the root of your Google drive.
+xDrip will create a new folder named xDrip-Backups in the root of your Google drive.
 
 <img src="../images/3DM-BR-CB6.png" style="zoom:75%;" />
 
@@ -211,7 +211,7 @@ Do not enable this if you're using a limited mobile data plan.
 
 !!!warning "Data loss"  
     Restoring a database will delete all current data.  
-    Restore a database with **the same version of xDrip+ used to export it**.  
+    Restore a database with **the same version of xDrip used to export it**.  
     Make sure to backup the current database before restoring a database.
 
 !!!xdripitem "Are you really sure?"  
@@ -223,7 +223,7 @@ Do not enable this if you're using a limited mobile data plan.
 
 Restore will copy the cloud database locally and replace the current database.
 
-Once done, xDrip+ will restart.
+Once done, xDrip will restart.
 
 </br>
 
@@ -237,11 +237,11 @@ On the old phone:
    - If you won't use Google cloud backup, send yourself the database backup, or copy it to a computer.
 
 2. If this old phone is connected to a sensor or a bridge, make sure to [disable collection](../../install/datasource/#changing-data-source) so that it won't interfere when you start using your new phone.
-3. If this old phone was master for xDrip+ sync followers, [remove the master role](../../use/sync/#be-master-for-followers).
+3. If this old phone was master for xDrip sync followers, [remove the master role](../../use/sync/#be-master-for-followers).
 
 On the new phone:
 
-1. [Install](../../install/download/#which-one-to-install) the [same version](../../install/install/#verify-which-version-is-installed) of xDrip+ you are using on the old phone.
+1. [Install](../../install/download/#which-one-to-install) the [same version](../../install/install/#verify-which-version-is-installed) of xDrip you are using on the old phone.
    - If you didn't use Google cloud backup:  
      [Backup the database](#backup-the-database) (this is only needed to create the correct folders).  
      Copy the database file you sent yourself via mail, or from a computer to the right folder.

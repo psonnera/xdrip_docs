@@ -1,4 +1,4 @@
-Once downloaded, install the xDrip+ apk.
+Once downloaded, install the xDrip apk.
 
 <img src="../images/Install02.png" style="zoom:75%;" />
 
@@ -7,15 +7,15 @@ On recent Android versions you will see a Google Play Protect warning that the a
 <img src="../images/Install01a.png" style="zoom:75%;" />
 
 **You need to [authorize installation of apps from unknown sources](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources) in Android security settings.**  
-The official versions of xDrip+ are virus and malware free: being open source and controlled by the main developer make its distribution safe if you download it from GitHub.
+The official versions of xDrip are virus and malware free: being open source and controlled by the main developer make its distribution safe if you download it from GitHub.
 
 <img src="../images/Install04.png" style="zoom:75%;" />
 
-Once installed, open xDrip+.
+Once installed, open xDrip.
 
 <img src="../images/Install03.png" style="zoom:75%;" />
 
-### Understand what is xDrip+
+### Understand what is xDrip
 
 !!!warning "**Read** the important Warning"  
 
@@ -42,7 +42,7 @@ Once installed, open xDrip+.
 !!!warning "Make sure you fully understand it before saving."
 
 !!!xDrip "<img src="../images/Install06a.png" style="zoom:75%;" />"  
-    xDrip+ MUST NOT BE USED TO MAKE MEDICAL DECISIONS.  
+    xDrip MUST NOT BE USED TO MAKE MEDICAL DECISIONS.  
     IT IS A RESEARCH TOOL ONLY AND IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
     THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  
     SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
@@ -53,10 +53,10 @@ Once installed, open xDrip+.
 
 ### Authorize background activity
 
-xDrip+ must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip+`. Consult your phone manual as  it will depend on Android version and manufacturer.
+xDrip must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip`. Consult your phone manual as  it will depend on Android version and manufacturer.
 
 !!!xdripitem "Please allow Permission"  
-    &emsp;xDrip+ needs whitelisting for proper performance.  
+    &emsp;xDrip needs whitelisting for proper performance.  
       
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 
@@ -70,7 +70,7 @@ More information [here](../../troubleshoot/savings/#apps-battery-savings).
 
 ### Authorize notifications
 
-xDrip+ needs to access phone notifications to perform as expected.
+xDrip needs to access phone notifications to perform as expected.
 
 <img src="../images/Install47.png" style="zoom:75%;" />
 
@@ -95,7 +95,7 @@ See [here](../../use/update/) for upgrade or downgrade.
 
 </br>
 
-## Make sure xDrip+ will not be put to sleep
+## Make sure xDrip will not be put to sleep
 
 These settings are default, but still make sure they are exactly like shown below. Any time your phone will update, come back and check again: disable and enable checkboxes that should be enabled to enforce the settings.
 
@@ -118,7 +118,7 @@ If you'd rather not show the graph in the persistent notification, enable `Compa
 !!!xdripitem "Battery Optimization prompt <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;On Android 6+ ensure battery optimization is switched off (recommended).
 
-`Battery optimization prompt` should be **disabled** as you should have agreed to [battery whitelisting](#authorize-background-activity) during install. If not, whitelist xDrip+ from battery optimization in Android settings.
+`Battery optimization prompt` should be **disabled** as you should have agreed to [battery whitelisting](#authorize-background-activity) during install. If not, whitelist xDrip from battery optimization in Android settings.
 
 !!!xdripitem "Wake workarounds <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Use workarounds to avoid non-standard Android behavior of some handsets. Without this, collectors usually fail to get data.
@@ -128,7 +128,7 @@ Previously "Samsung workaround", this option is a fix to non compliance from som
 ### Enable location
 
 For newer Android versions (6 and above), location is [mandatory](https://developer.android.com/training/location/permissions) to allow Bluetooth Low Energy connection.  
-If you will use xDrip+ with a Bluetooth sensor or bridge you **must** enable location (Android Settings -> [Location](https://support.google.com/android/answer/3467281)) and authorize xDrip+ to access it. Consult your phone manual as it will depend on Android version and manufacturer.
+If you will use xDrip with a Bluetooth sensor or bridge you **must** enable location (Android Settings -> [Location](https://support.google.com/android/answer/3467281)) and authorize xDrip to access it. Consult your phone manual as it will depend on Android version and manufacturer.
 
 Make sure to select All the time from settings.
 

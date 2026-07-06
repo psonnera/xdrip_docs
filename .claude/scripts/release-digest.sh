@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build a filtered commit digest between two xDrip+ release tags (or from FROM_TAG to HEAD-of-tags),
+# Build a filtered commit digest between two xDrip release tags (or from FROM_TAG to HEAD-of-tags),
 # one section per release, for use when writing changelog.md entries.
 #
 # Usage: release-digest.sh <xdrip_repo_path> <from_tag_exclusive> [to_tag_inclusive]

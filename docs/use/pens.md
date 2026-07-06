@@ -4,19 +4,19 @@
 
 ### NovoPen Insulin Pen
 
-xDrip+ can download dosage to NovoPen 6 and Echo Plus.
+xDrip can download dosage to NovoPen 6 and Echo Plus.
 
 Some implementation notes [here](https://github.com/NightscoutFoundation/xDrip/issues/2074).
 
 ### InPen Insulin Pen
 
-xDrip+ can download dosage to the pen.
+xDrip can download dosage to the pen.
 
 Might not be functional with [newer pens](https://github.com/NightscoutFoundation/xDrip/issues/1176).
 
 ### Pendiq 2.0 Insulin Pen
 
-xDrip+ can read and write dosage.
+xDrip can read and write dosage.
 
 Might not be functional with [newer pens](https://github.com/NightscoutFoundation/xDrip/issues/239).
 

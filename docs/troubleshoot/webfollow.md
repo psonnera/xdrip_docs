@@ -21,9 +21,9 @@ Try to uninstall and reinstall the vendor follower app.
 
 </br>
 
-## xDrip+ setup
+## xDrip setup
 
-Once the system is running on the vendor apps, you can troubleshoot xDrip+.
+Once the system is running on the vendor apps, you can troubleshoot xDrip.
 
 1. Make sure the data source is [Web follower](../../install/webfollower/).
 2. Use the credentials from the follower you invited with the vendor master app.
@@ -35,7 +35,7 @@ Once the system is running on the vendor apps, you can troubleshoot xDrip+.
 
 Server updates might break the mechanism.
 
-**Once xDrip+ has been fixed**, you might need to reset it following this sequence:
+**Once xDrip has been fixed**, you might need to reset it following this sequence:
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  

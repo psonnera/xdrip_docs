@@ -2,7 +2,7 @@
     &ensp;Settings  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_speak_reading_grey600_48dp.png" style="width:5%;" />&ensp;Speak Readings
 
-If you phone supports text to speech, you can have xDrip+ verbally read various events for you.
+If you phone supports text to speech, you can have xDrip verbally read various events for you.
 
 !!!xdripitem "Speak Readings <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;If the phone has text-to-speech capabilities it will speak each new reading

@@ -21,9 +21,9 @@
     Do **not** use your main account credentials!
 
 Make sure you have readings.   
-You can then uninstall the follower app. You might need to reinstall it to authenticate your follower if data stops displaying in xDrip+.
+You can then uninstall the follower app. You might need to reinstall it to authenticate your follower if data stops displaying in xDrip.
 
-### Configure xDrip+ web follower
+### Configure xDrip web follower
 
 !!!xdripitem "Web Follower Settings"  
     &ensp;Configuration options for web follower data source

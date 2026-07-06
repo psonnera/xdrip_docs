@@ -1,16 +1,16 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Display Settings
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Display Settings
 
-This menu allows you to customize many visual aspect settings of xDrip+.
+This menu allows you to customize many visual aspect settings of xDrip.
 
-!!!xdripitem "xDrip+ Display Settings"  
+!!!xdripitem "xDrip Display Settings"  
 
 *Note: Check [Graph settings](#graph-settings) features before using Color settings.*
 
 ### Color Settings
 
-!!!xdripitem "xDrip+ Color Settings"  
+!!!xdripitem "xDrip Color Settings"  
       &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_palette_grey600_48dp.png" style="width:8%;" />&ensp;Customize Colors
 
 The example chart on top will show the effect of what you modify.
@@ -215,7 +215,7 @@ Lower navigation bar:
 
 ### Language
 
-By default xDrip+ will use your phone language. You can select another language for xDrip+ and force it to display instead of the phone language.
+By default xDrip will use your phone language. You can select another language for xDrip and force it to display instead of the phone language.
 
 For this: 
 
@@ -241,7 +241,7 @@ You can also try [Graph smoothing](#graph-smoothing) to clean your graph.
 
 ### Show interface hints
 
-After you first installed xDrip+ you will see hints during first opening of some features, you can disable this behavior or reset it.
+After you first installed xDrip you will see hints during first opening of some features, you can disable this behavior or reset it.
 
 !!!xdripitem "Show interface hints<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Show tips/hints describing buttons functions etc. Uncheck and recheck to reset to the beginning.
@@ -320,13 +320,13 @@ Filtered or smoothed plot adds another graph curve and can eventually create mis
 
 <img src="../images/M-S-DS4a.png" style="zoom:75%;" />
 
-For some data sources (like patched LL app) this will expose the unfiltered raw data as xDrip+ BG display is already filtered.
+For some data sources (like patched LL app) this will expose the unfiltered raw data as xDrip BG display is already filtered.
 
 <img src="../images/M-S-DS6e2.png" style="zoom:75%;" />
 
 ##### Raw data
 
-Raw data that can be displayed by xDrip+ if available.
+Raw data that can be displayed by xDrip if available.
 
 !!!xdripitem "Display raw data plot <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"
 
@@ -339,18 +339,18 @@ For Libre sensor raw data use [Advanced Settings for Libre 2](../lesscommon/#adv
 
 ##### Basal information
 
-If basal information is available from an external source ([AAPS NSClient](https://androidaps.readthedocs.io/en/latest/index.html)) it can be displayed by xDrip+.
+If basal information is available from an external source ([AAPS NSClient](https://androidaps.readthedocs.io/en/latest/index.html)) it can be displayed by xDrip.
 
 In AAPS/NSClient:
 
 - Config builder
 
-- Synchronization - xDrip+ settings
-- Enable Send status line to xDrip+
+- Synchronization - xDrip settings
+- Enable Send status line to xDrip
 
 <img src="../images/NSClient.png" style="zoom:75%;" />
 
-In xDrip+: 
+In xDrip: 
 
 - Settings - Less common settings - Enable Extra status line - Enable [External status](../lesscommon#extra-status-line)
 - Settings - Inter-app - Enable [Accept treatments](../interapp#receiving-from-nsclient)
@@ -468,7 +468,7 @@ Filtering is hardware coded for [Patched Libre 2 app data source](../../install/
 
 ### Bolus Wizard Preview
 
-BWP will show insulin on board (IoB) and suggest corrections based on the [predictive](../predictions) parameters entered in xDrip+.  
+BWP will show insulin on board (IoB) and suggest corrections based on the [predictive](../predictions) parameters entered in xDrip.  
 This is an indication. Make sure you understand the EULA before using it.  
 Never follow the suggestions when BG is fast changing.
 
@@ -488,9 +488,9 @@ If you force always show BWP it will always suggest a correction (insulin or car
 
 ### High Priority Notifications
 
-This will bring xDrip+ [graph and notifications](../misc/#run-collector-in-foreground) at the top of the list, disabling it brings it down.
+This will bring xDrip [graph and notifications](../misc/#run-collector-in-foreground) at the top of the list, disabling it brings it down.
 
-You can disable High Priority Notifications, but you shouldn't disable it completely with [Run collector in foreground](../misc#run-collector-in-foreground) if you don't want xDrip+ to be put to sleep by Android.
+You can disable High Priority Notifications, but you shouldn't disable it completely with [Run collector in foreground](../misc#run-collector-in-foreground) if you don't want xDrip to be put to sleep by Android.
 
 !!!xdripitem "High Priority Notifications<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Show notifications and graph at the top (also useful on lock screen).
@@ -518,7 +518,7 @@ Enabled by default, you'll find reminders in the [three dots menu](../3dotsmenu)
 
 ### Always On Display Settings
 
-xDrip+ can use Android accessibility to display its widget in the always on display screen, if your phone supports it.
+xDrip can use Android accessibility to display its widget in the always on display screen, if your phone supports it.
 
 !!!xdripitem "Enable xDrip Accessibility"  
     &ensp;If your phone has Always On Display you can enable the xDrip widget there by enabling the xDrip accessibility service from the Android System Settings page.
@@ -534,7 +534,7 @@ On Android 16 and above, you can alternatively show your glucose as a notificati
 
 ### Numbered wall on Locked Screen
 
-xDrip+ can display your BG value on the phone locked screen.  
+xDrip can display your BG value on the phone locked screen.  
 Some features requires Android 7 and above.
 
 !!!xdripitem "Numbered wall on Locked Screen"
@@ -583,7 +583,7 @@ Enable and disable the feature for a defined period of the day. By default it en
 
 ### Number Icon in Notification Area
 
-xDrip+ can display your BG number as an icon in the top left notification area and in the drop down notifications.
+xDrip can display your BG number as an icon in the top left notification area and in the drop down notifications.
 
 <img src="../images/M-S-DS6aa6.png" style="zoom:75%;" />
 
@@ -622,9 +622,9 @@ You can also enable a large icon (1), with or without arrow (2) **in the notific
 
 ### Show xDrip on Boot
 
-This will make xDrip+ open automatically when your phone restarts.
+This will make xDrip open automatically when your phone restarts.
 
-It might be a good idea to enable this feature if your phone performs automatic updates and reboots (not recommended) and xDrip+ is not starting automatically at reboot. 
+It might be a good idea to enable this feature if your phone performs automatic updates and reboots (not recommended) and xDrip is not starting automatically at reboot. 
 
 !!!xdripitem "Show xDrip on Boot <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Bring up xDrip screen automatically after device boots

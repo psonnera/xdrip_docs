@@ -1,4 +1,4 @@
-Until a blood glucose data source is selected, xDrip+ will show the  data source wizard. You can enable or disable it using the [blood drop menu](../../use/mainUI/#blood-drop-menu), then Source wizard button.
+Until a blood glucose data source is selected, xDrip will show the  data source wizard. You can enable or disable it using the [blood drop menu](../../use/mainUI/#blood-drop-menu), then Source wizard button.
 
 <img src="../images/Install08.png" style="zoom:75%;" />
 
@@ -6,19 +6,19 @@ Scroll down until you see your sensor or use case.
 
 ## G6, G7, 1, 1+ and Stelo
 
-If you connect xDrip+ directly to your sensor ([G6, G7, 1, 1+ and Stelo](../g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). You might be able to use sharing through [share](../../use/cloud/#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
+If you connect xDrip directly to your sensor ([G6, G7, 1, 1+ and Stelo](../g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). You might be able to use sharing through [share](../../use/cloud/#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
 
 <img src="../images/DS-DxDrip.png" style="zoom:50%;" />
 
-If you use the vendor apps (G6, G7, 1+), you can connect xDrip+ as a [Share follower](../dexshare) as long as a follower has been setup with the vendor apps.
+If you use the vendor apps (G6, G7, 1+), you can connect xDrip as a [Share follower](../dexshare) as long as a follower has been setup with the vendor apps.
 
 <img src="../images/DS-DShare.png" style="zoom:50%;" />
 
-When using [BYODA](../byod) (G6 only) if you've enabled Broadcast to xDrip+ you don't need a network connection to have data in xDrip+. Use the 640G/Eversense data source
+When using [BYODA](../byod) (G6 only) if you've enabled Broadcast to xDrip you don't need a network connection to have data in xDrip. Use the 640G/Eversense data source
 
 <img src="../images/DS-BYOD.png" style="zoom:45%;" />
 
-You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications (G6, G7, 1, 1+, Stelo). Note Stelo gives readings every 15 minutes with the vendor app.
+You can add xDrip to your current setup and select [Companion app](../companion) to have xDrip read BG from the vendor app notifications (G6, G7, 1, 1+, Stelo). Note Stelo gives readings every 15 minutes with the vendor app.
 
 <img src="../images/DS-DComp.png" style="zoom:50%;" />
 
@@ -28,9 +28,9 @@ And this is also possible if you use [CamAPS](../companion), still using the Com
 
 ## Libre
 
-xDrip+ connects directly to Libre 2/2+ EU, you can use Libre 1 and 14 days US with a bridge device. Other Libre 2 and 3 sensors are not directly supported.
+xDrip connects directly to Libre 2/2+ EU, you can use Libre 1 and 14 days US with a bridge device. Other Libre 2 and 3 sensors are not directly supported.
 
-You can connect Libre 2/2+ EU to xDrip+, adding [OOP2](../../use/OOP/). You **cannot** use the vendor app for alarms (just NFC scans) and upload data to the vendor servers (use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). Use the [Libre Bluetooth](../libreBT) data source.
+You can connect Libre 2/2+ EU to xDrip, adding [OOP2](../../use/OOP/). You **cannot** use the vendor app for alarms (just NFC scans) and upload data to the vendor servers (use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). Use the [Libre Bluetooth](../libreBT) data source.
 
 <img src="../images/DS-L2EU.png" style="zoom:50%;" />
 
@@ -39,15 +39,15 @@ Some of these bridges also work with Libre 2/2+ EU. Check your sensor doesn't re
 
 <img src="../images/DS-LBT.png" style="zoom:50%;" />
 
-The [patched app](../libre2patch) can send data to xDrip+, note it's now a very old app and it probably won't work on recent phones.
+The [patched app](../libre2patch) can send data to xDrip, note it's now a very old app and it probably won't work on recent phones.
 
 <img src="../images/DS-L2Patch.png" style="zoom:50%;" />
 
-For non-supported sensors (Libre 2/2+ non-EU and Libre 3/3+) you can also use Diabox or Juggluco, then [broadcast](../libre2patch) data to xDrip+ that will receive data from the [Libre 2 patched](../libre2patch) data source (**not** the patched app itself).
+For non-supported sensors (Libre 2/2+ non-EU and Libre 3/3+) you can also use Diabox or Juggluco, then [broadcast](../libre2patch) data to xDrip that will receive data from the [Libre 2 patched](../libre2patch) data source (**not** the patched app itself).
 
 <img src="../images/DS-LOther.png" style="zoom:50%;" />
 
-You can follow a Libre 2/2+ CGM or a Libre 3/3+ with xDrip+ with the [Web follower](../webfollower) data source.
+You can follow a Libre 2/2+ CGM or a Libre 3/3+ with xDrip with the [Web follower](../webfollower) data source.
 
 <img src="../images/DS-L3Web.png" style="zoom:50%;" />
 
@@ -57,7 +57,7 @@ With a [640G/670G pump](../640_670) you need to get BG data from the pump using 
 
 <img src="../images/DS-M6xx.png" style="zoom:50%;" />
 
-You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications.
+You can add xDrip to your current setup and select [Companion app](../companion) to have xDrip read BG from the vendor app notifications.
 
 <img src="../images/DS-MComp.png" style="zoom:50%;" />
 
@@ -67,17 +67,17 @@ You can follow sensor data when shared through [Carelink](../carelinkfollow), bu
 
 ## [Aidex](../aidex)
 
-You can receive data from the vendor app into xDrip+.
+You can receive data from the vendor app into xDrip.
 
-You can add xDrip+ to your current setup and select [Companion app](../companion) to have xDrip+ read BG from the vendor app notifications.
+You can add xDrip to your current setup and select [Companion app](../companion) to have xDrip read BG from the vendor app notifications.
 
 ## Sibionics
 
-The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip+ with the [640G/Eversense](../640_670) data source.
+The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip with the [640G/Eversense](../640_670) data source.
 
 ## CareSens Air
 
-You can receive data from the vendor app into xDrip+ with the [CareSens Air](../caresens) (or 640G/Eversense) data source.
+You can receive data from the vendor app into xDrip with the [CareSens Air](../caresens) (or 640G/Eversense) data source.
 
 <img src="../images/DS-CareSens.png" style="zoom:50%;" />
 
@@ -85,7 +85,7 @@ You can receive data from the vendor app into xDrip+ with the [CareSens Air](../
 
 ## Bluetooth connection to a sensor or a bridge
 
-When connecting xDrip+ directly to a sensor, it will take care of the Bluetooth connection or to the Bluetooth device sending data from your device (called a bridge). 
+When connecting xDrip directly to a sensor, it will take care of the Bluetooth connection or to the Bluetooth device sending data from your device (called a bridge). 
 
 !!!warning    
     Do **NOT** try to use Android Settings -> Connections -> Bluetooth to connect! 
@@ -98,8 +98,8 @@ If your bridge paired to Android, unpair it before continuing.
 
 !!!warning "One device at a time"  
     Sensors and bridges can only connect to one smartphone (or tablet) at a time, and only to one app at a time.  
-    You should uninstall the vendor app in order to connect xDrip+ to your sensor or bridge.  
-    If another device is connect to your sensor or bridge you should turn it off or disable the other app before trying to connect with xDrip+.  
+    You should uninstall the vendor app in order to connect xDrip to your sensor or bridge.  
+    If another device is connect to your sensor or bridge you should turn it off or disable the other app before trying to connect with xDrip.  
     **You cannot connect to two phones or applications. With an exception for Dex G6/G7/1 and 1+: the second device can only be a receiver/connected pump or a BlueJay watch.**
 
 </br>
@@ -112,7 +112,7 @@ If you don't, touching this button will display the wizard.
 
 <img src="../images/Install12.png" style="zoom:75%;" />
 
-If the button is not visible you can display it using a long touch on the xDrip+ icon and enabling the `Source Wizard Button`.
+If the button is not visible you can display it using a long touch on the xDrip icon and enabling the `Source Wizard Button`.
 
 <img src="../../images/UImenu.png" style="zoom:75%;" />
 
@@ -122,7 +122,7 @@ If the button is not visible you can display it using a long touch on the xDrip+
 
 Unused and obsolete sensors have been removed from this documentation.
 
-### The following sensors are supported directly by xDrip+:
+### The following sensors are supported directly by xDrip:
 
 - [G6, G7, 1 and 1+](../g6)  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install31.png" style="zoom:50%;" />
@@ -156,7 +156,7 @@ Unused and obsolete sensors have been removed from this documentation.
 
 ## Follower mode
 
-- [xDrip+ Sync](../xdripfollower) (requires Google Play Services)
+- [xDrip Sync](../xdripfollower) (requires Google Play Services)
 - [Nightscout](../nightscoutfollower)  
   <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
 - [Dex Share](../dexshare)  
@@ -188,7 +188,7 @@ You can select another data source without using the wizard from the settings me
 
 <img src="../images/M-S-HDSlistD.png" style="zoom:75%;" />
 
-[xDrip+ Sync](../xdripfollower)
+[xDrip Sync](../xdripfollower)
 
 <img src="../images/M-S-HDSlistE.png" style="zoom:75%;" />
 
@@ -234,7 +234,7 @@ Libre with patched SWR50 smartwatch
 
 ##### Disable Collection
 
-If you want to disable xDrip+.
+If you want to disable xDrip.
 
 <img src="../images/M-S-HDSlistL.png" style="zoom:75%;" />
 

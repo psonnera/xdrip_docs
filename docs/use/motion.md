@@ -1,6 +1,6 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_car_connected_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Motion Tracking
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_car_connected_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Motion Tracking
 
 Motion tracking is used to detect vehicle mode and add functions when driving your car.
 
@@ -14,7 +14,7 @@ You can track motion on your main graph.
 
 <img src="../images/M-S-MT3a.png" style="zoom:75%;" />
 
-As for xDrip+ sync you can define which phone will actually send the motion information: it will be the motion master, only one device can be master. You can setup a device to be follower to motion in order to monitor remotely the master device motion.
+As for xDrip sync you can define which phone will actually send the motion information: it will be the motion master, only one device can be master. You can setup a device to be follower to motion in order to monitor remotely the master device motion.
 
 !!!xdripitem "Use remote motion <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Motion data taken from remote rather than local handset source
@@ -43,7 +43,7 @@ Raising the low level alarm will allow you to be informed at a higher level than
 !!!xdripitem "Raise 'Low threshold' <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Increase the level at which Low alarms will be triggered when in vehicle mode
 
-You can make xDrip+ automatically enable spoken readings when driving.
+You can make xDrip automatically enable spoken readings when driving.
 
 !!!xdripitem "Speak readings <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Enable speak readings feature when in vehicle mode

@@ -15,7 +15,7 @@ You can decide to use BG [treatments](../../use/mainUI/#treatments) (blood tests
 !!!warning  
     Always use treatments as calibrations is **not recommended**.
 
-Automatic mode will only suggest you to use the treatment as a calibration if xDrip+ detects that current conditions are good to calibrate (like BG stable for 20 minutes, low noise).
+Automatic mode will only suggest you to use the treatment as a calibration if xDrip detects that current conditions are good to calibrate (like BG stable for 20 minutes, low noise).
 
 !!!xdripitem "Use Treatment BG values"  
     &emsp;Automatic mode (best)<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
@@ -53,7 +53,7 @@ Automatic calibration will accept a treatment as a calibration if it satisfies t
 
 ### Plugins
 
-Calibration plugins are available in xDrip+, most are not used anymore.  If enabled, a plugin acts instead of the standard xDrip+ calibration. The idea was to have a customizable calibration algorithm selection but was never fully implemented. In general, a sensor needing a plugin to be calibrated should be replaced for safety reasons.
+Calibration plugins are available in xDrip, most are not used anymore.  If enabled, a plugin acts instead of the standard xDrip calibration. The idea was to have a customizable calibration algorithm selection but was never fully implemented. In general, a sensor needing a plugin to be calibrated should be replaced for safety reasons.
 
 !!!warning "**SAFETY**"  
     **Calibration safety mechanisms do not apply to plugins. Using a plugin to bypass calibration failure is dangerous.**
@@ -71,23 +71,23 @@ Calibration plugins are available in xDrip+, most are not used anymore.  If enab
     &emsp;xDrip   
     &emsp;Last7Ua
 
-**`None`** by default the xDrip+ algorithm is used. **Recommended**
+**`None`** by default the xDrip algorithm is used. **Recommended**
 
-**`Datricsae`** was popular with those in trouble with default xDrip+ algorithm. It requires 8 calibration points (if less than 4 the original xDrip+ algorithm will be used) and has slope limits between 0.5 and 1.7. Its main strength is to remove outliers (bad calibration points) that fall too far out of the calibration line. Once filtered, if the number of calibration points fall below 4 or slope is out of limits, the classic xDrip+ algorithm is used.  
+**`Datricsae`** was popular with those in trouble with default xDrip algorithm. It requires 8 calibration points (if less than 4 the original xDrip algorithm will be used) and has slope limits between 0.5 and 1.7. Its main strength is to remove outliers (bad calibration points) that fall too far out of the calibration line. Once filtered, if the number of calibration points fall below 4 or slope is out of limits, the classic xDrip algorithm is used.  
 Be careful as noisy calibrations might lead to inconsistent results.
 
 <img src="../images/M-S-LCS-AC3d.png" style="zoom:75%;" />
 
 **`Fixed slope`** is an empty plugin returning slope 1.08 and intercept -5. **Do not use it for real BG.**
 
-**`xDrip Original`** was the plugin equivalent of the xDrip+ algorithm. It doesn't do anything else than the xDrip+ algorithm. **There is no added value in using it.**
+**`xDrip Original`** was the plugin equivalent of the xDrip algorithm. It doesn't do anything else than the xDrip algorithm. **There is no added value in using it.**
 
-**`Last 7 unweighted`** was an early attempt to improve the original algorithm. It requires at least 7 calibrations (if non-existing, current xDrip+ algorithm is used). **Not recommended.**
+**`Last 7 unweighted`** was an early attempt to improve the original algorithm. It requires at least 7 calibrations (if non-existing, current xDrip algorithm is used). **Not recommended.**
 
 !!!xdripitem "Plugin plot on graph <img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Show glucose results from the plugin on the main graph  
 
-Enable if you want xDrip+ to plot results using the plugin.
+Enable if you want xDrip to plot results using the plugin.
 
 <img src="../../use/images/M-S-DS2l2.png" style="zoom:75%;" />
 
@@ -136,7 +136,7 @@ Carrying forward calibrations from the old sensor to a new one is dangerous. **L
 !!!xdripitem "Bypass quality check <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Allow initial calibration even if we don't have good enough data. Beware could result in inaccurate calibration.  
 
-During preliminary measurements for first calibration, 3 valid measurements are required. If they are missing or fail safety values, xDrip+ will wait. Enabling this will allow calibration without checking. **Not recommended.**
+During preliminary measurements for first calibration, 3 valid measurements are required. If they are missing or fail safety values, xDrip will wait. Enabling this will allow calibration without checking. **Not recommended.**
 
 !!!xdripitem "Collecting Initial Readings"  
     &ensp;✔ Data collector running  

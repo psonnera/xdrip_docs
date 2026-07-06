@@ -7,7 +7,7 @@
 
 You can create your own app using this [form](https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform).
 
-Broadcast to xDrip+ is only possible for G6 sensors.
+Broadcast to xDrip is only possible for G6 sensors.
 
 <img src="../images/byoda.png" style="zoom:75%;" />
 

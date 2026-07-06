@@ -5,12 +5,12 @@
     &emsp;Hardware Data Source  
     &ensp;&emsp;Libre (patched app)
 
-The apps listed below use the same protocol to send data to xDrip+.
+The apps listed below use the same protocol to send data to xDrip.
 
 !!!note  
     External apps readings will be treated like sensor data in all effects, this includes [calibration limitations](../../calibrate/calibrate/#libre-2-patched-app).
 
-It shouldn't be necessary anymore but if you don't see data in xDrip+ [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+It shouldn't be necessary anymore but if you don't see data in xDrip [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
 </br>
 
@@ -24,7 +24,7 @@ It shouldn't be necessary anymore but if you don't see data in xDrip+ [Start sen
 
 #### Juggluco
 
-If you use [Juggluco](https://www.juggluco.nl/Juggluco/index.html) you can broadcast to xDrip+ enabling Send to xDrip. You must have data streaming in Juggluco in order to see measurements in xDrip+.
+If you use [Juggluco](https://www.juggluco.nl/Juggluco/index.html) you can broadcast to xDrip enabling Send to xDrip. You must have data streaming in Juggluco in order to see measurements in xDrip.
 
 <img src="../images/Juggluco.png" style="zoom:50%;" />
 
@@ -32,7 +32,7 @@ If you use [Juggluco](https://www.juggluco.nl/Juggluco/index.html) you can broad
 
 #### Diabox
 
-If you use a recent [Diabox](https://sirius.thetaphi.de/diabox/) version, you can broadcast to xDrip+ enabling the option below:
+If you use a recent [Diabox](https://sirius.thetaphi.de/diabox/) version, you can broadcast to xDrip enabling the option below:
 
 <img src="../images/Diabox4.png" style="zoom:75%;" />
 

@@ -16,7 +16,7 @@ If you use a  Glucomen Aero meter with an NFC reader capable phone you can scan 
 In order to enable Use Bluetooth Meter you need to pair a Bluetooth meter first.  
 If this is a new meter **make sure you have measured BG at least once before trying to pair it**.
 
-Do **<u>not</u>** enable the Bluetooth meter option in xDrip+ now.
+Do **<u>not</u>** enable the Bluetooth meter option in xDrip now.
 
 !!!xdripitem "Use Bluetooth Meter <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Automatically connect and retrieve data from a standard's compliant glucose meter like the Contour Next One
@@ -46,7 +46,7 @@ You can enable sounds to indicate connection, disconnection and data collection.
 !!!xdripitem "Sound effect indicators"  
     &ensp;Enable this to play sound effects when the meter connects, disconnects or syncs data
 
-You can have xDrip+ suggest to use the result to calibrate your connected sensor (if it supports calibration).
+You can have xDrip suggest to use the result to calibrate your connected sensor (if it supports calibration).
 
 !!!xdripitem "Use meter for calibrations <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;When a new blood glucose result is received, ask if that should be used to calibrate with
@@ -56,7 +56,7 @@ It is not recommended to enable automatic calibration.
 !!!xdripitem "Automatic calibration <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Calibrate using new blood glucose readings if the conditions appear right to do so without asking confirmation (experimental)
 
-When you enable the use of the Bluetooth meter, all blood tests will automatically transfer into xDrip+ as [treatments](../mainUI/#treatments).
+When you enable the use of the Bluetooth meter, all blood tests will automatically transfer into xDrip as [treatments](../mainUI/#treatments).
 
 </br>
 

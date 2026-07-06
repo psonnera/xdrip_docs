@@ -8,9 +8,9 @@
 !!!warning  
     Carelink server are subject to frequent modifications that might break the feature.  
     **Use the [latest pre-release](../download#pre-release) in case of issues.**  
-    Consider using [Companion app](../companion) on the master phone and xDrip+ [Sync](../xdripfollower) or Nightscout to share data.  
-    The CarePartner app authentication is valid for 1 week, thus even if xDrip+ is unable to connect to CareLink for a few days (for example due to the lack of internet connection), it will be able to renew the login (refresh the token) automatically in the background after it can connect to CareLink again without needing to login again manually using the browser. The user account restriction applies to this authentication process as well:   
-    **a dedicated follower account must be used for xDrip+, you cannot use the same follower for other apps or phones.**
+    Consider using [Companion app](../companion) on the master phone and xDrip [Sync](../xdripfollower) or Nightscout to share data.  
+    The CarePartner app authentication is valid for 1 week, thus even if xDrip is unable to connect to CareLink for a few days (for example due to the lack of internet connection), it will be able to renew the login (refresh the token) automatically in the background after it can connect to CareLink again without needing to login again manually using the browser. The user account restriction applies to this authentication process as well:   
+    **a dedicated follower account must be used for xDrip, you cannot use the same follower for other apps or phones.**
 
 </br>
 
@@ -26,19 +26,19 @@ Set patient username if using a care partner account with multiple patients.
 !!!xdripitem "CareLink Patient Username"  
     &ensp;CareLink patient username (optional)
 
-xDrip+ will open the CareLink autentication web site, enter your credentials to login.  
+xDrip will open the CareLink autentication web site, enter your credentials to login.  
 
 !!!xdripitem "Login"  
     &ensp;Login with browser
 
 Grace period is an additional waiting time after receiving last reading + 5 minutes.  
-Used to avoid server lock if xDrip+ performs too frequent requests.
+Used to avoid server lock if xDrip performs too frequent requests.
 
 !!!xdripitem "Grace Period"  
     &ensp;Grace period for data request in seconds
 
 Missed data polling interval is an additional waiting time after received last reading + 5 minutes + grace period.  
-Used to avoid server lock if xDrip+ performs too frequent requests.
+Used to avoid server lock if xDrip performs too frequent requests.
 
 !!!xdripitem "Missed data poll interval"  
     &ensp;Grace period for data request in seconds

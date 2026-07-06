@@ -1,8 +1,8 @@
 ### Native Algorithm
 
-If you use xDrip+ with a G6, G7, 1, 1+ or Stelo native algorithm, see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
+If you use xDrip with a G6, G7, 1, 1+ or Stelo native algorithm, see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
 
-### xDrip+ Algorithm
+### xDrip Algorithm
 
 Enable [data tables](../../use/lesscommon/#show-data-tables) for more information.
 
@@ -49,9 +49,9 @@ Slope limits depend on your sensor:
 | Libre (raw data source)       | 0.5           | 1.6           |
 | Libre 2 patched app           | 1 (fixed)     | 1 (fixed)     |
 
-Since slope and intercept safety limits will prevent xDrip+ from having a too high intercept, calibrations leading to this situation will be ignored.
+Since slope and intercept safety limits will prevent xDrip from having a too high intercept, calibrations leading to this situation will be ignored.
 
-In the example below you see the orange line is the one that matches the best calibrations, still, xDrip+ will use the red one for safety as its intercept is safe. You can see the plugin intercept value reflecting what would better match calibrations.
+In the example below you see the orange line is the one that matches the best calibrations, still, xDrip will use the red one for safety as its intercept is safe. You can see the plugin intercept value reflecting what would better match calibrations.
 
 <img src="../images/CAL20.png" style="zoom:75%;"  />
 

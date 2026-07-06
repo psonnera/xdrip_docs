@@ -2,7 +2,7 @@
     &ensp;Settings  
     &emsp;<img src="../images/CrystalBall.png" style="width:5%;" />&ensp;Predictive Simulations
 
-xDrip+ Predictive Simulation settings is an experimental, non medically approved feature. Make sure to re-read the [EULA](../../install/install/#understand-what-is-xdrip) before enabling it. Do not use them to take medical decisions.
+xDrip Predictive Simulation settings is an experimental, non medically approved feature. Make sure to re-read the [EULA](../../install/install/#understand-what-is-xdrip) before enabling it. Do not use them to take medical decisions.
 
 !!!warning  
     If you use a closed-loop system do not rely on these predictions since they don't take into account basal modulation.
@@ -10,11 +10,11 @@ xDrip+ Predictive Simulation settings is an experimental, non medically approved
 !!!xdripitem "Predictive simulations"  
     &ensp;Display mathematical simulations based on profile data and carbs/insulin logs
 
-Enabling predictions will add the light purple prediction curve on the main graph. This curve is showing you how your BG should theoretically evolve using current insulin and carbs entered in xDrip+. More details on display [here](../display/#treatments-and-predictions-curves).
+Enabling predictions will add the light purple prediction curve on the main graph. This curve is showing you how your BG should theoretically evolve using current insulin and carbs entered in xDrip. More details on display [here](../display/#treatments-and-predictions-curves).
 
 <img src="../images/M-S-PS1a.png" style="zoom:75%;" />
 
-xDrip+ can handle multiple insulin types. See [below](#multiple-insulin-types).
+xDrip can handle multiple insulin types. See [below](#multiple-insulin-types).
 
 !!!xdripitem "Multiple Insulin Types"  
     &ensp;Options for working with multiple insulin types
@@ -133,14 +133,14 @@ You can setup more prediction parameters here.
 
 Target is used for bolus wizard calculator. This is the desired BG target.
 
-Insulin [duration](https://www.diabettech.com/insulin/why-we-are-regularly-wrong-in-the-duration-of-insulin-action-dia-times-we-use-and-why-it-matters/) depends on your insuline type. Changing the value requires xDrip+ restart (or phone restart).
+Insulin [duration](https://www.diabettech.com/insulin/why-we-are-regularly-wrong-in-the-duration-of-insulin-action-dia-times-we-use-and-why-it-matters/) depends on your insuline type. Changing the value requires xDrip restart (or phone restart).
 
 Target glucose value is the value used to calculate suggested corrections.
 
 !!!xdripitem "Target glucose value"  
     &ensp;99 / 5.5
 
-Insulin duration is a parameter you should discuss with your endocrinologist. When using closed loop systems, this value will be much more. Still, remember that xDrip+ predictions find their best use with multiple daily injections, not with pumps.
+Insulin duration is a parameter you should discuss with your endocrinologist. When using closed loop systems, this value will be much more. Still, remember that xDrip predictions find their best use with multiple daily injections, not with pumps.
 
 !!!xdripitem "Insulin duration in hours"  
     &ensp;3

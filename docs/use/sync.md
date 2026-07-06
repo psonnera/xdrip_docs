@@ -1,16 +1,16 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings
 
-!!!warning "Old xDrip+ Sync"  
-    In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
-    Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
-    Updating xDrip+ to minimum latest release is recommended.
+!!!warning "Old xDrip Sync"  
+    In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip used for xDrip Sync.  
+    Update xDrip to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
+    Updating xDrip to minimum latest release is recommended.
 
 !!!warning  
     [Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
 
-xDrip+ provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
+xDrip provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
 
 The underlying security key can be customized instead of using the Google account key (not editable).
 
@@ -19,7 +19,7 @@ The underlying security key can be customized instead of using the Google accoun
 
 ##### Handset group security sync key
 
-An unique key is created at xDrip+ install (it will be different if you reinstall xDrip+) and should match all devices using xDrip+ sync. Even if you can customize this key making it your own (letters and numbers) you will usually leave it as generated.
+An unique key is created at xDrip install (it will be different if you reinstall xDrip) and should match all devices using xDrip sync. Even if you can customize this key making it your own (letters and numbers) you will usually leave it as generated.
 
 !!!xdripitem "Handset Group Security Sync Key"  
     &ensp;Handset sync grouping key
@@ -41,15 +41,15 @@ You can setup the master phone to receive and accept followers treatments and ca
 
 ##### Use xDrip Cloud
 
-After Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) used for xDrip+ Sync in July 2024, a new sharing method has been developed.
+After Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) used for xDrip Sync in July 2024, a new sharing method has been developed.
 
 !!!warning "Must be set identically on all phones"  
     Master and followers. Either it is ON for all, or OFF for all.
 
 !!!xdripitem "Use xDrip Cloud <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Use the new xDrip+ cloud servers. Master and follower must have this setting set the same.  
+    &ensp;Use the new xDrip cloud servers. Master and follower must have this setting set the same.  
 
-If xDrip+ uses too much battery when on SIM data your can try to enable this.
+If xDrip uses too much battery when on SIM data your can try to enable this.
 
 !!!xdripitem "SavePower <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Reduce battery and network overhead by using batch processing and excluding unnecessary data.  
@@ -90,12 +90,12 @@ You can use this option in case of complete Sync failure or when using a phone w
 
 ### Desert Sync
 
-Desert Sync allows xDrip+ sync without internet or phone data coverage.
+Desert Sync allows xDrip sync without internet or phone data coverage.
 
 !!!xdripitem "Desert Sync"  
     <img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xxhdpi/desert_sync.png" style="width:5%;" />&ensp;Off-grid following
 
-Desert Sync allows you to share data between your xDrip+ master and followers when internet is not available. This can happen when traveling out of phone coverage or on a local intranet (no internet access).
+Desert Sync allows you to share data between your xDrip master and followers when internet is not available. This can happen when traveling out of phone coverage or on a local intranet (no internet access).
 
 Enable desert sync on all devices.
 

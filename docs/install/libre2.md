@@ -5,13 +5,13 @@
 
 ### Libre 2 Direct
 
-This describes how to enable direct Bluetooth connection between the sensor & xDrip+, without the need for a bridge.
+This describes how to enable direct Bluetooth connection between the sensor & xDrip, without the need for a bridge.
 
 #### Prerequisites
 
-The phone on which you installed xDrip+ has an NFC reader.
+The phone on which you installed xDrip has an NFC reader.
 
-If the vendor app is installed on the same phone you're using for xDrip+, **you uninstalled it**.  
+If the vendor app is installed on the same phone you're using for xDrip, **you uninstalled it**.  
 If it is installed on another phone or you're using the Bluetooth reader, you've put these devices far away, or shielded them so that they won't interfere.
 
 #### Setting Up for the first time
@@ -27,15 +27,15 @@ Libre 2 reference documentation is [here](https://www.minimallooper.com/post/how
 </br>
 
 !!!warning  
-    **Uninstall any app connected to the sensor and shield the reader before attempting to connect to xDrip+.**  
-    If you connect your sensor directly to xDrip+ you will permanently lose alarms on the vendor app or reader without possibility to recover.  
+    **Uninstall any app connected to the sensor and shield the reader before attempting to connect to xDrip.**  
+    If you connect your sensor directly to xDrip you will permanently lose alarms on the vendor app or reader without possibility to recover.  
     If you're not sure this will work, use a sensor at end of life to test the system.  
     Like Libre bridges, success and reliability will vary depending on your phone.  
-    Linking your sensor to xDrip+ will void the vendor warranty on the sensor Bluetooth feature.
+    Linking your sensor to xDrip will void the vendor warranty on the sensor Bluetooth feature.
 
-#### Setup xDrip+
+#### Setup xDrip
 
-As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2/2+ direct using xDrip+ [Auto Configure](/use/copysettings/#auto-configure) feature. If you are browsing the documentation from the phone on which you're installing xDrip+, save the pictures first, and then load them in the auto configure "image file" feature.
+As a shortcut, you can scan the QR code shown below to load the settings needed for Libre 2/2+ direct using xDrip [Auto Configure](/use/copysettings/#auto-configure) feature. If you are browsing the documentation from the phone on which you're installing xDrip, save the pictures first, and then load them in the auto configure "image file" feature.
 
 They set **[calibration to off](../../use/misc/#oop2) - recommended for first use**. If instead you want calibration, [follow this](../libre2direct-calib). The full list of imported settings is shown [here](../libre2direct-qr-settings).
 
@@ -60,9 +60,9 @@ Physically insert your Libre 2/2+ sensor and start it using either the reader de
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Stop Sensor  
 
-If you have a previous sensor connected to xDrip+, stop the old sensor.
+If you have a previous sensor connected to xDrip, stop the old sensor.
 
-Scan the sensor with xDrip+ NFC and make sure you see the toast messages "Scanning.." and then  "Scanned OK!".
+Scan the sensor with xDrip NFC and make sure you see the toast messages "Scanning.." and then  "Scanned OK!".
 
 !!!note  
     Hold the phone steady when scanning the sensor and don't move it: it's taking longer than reading the sensor as you usually do with the vendor app.  
@@ -71,15 +71,15 @@ Scan the sensor with xDrip+ NFC and make sure you see the toast messages "Scanni
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Start Sensor  
 
-Start the sensor in xDrip+. When required to enter the time you physically started the sensor, do not put a time earlier than reality to avoid having inconsistent values.
+Start the sensor in xDrip. When required to enter the time you physically started the sensor, do not put a time earlier than reality to avoid having inconsistent values.
 
-Wait 60 seconds and scan again with xDrip+. This adds the sensor as the BT device that xDrip+ will take the readings from. Expect to see NEW SENSOR STARTED notification. If you are set to No Calibration", you should see the first reading immediately. If you have set Calibration, you should then be in the "Collecting Initial Readings" screen.
+Wait 60 seconds and scan again with xDrip. This adds the sensor as the BT device that xDrip will take the readings from. Expect to see NEW SENSOR STARTED notification. If you are set to No Calibration", you should see the first reading immediately. If you have set Calibration, you should then be in the "Collecting Initial Readings" screen.
 You will now need to wait between 3 and 15 minutes for 3 readings to be received, and then you will be taken to the **Calibrate Sensor?** prompt, unless you selected "No calibration" in [OOP2 settings](../../use/misc/#oop2).
-After entering the calibration data, the Libre 2/2+ sensor should be bonded to xDrip+, and should deliver readings every 5 minutes.
+After entering the calibration data, the Libre 2/2+ sensor should be bonded to xDrip, and should deliver readings every 5 minutes.
 
 You can confirm that all is working by comparing to "How it should look" [here](../../troubleshoot/libre2direct/## What it should look like)
 
-If you have trouble getting data directly from the sensor, scan it every 5 minutes with xDrip+ NFC until you reach the calibration request (applies if you selected the [calibration option](../../use/misc/#oop2) with OOP2).
+If you have trouble getting data directly from the sensor, scan it every 5 minutes with xDrip NFC until you reach the calibration request (applies if you selected the [calibration option](../../use/misc/#oop2) with OOP2).
 
 </br>
 

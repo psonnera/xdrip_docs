@@ -4,11 +4,11 @@
 
 </br>
 
-Inter-app settings offers two ways to interface xDrip+ with other apps: local broadcast (internal to this phone) and web service (internal and external).
+Inter-app settings offers two ways to interface xDrip with other apps: local broadcast (internal to this phone) and web service (internal and external).
 
 ### Local Broadcast
 
-Broadcast locally will make xDrip+ send internal messages that can be used by other apps like Nightwatch or AAPS.
+Broadcast locally will make xDrip send internal messages that can be used by other apps like Nightwatch or AAPS.
 
 !!!xdripitem "Broadcast locally <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Enable local broadcast of data so that other apps (e.g.Nightwatch) can listen on new values
@@ -28,14 +28,14 @@ Recent apps/phones should accept compatible broadcast. Do not uncheck.
 !!!xdripitem "Compatible Broadcast <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Send broadcasts without locking the old permission model
 
-You can specify the identified receiver if you want xDrip+ to send messages only to a specific app. One of the most common use is when xDrip+ is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
+You can specify the identified receiver if you want xDrip to send messages only to a specific app. One of the most common use is when xDrip is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
 
 !!!xdripitem "Identify receiver"  
     &ensp;Only send to named package
 
 ##### Receiving from NSClient.
 
-xDrip+ can also receive messages using this feature, you can enable or disable receiving data and treatments from other broadcasting apps.
+xDrip can also receive messages using this feature, you can enable or disable receiving data and treatments from other broadcasting apps.
 
 !!!xdripitem "Accept Glucose <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Process glucose data received from NSClient app
@@ -43,7 +43,7 @@ xDrip+ can also receive messages using this feature, you can enable or disable r
 !!!xdripitem "Accept Treatments <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Process treatment data received from NSClient app
 
-You can enable or disable (**disable for AAPS!!!**) the sound that plays after updating xDrip+ profile.
+You can enable or disable (**disable for AAPS!!!**) the sound that plays after updating xDrip profile.
 
 !!!xdripitem "Import sounds <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Play sounds when importing significant data such as profiles
@@ -225,7 +225,7 @@ This should be the current cumulative rate bpm on the device measuring. Not a hi
 
 ### Broadcast Service API
 
-This service allows broadcast of xDrip+ values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) (enable the feature for WatchDrip+).
+This service allows broadcast of xDrip values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) (enable the feature for WatchDrip+).
 
 !!!xdripitem "Broadcast Service API <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Enable xDrip communication with third-party applications by using new API
@@ -252,7 +252,7 @@ You need [Health Connect](https://play.google.com/store/apps/details?id=com.goog
 
 You can then decide to use incoming and allow outgoing data.
 
-xDrip+ can share steps, heart rate and BG with Google Health.
+xDrip can share steps, heart rate and BG with Google Health.
 
 !!!xdripitem "Get data from Health Connect <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
 

@@ -5,9 +5,9 @@
 
 Many NFC to Bluetooth bridges are available on the market for Libre sensors.
 
-The original project was developed by Joern: [LimiTTer](https://github.com/JoernL/LimiTTer). You need to remember this name as it will appear as the default bridge name when the actual device is not identified. Unless you actually have a LimiTTer (or connect directly a Libre 2), seeing this name means your bridge is not connected to xDrip+.
+The original project was developed by Joern: [LimiTTer](https://github.com/JoernL/LimiTTer). You need to remember this name as it will appear as the default bridge name when the actual device is not identified. Unless you actually have a LimiTTer (or connect directly a Libre 2), seeing this name means your bridge is not connected to xDrip.
 
-xDrip+ supports some of them for some sensors.  
+xDrip supports some of them for some sensors.  
 **Libre H, Libre 2/2+ US/CA/AUS are not supported.**  
 You can use Diabox or Juggluco in [Libre patched app](../libre2patch/) mode.
 
@@ -29,7 +29,7 @@ Here below a compatibility table for supported bridge devices, for compatible se
 
 ## Bridge settings
 
-If you haven't yet, [check xDrip+ will not be put to sleep](../install/#make-sure-xdrip-will-not-be-put-to-sleep).
+If you haven't yet, [check xDrip will not be put to sleep](../install/#make-sure-xdrip-will-not-be-put-to-sleep).
 
 Before trying to connect your bridge verify your settings are correct to avoid frequent disconnections.
 
@@ -139,9 +139,9 @@ Continue to [Start Sensor](../../use/startsensor/#libre)
 
 ## Stop Libre sensor
 
-xDrip+ cannot physically stop a Libre sensor, it will stop running by itself after 14 days and 12 hours and keep showing the last value.
+xDrip cannot physically stop a Libre sensor, it will stop running by itself after 14 days and 12 hours and keep showing the last value.
 
-Still, when changing sensor it is strongly recommended to inform xDrip+ of the change by stopping the sensor.
+Still, when changing sensor it is strongly recommended to inform xDrip of the change by stopping the sensor.
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Stop Sensor  
@@ -154,7 +154,7 @@ Confirm you really want to stop the sensor.
 
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;STOP SENSOR&ensp;</span>
 
-This will reset all calibrations and allow xDrip+ to start a new sensor.
+This will reset all calibrations and allow xDrip to start a new sensor.
 
 </br>
 

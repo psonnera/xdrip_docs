@@ -1,8 +1,8 @@
-xDrip+ provides an easy way to copy settings from one phone to another.
+xDrip provides an easy way to copy settings from one phone to another.
 
 ### Show Settings QR Code
 
-Show settings QR code displays a QR code containing xDrip+ settings.
+Show settings QR code displays a QR code containing xDrip settings.
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show settings QR code
@@ -10,11 +10,11 @@ Show settings QR code displays a QR code containing xDrip+ settings.
 !!!xdrip "Share Settings via QR code"  
     &ensp;Use QR codes to transfer settings->Auto configure feature
 
-xDrip+ security key is used for xDrip+ Sync, if you only want to share a a follower code (that is difficult to copy manually) use this.
+xDrip security key is used for xDrip Sync, if you only want to share a a follower code (that is difficult to copy manually) use this.
 
 !!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;XDRIP PLUS SECURITY KEY SETTINGS ONLY&emsp;</div>"
 
-If you used customization QR codes for this phone xDrip+ (G7, 1+, BlueJay, ...), you can transfer them directly to another phone
+If you used customization QR codes for this phone xDrip (G7, 1+, BlueJay, ...), you can transfer them directly to another phone
 
 !!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;EXPORT KEKS KEY TO ANOTHER PHONE&emsp;</div>"
 
@@ -44,7 +44,7 @@ Make sure you know the origin of the QR code you will scan is safe.
 !!!xdripitem "Camera"  
     &ensp;Scan a QR code with your mobile (recommended)
 
-You need to authorize xDrip+ to access the phone camera.
+You need to authorize xDrip to access the phone camera.
 
 You can then scan the QR code displayed on another phone in order to copy the settings you selected when displaying it as explained [above](#show-settings-qr-code).
 

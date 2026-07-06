@@ -1,9 +1,9 @@
 ---
 name: release-update
-description: Bring xdrip_docs up to date after one or more new xDrip+ pre-releases. Mines commit history from the local xDrip source clone, updates changelog.md, then updates affected doc pages for new/changed/removed features. Use whenever the user says a new xDrip+ release/pre-release has shipped and docs need updating.
+description: Bring xdrip_docs up to date after one or more new xDrip pre-releases. Mines commit history from the local xDrip source clone, updates changelog.md, then updates affected doc pages for new/changed/removed features. Use whenever the user says a new xDrip release/pre-release has shipped and docs need updating.
 ---
 
-# xDrip+ release → docs update routine
+# xDrip release → docs update routine
 
 Repeatable procedure for syncing this docs site after new upstream releases at
 `https://github.com/NightscoutFoundation/xDrip`. Follow it end to end unless the user asks

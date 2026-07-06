@@ -15,23 +15,23 @@ Many items can be added to this menu, by default you'll find the following ones:
 [**Settings**](../settings/) opens the settings menu.
 
 Additionally it can show more entries if you add items or when you use a sensor:  
-You will see sensor actions if you use xDrip+ directly connected to a sensor, also on xDrip+ Sync follower if the master is.
+You will see sensor actions if you use xDrip directly connected to a sensor, also on xDrip Sync follower if the master is.
 
 **[Start Sensor](../startsensor)** or **[Stop Sensor](../stopsensor)** refer to your [sensor](../../install/datasource/#sensor-selection) relative section before using these functions.
 
 !!!warning  
-    xDrip+ Sync follower can transmit Start or Stop sensor (if supported by the sensor) and calibrations, remotely.  
-    Be extremely careful when using these features on a follower if the master xDrip+ accepts follower actions.
+    xDrip Sync follower can transmit Start or Stop sensor (if supported by the sensor) and calibrations, remotely.  
+    Be extremely careful when using these features on a follower if the master xDrip accepts follower actions.
 
 For Bluetooth bridges ([Libre](../../install/libreBT/)) you will also see **Scan Bluetooth**.
 
 **Level Alerts** will show if enabled in [Alerts and Alarms](../alarms/#glucose-level-alert-list).
 
-**BG Data Table**, **Calibration Graph** and **Calibration Data Table** should be manually [added](../lesscommon) if you use [xDrip+ calibration algorithm](../../calibrate/calibrate/#native-and-xdrip-algorithms).
+**BG Data Table**, **Calibration Graph** and **Calibration Data Table** should be manually [added](../lesscommon) if you use [xDrip calibration algorithm](../../calibrate/calibrate/#native-and-xdrip-algorithms).
 
 ### History
 
-When xDrip+ has been in use for some time, history allows you to browse old data.
+When xDrip has been in use for some time, history allows you to browse old data.
 
 !!!xdripitem "History"  
 

@@ -3,7 +3,7 @@
     &emsp;Hardware Data Source  
     &ensp;&emsp;Companion App
 
-If you're using the vendor app, you can have xDrip+ get sensor data from it.
+If you're using the vendor app, you can have xDrip get sensor data from it.
 
 This feature is available for:
 
@@ -22,11 +22,11 @@ This feature is available for:
 - Glucotech app
 - SiSensing Eco (China) app
 
-For the Omnipod 5 and MiniMed Mobile (EU) apps, xDrip+ also reads Insulin on Board (IoB) from the companion app notification when available.
+For the Omnipod 5 and MiniMed Mobile (EU) apps, xDrip also reads Insulin on Board (IoB) from the companion app notification when available.
 
-In order to use this feature you **must** authorize xDrip+ to access notifications.
+In order to use this feature you **must** authorize xDrip to access notifications.
 
-xDrip+ will not use this access for any other purpose than reading the glucose value from notifications.
+xDrip will not use this access for any other purpose than reading the glucose value from notifications.
 
 !!!xdripitem "Please allow permission"  
       
@@ -57,7 +57,7 @@ If you cannot allow notification access, check the three dots menu in the app se
 
 </br>
 
-You will get data in xDrip+ when available in the app and notifications from the app are visible on the phone.
+You will get data in xDrip when available in the app and notifications from the app are visible on the phone.
 
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 

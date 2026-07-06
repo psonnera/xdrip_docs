@@ -1,4 +1,4 @@
-Starting a sensor in xDrip+ has very different functions depending on the sensor itself.
+Starting a sensor in xDrip has very different functions depending on the sensor itself.
 
 ### G6 and 1
 
@@ -6,19 +6,19 @@ Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-c
 
 ### G7 and 1+
 
-The sensor will start automatically at the time it is inserted. You don't need to start it in xDrip+.
+The sensor will start automatically at the time it is inserted. You don't need to start it in xDrip.
 
 </br>
 
 ### Libre
 
-Note - this section does NOT apply to Libre 2/2+ (EU) connecting to xDrip+ without a bridge. For these, see the instructions for [Libre 2 Direct](../../install/libre2#starting-libre-2-sensors)
+Note - this section does NOT apply to Libre 2/2+ (EU) connecting to xDrip without a bridge. For these, see the instructions for [Libre 2 Direct](../../install/libre2#starting-libre-2-sensors)
 
-xDrip+ is not able to start a Libre sensor, neither is it to stop one (actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours).
+xDrip is not able to start a Libre sensor, neither is it to stop one (actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours).
 
 In order to start your sensor you need to use the vendor reader or app, some other third party apps like Glimp-S and eDropletNFC can start the Libre 1 sensor. Juggluco can start Libre 2 and 3 sensors.
 
-xDrip+ sensor start is only used to track lifetime and make sure calibrations are updated. This operation is necessary and recommended each time you replace your sensor.
+xDrip sensor start is only used to track lifetime and make sure calibrations are updated. This operation is necessary and recommended each time you replace your sensor.
 
 </br>
 
@@ -50,7 +50,7 @@ Drag the minutes blue pointer to the correct time and tap `OK`.
 The newly started sensor will continue its warm-up if started from less than one hour.
 
 !!!warning  
-    **Even if xDrip+ will attempt reading a sensor during its warm-up phase, values can range from unreliable to inconsistent and should not be used.**
+    **Even if xDrip will attempt reading a sensor during its warm-up phase, values can range from unreliable to inconsistent and should not be used.**
 
 <img src="../../install/images/LibreWarmup.png" style="zoom:70%;" />
 
@@ -64,7 +64,7 @@ If you see a purple arrow you might have made a mistake in the date and time the
 
 </br>
 
-xDrip+ will now wait for readings and update the progress. Stay on this screen. Every reading is done 5 minutes apart so it should take less than 20 minutes.
+xDrip will now wait for readings and update the progress. Stay on this screen. Every reading is done 5 minutes apart so it should take less than 20 minutes.
 
 !!!xdripitem "Collecting Initial Readings"  
     &ensp;✔ Data collector running  
@@ -105,13 +105,13 @@ Your BG should start displaying on the main graph.
 
 ### Followers and companion apps
 
-It it sometimes necessary to "start" a sensor session in xDrip+ to get readings.
+It it sometimes necessary to "start" a sensor session in xDrip to get readings.
 
-Starting or stopping a sensor in xDrip+, when using a follower or companion source doesn't have any impact on the sensor.
+Starting or stopping a sensor in xDrip, when using a follower or companion source doesn't have any impact on the sensor.
 
 !!!warning  
-    The only exception is [xDrip+ Sync follower that might transmit the Start or Stop command to the actual sensor if it is directly connected to xDrip+ acting as master](../sync/#accept-followers-actions).  
-    Do not use Start and Stop sensor with xDrip+ Sync follower unless you know the person with the master xDrip+ phone will know what to do with a stopped sensor!
+    The only exception is [xDrip Sync follower that might transmit the Start or Stop command to the actual sensor if it is directly connected to xDrip acting as master](../sync/#accept-followers-actions).  
+    Do not use Start and Stop sensor with xDrip Sync follower unless you know the person with the master xDrip phone will know what to do with a stopped sensor!
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &emsp;Start sensor 
@@ -130,7 +130,7 @@ Answer NOT TODAY
     
     <span style="color: cyan; float: right;">NOT TODAY&emsp;&emsp;YES TODAY&emsp;</span>
 
-xDrip+ should pick-up readings with the next measurement.
+xDrip should pick-up readings with the next measurement.
 
 <br>
 

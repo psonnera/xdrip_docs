@@ -1,4 +1,4 @@
-Stopping a sensor in xDrip+ has very different functions depending on the sensor itself.
+Stopping a sensor in xDrip has very different functions depending on the sensor itself.
 
 ### G6 and 1
 
@@ -12,9 +12,9 @@ These sensors stop by themselves after 10 days and 12 hours.
 
 ### Libre
 
-xDrip+ is not able to stop a Libre sensor, actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours.
+xDrip is not able to stop a Libre sensor, actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours.
 
-xDrip+ sensor stop is only used to invalidate previous calibrations. This operation is necessary and recommended each time you replace your sensor.
+xDrip sensor stop is only used to invalidate previous calibrations. This operation is necessary and recommended each time you replace your sensor.
 
 </br>
 
@@ -39,7 +39,7 @@ Confirm you want to stop the sensor.
 
      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NO &emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span>
 
-If you change your mind and the sensor didn't expire yet, you can always ["restart"](../startsensor/#libre) it, il will resume the current session and eventually ask for a new calibration. xDrip+ doesn't physically restart Libre sensors.
+If you change your mind and the sensor didn't expire yet, you can always ["restart"](../startsensor/#libre) it, il will resume the current session and eventually ask for a new calibration. xDrip doesn't physically restart Libre sensors.
 
 </br>
 
@@ -48,8 +48,8 @@ If you change your mind and the sensor didn't expire yet, you can always ["resta
 There is no interest in stopping a sensor when using a follower app.
 
 !!!warning  
-    The only exception is [xDrip+ Sync follower that might transmit the Start or Stop command to the actual sensor if it is directly connected to xDrip+ acting as master](../sync/#accept-followers-actions).  
-    Do not use Start and Stop sensor with xDrip+ Sync follower unless you know the person with the master xDrip+ phone will know what to do with a stopped sensor!
+    The only exception is [xDrip Sync follower that might transmit the Start or Stop command to the actual sensor if it is directly connected to xDrip acting as master](../sync/#accept-followers-actions).  
+    Do not use Start and Stop sensor with xDrip Sync follower unless you know the person with the master xDrip phone will know what to do with a stopped sensor!
 
 <br>
 

@@ -23,7 +23,7 @@ You will find all options in this view.
 <div style="background-color: gray; color: white; text-align: center;">  &emsp;Save all settings to the settings file&emsp;</div> 
 
 Your settings will be saved in `/storage/emulated/0/Download/xDrip-Export` for old versions (export to SD) or in the `Download/xDrip-export` folder for recent versions   
-You need to authorize xDrip+ to access your phone memory.  
+You need to authorize xDrip to access your phone memory.  
 
 !!!warning "Existing backup file will be overwritten"
 

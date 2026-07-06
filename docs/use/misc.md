@@ -8,7 +8,7 @@ If they are hidden here it's probably because you won't need to change them ever
 
 ##### Run collector in foreground
 
-Mandatory to keep xDrip+ from being put to sleep by Android.  
+Mandatory to keep xDrip from being put to sleep by Android.  
 This will force displaying a graph in the notifications area, **you shouldn't disable it**.
 
 !!!xdripitem "Run collector in foreground <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
@@ -31,7 +31,7 @@ You will be reminded monthly engineering mode is on. Make sure you really need i
 
 ##### Battery Optimization Prompt 
 
-Should be left **disabled**. xDrip+ needs [whitelisting](../../install/install/#authorize-background-activity) and shouldn't be subject to optimization. 
+Should be left **disabled**. xDrip needs [whitelisting](../../install/install/#authorize-background-activity) and shouldn't be subject to optimization. 
 
 !!!xdripitem "Battery Optimization prompt <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;On Android 6+ ensure battery optimization is switched off (recommended)
@@ -48,7 +48,7 @@ Should be kept **enabled**.
 !!!xdripitem "Wake workarounds <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Use workarounds to avoid non-standard Android behavior of some handsets. Without this, collectors usually fail to get data.
 
-Use Excessive Wakelocks is not required. They are additional "wake-up" messages sent by xDrip+ to your Android device to prevent it to go in sleep mode. 
+Use Excessive Wakelocks is not required. They are additional "wake-up" messages sent by xDrip to your Android device to prevent it to go in sleep mode. 
 
 !!!xdripitem "Use Excessive Wakelocks <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     Older gratuitous wakelocks which can drain extra battery but might be needed for Nightwatch or Android Wear.
@@ -66,7 +66,7 @@ Proper Ongoing is mandatory for devices with Android 8 and above.
 ##### Out of Process Algorithm
 
 [Out Of Process Algorithm](../OOP) enables the integration of an external plugin to give vendor like BG values for Libre sensors or provide decoding of the Libre 2 EU sensor information.  
-If the external app doesn't exist on your phone or doesn't provide the information, xDrip+ will not display BG.
+If the external app doesn't exist on your phone or doesn't provide the information, xDrip will not display BG.
 
 !!!warning  
     This option should only be enabled if using an Out Of Process algorithm version 1 (OOP1).  
@@ -85,8 +85,8 @@ OOP2 is mandatory to handle data from Libre 14 days US, Libre 2/2+ EU.
 You can use OOP2 in different ways:
 
 - No calibration generates vendor like values (native mode) without the need of calibrating. It doesn't mean that results are not calibrated (raw) but a vendor-like algorithm is applied (like the Libre 1 reader). **Recommended** to start with.
-- Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1. You will use the xDrip+ calibration algorithm.
-- Calibrate based on glucose allows you to apply xDrip+ calibration to native values. Raw data are transformed using the vendor-like algorithm, then fed to the xDrip+ calibration algorithm.
+- Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1. You will use the xDrip calibration algorithm.
+- Calibrate based on glucose allows you to apply xDrip calibration to native values. Raw data are transformed using the vendor-like algorithm, then fed to the xDrip calibration algorithm.
 
 !!!xdripitem "OOP2 algorithm calibration"  
     &emsp;No calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;●  
@@ -104,7 +104,7 @@ Retrieve Libre History is required for BluCon bridges. Other bridges perform bac
 !!!xdripitem "Retrieve Libre History <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     Retrieve missing history from Blucon device when reconnecting to the sensor.
 
-Libre one minute display is still under development. xDrip+ displays BG values every 5 minutes.
+Libre one minute display is still under development. xDrip displays BG values every 5 minutes.
 
 !!!xdripitem "Libre one minute <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
 

@@ -2,11 +2,11 @@
 
 </br>
 
-## What is xDrip+?
+## What is xDrip?
 
 ![](./images/ecosystem.png)
 
-xDrip+ is an unofficial and independent Android app which works as data hub and processor between many different devices.
+xDrip is an unofficial and independent Android app which works as data hub and processor between many different devices.
 
 It supports wireless connections to G6, One, One+, G7, Stelo, CareSens Air, Libre via NFC and Bluetooth, Aidex, Guardian, Simplera, Medtronic pumps, Eversense CGM, Libre 2 and 3, Sibionics via companion apps, as well as many other CGM/pump vendor apps (Pasta, iCan, CamAPS, Equil G, Vitatok, Glucotech, SiSensing, and more) via the companion app notification reader. Bluetooth Glucose Meters such as the Contour Next One, AccuChek Guide, Verio Flex & Diamond Mini as well as devices like the Pendiq 2.0 Insulin Pen.
 
@@ -30,7 +30,7 @@ Your data is yours and can be exported in many different ways. xDrip also interc
 
 [DexDrip](https://github.com/StephenBlackWasAlreadyTaken/DexDrip)  was created by Emma Black in 2014 and then became [xDrip](http://stephenblackwasalreadytaken.github.io/xDrip/), an app collecting CGM data from a G4 receiver or a bridge device and sending them to [Nightscout](https://nightscout.github.io/).  It also came with the follower app [Nightwatch](http://stephenblackwasalreadytaken.github.io/NightWatch/) (obsolete).
 
-This project was then modified by @jamorham to become [xDrip+](https://jamorham.github.io/#xdrip-plus).
+This project was then modified by @jamorham to become [xDrip](https://jamorham.github.io/#xdrip-plus).
 
 > *Personal research version of xDrip*
 
@@ -40,7 +40,7 @@ This project was then modified by @jamorham to become [xDrip+](https://jamorham.
 
 ## **Disclaimer And Warning**
 
-- **Use xDrip+ at your own risk, and do not use the information or code to make medical decisions.**
+- **Use xDrip at your own risk, and do not use the information or code to make medical decisions.**
 - Use of [code from github.com](https://github.com/NightscoutFoundation/xDrip) is without warranty or formal support of any kind. Please review the repository’s [LICENSE](https://github.com/NightscoutFoundation/xDrip/blob/master/LICENSE) for details.
 - All product and company names, trademarks, service marks, registered trademarks, and registered service marks are the property of their respective holders.
 

@@ -3,7 +3,7 @@
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_cloud_upload_grey600_48dp.png" style="width:5%;" />&ensp;Cloud Upload
 
 Cloud upload allows you to upload your BG to various cloud services or databases.  
-This can be used to share data with non-xDrip+ devices and for reporting. 
+This can be used to share data with non-xDrip devices and for reporting. 
 
 ### Nightscout Sync (REST-API)
 
@@ -12,7 +12,7 @@ This can be used to share data with non-xDrip+ devices and for reporting.
 
 [Nightscout](https://nightscout.github.io/) is the universal method to share your BG numbers, create reports and much more...
 
-After you created your Nightscout site, enable Sync to upload data from xDrip+.
+After you created your Nightscout site, enable Sync to upload data from xDrip.
 
 !!!xdripitem "Enable<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;The REST-API is the standard way to connect to Nightscout  
@@ -22,7 +22,7 @@ If you want to use Nightscout to share your BG, make sure this is enabled if you
 !!!xdripitem "Use mobile data<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Upload even when using mobile data  
 
-If you use filters or calibration plugins, you can select this to send to Nightscout the data as displayed by xDrip+ instead of uncalibrated/unfiltered data.
+If you use filters or calibration plugins, you can select this to send to Nightscout the data as displayed by xDrip instead of uncalibrated/unfiltered data.
 
 !!!xdripitem "Send display glucose<span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Use noise smoothing and plugins etc. (if enabled) for broadcasted value 
@@ -46,7 +46,7 @@ Alternatively you can use an admin [token](https://nightscout.github.io/nightsco
 Contact the vendor if you use a hosted service.
 
 !!!info "Multiple sites"  
-    In the case you have more than one Nightscout site, xDrip+ can upload to multiple **space separated** Nightscout URLs.  
+    In the case you have more than one Nightscout site, xDrip can upload to multiple **space separated** Nightscout URLs.  
     ***Only BG values will upload to the secondary URL(s), not treatments***
 
 In the case you have several devices uploading to Nightscout (not recommended) you might want to also download treatments from Nightscout to see the information that was uploaded by others.
@@ -92,7 +92,7 @@ You can setup an alert when upload fails, and add more information to the BG dat
 
 ##### Backfill data to Nightscout
 
-If you recently created a Nightscout site and want to upload your historical data from xDrip+ database, you can use back-fill.
+If you recently created a Nightscout site and want to upload your historical data from xDrip database, you can use back-fill.
 
 !!!xdripitem "Back-fill data"  
     &ensp;Send treatment data to Nightscout. Uncheck if your careportal is broken
@@ -150,7 +150,7 @@ Mind your InfluxDB URI will be expressed like:
     You should create a [dependent account](https://www.dexcom.com/faqs/how-do-i-create-a-dependent-account) to have a text only username.  
     Once created the new dependent account, make sure you're logged with this account in your Dexcom apps and recreate all followers.
 
-Once you have an active follower, created by the Dexcom apps, you can use xDrip+ to upload to Dexcom Share.
+Once you have an active follower, created by the Dexcom apps, you can use xDrip to upload to Dexcom Share.
 
 !!!xdripitem "Dex Share"  
     &ensp;Upload data to Dex share servers
@@ -179,7 +179,7 @@ Enter the credentials you use to log into Clarity.
     &ensp;Upload data to the Tidepool service
 
 If you have a [Tidepool](https://www.tidepool.org/) account, you can upload automatically your data and share with your endocrinologist.  
-If xDrip+ can display [basal information from an external status](../use/display/#basal-information), it will also be uploaded to Tidepool.
+If xDrip can display [basal information from an external status](../use/display/#basal-information), it will also be uploaded to Tidepool.
 
 !!!xdripitem "Sync to Tidepool<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"
 
@@ -211,7 +211,7 @@ You can select to upload at specific conditions to save battery and data costs.
 !!!xdripitem "Only on Wifi<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     Upload data only when connected to an unmetered network like Wifi
 
-If you also upload data manually from your pump, you might want to disable xDrip+ treatments upload to avoid duplicates.
+If you also upload data manually from your pump, you might want to disable xDrip treatments upload to avoid duplicates.
 
 !!!xdripitem "Don't upload treatments<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     Upload only CGM data to avoid duplicates with manual pump upload

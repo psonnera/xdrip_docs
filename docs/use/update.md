@@ -1,35 +1,35 @@
-You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
+You can update xDrip by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
 
-You can also use xDrip+ internal update mechanism.
+You can also use xDrip internal update mechanism.
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Update Settings
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Update Settings
 
-Update settings allows you to choose between various xDrip+ versions update.
+Update settings allows you to choose between various xDrip versions update.
 
 !!!warning "DO NOT UNINSTALL xDRIP+"  
-    You can upgrade and downgrade xDrip+ just installing a newer or an older version on top of the current one.  
-    Uninstalling xDrip+ might lead to complete and unrecoverable data loss if you don't [backup](../../troubleshoot/reinstall/#reinstall-xdrip).
+    You can upgrade and downgrade xDrip just installing a newer or an older version on top of the current one.  
+    Uninstalling xDrip might lead to complete and unrecoverable data loss if you don't [backup](../../troubleshoot/reinstall/#reinstall-xdrip).
 
-Only xDrip+ official versions can use this feature.  
+Only xDrip official versions can use this feature.  
 If you installed a [forked version](../../install/download/#forked-versions), only the author can provide upgrades. 
 
 !!!note  
-    Updating xDrip+ is completely transparent and will not require any specific actions on your current sensor.  
+    Updating xDrip is completely transparent and will not require any specific actions on your current sensor.  
     Your settings will be maintained unless a serious modification was made on a specific setting.  
-    As a precaution it's better to keep xDrip+ monitored if you selected an alpha or nightly release.
+    As a precaution it's better to keep xDrip monitored if you selected an alpha or nightly release.
 
 You should enable automatic update check.
 
 !!!xdripitem "Automatic update check <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Get notified of new apk releases  
 
-If you leave it disabled xDrip+ will remind you to update every 60 days.
+If you leave it disabled xDrip will remind you to update every 60 days.
 
 !!!xdripitem "Hey fam..."  
     &ensp;You have update checks switched off!  
-    &ensp;We try to fix bug and add xDrip+ features over time.  
+    &ensp;We try to fix bug and add xDrip features over time.  
     &ensp;Every 60 days this reminder will appear to ask you to turn update checking on.  
 
 There are four update channels:
@@ -73,9 +73,9 @@ Feedback in not used anymore. Only use it for compliments.
 
 ### Update
 
-You can update xDrip+ by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
+You can update xDrip by installing another version on top of the current one without uninstalling it, the same way you originally [installed](../../install/download) it.
 
-You can also use xDrip+ internal update mechanism.
+You can also use xDrip internal update mechanism.
 
 Update available notifications will trigger based on your channel selection.  
 You can manually request a check if you disabled automatic update check using the [3 dots menu](../3dotsmenu/#check-for-updated-version).
@@ -103,7 +103,7 @@ Once upgraded you can verify the current version in [system status](../../troubl
 
 ### Downgrade
 
-You don't need to uninstall xDrip+ to return to an older version (unless [switching from official to forked version](../../troubleshoot/reinstall/) and the other way round): just install the version you want on top of the current one [like you did at first install](../../install/download/).
+You don't need to uninstall xDrip to return to an older version (unless [switching from official to forked version](../../troubleshoot/reinstall/) and the other way round): just install the version you want on top of the current one [like you did at first install](../../install/download/).
 
 </br>
 

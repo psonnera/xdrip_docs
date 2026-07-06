@@ -2,7 +2,7 @@
     &ensp;Settings  
     &emsp;&ensp;Less Common settings
 
-More xDrip+ settings are available in less common settings.  
+More xDrip settings are available in less common settings.  
 If you can't find the setting you're looking for, keep in mind you can use the search lens from the main [settings](../settings) menu.
 
 ### Extra Status Line
@@ -139,7 +139,7 @@ Enabling this provokes a [collector restart](../../troubleshoot/systemstatus/#re
 Display data when not available on the Dexcom receiver.
 
 !!!xdripitem "Interpret raw values <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;If using share, xDrip+ will display values when they are normally hidden on the receiver
+    &ensp;If using share, xDrip will display values when they are normally hidden on the receiver
 
 ### Extra Logging Settings
 
@@ -155,13 +155,13 @@ Adding extra tags is useful for debugging as it will add specific traces in the 
 
 !!!xdripitem "Extra tags for logging"  
 
-You need to know what you want to debug and set the correct level. Make sure to put valid tags to avoid xDrip+ crashing.
+You need to know what you want to debug and set the correct level. Make sure to put valid tags to avoid xDrip crashing.
 
 <img src="../images/M-S-LCS9c.png" style="zoom:75%;" />
 
 ### Show Data tables
 
-This feature is extremely useful if you calibrate using the xDrip+ algorithm (non native).  
+This feature is extremely useful if you calibrate using the xDrip algorithm (non native).  
 It will add two entries in the drawer menu for visualization of calibration and data tables.
 
 !!!xdripitem "Show Data tables <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
@@ -198,7 +198,7 @@ Database exports will be saved in the same folder than manual exports:  `/storag
 #### Glucose retention
 
 Glucose retention will automatically delete data older than the number of days selected.  
-Zero means don't delete anything (recommended). You can use 90 days if you use a cloud backup like Nightscout, so that you will still have all statistics available in xDrip+.
+Zero means don't delete anything (recommended). You can use 90 days if you use a cloud backup like Nightscout, so that you will still have all statistics available in xDrip.
 
 !!!xdripitem "Glucose retention"  
     &ensp;Erase data older than this many days. 0 = don't erase anything.

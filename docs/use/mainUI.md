@@ -1,23 +1,23 @@
 ### Meet the user interface
 
-Welcome to xDrip+!
+Welcome to xDrip!
 
 <img src="../images/UI-basic.png" style="zoom:50%;" />
 
-If you've just setup xDrip+ you want to start with basic customizations:
+If you've just setup xDrip you want to start with basic customizations:
 
 1. [Setup the unit you want to display your blood glucose with](../settings)
 2. [Add alarms](../alarms)
-3. If you're connecting xDrip+ to a sensor, [share data to another phone with xDrip+](../syncsetup)
-4. Display xDrip+ on the phone when [screen is locked](../display/#numbered-wall-on-locked-screen)
+3. If you're connecting xDrip to a sensor, [share data to another phone with xDrip](../syncsetup)
+4. Display xDrip on the phone when [screen is locked](../display/#numbered-wall-on-locked-screen)
 5. Add a [widget](#widget) to your phone home screen
 6. Add a [smartwatch](../../smartwatch/smartwatch)
-7. Share data with your endocrinologist using [Tidepool](https://www.tidepool.org/), if you have a Tidepool account, just [setup xDrip+](../cloud/#tidepool)
+7. Share data with your endocrinologist using [Tidepool](https://www.tidepool.org/), if you have a Tidepool account, just [setup xDrip](../cloud/#tidepool)
 8. Upload your data to [Nightscout](https://nightscout.github.io/) (recommended)
 
 ### Basic indications
 
-You will see these default indications when xDrip+ receives data.
+You will see these default indications when xDrip receives data.
 
 <img src="../images/UI-indications.png" style="zoom:75%;" />
 
@@ -56,7 +56,7 @@ Add one or more elements to your treatment.
 
 #### Blood test
 
-It will display in the unit selected in xDrip+.
+It will display in the unit selected in xDrip.
 
 <img src="../images/UI-Treat1.png" style="zoom:75%;" />
 
@@ -230,7 +230,7 @@ This menu contains some shortcuts to settings and other unique functions.
 ### Widget
 
 If your phone supports widgets, long touch an empty area on your home screen and select widgets.  
-Browse the apps until you find xDrip+. 
+Browse the apps until you find xDrip. 
 
 <img src="../images/Widget1.png" style="zoom:75%;" />
 
@@ -248,7 +248,7 @@ And make it the size you like. Then you can customize colors and contents aspect
 
 ### Screensaver
 
-If your phone supports this feature you can enable xDrip+ as screensaver in Android Settings.
+If your phone supports this feature you can enable xDrip as screensaver in Android Settings.
 
 <img src="../images/ScreenSaver1.png" style="zoom:75%;" />
 

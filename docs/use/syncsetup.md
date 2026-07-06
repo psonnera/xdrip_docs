@@ -1,13 +1,13 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings
 
-!!!warning "Old xDrip+ Sync"  
-    In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip+ used for xDrip+ Sync.  
-    Update xDrip+ to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
-    Updating xDrip+ to minimum latest release is recommended.
+!!!warning "Old xDrip Sync"  
+    In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip used for xDrip Sync.  
+    Update xDrip to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
+    Updating xDrip to minimum latest release is recommended.
 
-xDrip+ provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
+xDrip provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
 
 </br>
 
@@ -18,8 +18,8 @@ xDrip+ provides a unique real time sync mechanism between Android devices making
 !!!warning  
     [Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
 
-xDrip+ master phone is the device that is actually getting directly glucose readings from a sensor, a bridge, an app.  
-Having a follower device being xDrip+ sync master adds little value unless the follower device can't use the same data source.
+xDrip master phone is the device that is actually getting directly glucose readings from a sensor, a bridge, an app.  
+Having a follower device being xDrip sync master adds little value unless the follower device can't use the same data source.
 
 Your master should receive data reliably. Always troubleshoot the master first if you don't have data on your follower.
 
@@ -29,7 +29,7 @@ Make the primary data source phone master (enable checkbox):
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
     
 
     &emsp;&emsp;&emsp;&emsp;**Be Master for Followers <span class='symbol' style="float: right;"><img src="../../images/EN.png" style="zoom:75%;" />&emsp;&emsp;</span>**
@@ -58,7 +58,7 @@ Take a screenshot of the QR code and send it it the follower phone (MMS, WhatsAp
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
     
     &emsp;&emsp;&emsp;&emsp;**Handset Group Security Sync Key**
 
@@ -72,7 +72,7 @@ Make all other phones followers (disable checkbox):
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
     
 
     &emsp;&emsp;&emsp;&emsp;**Be Master for Followers <span class='symbol' style="float: right;"><img src="../../images/DIS.png" style="zoom:75%;" />&emsp;&emsp;</span>**
@@ -83,7 +83,7 @@ Make all other phones followers (disable checkbox):
     Master and followers. Either it is ON for all, or OFF for all.
 
 !!!xdripitem "Use xDrip Cloud"  
-    &ensp;Use the new xDrip+ cloud servers. Master and follower must have this setting set the same.  
+    &ensp;Use the new xDrip cloud servers. Master and follower must have this setting set the same.  
 
 ### Copy the Sync Key from the master
 
@@ -94,7 +94,7 @@ Make all other phones followers (disable checkbox):
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure  
     &emsp;&emsp;&emsp;Camera
 
-You need to authorize xDrip+ to access the phone camera.  
+You need to authorize xDrip to access the phone camera.  
 Scan the QR code displayed on your master phone.
 
 <img src="../../use/images/M-S-ACS.png" style="zoom:75%;" />
@@ -138,7 +138,7 @@ Edit the key field and type **exactly** the same key than the master.
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip+ Sync Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
     
     &emsp;&emsp;&emsp;&emsp;**Handset Group Security Sync Key**
 

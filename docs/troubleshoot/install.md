@@ -12,7 +12,7 @@ Open a file explorer and look into the Downloads folder of your phone internal s
 
 </br>
 
-## When I touch the xDrip+ .apk it opens a file list
+## When I touch the xDrip .apk it opens a file list
 
 If the xDrip-plus file ends with .zip, rename it to .apk and retry.
 
@@ -26,7 +26,7 @@ If there's no way to open it with the installer package try with an [APK install
 
 In Android settings -> [Security settings](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources) you need to allow the app you're using to open the downloaded file to install files from unknown sources, if available select only this time.
 
-Below the example for Chrome, you might be using another app to open the xDrip+ .apk file.
+Below the example for Chrome, you might be using another app to open the xDrip .apk file.
 
 <img src="../images/Install20.png" style="zoom:75%;" />
 
@@ -36,7 +36,7 @@ Below the example for Chrome, you might be using another app to open the xDrip+ 
 
 <img src="../images/Install23.png" style="zoom:75%;" />
 
-Make sure you don't have a different version of xDrip+ installed: you can update or downgrade only apps from the same developer. If necessary [reinstall](../reinstall) xDrip+ to switch from the official version to a forked version (and vice versa).
+Make sure you don't have a different version of xDrip installed: you can update or downgrade only apps from the same developer. If necessary [reinstall](../reinstall) xDrip to switch from the official version to a forked version (and vice versa).
 
 </br>
 
@@ -48,29 +48,29 @@ Ignore it with More details then, Install anyway.
 
 </br>
 
-## xDrip+ needs background location
+## xDrip needs background location
 
 <img src="../images/Install21.png" style="zoom:60%;" />
 
-If you want xDrip+ to connect to a Bluetooth device it needs to have permanent [access to location](../../install/prerequisites/#enable-location).
+If you want xDrip to connect to a Bluetooth device it needs to have permanent [access to location](../../install/prerequisites/#enable-location).
 
-For newer Android versions go to Android Settings -> Location -> Apps -> xDrip+ or Android Settings -> Apps -> xDrip+ -> Location and check Allow all the time is enabled.
+For newer Android versions go to Android Settings -> Location -> Apps -> xDrip or Android Settings -> Apps -> xDrip -> Location and check Allow all the time is enabled.
 
 <img src="../../install/images/Install17.png" style="zoom:80%;" />
 
 </br>
 
-## xDrip+ needs battery optimization whitelisting
+## xDrip needs battery optimization whitelisting
 
 <img src="../images/Install22.png" style="zoom:60%;" />
 
-xDrip+ should not be optimized at all.
+xDrip should not be optimized at all.
 
-This setting location will vary from brand to brand and Android version, you will usually find it in Android Settings -> Apps -> xDrip+ -> Battery
+This setting location will vary from brand to brand and Android version, you will usually find it in Android Settings -> Apps -> xDrip -> Battery
 
 <img src="../images/Install22b.png" style="zoom:100%;" />
 
-You might need to reboot your phone to apply these changes. If the warning message remains, make sure you are using a recent xDrip+ version: update it if necessary.
+You might need to reboot your phone to apply these changes. If the warning message remains, make sure you are using a recent xDrip version: update it if necessary.
 
 </br>
 

@@ -1,6 +1,6 @@
 # Libre2 Direct
 
-Libre2 (EU only) can connect directly to xDrip+ without a bridge. This page gives information on what a working system should look like.
+Libre2 (EU only) can connect directly to xDrip without a bridge. This page gives information on what a working system should look like.
 
 See here to [learn how to set it up...](../../install/libre2/#prerequisites)
 
@@ -9,14 +9,14 @@ See here to [learn how to set it up...](../../install/libre2/#prerequisites)
 When it has been set up correctly, and a new sensor is running, the xDrip status pages & logs should appear as is shown below. Note - there is nothing different on the Uploaders tab for Libre 2 direct operation.
 
 
-Go to xDrip+ System Status and also BT device. If you don't know how, look [here](../systemstatus) first.
+Go to xDrip System Status and also BT device. If you don't know how, look [here](../systemstatus) first.
 
 ## Classic Status Page
 
 <img src="../images/classic-status-connected.png" style="zoom:40%;" />
 
 ### Version
-Will vary with your xDrip+ version
+Will vary with your xDrip version
 
 ### Data Source
 This should show as LimiTTer. Whilst mis-leading, this is normal behaviour.
@@ -31,7 +31,7 @@ This should be "connected".
 The time the sensor is started.
 
 ### Restart Collector button
-This stops the collector function in xDrip+ and then starts it from scratch (includes Bluetooth connection
+This stops the collector function in xDrip and then starts it from scratch (includes Bluetooth connection
  to the device that was stopped)
 
 ### Forget Device button
@@ -71,7 +71,7 @@ If you tap it by mistake, tap it again until it returns to disabled.
 
 ### Slowest wake up
 
-You can ignore this. xDrip+ doesn't spend its time waiting for readings: it will start expecting them at after a certain time (traditionally 5 minutes). If no data arrives at that time, you'll see "Woke up early" meaning xDrip+ was expecting data to be ready but there's none. Slowest wake up is the highest delay encountered before receiving data normally.
+You can ignore this. xDrip doesn't spend its time waiting for readings: it will start expecting them at after a certain time (traditionally 5 minutes). If no data arrives at that time, you'll see "Woke up early" meaning xDrip was expecting data to be ready but there's none. Slowest wake up is the highest delay encountered before receiving data normally.
 
 ### Next Wake up
 
@@ -97,7 +97,7 @@ The reading should be every minute, although some might have skipped, as has hap
 </br>
 
 ## Cannot NFC Scan new sensor - NFC Timeout
-There is an emerging problem, especially in Europe, where you cannot start the sensor with an NFC scan. Instead of the "Scanned OK" message after "Scanning", you will see "NFC TimeOut" or "NFC failsafe". Look in the debug logs. If you see a message "Sensor type unknown, returning libre1 as failsafe", or "Libre sensor of type Libre1 detected", then you need to update both OOP2 & xDrip+.
+There is an emerging problem, especially in Europe, where you cannot start the sensor with an NFC scan. Instead of the "Scanned OK" message after "Scanning", you will see "NFC TimeOut" or "NFC failsafe". Look in the debug logs. If you see a message "Sensor type unknown, returning libre1 as failsafe", or "Libre sensor of type Libre1 detected", then you need to update both OOP2 & xDrip.
 
 <img src="../images/libre2direct-failsafe-to-libre1.png" style="zoom:40%;" />
 

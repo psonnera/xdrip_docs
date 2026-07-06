@@ -2,9 +2,9 @@
     &ensp;Settings  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_add_alert_grey600_48dp.png" style="width:5%;" />&ensp;Alarms and Alerts
 
-Many alerts can be setup with xDrip+.
+Many alerts can be setup with xDrip.
 
-It is recommended to enable at least three alerts if xDrip+ is your only glucose monitoring app:
+It is recommended to enable at least three alerts if xDrip is your only glucose monitoring app:
 
 - Low alert
 - High Alert
@@ -116,12 +116,12 @@ Ascending volume is recommended if you don't want the alarm to blare immediately
 
 ##### Audio Focus
 
-Audio Focus allows you to decide how to handle other sounds when an xDrip+ alarm or alert triggers.
+Audio Focus allows you to decide how to handle other sounds when an xDrip alarm or alert triggers.
 
 !!!xdripitem "Audio Focus"  
     Choose what to do with other apps while playing alerts and adjusting system volume levels  
 
-You can automatically lower the volume, pause the other apps playing sounds (like media players) or pause all other sounds in order to better focus on xDrip+ sound.
+You can automatically lower the volume, pause the other apps playing sounds (like media players) or pause all other sounds in order to better focus on xDrip sound.
 
 !!!xdripitem "Audio Focus"  
     &ensp;Don't adjust other app sounds <span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;  
@@ -192,7 +192,7 @@ Flash the back camera light during alerts (when the phone is in charge).
 
 ##### Shortcut to BG Level Alerts
 
-You can add a shortcut entry to `Level Alerts` in xDrip+ main menu.
+You can add a shortcut entry to `Level Alerts` in xDrip main menu.
 
 !!!xdripitem "Shortcut to BG Level Alerts<img src="../../images/DIS.png" style="zoom:75%;" />"  
     &ensp;Create a shortcut from main navigation to BG level screen
@@ -217,7 +217,7 @@ With Android 8 and above you can use the notification channels for your alerts. 
 
 !!!xdripitem "Notification Channels"
 
-In order to setup this feature, go to Android Settings / Notifications / Apps / xDrip+ and allow sound and vibration.  
+In order to setup this feature, go to Android Settings / Notifications / Apps / xDrip and allow sound and vibration.  
 You'll then be able to decide each notification behaviour. If you have multiple notification and alarms, disable the unwanted ones here.
 
 <img src="../images/M-S-AA-GAj2.png" style="zoom:75%;" />
@@ -242,7 +242,7 @@ You can limit the maximum volume of the ascending volume alerts and alarms to me
 
 ### Calibration Alerts
 
-If your sensor requires periodic calibration you can setup xDrip+ to alert you when calibration is due.
+If your sensor requires periodic calibration you can setup xDrip to alert you when calibration is due.
 
 You can setup the period between calibrations, sound to be played, etc ...
 
@@ -279,7 +279,7 @@ Initial calibration alert is used when starting a sensor requiring initial calib
 
 !!!xdripitem "Missed Reading Alert"
 
-When relying on xDrip+ to alert you for lows and highs, it is essential to make sure that it is actually receiving BG readings. For this, if you don't have any other alarms, enable this feature for your safety.
+When relying on xDrip to alert you for lows and highs, it is essential to make sure that it is actually receiving BG readings. For this, if you don't have any other alarms, enable this feature for your safety.
 
 Setup is similar to [glucose level alerts](#glucose-level-alerts-list). **The alarm sound has to be defined in Other Alerts** (See [below](#alert-preferences)).  In order to test it, put your phone in airplane mode until it triggers.
 
@@ -354,13 +354,13 @@ Some recent Android versions do not ring it unless you use [Notification channel
 
 ### Extra Alerts
 
-!!!xdrip "Extra Alerts (xDrip+)"
+!!!xdrip "Extra Alerts (xDrip)"
 
 ##### Persistent High Alert
 
 !!!xdripitem "Persistent High Alert"
 
-Instead of a high alert that will trigger as soon as BG reaches the trigger value, you can setup a persistent high alert that will only trigger when BG remains above a setup value for more than a certain time. You can use either xDrip+ [High Value](../../use/settings/#glucose-units) or a value you decide for triggering this alert.
+Instead of a high alert that will trigger as soon as BG reaches the trigger value, you can setup a persistent high alert that will only trigger when BG remains above a setup value for more than a certain time. You can use either xDrip [High Value](../../use/settings/#glucose-units) or a value you decide for triggering this alert.
 
 !!!xdripitem "Enable<img src="../../images/OFF.png" style="zoom:75%;">"  
     &ensp;Notify if above threshold for longer than the time specified below
@@ -390,7 +390,7 @@ Instead of a high alert that will trigger as soon as BG reaches the trigger valu
 
 You can set an alarm on forecasted low value. This feature will use the **momentum** (extrapolation of the current BG trend) and **not** the [prediction](../predictions) settings. Forecasted low (min) is the time in which a low will be forecasted (the one that usually displays in yellow on the graph screen).
 
-Forecast Lows will display a message on xDrip+ screen. In order to have an alarm sounds when a low is forecast, enable Raise alarm on Forecast Low.
+Forecast Lows will display a message on xDrip screen. In order to have an alarm sounds when a low is forecast, enable Raise alarm on Forecast Low.
 
 !!!xdripitem "Forecasted Lows<img src="../../images/ON.png" style="zoom:75%;">"  
     &ensp;Extrapolate data to try to predict lows
@@ -457,7 +457,7 @@ You can snooze the alert swiping the notification, you can customize it further 
 
 <img src="../images/M-SNOc.png" style="zoom:75%;" />  
 
-You can access the snooze menu by touching the notification or from xDrip+ main menu, snooze alert.
+You can access the snooze menu by touching the notification or from xDrip main menu, snooze alert.
 
 At this point, the snooze menu will also display the active alert.  
 Touching snooze will snooze it for the period selected.
@@ -517,7 +517,7 @@ Settings will drive you to your phone notifications setup settings.
 
 <img src="../images/M-SNOk.png" style="zoom:75%;" />  
 
-You can also completely turn off [notifications channels](#notification-channels) for xDrip+.
+You can also completely turn off [notifications channels](#notification-channels) for xDrip.
 
 <img src="../images/M-SNOj.png" style="zoom:75%;" />  
 

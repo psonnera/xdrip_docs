@@ -41,7 +41,7 @@ You can disable the reminders during the night, you can also disable all alerts 
 
 ### Emergency Messages
 
-xDrip+ can automatically send text messages in certain conditions to alert others. This obviously requires phone network coverage and a provisionned SIM card. Phone location must be authorized for xDrip+ to use this feature.
+xDrip can automatically send text messages in certain conditions to alert others. This obviously requires phone network coverage and a provisionned SIM card. Phone location must be authorized for xDrip to use this feature.
 
 <img src="../images/3DM-EM.png" style="zoom:75%;" />
 
@@ -55,7 +55,7 @@ You can then send a test message to verify correct functioning of the emergency 
 
 ### Import Export Features
 
-In this menu you can find various options to import (only the entire xDrip+ database) or export data.
+In this menu you can find various options to import (only the entire xDrip database) or export data.
 
 <img src="../../images/3DM-IE.png" style="zoom:75%;" />
 
@@ -67,14 +67,14 @@ You can export data starting from a certain date to now, in SiDiary format. The 
 
 ### Crowd-sources translation
 
-xDrip+ translation relies on voluntaries with [Crowdin](https://crowdin.com/project/xdrip).  
+xDrip translation relies on voluntaries with [Crowdin](https://crowdin.com/project/xdrip).  
 You're welcome to contribute, contact the managers at the bottom of the page.
 
 <img src="../images/3DM-CIT.png" style="zoom:75%;" />
 
 ### Events Log
 
-Events log gives many insights of what xDrip+ is doing, you can add more traces adding tags (see here).
+Events log gives many insights of what xDrip is doing, you can add more traces adding tags (see here).
 
 <img src="../images/3DM-EL.png" style="zoom:75%;" />
 
@@ -111,7 +111,7 @@ This is a shortcut to Menu` / `Settings / [Show Settings QR Code](../copysetting
 
 ### Check for Updated Version
 
-This entry triggers a version check as defined in Menu` / `Settings / [xDrip+ Update Settings](../update)  
+This entry triggers a version check as defined in Menu` / `Settings / [xDrip Update Settings](../update)  
 If a new version is available it will open the download screen.
 
 <img src="../images/3DM-CU.png" style="zoom:75%;" /> 
@@ -120,7 +120,7 @@ If a new version is available it will open the download screen.
 
 Only use this feature to send compliments.
 
-For other enquiries prefer [xDrip+ GitHub discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [Facebook](https://www.facebook.com/groups/xDripG5).
+For other enquiries prefer [xDrip GitHub discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [Facebook](https://www.facebook.com/groups/xDripG5).
 
 </br>
 

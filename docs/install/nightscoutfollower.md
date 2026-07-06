@@ -9,7 +9,7 @@
 
 ### Nightscout
 
-For using xDrip+ with data coming from your [Nightscout](https://nightscout.github.io/) site, you only need to enter your site URL.
+For using xDrip with data coming from your [Nightscout](https://nightscout.github.io/) site, you only need to enter your site URL.
 
 !!!xdripitem "Nightscout Follow URL"  
     &ensp;Web address for following 
@@ -33,20 +33,20 @@ You can also download compatible treatments from Nightscout (BG, calibrations, t
 !!!xdripitem "Download Treatments <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Also download treatments from Nightscout as follower
 
-If you want to avoid the risk of data duplication (important for AAPS) you can prevent xDrip+ from downloading data it has been uploading to Nightscout.
+If you want to avoid the risk of data duplication (important for AAPS) you can prevent xDrip from downloading data it has been uploading to Nightscout.
 
 !!!xdripitem "Skip items from xDrip <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Avoid downloading items uploaded by xDrip
 
-If you experience large delays in xDrip+, you can set a fixed delay to re-synchronize it with Nightscout. Leave this at default.
+If you experience large delays in xDrip, you can set a fixed delay to re-synchronize it with Nightscout. Leave this at default.
 
 !!!xdripitem "Nightscout Follow delay"  
     &ensp;0>
 
 !!!note  
-    xDrip+ performs limited (24 hours) data backfilling from Nightscout.
+    xDrip performs limited (24 hours) data backfilling from Nightscout.
 
-If your Nightscout site reports device status (uploader battery, pump battery), xDrip+ will show it in System Status.
+If your Nightscout site reports device status (uploader battery, pump battery), xDrip will show it in System Status.
 
 !!!note  
     Local Nightscout emulators such as [Juggluco](https://github.com/j-kaltes/Juggluco) are also supported as a follower source.
@@ -55,16 +55,16 @@ If your Nightscout site reports device status (uploader battery, pump battery), 
 
 ### Diabox
 
-You can receive data from [Diabox](https://sirius.thetaphi.de/diabox/) by enabling http broadcast in the app and making xDrip+ a local follower.
+You can receive data from [Diabox](https://sirius.thetaphi.de/diabox/) by enabling http broadcast in the app and making xDrip a local follower.
 
 !!!warning  
-    You cannot use this feature with xDrip+ running a [web service](../../use/interapp/#web-service).
+    You cannot use this feature with xDrip running a [web service](../../use/interapp/#web-service).
 
 <img src="../images/Diabox1.png" style="zoom:75%;" />
 
 <img src="../images/Diabox2.png" style="zoom:75%;" />
 
-Once done set xDrip+ in Nightscout follower (see above) with the address:
+Once done set xDrip in Nightscout follower (see above) with the address:
 
 `http://localhost:17580`
 

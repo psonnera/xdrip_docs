@@ -6,12 +6,12 @@ You can buy your BlueJay Watch [here: <img src="../images/M-S-SW-BJ1.png" style=
 
 Two new generations of BlueJay are available.  
 X2 is not sold anymore.  
-[GTS](https://bluejay.website/shop/product/bluejay-gts-26) can be setup without xDrip+ (only standalone) and also with xDrip+.  
-[U1](https://bluejay.website/shop/product/bluejay-u1-27) is beta and runs the full xDrip+ package.  
+[GTS](https://bluejay.website/shop/product/bluejay-gts-26) can be setup without xDrip (only standalone) and also with xDrip.  
+[U1](https://bluejay.website/shop/product/bluejay-u1-27) is beta and runs the full xDrip package.  
 [U2](https://bluejay.website/shop/product/bluejay-u2-28) is released.
 
 !!!info "Sharing BG"  
-    BlueJay X2/GTS are only Bluetooth and cannot share BG data without being connected to your phone xDrip+.
+    BlueJay X2/GTS are only Bluetooth and cannot share BG data without being connected to your phone xDrip.
 
 BlueJay watches are powerful companions for your G6, G7 and 1/1+ sensors. They connect directly to the transmitter but you need to be aware of the limitations.
 
@@ -25,15 +25,15 @@ U1 and U2 need to be connected first to the sensor. Once connected, you can also
 
 | Vendor app          | Receiver                | Connected pump                            | BlueJay Watch                             |
 | ------------------- | ----------------------- | ----------------------------------------- | ----------------------------------------- |
-| Cannot be used      | Cannot be used          | Cannot be used                            | Non-phone slot **xDrip+ uses phone slot** |
+| Cannot be used      | Cannot be used          | Cannot be used                            | Non-phone slot **xDrip uses phone slot** |
 | **Uses phone slot** | Cannot be used          | Cannot be used                            | Non-phone slot                            |
 | Cannot be used      | **Uses non-phone slot** | Cannot be used                            | Phone slot                                |
 | Cannot be used      | Cannot be used          | t:slim, Omnipod 5 **use non-phone slots** | Phone slot                                |
 | Cannot be used      | Cannot be used          | CamAPS, DBLG1 **use phone slot**          | Non-phone slot                            |
 
-*Note: xDrip+ uses the phone slot by default, non-phone slot requires engineering mode*
+*Note: xDrip uses the phone slot by default, non-phone slot requires engineering mode*
 
-### Pair your watch to xDrip+ (X2 and GTS)
+### Pair your watch to xDrip (X2 and GTS)
 
 1 - Make sure the watch is charged before starting.
 
@@ -53,7 +53,7 @@ If you see it continue to 7.
 <img src="../images/M-S-SW-BJc1.png" style="zoom:76%;" />  
 When the watch is detected you should see its Mac address. Select it.  
 <img src="../images/M-S-SW-BJc2.png" style="zoom:66%;" /></br>  
-If xDrip+ doesn't find the watch, try to restart your phone and retry. If you still can't find it: you can enter the watch Mac address manually here   
+If xDrip doesn't find the watch, try to restart your phone and retry. If you still can't find it: you can enter the watch Mac address manually here   
 !!!xdripitem "BlueJay Advanced Settings"  
     &ensp;BlueJay Mac
 
@@ -67,10 +67,10 @@ If you still can't see the QR code try REBOOT then [contact](https://bluejay.web
 Settings Menu -> Admin Menu -> Show QR Code  
 <img src="../images/M-S-SW-BJc6.png" style="zoom:76%;" /> 
 
-7 - In xDrip+ scan the watch QR code  
+7 - In xDrip scan the watch QR code  
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Auto Configure    
-You need to authorize xDrip+ to access the phone camera.  
+You need to authorize xDrip to access the phone camera.  
 Scan the QR code displayed on the watch.  
 <img src="../images/M-S-SW-BJc7.png" style="zoom:50%;" />
 
@@ -92,7 +92,7 @@ If the xDrip core is not installed you should install it now.
 
 !!!warning "Put the watch in charge whilst installing the core"
 
-In xDrip+ System Status, BlueJay advanced status, tap the red line xDrip Core: Not Installed.
+In xDrip System Status, BlueJay advanced status, tap the red line xDrip Core: Not Installed.
 
 <img src="../images/M-S-SW-BJd1.png" style="zoom:71%;" />
 
@@ -108,10 +108,10 @@ Check System Status afterwards, you should see the core installed.
 
 Run collector means you will be using the watch without having necessarily your phone with you.
 
-You must setup the watch using xDrip+ if you use an X2 model.  
-For GTS you can do it directly through the watch [menu](https://bluejay.website/gts-menu-top), without using xDrip+.
+You must setup the watch using xDrip if you use an X2 model.  
+For GTS you can do it directly through the watch [menu](https://bluejay.website/gts-menu-top), without using xDrip.
 
-In order to use the watch with xDrip+ you must have a transmitter directly connected to xDrip+ with BG data currently displaying in xDrip+.
+In order to use the watch with xDrip you must have a transmitter directly connected to xDrip with BG data currently displaying in xDrip.
 
 Define which slot will connect to the transmitter. Refer to the table [above](#g6g7-and-11) to setup your slots.
 
@@ -122,7 +122,7 @@ Define which slot will connect to the transmitter. Refer to the table [above](#g
 !!!xdripitem "Run Phone Collector <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Also run the standard collector on this phone. Only turn this off if you don't want this phone itself to be connecting to the transmitter.
 
-Enables/disable the connection of xDrip+ to the transmitter (using the phone slot).
+Enables/disable the connection of xDrip to the transmitter (using the phone slot).
 
 ##### BlueJay uses Phone slot
 
@@ -137,14 +137,14 @@ Once slots setup you can enable the watch as a standalone collector device.
 
 !!!xdripitem "Run Collector <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
 
-You will then see your phone xDrip+ is not connected to the transmitter anymore: BlueJay is.  
+You will then see your phone xDrip is not connected to the transmitter anymore: BlueJay is.  
 When your watch is within Bluetooth range, your phone should receive BG from BlueJay.
 
 <img src="../images/M-S-SW-BJe4.png" style="zoom:66%;" />
 
 ## BlueJay GTS
 
-GTS doesn't need xDrip+ to be setup but the steps above should also apply if you want to so so.
+GTS doesn't need xDrip to be setup but the steps above should also apply if you want to so so.
 
 See the video [here](https://www.youtube.com/watch?v=JM5cw-xVAZk) for a guided tour.
 

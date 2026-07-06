@@ -10,19 +10,19 @@ Some of the most important prerequisites are:
 
 1. **Stable BG.** Never calibrate when BG is rising or falling rapidly.
 2. **In range (important for Libre initial calibration).** Try to perform your calibrations when BG is within normal range (80-180 mg/dl or 5-10 mmol/l).
-3. **Don't overcalibrate.** Better few accurate than too many: you will most probably confuse xDrip+. For G6, G7, 1, 1+ use the vendor recommendations.
+3. **Don't overcalibrate.** Better few accurate than too many: you will most probably confuse xDrip. For G6, G7, 1, 1+ use the vendor recommendations.
 
-### Native and xDrip+ algorithms
+### Native and xDrip algorithms
 
-xDrip+ can provide its own calibrations algorithms for sensors sending raw data.
+xDrip can provide its own calibrations algorithms for sensors sending raw data.
 
-G6, G7, 1, 1+ native calibration means that xDrip+ will not use its algorithm but will send calibration values to the transmitter and let it handle it with its own proprietary algorithm.
+G6, G7, 1, 1+ native calibration means that xDrip will not use its algorithm but will send calibration values to the transmitter and let it handle it with its own proprietary algorithm.
 
-Libre 1, 14 Days, Pro, 2 (EU) and 2+ (EU) sensors only send raw data, and will need either xDrip+ calibration or an external calibration plugin called [out of process algorithm](../../use/OOP/) (short OOP).
+Libre 1, 14 Days, Pro, 2 (EU) and 2+ (EU) sensors only send raw data, and will need either xDrip calibration or an external calibration plugin called [out of process algorithm](../../use/OOP/) (short OOP).
 
 Libre 2 patched app will use its own proprietary algorithm (an old version though).
 
-| Sensor                          | xDrip+ calibration              | Native calibration |
+| Sensor                          | xDrip calibration              | Native calibration |
 | ------------------------------- | ------------------------------- | ------------------ |
 | G6 rebatteried                  | Available                       | Available          |
 | G6, G7, 1, 1+                   | Not available                   | Mandatory          |
@@ -34,10 +34,10 @@ Libre 2 patched app will use its own proprietary algorithm (an old version thoug
 
 When using the patched app, you can calibrate but correction is applied as an offset with maximum values between -40 mg/dl to +20 mg/dL [-2,2 mmol/l to +1,1 mmol/l]. Calibrations failing this criteria will be **ignored**.
 
-### xDrip+ calibration settings
+### xDrip calibration settings
 
-!!!warning "xDrip+ calibration only"  
-    The information below is relevant to xDrip+ calibration.  
+!!!warning "xDrip calibration only"  
+    The information below is relevant to xDrip calibration.  
     For G6/G7/1/1+ native mode see [here](https://navid200.github.io/xDrip/docs/Dexcom_page.html).
 
 Before calibrating check your [settings](../advancedcal).
@@ -46,7 +46,7 @@ One thing you want to enable is [data tables](../../use/lesscommon/#show-data-ta
 
 ### First calibration
 
-If your sensor requires calibrations, after connecting it to xDrip+ and receiving three values you should see this request:
+If your sensor requires calibrations, after connecting it to xDrip and receiving three values you should see this request:
 
 !!!xdripitem "Calibrate Sensor?"  
     &emsp;We have some readings!  
@@ -68,7 +68,7 @@ Two values initial calibration values are historical from G4. If you want to use
 
 If you're using native calibration, the value will be sent to the transmitter for processing.
 
-If you're using xDrip+ calibration, this value will be processed 10 minutes later to make sure to compensate for all physiological and chemical delays of the CGM measurement, **this is why it's extremely important to calibrate at stable BG**.
+If you're using xDrip calibration, this value will be processed 10 minutes later to make sure to compensate for all physiological and chemical delays of the CGM measurement, **this is why it's extremely important to calibrate at stable BG**.
 
 Let's look graphically at what will happen on the main view:
 
@@ -87,7 +87,7 @@ If your BG remained stable during this time you should see it go through the cal
 Looking into your calibration data table you will see new entries corresponding to raw BG measurements used to define define the calibration:
 
 1. This is the value you entered (converted if necessary in mg/dl)
-2. Same value but in the unit you use with xDrip+ (here in mg/dl but will show also in mmol/l)
+2. Same value but in the unit you use with xDrip (here in mg/dl but will show also in mmol/l)
 3. Raw BG from the sensor
 4. Calculated slope and intercept
 5. Effective calibration date and time (that is actual + 10 minutes) and corresponding raw BG date and time
@@ -109,13 +109,13 @@ In order to have BG values that are not varying too rapidly, you shouldn't calib
     Unless expressly required by your sensor do not calibrate systematically when performing a blood test.  
     For Libre sensors, do not necessarily calibrate if difference is less than 15%.
 
-**Don't overcalibrate**, you can perform as many blood checks as you want, enter them as treatments in xDrip+ but add calibrations with extra care.
+**Don't overcalibrate**, you can perform as many blood checks as you want, enter them as treatments in xDrip but add calibrations with extra care.
 
 On your calibration graph you will see active calibration points in blue and old or invalid ones in grey.
 
 <img src="../images/CAL15.png" style="zoom:75%;"  />
 
-If you see, at stable BG, comparing xDrip+ value 10 minutes after your blood test, that the value differs too much, you will add another calibration point.
+If you see, at stable BG, comparing xDrip value 10 minutes after your blood test, that the value differs too much, you will add another calibration point.
 
 Since BG trends often are difficult to forecast, you can use a trick:
 
@@ -159,7 +159,7 @@ It will show in red and will not be used for calculation anymore.
 
 ### Reset all calibrations
 
-This method only applies to sensors supporting xDrip+ calibration.
+This method only applies to sensors supporting xDrip calibration.
 
 **Do not use it for native calibration only sensors (G6 new, G7, 1, 1+ etc.)-**
 
@@ -182,7 +182,7 @@ From the main menu, Stop Sensor.
        
      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;NO &emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;YES&ensp;</span>
 
-xDrip+ will bring you back to [initial calibration](#first-calibration). Make sure you perform this action at stable BG, when in range.
+xDrip will bring you back to [initial calibration](#first-calibration). Make sure you perform this action at stable BG, when in range.
 
 </br>
 

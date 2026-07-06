@@ -3,12 +3,12 @@ There are many commercial Libre bridges available on the market, by order of rel
 !!!note  
     **As long as your bridge can read the sensor and transmit data you can assume it is working correctly.**
 
-When xDrip+ shows missing readings you need to understand what is failing. This is not always easy.
+When xDrip shows missing readings you need to understand what is failing. This is not always easy.
 
 !!!info  
     Start with simple things: first restart your phone.
 
-Since you're here, check your [xDrip+ Bluetooth parameters](../../install/libreBT/#bridge-settings) and don't hesitate to disable some.
+Since you're here, check your [xDrip Bluetooth parameters](../../install/libreBT/#bridge-settings) and don't hesitate to disable some.
 
 Then go to System Status and also BT device. If you don't know how, look [here](../systemstatus) first.
 
@@ -20,12 +20,12 @@ All devices report as LimiTTer until connected, only Libre 2 direct connection a
 
 <img src="../images/M-SS-CSL2.png" style="zoom:75%;" />
 
-Check xDrip+ version and make sure it's recent enough to support the bridge you're connecting to.
+Check xDrip version and make sure it's recent enough to support the bridge you're connecting to.
 
-There are too many versions and improvements in xDrip+ to give an accurate table of minimum required versions.  
-Make sure you use at least the [latest release](../../install/download/#latest-release) version of xDrip+ and if you think your bridge requires more recent features, try to update to the latest [pre-release](../../install/download/#pre-release).
+There are too many versions and improvements in xDrip to give an accurate table of minimum required versions.  
+Make sure you use at least the [latest release](../../install/download/#latest-release) version of xDrip and if you think your bridge requires more recent features, try to update to the latest [pre-release](../../install/download/#pre-release).
 
- Don't uninstall xDrip+ when you want to change version. You can easily [go back and forth](../../use/update/) between versions without losing data and settings.
+ Don't uninstall xDrip when you want to change version. You can easily [go back and forth](../../use/update/) between versions without losing data and settings.
 
 ### BT Device Page
 
@@ -50,7 +50,7 @@ Bluetooth should always be connected.
 First actions to perform if Bluetooth is not connected:
 
 1. Check your [Bluetooth settings](../../install/libreBT/#bridge-settings) and Restart Collector in the System Status classic tab. If restart collector allowed you to recover connection, the issue might be with your Bluetooth settings or phone energy savings settings.  
-2. Open Android Settings -> Apps -> xDrip+: make sure it can run in background and is not optimized for battery savings.  
+2. Open Android Settings -> Apps -> xDrip: make sure it can run in background and is not optimized for battery savings.  
 3. Still in Apps look for Bluetooth system apps (might be hidden by default and present in the three dots menu, upper right): make sure all Bluetooth services can run in background and are not optimized.
 
 If the bridge device still isn't visible try to [Scan Bluetooth](../../install/libreBT/#connect-bluetooth-bridge) to find it.
@@ -65,7 +65,7 @@ Next wake up will count down to the next expected data to be received, then rest
 
 <img src="../images/M-SS-BTLBa.png" style="zoom:75%;" />
 
-If you've setup an Android Wear watch as a collector go to the matching troubleshooting page. If you don't own an Android Wear watch with xDrip+ correctly installed on it, [disable Wear collector](../../smartwatch/wear/).
+If you've setup an Android Wear watch as a collector go to the matching troubleshooting page. If you don't own an Android Wear watch with xDrip correctly installed on it, [disable Wear collector](../../smartwatch/wear/).
 
  <img src="../images/M-SS-BTLBg.png" style="zoom:75%;" />
 
@@ -93,12 +93,12 @@ If you're using a bridge that isn't sensitive to positioning, it might have an i
 
 If you're using a sensor that is not a Libre 1, you might need to add an Out Of Process algorithm.
 
-[Forget Device](../systemstatus/#restart-collector-forget-device) in xDrip+, install the vendor app to exclude a device failure. Contact the vendor for support.
+[Forget Device](../systemstatus/#restart-collector-forget-device) in xDrip, install the vendor app to exclude a device failure. Contact the vendor for support.
 
 ### Bluetooth scan doesn't find the bridge
 
 !!!note  
-    This is absolutely normal when your bridge is connected to xDrip+.
+    This is absolutely normal when your bridge is connected to xDrip.
 
 1. Make sure it's not paired to another phone or another app. If you use the bridge with another app, remove it from the app or uninstall the app that connects to it. If you used the bridge on another phone, power it off now or remove the app that was connecting to your bridge.
 2. Reset it. Contact the vendor to know how to do that.

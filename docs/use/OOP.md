@@ -1,4 +1,4 @@
-Out of process algorithms are external apps which function is to perform data processing that is not directly provided by xDrip+.
+Out of process algorithms are external apps which function is to perform data processing that is not directly provided by xDrip.
 
 They are only used for Libre sensors and bridges now.
 
@@ -22,7 +22,7 @@ OOP1 provides readings similar to the vendor reader without calibrating. You nee
 
 !!!warning "No calibration possible"  
     Calibrations will be ignored when using OOP1.  
-    This is a safety feature as xDrip+ cannot perform sanity checks on data provided by OOP1.
+    This is a safety feature as xDrip cannot perform sanity checks on data provided by OOP1.
 
 Two versions are available: [Libre 1 and Libre 2 EU](https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM) or [Libre 14 Days US](https://drive.google.com/open?id=172whZZYTyE_ZEuN0T-zhdMKhucy6jP-a). 
 *Note: you need to be logged into your Google account to access the links above*
@@ -39,14 +39,14 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
     You can either calibrate from raw data, not calibrate or add a calibration to native data.  
     Check the [OOP2 settings](../misc/#oop2).
 
-**Use only the latest OOP2 app with the latest xDrip+ version.**
+**Use only the latest OOP2 app with the latest xDrip version.**
 
 **<u><big>[→ Download latest OOP2 here. ←](https://drive.google.com/file/d/1106h2s12b3Ev9gKCTU2G75q8h9ChHjcz/view?usp=sharing)</big></u>**
 
 *Note: you need to be logged into your Google account to access the link above.* 
 
 !!!warning  
-    *Out Of process Libre Algorithm* (OOP1) must be [disabled in xDrip+](../misc/#out-of-process-algorithm) when using OOP2.
+    *Out Of process Libre Algorithm* (OOP1) must be [disabled in xDrip](../misc/#out-of-process-algorithm) when using OOP2.
 
 | OOP Version                         | Version date   | Supported sensors                        | File size  |
 | ----------------------------------- | -------------- | ---------------------------------------- | ---------- |
@@ -61,7 +61,7 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
 
 ### Auto-detection
 
-Some older xDrip+ versions will detect the presence or necessity of the out of process algorithm.
+Some older xDrip versions will detect the presence or necessity of the out of process algorithm.
 
 Enable <u>only</u> for OOP1.  
 **Do not enable for OOP2**. If you enabled it by mistake: [disable](../misc/#out-of-process-algorithm) OOP1.

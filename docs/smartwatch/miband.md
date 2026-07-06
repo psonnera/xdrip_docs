@@ -2,11 +2,11 @@
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features  
     &emsp;  MiBand
 
-xDrip+ Official Release supports MiBand 2, 3, 4 and broadcast to [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) for other smartbands.
+xDrip Official Release supports MiBand 2, 3, 4 and broadcast to [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) for other smartbands.
 
 !!!note "Prerequisite"  
-    Make sure you have BG readings in xDrip+ before trying to have them on your watch.  
-    If xDrip+ doesn't receive readings on your phone, they won't be displayed on the watch.
+    Make sure you have BG readings in xDrip before trying to have them on your watch.  
+    If xDrip doesn't receive readings on your phone, they won't be displayed on the watch.
 
 ## Install
 
@@ -18,7 +18,7 @@ xDrip+ Official Release supports MiBand 2, 3, 4 and broadcast to [WatchDrip+](ht
 - Uninstall MiFit or Zepp, or whatever app you used to connect your watch.
 
 - **Delete the old key files** (use a file browser on your phone) in the phone memory `freemyband` folder.  
-  Recommended if you can't get xDrip+ to connect to the watch.  
+  Recommended if you can't get xDrip to connect to the watch.  
   *Note: the name below is an example*
 
 <img src="../images/MiBand1.png" style="zoom:75%;" />
@@ -45,7 +45,7 @@ You can uninstall the patched app. This is not mandatory. If you want to install
 
 !!!note "Only MiBand 2, 3 and 4"
 
-### Setup xDrip+
+### Setup xDrip
 
 Switch the MiBand feature on. Keep your watch close to your phone until it gets detected.
 
@@ -76,7 +76,7 @@ If authorization fails, delete the file(s) in the `freemyband` folder and open t
 
 <img src="../images/M-S-SW-MB-I4.png" style="zoom:75%;" />
 
-If xDrip+ can't get the authentication key automatically, you can try to insert it manually. You will find it editing the file.
+If xDrip can't get the authentication key automatically, you can try to insert it manually. You will find it editing the file.
 
 <img src="../images/M-S-SW-MB-I5.png" style="zoom:75%;" />
 
@@ -85,7 +85,7 @@ Make sure the watch is connected and matches the mac address before manually ent
 !!!xdripitem "Auth Key"  
     &ensp;Set the auth key for MiBand 4 (To get auth key, follow the instructions on [https://www.freemyband.com](https://www.freemyband.com/2019/08/mi-band-4-auth-key.html))
 
-Once connected and authenticated, enable Send Readings. Wait for the next value in xDrip+, the watchface should update.
+Once connected and authenticated, enable Send Readings. Wait for the next value in xDrip, the watchface should update.
 
 !!!xdripitem "Send readings <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"   
     &ensp;Appropriate the watch date to show glucose values. Better with mmol/l - see documentation 
@@ -153,10 +153,10 @@ Disable High MTU can be used when experiencing watchface display issues.
 
 ### Install [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/)
 
-!!!note "Disable MiBand in xDrip+ if you use WatchDrip+"  
+!!!note "Disable MiBand in xDrip if you use WatchDrip+"  
     !!!xdripitem "Use MiBand <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>" 
 
-### Setup xDrip+
+### Setup xDrip
 
 Enable Broadcast Service API in Settings -> Inter-app Settings
 
