@@ -11,6 +11,10 @@ The official versions of xDrip are virus and malware free: being open source and
 
 <img src="../images/AllowUnknownSources.png" style="zoom:50%;" />
 
+Touch `Settings` then enable `Allow from this source`.
+
+<img src="../images/AllowFromThisSource.png" style="zoom:50%;" />
+
 Once installed, open xDrip.
 
 <img src="../images/Install03.png" style="zoom:75%;" />
@@ -20,6 +24,7 @@ Once installed, open xDrip.
 !!!warning "**Read** the important Warning"  
 
 !!!xdrip "<img src="../images/ImportantWarning.png" style="zoom:50%;" />"  
+    <img src="../images/WarningAgree.png" style="zoom:50%;" />  
     Do NOT use or rely on this software or any associated materials for any medical purpose or decision.  
     Do NOT rely on this system for any real-time alarms or time critical data.  
     Do NOT use or rely on this system for treatment decisions or use as a substitute for professional healthcare judgement.  
@@ -32,8 +37,6 @@ Once installed, open xDrip.
     No charge has been made by the developers for the use of this software.  
     This is an open-source project which has been created by volunteers. The source code is published free and open-source for you to inspect and evaluate.  
     By using this software and/or website you agree that you are over 18 years of age and have read, understood and agree to all of the above.
-
-<img src="../images/WarningAgree.png" style="zoom:50%;" />
 
 </br>
 
@@ -60,7 +63,7 @@ xDrip must have the right to run in background: it must be whitelisted to batter
       
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 
-<img src="../images/Install07.png" style="zoom:75%;" />
+<img src="../images/AllowRunInBackground.png" style="zoom:75%;" />
 
 *Note: With Android 12 and above you won't see **whitelisting** anymore.*
 

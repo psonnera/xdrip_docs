@@ -24,6 +24,15 @@
   padding-bottom: 0;
 }
 
+/* The default theme positions the admonition icon with "top: .625em" assuming
+   the title keeps its normal padding-top. Since padding is zeroed above, that
+   fixed offset leaves the icon misaligned with the text; center it on the
+   title box instead so it stays aligned regardless of padding. */
+.admonition .admonition-title::before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .admonition p:last-child, .admonition ul:last-child, .admonition ol:last-child {
   margin-bottom: 0;
 }

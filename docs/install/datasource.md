@@ -39,10 +39,6 @@ Some of these bridges also work with Libre 2/2+ EU. Check your sensor doesn't re
 
 <img src="../images/DS-LBT.png" style="zoom:50%;" />
 
-The [patched app](../libre2patch) can send data to xDrip, note it's now a very old app and it probably won't work on recent phones.
-
-<img src="../images/DS-L2Patch.png" style="zoom:50%;" />
-
 For non-supported sensors (Libre 2/2+ non-EU and Libre 3/3+) you can also use Diabox or Juggluco, then [broadcast](../libre2patch) data to xDrip that will receive data from the [Libre 2 patched](../libre2patch) data source (**not** the patched app itself).
 
 <img src="../images/DS-LOther.png" style="zoom:50%;" />
@@ -125,29 +121,30 @@ Unused and obsolete sensors have been removed from this documentation.
 ### The following sensors are supported directly by xDrip:
 
 - [G6, G7, 1 and 1+](../g6)  
-  <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install31.png" style="zoom:50%;" />
+  <img src="../images/Dex.png" style="zoom:54%;" />    <img src="../images/Install31.png" style="zoom:50%;" />
 - [Libre (with bridge)](../libreBT)  
-  <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
+  <img src="../images/Libre.png" style="zoom:54%;" />    <img src="../images/Bridge.png" style="zoom:50%;" />
 - Libre with patched SWR50 smartwatch  
-  <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install34.png" style="zoom:51%;" />
+  <img src="../images/Libre.png" style="zoom:54%;" />    <img src="../images/LibreAlarm.png" style="zoom:51%;" />
 - [Libre 2 (only EU)](../libre2)  
-  <img src="../images/Install32.png" style="zoom:54%;" />    <img src="../images/Install33.png" style="zoom:50%;" />
+  <img src="../images/Libre.png" style="zoom:54%;" />    <img src="../images/Bridge.png" style="zoom:50%;" />
 - [Medtrum A6/S7](../medtrum)  
-  <img src="../images/Install36.png" style="zoom:54%;" />    <img src="../images/Install37.png" style="zoom:53%;" />
+  <img src="../images/Other.png" style="zoom:54%;" />    <img src="../images/Medtrum.png" style="zoom:53%;" />
 - [CareSens Air](../caresens)  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install48.png" style="zoom:54%;" />
+  <img src="../images/Other.png" style="zoom:52%;" />    <img src="../images/CareSensAir.png" style="zoom:54%;" />
 
 ### The following sensors and features are supported with a companion app:
 
 - [Libre 2 (only EU)](../libre2patch)  
-  <img src="../images/Install32.png" style="zoom:51%;" />    <img src="../images/Install35.png" style="zoom:53%;" />
+  <img src="../images/Libre.png" style="zoom:51%;" />    <img src="../images/Libre2Patch.png" style="zoom:53%;" />
 - [Eversense](../eversense)  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install41.png" style="zoom:53%;" />
+  <img src="../images/Other.png" style="zoom:52%;" />    <img src="../images/Eversense.png" style="zoom:53%;" />
 - [640G/670G pumps](../640_670)  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
+  <img src="../images/Other.png" style="zoom:52%;" />    <img src="../images/640670.png" style="zoom:53%;" />
 - [Build your own app (BYODA)](../byod) for G6 sensors  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install40.png" style="zoom:53%;" />
+  <img src="../images/Other.png" style="zoom:52%;" />    <img src="../images/640670.png" style="zoom:53%;" />
 - [Aidex](../aidex)  
+  <img src="../images/SmartGuide.png" style="zoom:53%;" />  
   See below GlucoRx/Aidex.
 - [Companion app](../companion) for G6, G7, 1, 1+, CamAPS and Eversense  
   See below.
@@ -156,11 +153,12 @@ Unused and obsolete sensors have been removed from this documentation.
 
 ## Follower mode
 
-- [xDrip Sync](../xdripfollower) (requires Google Play Services)
+- [xDrip Sync](../xdripfollower) (requires Google Play Services)  
+  <img src="../images/XDripSyncFollower.png" style="zoom:53%;" />
 - [Nightscout](../nightscoutfollower)  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install38.png" style="zoom:53%;" />
+  <img src="../images/Other.png" style="zoom:52%;" />    <img src="../images/Nightscout.png" style="zoom:53%;" />
 - [Dex Share](../dexshare)  
-  <img src="../images/Install36.png" style="zoom:52%;" />    <img src="../images/Install39.png" style="zoom:53%;" />
+  <img src="../images/Other.png" style="zoom:52%;" />    <img src="../images/DexShare.png" style="zoom:53%;" />
 - [Libre Web Follower](../webfollower)  
   See below.
 - [CareLink Follower](../carelinkfollow)  
@@ -178,65 +176,86 @@ You can select another data source without using the wizard from the settings me
 
 [G6, G7, 1 and 1+](../g6) 
 
-<img src="../images/M-S-HDSlistB.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Dex<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Libre (with bridge)](../libreBT) 
 
-<img src="../images/M-S-HDSlistC.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Libre Bluetooth<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Libre whole house](https://github.com/tzachi-dar/LibreAllHouse)
 
-<img src="../images/M-S-HDSlistD.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Libre Bluetooth + wifi<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &emsp;Libre wifi<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [xDrip Sync](../xdripfollower)
 
-<img src="../images/M-S-HDSlistE.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;xDrip+ Sync Follower<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 Libre with patched SWR50 smartwatch 
 
-<img src="../images/M-S-HDSlistF.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;LibreAlarm<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Libre 2 (only EU), Diabox or Juggluco](../libre2patch)
 
-<img src="../images/M-S-HDSlistG.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Libre (patched App)<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [640G/670G pumps](../640_670), [Eversense](../eversense) and [Build your own app (BYODA)](../byod)
 
-<img src="../images/M-S-HDSlistH.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;640G / EverSense<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Medtrum A6/S7](../medtrum) 
 
-<img src="../images/M-S-HDSlistI.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Medtrum A6<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Nightscout](../nightscoutfollower) 
 
-<img src="../images/M-S-HDSlistJ.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Nightscout Follower<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Dex Share](../dexshare) 
 
-<img src="../images/M-S-HDSlistK.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Dex Share Follower<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Companion app](../companion) for G6, G7, One and CamAPS
 
-<img src="../images/M-S-HDSlistN.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Companion App<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [GlucoRx/Aidex](../aidex)
 
-<img src="../images/M-S-HDSlistP.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;GlucoRx/Aidex App<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [Web Follower](../webfollower) for Libre 2 CGM and Libre 3
 
-<img src="../images/M-S-HDSlistO.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Web Follower<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 [CareLink](../carelinkfollow)
 
-<img src="../images/M-S-HDSlistM.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;CareLink Follower<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
 ##### Disable Collection
 
 If you want to disable xDrip.
 
-<img src="../images/M-S-HDSlistL.png" style="zoom:75%;" />
+!!!xdripitem "Hardware Data Source"  
+    &emsp;Disable Collection<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
+
+</br>
+
+!!!note  
+    The `Hardware Data Source` list also contains `Bluetooth Wixel`, `xBridge Wixel`, `Wifi Wixel / Parakeet`, `Wifi Wixel + BT Wixel`, `Wifi Wixel + xBridge Wixel` and `SmartGuide`: these are legacy/obsolete entries not covered in this documentation.
 
 </br>
 
