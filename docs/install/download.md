@@ -32,7 +32,7 @@ xDrip downloaded from [https://github.com/NightscoutFoundation/xDrip/releases](h
 
 </br>
 
-Once downloaded, [Proceed to installing xDrip](/install/install)
+Once downloaded, [Proceed to installing xDrip](../install)
 
 </br>
 
@@ -59,7 +59,7 @@ xDrip downloaded from [https://github.com/NightscoutFoundation/xDrip/releases](h
 
 </br>
 
-Once downloaded, [Proceed to installing xDrip](/install/install)
+Once downloaded, [Proceed to installing xDrip](../install)
 
 </br>
 
