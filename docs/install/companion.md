@@ -8,13 +8,21 @@ If you're using the vendor app, you can have xDrip+ get sensor data from it.
 This feature is available for:
 
 - G6/G7 (master only) apps
-- 1/1+ (only if the app shows BG notifications) apps
-- CamAPS app
+- 1/1+ and Stelo (only if the app shows BG notifications) apps
+- CamAPS app (including Canada version)
 - Guardian, MiniMed, Simplera apps
 - Omnipod 5 app
 - Eversense apps
-- Micro tech LinX Aidex app
+- Micro tech Aidex, LinX Vista, Equil G apps
+- Micro tech Diaexpert (Germany) and Smart 2 (Brazil) apps
 - Ottai Sens and Tag apps
+- Pasta app
+- CareSens and iCan (Sinocare) apps
+- Vitatok app
+- Glucotech app
+- SiSensing Eco (China) app
+
+For the Omnipod 5 and MiniMed Mobile (EU) apps, xDrip+ also reads Insulin on Board (IoB) from the companion app notification when available.
 
 In order to use this feature you **must** authorize xDrip+ to access notifications.
 
@@ -55,4 +63,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 17/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)

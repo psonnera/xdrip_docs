@@ -1,6 +1,6 @@
 Stopping a sensor in xDrip+ has very different functions depending on the sensor itself.
 
-### G5, G6 and 1
+### G6 and 1
 
 Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-connectivity.html).
 
@@ -53,4 +53,4 @@ There is no interest in stopping a sensor when using a follower app.
 
 <br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)

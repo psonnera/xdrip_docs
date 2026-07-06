@@ -295,6 +295,7 @@ Setup is similar to [glucose level alerts](#glucose-level-alerts-list). **The al
     &emsp;<small>☐ Reraise alerts before snooze time</small>  
     &emsp;<small>Alert Reraise time:</small>  
     &emsp;<small><u>&ensp;60&ensp;</u>&ensp;seconds</small>  
+    &emsp;<small>☐ Override Silent Mode</small>  
 
 ### Other Alerts
 
@@ -380,6 +381,9 @@ Instead of a high alert that will trigger as soon as BG reaches the trigger valu
 !!!xdripitem "Alert Sound  "  
     &ensp;Chose the sound used for the alarm
 
+!!!xdripitem "Override Silent Mode<img src="../../images/DIS.png" style="zoom:75%;">"  
+    &ensp;Ring this alert even when the phone is set to silent
+
 ##### Forecasted Low Alert
 
 !!!xdripitem "Forecasted Low Alert"
@@ -394,34 +398,25 @@ Forecast Lows will display a message on xDrip+ screen. In order to have an alarm
 !!!xdripitem "Raise alarm on Forecast Low<img src="../../images/DIS.png" style="zoom:75%;">"  
     &ensp;Notify when predicted low time reaches threshold
 
+!!!xdripitem "Threshold: Low Value<img src="../../images/ON.png" style="zoom:75%;">"  
+    &ensp;When enabled, Low value is the threshold.  
+    &ensp;When disabled, the threshold is the value defined below.
+
+!!!xdripitem "Threshold"  
+    &ensp;70 mg/dl
+
 !!!xdripitem "Alarm at Forecast Low min"  
     &ensp;40
 
 !!!xdripitem "Predicted Low Sound "  
     &ensp;Choose the sound used for the alarm
 
+!!!xdripitem "Override Silent Mode<img src="../../images/DIS.png" style="zoom:75%;">"  
+    &ensp;Ring this alert even when the phone is set to silent
+
 In the example below if you set Alarm at forecasted low (min) to 50 minutes, il will trigger. The red dotted line is the forecasted BG trend, extrapolated from the previous measurements.
 
 <img src="../images/M-S-AA-EAb2.png" style="zoom:75%;" />
-
-##### Other xDrip+ alerts
-
-!!!xdripitem "Other xDrip+ Alerts"
-
-Some extra alerts are available.  
-Battery alerts are available if your bridge sends this information to xDrip+ (historically G4 now Libre bridges).
-
-!!!xdripitem "Collector battery alerts<img src="../../images/ON.png" style="zoom:75%;"> "  
-    &ensp;Notify when battery level goes below
-
-!!!xdripitem "Low battery percentage "  
-    &ensp;30
-
-!!!xdripitem "Parakeet related alerts "  
-    &ensp;Notify when Parakeet device stops checking in
-
-!!!xdripitem "Silent alert when charging<img src="../../images/DIS.png" style="zoom:75%;"> "  
-    &ensp;Raise Parakeet notification silently when charging
 
 ##### Follower Chime New
 
@@ -528,4 +523,4 @@ You can also completely turn off [notifications channels](#notification-channels
 
 
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)

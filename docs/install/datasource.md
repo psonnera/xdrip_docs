@@ -124,10 +124,6 @@ Unused and obsolete sensors have been removed from this documentation.
 
 ### The following sensors are supported directly by xDrip+:
 
-- G4 (with bridge) or G4 Platinum receiver    
-  <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install29.png" style="zoom:50%;" />
-- G5  
-  <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install30.png" style="zoom:49%;" />
 - [G6, G7, 1 and 1+](../g6)  
   <img src="../images/Install28.png" style="zoom:54%;" />    <img src="../images/Install31.png" style="zoom:50%;" />
 - [Libre (with bridge)](../libreBT)  
@@ -180,11 +176,7 @@ You can select another data source without using the wizard from the settings me
     &ensp;Settings  
     &emsp;Hardware Data Source
 
-G4 (with bridge) or G4 Platinum receiver  
-
-<img src="../images/M-S-HDSlistA.png" style="zoom:75%;" />
-
-[G5, G6, 1, 1+ and G7](../g6) 
+[G6, G7, 1 and 1+](../g6) 
 
 <img src="../images/M-S-HDSlistB.png" style="zoom:75%;" />
 
@@ -248,4 +240,4 @@ If you want to disable xDrip+.
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)

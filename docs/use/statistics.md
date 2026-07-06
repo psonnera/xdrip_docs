@@ -26,6 +26,8 @@ GVI and PGS were parameters introduced by Dexcom see [here](https://web.archive.
 
 Look [here](https://diatribe.org/understanding-average-glucose-standard-deviation-cv-and-blood-sugar-variability) for explanations of these parameters, and remember they are based on measurements and depend on their quality. Bad measurements (inaccurate) will lead to bad statistics, should it be because of the sensor accuracy or your calibrations.
 
+You can choose which of these values are shown. Touch the menu (⋮) top right and select `Include`, then check or uncheck: Absolutes #s, Median BG, Estimated A1C, Relative SD, GVI, PGS.
+
 </br>
 
 Swipe towards the left to see a graphical representation of your percentage in range.  
@@ -45,4 +47,4 @@ Rotate the screen to make it look better.
 
 </br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)

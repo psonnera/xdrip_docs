@@ -14,6 +14,8 @@
 
 </br>
 
+This also works for a standalone Simplera CGM (used without a linked pump) uploading to CareLink.
+
 Select the country in which you registered your CareLink user.
 
 !!!xdripitem "CareLink Country"  
@@ -84,5 +86,5 @@ Pump information (status, basal) is <u>only visible</u> in the status line and *
 
 If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
 

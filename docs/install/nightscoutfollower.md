@@ -46,6 +46,11 @@ If you experience large delays in xDrip+, you can set a fixed delay to re-synchr
 !!!note  
     xDrip+ performs limited (24 hours) data backfilling from Nightscout.
 
+If your Nightscout site reports device status (uploader battery, pump battery), xDrip+ will show it in System Status.
+
+!!!note  
+    Local Nightscout emulators such as [Juggluco](https://github.com/j-kaltes/Juggluco) are also supported as a follower source.
+
 </br>
 
 ### Diabox
@@ -67,4 +72,4 @@ Once done set xDrip+ in Nightscout follower (see above) with the address:
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)

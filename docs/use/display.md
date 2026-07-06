@@ -205,6 +205,14 @@ Lower navigation bar:
 
 <img src="../images/M-S-DS2p3.png" style="zoom:75%;" />
 
+### Font Settings
+
+!!!xdripitem "Font Settings"  
+    &ensp;Customize Fonts
+
+!!!xdripitem "Enlarge fonts on larger displays<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+    &ensp;Automatically enlarge the font size on large screens, such as tablets
+
 ### Language
 
 By default xDrip+ will use your phone language. You can select another language for xDrip+ and force it to display instead of the phone language.
@@ -433,13 +441,21 @@ These two options are only available for developers.
 
 !!!xdripitem "Illustrate remote data <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
 
-##### Customize Y axis range
+##### Y-axis
 
 The main screen vertical axis has a default minimum of 40 mg/dl (2.22 mmol/l) and default maximum of 250 mg/dl (13.9 mmol/l).
 
-You can arbitrarily fix lower and upper value for the Y axis. Whenever readings will be out of this range, the graph will extend the range to make them visible. Y scale will then return to these settings when out of fixed range values are not displayed anymore.
+You can arbitrarily fix lower and upper value for the Y axis.
 
-!!!xdripitem "Customize y axis range"
+!!!xdripitem "Customize Y-axis range"
+
+By default, whenever readings are out of this range, the graph will temporarily extend the range to make them visible, then return to your fixed values once those readings scroll off.
+
+If you'd rather keep the Y-axis range fixed and pan the graph vertically instead of expanding it, enable Auto-pan.
+
+!!!xdripitem "Auto-pan Y-axis <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Enable: Pan the graph with a fixed Y-axis range (minimum-maximum) to show out-of-range readings.  
+    &ensp;Disable: Expand the Y-axis range to include out-of-range readings.
 
 ### Glucose number from Filtered
 
@@ -511,6 +527,11 @@ xDrip+ can use Android accessibility to display its widget in the always on disp
 
 <img src="../images/M-S-DS6x3.png" style="zoom:75%;" />
 
+On Android 16 and above, you can alternatively show your glucose as a notification chip on the lock screen / always on display, using the ongoing persistent notification instead of accessibility. This requires [Notification Channels](../alarms/#notification-channels) to be enabled first.
+
+!!!xdripitem "Use AOD chip style <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Display notification chip and lock screen notification. Android 16+ only
+
 ### Numbered wall on Locked Screen
 
 xDrip+ can display your BG value on the phone locked screen.  
@@ -537,24 +558,28 @@ You will see a real time preview of the result (123 ⇅)
 Enable Locked screen display to show the numbered wall (Android 7 and above).
 
 !!!xdripitem "Use on Lock screen<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Show on lock screen. Android 7 and above only!
+    &ensp;Show number wall on lock screen when enabled
 
-You can change the text and background color.
+By default the number wall on the lock screen uses the same low/in-range/high glucose colors as the main screen. You can force it to always use a single fixed color instead.
+
+!!!xdripitem "Force text color<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Enable: Always use the selected text color.  
+    &ensp;Disable: Use main screen glucose colors (low / in-range / high).
 
 !!!xdrip "Number Wall on Lock Screen"  
-    Wall Text Color<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
+    Text color<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
       
 
-    Wall Shadow Color<span style="float: right; width: 40px; height: 40px; background-color: #000000; display: inline-block;"></span>  
+    Text shadow color<span style="float: right; width: 40px; height: 40px; background-color: #000000; display: inline-block;"></span>  
       
 
 Enable and disable the feature for a defined period of the day. By default it enables all day long.
 
-!!!xdripitem "Turn On (all day)"  
-    Choose time to start showing
+!!!xdripitem "Start time (all day)"  
+    Choose number wall start time (same as end for all day)
 
-!!!xdripitem "Turn Off Time"  
-    Choose time to stop showing - set to same as start for always on
+!!!xdripitem "End time"  
+    Choose number wall end time - set to same as start time for always on
 
 ### Number Icon in Notification Area
 
@@ -606,4 +631,4 @@ It might be a good idea to enable this feature if your phone performs automatic 
 
 </br>
 
-[*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)

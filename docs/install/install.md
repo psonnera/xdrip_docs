@@ -103,11 +103,17 @@ These settings are default, but still make sure they are exactly like shown belo
     &ensp;Settings  
     &emsp;Less Common Settings  
     &ensp;&emsp;Other misc. Options  
+    &ensp;&emsp;&emsp;Collector in foreground
 
 !!!xdripitem "Run Collector in foreground <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Shows a persistent notification graph, visible on lock-screen and prevents Android from killing the service.
 
 `Run Collector in Foreground` enables the graph in your phone drop down curtain but is **essential** to keep the app alive. It **must be enabled**.
+
+!!!xdripitem "Compact Persistent Notification <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Enable to hide the graph in the notification and display only the current glucose value.
+
+If you'd rather not show the graph in the persistent notification, enable `Compact Persistent Notification` to show just the current glucose value instead.
 
 !!!xdripitem "Battery Optimization prompt <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;On Android 6+ ensure battery optimization is switched off (recommended).
@@ -136,4 +142,4 @@ Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
