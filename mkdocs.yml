@@ -55,6 +55,7 @@ nav:
         - 'BYODA': 'install/byod.md'
         - 'Companion app': 'install/companion.md'
         - 'GlucoRx/Aidex': 'install/aidex.md'
+        - 'SmartGuide': 'install/smartguide.md'
         - 'CareSens Air': 'install/caresens.md'
         - 'Web Follower': 'install/webfollower.md'
     - Discover and use:

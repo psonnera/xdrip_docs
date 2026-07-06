@@ -230,6 +230,11 @@ Libre with patched SWR50 smartwatch
 !!!xdripitem "Hardware Data Source"  
     &emsp;Companion App<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
 
+[SmartGuide](../smartguide)
+
+!!!xdripitem "Hardware Data Source"  
+    &emsp;SmartGuide<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
+
 [GlucoRx/Aidex](../aidex)
 
 !!!xdripitem "Hardware Data Source"  
@@ -255,7 +260,7 @@ If you want to disable xDrip.
 </br>
 
 !!!note  
-    The `Hardware Data Source` list also contains `Bluetooth Wixel`, `xBridge Wixel`, `Wifi Wixel / Parakeet`, `Wifi Wixel + BT Wixel`, `Wifi Wixel + xBridge Wixel` and `SmartGuide`: these are legacy/obsolete entries not covered in this documentation.
+    The `Hardware Data Source` list also contains `Bluetooth Wixel`, `xBridge Wixel`, `Wifi Wixel / Parakeet`, `Wifi Wixel + BT Wixel` and  `Wifi Wixel + xBridge Wixel`: these are legacy/obsolete entries not covered in this documentation.
 
 </br>
 
