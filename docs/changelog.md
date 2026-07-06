@@ -6,6 +6,86 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 3rd Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03) | Nightscout follower: self-healing skip after HTTP errors, Juggluco emulator compatibility fixes |
+| [ 1st Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.01) | **Nightscout follower rework**: uploader battery/charging status, pump battery priority, capped backfill |
+| [24th Jun 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.24) | mg/dL to mmol/L conversion factor fix                        |
+| [17th Jun 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.17) | Fix newly-started sensor row overwritten by stale stop ack   |
+| [13th Jun 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.13) | **SiSensing Eco China** companion app, trust user-installed CA certificates, more accurate missed reading alert |
+| [ 2nd Jun 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.02) | OB1 multi-threaded stability improvements for newer Android  |
+| [27th May 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.05.27) | **Gradle 8 / Java 17 build update**                          |
+| [ 6th May 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.05.06) | More prominent extra alerts, daily job runs on mobile too    |
+| [29th Apr 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.29) | Contour Next meter: read only last measurement                |
+| [22nd Apr 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.22) | Bluetooth cleanup                                             |
+| [ 5th Apr 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.05b) | b - TxIdHelper UI improvements                                |
+| [ 5th Apr 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.05) | **TxIdHelper** feature added, allow larger APK                |
+| [ 1st Apr 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.01) | Dexcom Share migrated to Retrofit 2 / OkHttp3                |
+| [27th Mar 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.27) | Improved backfill, home screen display with no sensor        |
+| [25th Mar 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.25) | CareLinkFollow and other HTTP clients migrated to shared OkHttpClient |
+| [19th Mar 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.19) | Continued OkHttp2 to OkHttp3 migration (SendFeedback, QR code, WixelReader, WebAppHelper) |
+| [15th Mar 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.15b) | b - Manifest permission fix                                   |
+| [15th Mar 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.15) | **AoD chip style notification**, shared OkHttpClient introduced |
+| [ 6th Mar 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.06) | Detect Libre sensor type from extended patch info, new auto-update setting |
+| [ 1st Mar 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01) | **NightLite** feature, improved Libre 2/3 patch info detection |
+| [25th Feb 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.25) | Status page cleanup, proximity margin respects sample period |
+| [18th Feb 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.18) | Dex collection: add BLE manager, one-minute interval option   |
+| [13th Feb 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.13) | Dex collection: alternate connection strategy, disallow future timestamps |
+| [11th Feb 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.11) | **NovoPen** improvements                                       |
+| [30th Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.30) | Glucose colors on lock screen, hard reset UI improvements     |
+| [25th Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.25) | Extended home screen widget with previews                     |
+| [18th Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.18) | New G7 firmware support                                        |
+| [ 9th Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.09) | Notification file URI and number parsing fixes                |
+| [ 7th Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.07) | IoB from German MiniMed Mobile EU companion app                |
+| [ 4th Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.04) | OB1 update, Pebble SDK update                                  |
+| [ 3rd Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.03b) | b - Tidepool refresh token handling fixes                      |
+| [ 3rd Jan 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.03) | Auto Y-axis pan                                                |
+| [31st Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.31) | Invalid BG value filtering, per-channel update check frequency |
+| [29th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.29) | Amazfit library moved to local storage, GluPro ignore out-of-range values |
+| [24th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.24) | Additional graph logging                                       |
+| [22nd Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.22) | Dream settings page fix                                        |
+| [21st Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.21) | Library updates                                                 |
+| [20th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.20) | Y-panning merge revert/fix                                     |
+| [19th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.19b) | b - Status null pointer fix                                    |
+| [19th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.19) | **GluPro Glucose Profile SmartGuide** collector added           |
+| [18th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.18) | Y axis auto range control                                      |
+| [17th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.17) | **Smart 2 Brazil** support, MiniMed Mobile EU companion IoB, Bluetooth watchdog timer list |
+| [13th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.13) | **Diaexpert sensor** support, forecasted low critical note font color option |
+| [10th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.10) | G7 battery level and notification, 24-hour format support      |
+| [ 7th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.07) | Fix Pebble watchface install                                    |
+| [ 6th Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.06) | Pebble connection check cleanup                                 |
+| [ 2nd Dec 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.02) | Libre2 source info identifier added to OOP-processed readings  |
+| [28th Nov 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.28) | Home screen start time window fix                               |
+| [26th Nov 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.26) | **LinX Vista** sensor support                                   |
+| [22nd Nov 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.22) | Edit Alert: handle invalid numbers better                        |
+| [12th Nov 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.12) | **Glucotech companion app**, Pebble installer fix, Statistics customization |
+| [ 5th Nov 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.05) | OB1 calibration state fix, Tidepool handling update              |
+| [ 1st Nov 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.01) | Reminders null adapter fix, crash reporter update                |
+| [29th Oct 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.29) | Tidepool uploader queue, reminders receiver fixes                |
+| [15th Oct 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.15) | G7 raw log exclusions, string/translation improvements           |
+| [ 4th Oct 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.04) | Companion app IoB reporting fix when CV is empty                 |
+| [26th Sep 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) | **Vitatok companion app**, new Libre sensor support               |
+| [19th Sep 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.19) | Font settings, improved alert edit strings, links to guides on main page |
+| [ 5th Sep 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.05) | **Standalone Simplera CGM** support, wake workaround for Realme  |
+| [29th Aug 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.29) | Statistics time period label, override silent mode fix           |
+| [16th Aug 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.16) | **Equil G companion app**, Override Silent Mode                  |
+| [ 8th Aug 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.08) | Compact persistent notification                                  |
+| [25th Jul 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.25) | **OB1 Pair Keeper** feature added                                 |
+| [16th Jul 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.16) | **Libre 2 Plus** sensor age, follower chime menu update           |
+| [ 4th Jul 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.04) | Retired Parakeet alerts, Dex share 24-hour backfill               |
+| [20th Jun 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.20) | xDrip Sync Follower Source Wizard                                 |
+| [17th Jun 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.17) | Tidepool new authorization only, xDrip Sync Follower missed reading alert fix |
+| [ 3rd Jun 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.03) | G7 txid handling improvements                                     |
+| [23rd May 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.23) | Forecast low threshold setting                                    |
+| [ 9th May 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.09) | Update-available notification                                     |
+| [30th Apr 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.30) | Update mechanism load balancing                                   |
+| [25th Apr 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.25) | Upload treatments to all configured sites                         |
+| [15th Apr 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.15) | **CamAPS Canada** companion app, **G4/G5 retired**, iCan companion package update |
+| [ 3rd Apr 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.03) | **iCan companion app**                                            |
+| [26th Mar 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.26) | Consistent Nightscout upload failure notification/logging          |
+| [23rd Mar 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.23) | Sensor session consistency fixes                                   |
+| [12th Mar 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.12) | Standalone sensors moved to Cloud servers, OB1 persistence improvements |
+| [11th Mar 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.11) | Missed readings alert sound                                        |
+| [18th Feb 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.18b) | b - Pasta companion app fix                                        |
+| [18th Feb 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.18) | **Pasta companion app**                                            |
 | [14th Feb 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.14) | Carelink follow US fix                                       |
 | [ 7th Feb 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.07) | Web follow fix                                               |
 | [31st Jan 2025](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.31) | Eversense 365 US Companion app, Libre 2 direct identified for AAPS |
