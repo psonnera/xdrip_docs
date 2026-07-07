@@ -68,6 +68,7 @@ nav:
         - 'Speak Readings': 'use/speak.md'
         - 'Glucose Meter': 'use/glucometer.md'
         - 'Sync Follower setup': 'use/syncsetup.md'
+        - 'NightLite iOS follower': 'use/nightlite.md'
     - Calibrations:
         - 'Calibration basics': 'calibrate/101.md'
         - 'Calibrate': 'calibrate/calibrate.md'

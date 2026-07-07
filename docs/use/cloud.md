@@ -232,6 +232,8 @@ Web Deposit is a simple batch upload API currently used for diagnostics. It's hi
 
 NightLite is a lightweight, Nightscout-compatible follower service, a simpler alternative to running your own Nightscout site if you only need to share your BG with followers.
 
+See [NightLite follower setup](../nightlite/) for the full install sequence.
+
 !!!xdripitem "Upload to NightLite<span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Whether to upload to the remote service
 
