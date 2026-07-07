@@ -114,7 +114,7 @@ Use [GeminiMan Wear OS Manager](https://play.google.com/store/apps/details?id=co
 1. Install [ADB](../../troubleshoot/ADB).
 2. Download xDrip on a computer and extract the APK (it's a zipped file).  
    **It must be exactly the same version you have on your phone.**
-3. Browse the the `/res/raw` folder of the xDrip package and copy the file `android_wear_micro_apk.apk` into your ADB folder.
+3. Browse the xDrip APK package with an archive tool, sort the files under `res` by size, and copy the largest one (it's the embedded wear apk, just not named as such) into your ADB folder.
 4. Sideload the xDrip wear extension to the watch.
 
 ### Wear OS 5

@@ -53,18 +53,25 @@ Use scanning will perform the equivalent of Bluetooth Scan from the main menu to
 !!!xdripitem "Use scanning<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Scan before connecting on xBridge and Libre Bluetooth
 
+#### Use BLE manager
+
+Use a more modern BLE manager system. Leave it **disabled** unless you're troubleshooting a connection issue with guidance to try it.
+
+!!!xdripitem "Use BLE manager<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Use a more modern BLE manager system
+
 #### Trust auto-connect
 
-Trust Auto-Connect really depends on your phone. If you have a Samsung, Xiaomi, OnePlus, Oppo, Huawei or Realme you should probably leave it disabled. If you frequently lose connection and can't manage to recover leave it **disabled**.
+Trust Auto-Connect really depends on your phone. It is **enabled** by default. If you have a Samsung, Xiaomi, OnePlus, Oppo, Huawei or Realme you should probably disable it. If you frequently lose connection and can't manage to recover, try disabling it.
 
-!!!xdripitem "Trust auto-connect<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Trust auto-connect<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Use and trust Android Bluetooth auto-connect feature
 
 #### Use Background scan
 
-Use Background scan is a feature of newer Android versions. If you regularly lose connection, leave it **disabled**.
+Use Background scan is a feature of newer Android versions, **enabled** by default. If you regularly lose connection, try disabling it.
 
-!!!xdripitem "Use Background Scans<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Use Background Scans<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Use Android 8+ background scanning feature
 
 #### Companion Bluetooth
@@ -81,40 +88,26 @@ Bluetooth wakelocks are not recommended and should be left **disabled**.
 !!!xdripitem "Bluetooth Wakelocks<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Older Bluetooth wakelocks which can can drain battery but might be needed for Bluetooth reception.  
 
-#### Constantly reset Bluetooth
-
-Constantly reset Bluetooth is not recommended. Leave it **disabled**,
-
-!!!xdripitem "Constantly reset Bluetooth<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Reset Bluetooth by turning it off then on every few minutes! Only select if you are testing. It may disrupt anything else using Bluetooth.
-
-#### Transmitter support
-
-If you use a Transmitter_T or a Droplet bridge for Libre sensors (we miss you [Marek](https://github.com/MarekM60)) you must enable this option, else leave it **disabled**.
-
-!!!xdripitem "Transmitter (PL) support<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Experimental support for "Transmitter" device from @FPV-UAV - test only
-
-#### RFduino support
-
-RFDuino support is only necessary if you use a [DIY bridge with RFDuino](https://github.com/TomaszStachowicz/Transmiter-xBridgePlus). Obsolete. Leave **disabled**.
-
-!!!xdripitem "RFduino support<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Experimental support for RFduino from Tomasz Stachowicz.
-
 #### xBridge+ polling mode
 
-xBridge+ polling mode allows xDrip to send requests to the bridge. Even if it doesn't have any effect with other Bluetooth devices you can leave it enabled if you have frequent connection loss as it will anyway keep your phone Bluetooth busy trying to connect.
+xBridge+ polling mode allows xDrip to send requests to the bridge. Even if it doesn't have any effect with other Bluetooth devices you can enable it if you have frequent connection loss as it will anyway keep your phone Bluetooth busy trying to connect.
 
-!!!xdripitem "xBridge+ Polling Mode<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "xBridge+ Polling Mode<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Experimental support for xBridge+ polling feature
 
 #### Always discover services
 
-Enabled by default.
+Enabled by default. Only visible with Engineering Mode enabled.
 
 !!!xdripitem "Always discover services<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Probe Bluetooth service on every connect
+
+#### Use GATT refresh
+
+Whether to use the low level GATT refresh mechanism. Enabled by default. Only visible with Engineering Mode enabled.
+
+!!!xdripitem "Use GATT refresh<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+    &ensp;Whether to use the low level gatt refresh mechanism
 
 #### Allow BluCon unbonding
 

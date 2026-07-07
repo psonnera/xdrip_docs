@@ -453,7 +453,7 @@ By default, whenever readings are out of this range, the graph will temporarily 
 
 If you'd rather keep the Y-axis range fixed and pan the graph vertically instead of expanding it, enable Auto-pan.
 
-!!!xdripitem "Auto-pan Y-axis <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Auto-pan Y-axis <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Enable: Pan the graph with a fixed Y-axis range (minimum-maximum) to show out-of-range readings.  
     &ensp;Disable: Expand the Y-axis range to include out-of-range readings.
 
@@ -507,7 +507,7 @@ This makes notifications visible on locked screen.
 
 You might have wanted to use these settings with a [Parakeet](https://github.com/jamorham/wixel-xDrip/blob/parakeet-gsm-modem/README.md).
 
-!!!xdripitem "Parakeet and Extra Test Features <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
+!!!xdripitem "Parakeet and Extra Test Features <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"
 
 ### Enable Reminder Features
 
@@ -562,7 +562,7 @@ Enable Locked screen display to show the numbered wall (Android 7 and above).
 
 By default the number wall on the lock screen uses the same low/in-range/high glucose colors as the main screen. You can force it to always use a single fixed color instead.
 
-!!!xdripitem "Force text color<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Force text color<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Enable: Always use the selected text color.  
     &ensp;Disable: Use main screen glucose colors (low / in-range / high).
 

@@ -45,7 +45,7 @@ Renamed to Wake Workarounds as other devices are not compliant.
 Fixed a non compliance in respect to some Android of devices, now default for Samsung, Xiaomi, OnePlus, Oppo and Huawei.   
 Should be kept **enabled**.
 
-!!!xdripitem "Wake workarounds <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Wake workarounds <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Use workarounds to avoid non-standard Android behavior of some handsets. Without this, collectors usually fail to get data.
 
 Use Excessive Wakelocks is not required. They are additional "wake-up" messages sent by xDrip to your Android device to prevent it to go in sleep mode. 
@@ -58,7 +58,7 @@ Display Predictive Values (old method) is deprecated. Use [Predictive Simulation
 !!!xdripitem "Display Predictive Values (old method) <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     Old method - Not recommended!
 
-Proper Ongoing is mandatory for devices with Android 8 and above.
+Proper Ongoing is mandatory for devices with Android 8 and above. Only visible with Engineering Mode enabled.
 
 !!!xdripitem "Proper Ongoing <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     Use proper ongoing notification. Disabling this causes collector problems on Android 8+
@@ -84,13 +84,13 @@ OOP2 is mandatory to handle data from Libre 14 days US, Libre 2/2+ EU.
 
 You can use OOP2 in different ways:
 
-- No calibration generates vendor like values (native mode) without the need of calibrating. It doesn't mean that results are not calibrated (raw) but a vendor-like algorithm is applied (like the Libre 1 reader). **Recommended** to start with.
-- Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1. You will use the xDrip calibration algorithm.
+- No calibration generates vendor like values (native mode) without the need of calibrating. It doesn't mean that results are not calibrated (raw) but a vendor-like algorithm is applied (like the Libre 1 reader).
+- Calibrate based on raw uses the sensor raw data (no temperature correction) like Libre 1. You will use the xDrip calibration algorithm. **Shipped default.**
 - Calibrate based on glucose allows you to apply xDrip calibration to native values. Raw data are transformed using the vendor-like algorithm, then fed to the xDrip calibration algorithm.
 
 !!!xdripitem "OOP2 algorithm calibration"  
-    &emsp;No calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;●  
-    &emsp;Calibrate based on raw&emsp;&emsp;&emsp;○  
+    &emsp;No calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
+    &emsp;Calibrate based on raw&emsp;&emsp;&emsp;●  
     &emsp;Calibrate based on glucose&nbsp;&emsp;○
 
 Smooth Libre data averages on 5 measurement. This will also delay readings.  

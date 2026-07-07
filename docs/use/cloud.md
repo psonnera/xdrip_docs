@@ -84,7 +84,7 @@ Your can upload locally entered [treatments](../mainUI/#treatments) to Nightscou
 
 You can setup an alert when upload fails, and add more information to the BG data uploaded.
 
-!!!xdripitem "Alert on failures<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Alert on failures<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Display and sound a notification if Nightscout upload is failing
 
 !!!xdripitem "Append source info to device name<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
@@ -163,7 +163,7 @@ Once you have an active follower, created by the Dexcom apps, you can use xDrip 
 
 If you use an USA account enable this, **for any other country leave it disabled**. 
 
-!!!xdripitem "Dexcom USA based account<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Dexcom USA based account<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Enable = Your account and follower apps are from the USA
 
 Enter the credentials you use to log into Clarity.
@@ -220,6 +220,27 @@ If upload fails, enable the new authentication protocol.
 
 !!!xdripitem "Use new Auth<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     2023 openid authentication method
+
+##### Web Deposit
+
+Web Deposit is a simple batch upload API currently used for diagnostics. It's hidden behind Engineering Mode and not intended for regular use.
+
+### NightLite
+
+!!!xdripitem "NightLite"  
+    &ensp;Lightweight Nightscout compatible service intended for followers
+
+NightLite is a lightweight, Nightscout-compatible follower service, a simpler alternative to running your own Nightscout site if you only need to share your BG with followers.
+
+!!!xdripitem "Upload to NightLite<span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+    &ensp;Whether to upload to the remote service
+
+!!!xdripitem "NightLite URL"  
+    &ensp;Contains your security key, do not disclose it. Typically entered by scanning a QR code from the dashboard.
+
+Once enabled, you can show a QR code containing your NightLite connection details for followers to scan.
+
+!!!xdripitem "Show QR Code"
 
 </br>
 

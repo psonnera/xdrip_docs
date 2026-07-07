@@ -48,7 +48,7 @@ You can enable sounds to indicate connection, disconnection and data collection.
 
 You can have xDrip suggest to use the result to calibrate your connected sensor (if it supports calibration).
 
-!!!xdripitem "Use meter for calibrations <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Use meter for calibrations <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;When a new blood glucose result is received, ask if that should be used to calibrate with
 
 It is not recommended to enable automatic calibration.

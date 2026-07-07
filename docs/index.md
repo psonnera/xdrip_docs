@@ -8,7 +8,7 @@
 
 xDrip is an unofficial and independent Android app which works as data hub and processor between many different devices.
 
-It supports wireless connections to G6, One, One+, G7, Stelo, CareSens Air, Libre via NFC and Bluetooth, Aidex, Guardian, Simplera, Medtronic pumps, Eversense CGM, Libre 2 and 3, Sibionics via companion apps, as well as many other CGM/pump vendor apps (Pasta, iCan, CamAPS, Equil G, Vitatok, Glucotech, SiSensing, and more) via the companion app notification reader. Bluetooth Glucose Meters such as the Contour Next One, AccuChek Guide, Verio Flex & Diamond Mini as well as devices like the Pendiq 2.0 Insulin Pen.
+It supports wireless connections to G6, One, One+, G7, Stelo, CareSens Air, Libre via NFC and Bluetooth, Aidex, Guardian, Simplera, Medtronic pumps, Eversense CGM, Libre 2 and 3, as well as many other CGM/pump vendor apps (Pasta, iCan, CamAPS, Equil G, Vitatok, Glucotech, SiSensing, and more) via the companion app notification reader. Bluetooth Glucose Meters such as the Contour Next One, AccuChek Guide, Verio Flex & Diamond Mini as well as devices like the Pendiq 2.0 Insulin Pen.
 
 Heart-rate and step counter data is processed from Android Wear, Garmin, Fitbit and Pebble smart-watches and watch-faces for those that show glucose values and graphs.
 

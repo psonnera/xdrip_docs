@@ -103,7 +103,7 @@ On xDrip and xDrip Large, change the divider (status line) color to match backro
 
 <img src="../images/M-S-SW-AW-XP19.png" style="zoom:75%;" />
 
-Force update is available for Wear 2.0 and above watches if available for the current version and enabled as explained [here](../wearinstall/#wear-os-20-and-above).
+Force update is available for Wear 2.0 and above watches if available for the current version and enabled as explained [here](../wearinstall/#wear-os-2x-and-3x).
 
 <img src="../images/M-S-SW-AW-XP20.png" style="zoom:75%;" />
 

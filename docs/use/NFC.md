@@ -18,7 +18,7 @@ You can display sensor age at the bottom of the main graph (xDrip master).
 
 In order to automatically open xDrip upon NFC sensor detection you should **enable** Scan when not in xDrip (recommended). If several apps can scan NFC devices, you will be asked to select the one to use each scan.
 
-!!!xdripitem "Scan when not in xDrip <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Scan when not in xDrip <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;NFC scanning will also work from your app launcher screen.
 
 You can decide how xDrip will inform you that the scan completed.  Vibration and sound are helpful during (long) NFC scans, you should **enable** both.
@@ -27,11 +27,13 @@ When scanning remember that you need to keep the phone in the NFC antenna spot f
 
 !!!xdripitem "Vibrate to indicate scanning status <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>" 
 
-!!!xdripitem "Beep when scanning within xDrip app <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>" 
+!!!xdripitem "Beep when scanning within xDrip app <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>" 
 
-Faster scan should remain **disabled** to start. You can try to enable it once successful in scanning sensors.
+    Only visible with Engineering Mode enabled.
 
-!!!xdripitem "Use faster multi-block reading method <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>" 
+Faster scan is **enabled** by default. If you have trouble scanning sensors, try disabling it.
+
+!!!xdripitem "Use faster multi-block reading method <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>" 
 
 If you have trouble with your phone NFC, try to **enable** Any tag method.
 
@@ -49,8 +51,8 @@ This selection will pop-up when you scan a new Libre 2 sensor only if you select
 Be aware that Always connect to Libre2 sensors will most probably disconnect any other app or device connected to the sensor. If xDrip successfully pairs, there will be no possible connection recovery from the other device/app.
 
 !!!xdripitem "Starting Bluetooth connection with Libre2 sensors"  
-    &emsp;Always connect to Libre2 sensors<span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;  
-    &emsp;Ask me every time<span style="float: right;">○&emsp;</span>  
+    &emsp;Always connect to Libre2 sensors<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &emsp;Ask me every time<span style="float: right;">●&emsp;</span>  
     &emsp;Never connect to Libre2 sensors<span style="float: right;">○&emsp;</span>  
 
 ## Smooth libre 3 data when using xxx method

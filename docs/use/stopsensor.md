@@ -6,7 +6,7 @@ Reference documentation is [here](https://navid200.github.io/xDrip/docs/Proper-c
 
 ### G7 and 1+
 
-These sensors stop by themselves after 10 days and 12 hours.
+These sensors stop by themselves after 10 days and 12 hours. Some transmitters running alternate firmware report a longer 15 days and 12 hours lifetime instead; xDrip detects this automatically from the transmitter firmware, it isn't a setting you choose.
 
 </br>
 

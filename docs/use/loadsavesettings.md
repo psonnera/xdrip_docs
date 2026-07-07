@@ -33,7 +33,7 @@ If you want to keep a safe copy, send yourself  the file by email, save in on a 
 
 ### Load Settings
 
-<div style="background-color: gray; color: white; text-align: center;">  &emsp;Load all settings to the settings file&emsp;</div> 
+<div style="background-color: gray; color: white; text-align: center;">  &emsp;Load all settings from the settings file&emsp;</div> 
 
 !!!warning "Existing settings will be overwritten"
 
@@ -41,7 +41,7 @@ You might need to restart your phone to complete the operation.
 
 ### Delete Settings
 
-<div style="background-color: gray; color: white; text-align: center;">  &emsp;Delete settings folder (Download/xDrip-Export)&emsp;</div> 
+<div style="background-color: gray; color: white; text-align: center;">  &emsp;Delete settings folder (Download/xDrip-export)&emsp;</div> 
 
 Exported settings contain private information, once transferred to another phone or a safe location you might want to delete the backup.
 

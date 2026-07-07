@@ -418,6 +418,14 @@ In the example below if you set Alarm at forecasted low (min) to 50 minutes, il 
 
 <img src="../images/M-S-AA-EAb2.png" style="zoom:75%;" />
 
+##### Sensor Expiry Notifications
+
+!!!xdripitem "Sensor Expiry Notifications"  
+    &ensp;Raise notifications when the sensor gets close to expiry.
+
+!!!xdripitem "Enable<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Raise notifications when the sensor gets close to expiry.
+
 ##### Follower Chime New
 
 After missed readings, a notification will sound when new data is received after more than 20 minutes.

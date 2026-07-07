@@ -40,8 +40,8 @@ This is how the classic trend arrow will appear, it takes into account the diffe
 | BG difference (previous and current)                         |                                                           |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
 | Changed at most +/- 5mg/dl (0.28 mmol/l)                     | <img src="../images/ArrowFlat.png" style="zoom:75%;" />   |
-| Changed more than above and less than +/- 9mg/dl (0.5 mmol/l) | <img src="../images/ArrowUpDn.png" style="zoom:75%;" />   |
-| Changed more than above and less than +/- 19mg/dl (1.06 mmol/l) | <img src="../images/ArrowUpDn+.png" style="zoom:75%;" />  |
+| Changed more than above and less than +/- 10mg/dl (0.56 mmol/l) | <img src="../images/ArrowUpDn.png" style="zoom:75%;" />   |
+| Changed more than above and less than +/- 17.5mg/dl (0.97 mmol/l) | <img src="../images/ArrowUpDn+.png" style="zoom:75%;" />  |
 | Changed more than above                                      | <img src="../images/ArrowUpDn++.png" style="zoom:75%;" /> |
 
 

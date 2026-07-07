@@ -12,7 +12,7 @@ Show settings QR code displays a QR code containing xDrip settings.
 
 xDrip security key is used for xDrip Sync, if you only want to share a a follower code (that is difficult to copy manually) use this.
 
-!!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;XDRIP PLUS SECURITY KEY SETTINGS ONLY&emsp;</div>"
+!!!xdrip "<div style="background-color: gray; color: white; text-align: center;">  &emsp;SECURITY KEY SETTINGS ONLY&emsp;</div>"
 
 If you used customization QR codes for this phone xDrip (G7, 1+, BlueJay, ...), you can transfer them directly to another phone
 
@@ -30,14 +30,14 @@ You will obtain a QR code that you can scan with Auto Configure on another phone
 
 <img src="../images/M-S-QRe.png" style="zoom:75%;" />
 
-### Auto Configure
+### Auto configure
 
 Auto configure allows you to import settings from a QR code.
 
 Make sure you know the origin of the QR code you will scan is safe.
 
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure
+    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto configure
 
 #### Camera
 

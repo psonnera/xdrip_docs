@@ -66,7 +66,7 @@ Note that if you keep the vendor app on your phone, you will be required to sele
 
 Make sure you have [setup](../../install/libreNFC/#enabling-nfc) xDrip NFC correctly.  
 Scanning takes more time with xDrip. Once you find the correct location of your phone NFC antenna go to the right spot and hold still.  
-You cannot scan less than 60 seconds after the previous scan.
+You cannot scan less than 30 seconds after the previous scan.
 
 #### Cannot connect to the sensor
 

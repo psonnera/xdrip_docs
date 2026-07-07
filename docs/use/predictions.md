@@ -138,7 +138,7 @@ Insulin [duration](https://www.diabettech.com/insulin/why-we-are-regularly-wrong
 Target glucose value is the value used to calculate suggested corrections.
 
 !!!xdripitem "Target glucose value"  
-    &ensp;99 / 5.5
+    &ensp;100 / 5.6
 
 Insulin duration is a parameter you should discuss with your endocrinologist. When using closed loop systems, this value will be much more. Still, remember that xDrip predictions find their best use with multiple daily injections, not with pumps.
 

@@ -18,9 +18,9 @@ You can decide to use BG [treatments](../../use/mainUI/#treatments) (blood tests
 Automatic mode will only suggest you to use the treatment as a calibration if xDrip detects that current conditions are good to calibrate (like BG stable for 20 minutes, low noise).
 
 !!!xdripitem "Use Treatment BG values"  
-    &emsp;Automatic mode (best)<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
+    &emsp;Automatic mode (best)<span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;  
     &emsp;Ask me every time<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
-    &emsp;Never use them<span style="float: right;">●&emsp;</span>&emsp;&emsp;&emsp;  
+    &emsp;Never use them<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
     &emsp;Always use them<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp; 
 
 It might also suggest to you enable automatic calibration.  
@@ -82,7 +82,7 @@ Be careful as noisy calibrations might lead to inconsistent results.
 
 **`xDrip Original`** was the plugin equivalent of the xDrip algorithm. It doesn't do anything else than the xDrip algorithm. **There is no added value in using it.**
 
-**`Last 7 unweighted`** was an early attempt to improve the original algorithm. It requires at least 7 calibrations (if non-existing, current xDrip algorithm is used). **Not recommended.**
+**`Last 7 unweighted`** was an early attempt to improve the original algorithm. It requires at least 4 calibrations (uses up to the last 7; below 4, current xDrip algorithm is used). **Not recommended.**
 
 !!!xdripitem "Plugin plot on graph <img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;Show glucose results from the plugin on the main graph  
@@ -110,6 +110,11 @@ Not implemented.
 
 If you're not actually performing two different blood tests for initial calibration: disable this.
 
+Old school calibration mode restores the original, narrower range of allowed slopes within the xDrip classic calibration algorithm (pre-2017), making default slopes more likely. Only visible with Engineering Mode enabled.
+
+!!!xdripitem "Old school calibration mode <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Original narrower range of allowed slopes within xDrip classic calibration algorithm (pre-2017). Default slopes more likely!
+
 !!!xdripitem "Infrequent Calibration <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;If needed, use calibrations from longer ago, e.g. if calibrations are supplies infrequently  
 
@@ -119,7 +124,7 @@ Calibrations get ignored when too old, if you calibrate rarely and want older ca
 
 ##### Non-fixed Libre Slopes
 
-!!!xdripitem "Non-fixed Libre Slopes <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Non-fixed Libre Slopes <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Enable to allow variable slopes with Libre collection methods  
 
 Libre sensors might be difficult to calibrate. If you cannot manage to get full range accuracy or never calibrate in the higher range, disable this and make the slope equal to 1. This is recommended for beginners.

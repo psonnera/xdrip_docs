@@ -3,7 +3,7 @@
 
 Statistics view offers 3 basic statistics displays you can configure for different periods of time.
 
-1. First select the period of time you want to calculate statistics on. ToDay, YestTerDay, last week, month or quarter.
+1. First select the period of time you want to calculate statistics on. ToDay, YestTerDay, last 7, 30 or 90 days.
 2. You can display the graph full screen (touch it again to exit full screen mode).
 3. You can share the screen as a screenshot.
 
@@ -26,7 +26,7 @@ GVI and PGS were parameters introduced by Dexcom see [here](https://web.archive.
 
 Look [here](https://diatribe.org/understanding-average-glucose-standard-deviation-cv-and-blood-sugar-variability) for explanations of these parameters, and remember they are based on measurements and depend on their quality. Bad measurements (inaccurate) will lead to bad statistics, should it be because of the sensor accuracy or your calibrations.
 
-You can choose which of these values are shown. Touch the menu (⋮) top right and select `Include`, then check or uncheck: Absolutes #s, Median BG, Estimated A1C, Relative SD, GVI, PGS.
+You can choose which of these values are shown. Touch the menu (⋮) top right and select `Parameters`, then check or uncheck: Absolutes #s, Median BG, Estimated A1C, Relative SD, GVI, PGS, Standard Deviation.
 
 </br>
 

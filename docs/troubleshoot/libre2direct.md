@@ -97,7 +97,7 @@ The reading should be every minute, although some might have skipped, as has hap
 </br>
 
 ## Cannot NFC Scan new sensor - NFC Timeout
-There is an emerging problem, especially in Europe, where you cannot start the sensor with an NFC scan. Instead of the "Scanned OK" message after "Scanning", you will see "NFC TimeOut" or "NFC failsafe". Look in the debug logs. If you see a message "Sensor type unknown, returning libre1 as failsafe", or "Libre sensor of type Libre1 detected", then you need to update both OOP2 & xDrip.
+There is an emerging problem, especially in Europe, where you cannot start the sensor with an NFC scan. Instead of the "Scanned OK" message after "Scanning", you will see "NFC read timeout" or "NFC diag timeout". Look in the debug logs. If you see a message "Sensor type unknown, returning libre1 as failsafe", or "Libre sensor of type Libre1 detected", then you need to update both OOP2 & xDrip.
 
 <img src="../images/libre2direct-failsafe-to-libre1.png" style="zoom:40%;" />
 

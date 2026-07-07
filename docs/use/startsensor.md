@@ -14,7 +14,7 @@ The sensor will start automatically at the time it is inserted. You don't need t
 
 Note - this section does NOT apply to Libre 2/2+ (EU) connecting to xDrip without a bridge. For these, see the instructions for [Libre 2 Direct](../../install/libre2#starting-libre-2-sensors)
 
-xDrip is not able to start a Libre sensor, neither is it to stop one (actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours).
+xDrip is not able to start a Libre sensor, neither is it to stop one (actually you can't stop this sensor: if it doesn't fail it will run it's useful lifetime and stop by itself after 14 days and 12 hours; Libre 3 sensors run for 15 days).
 
 In order to start your sensor you need to use the vendor reader or app, some other third party apps like Glimp-S and eDropletNFC can start the Libre 1 sensor. Juggluco can start Libre 2 and 3 sensors.
 
@@ -97,7 +97,7 @@ If your BG is quickly varying or not within normal range, it is not recommended 
     Next we need the first calibration blood test.  
     Ready to calibrate now?
 
-Two readings are required from legacy G4 receiver, you can use only one if you're sure it's valid. Just put twice the same value. You can set one value as default [disabling double calibration](../../calibrate/advancedcal/#calibrations).
+Two readings may be required for the first calibration, you can use only one if you're sure it's valid. Just put twice the same value. You can set one value as default [disabling double calibration](../../calibrate/advancedcal/#calibrations).
 
 Your BG should start displaying on the main graph.
 

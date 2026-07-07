@@ -4,9 +4,9 @@ Until a blood glucose data source is selected, xDrip will show the  data source 
 
 Scroll down until you see your sensor or use case.
 
-## G6, G7, 1, 1+ and Stelo
+## G6, G7, 1, 1+
 
-If you connect xDrip directly to your sensor ([G6, G7, 1, 1+ and Stelo](../g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). You might be able to use sharing through [share](../../use/cloud/#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
+If you connect xDrip directly to your sensor ([G6, G7, 1, 1+](../g6)), you **will not be able** to use the vendor app, upload to Clarity (you can use [Nightscout](https://nightscout.github.io/) or [Tidepool](../../use/cloud/#tidepool)). You might be able to use sharing through [share](../../use/cloud/#dexcom-share-server-upload) servers but it needs to be setup with the vendor apps first.
 
 <img src="../images/DS-DxDrip.png" style="zoom:50%;" />
 
@@ -128,7 +128,7 @@ Unused and obsolete sensors have been removed from this documentation.
   <img src="../images/Libre.png" style="zoom:54%;" />    <img src="../images/LibreAlarm.png" style="zoom:51%;" />
 - [Libre 2 (only EU)](../libre2)  
   <img src="../images/Libre.png" style="zoom:54%;" />    <img src="../images/Bridge.png" style="zoom:50%;" />
-- [Medtrum A6/S7](../medtrum)  
+- [Medtrum A6](../medtrum)  
   <img src="../images/Other.png" style="zoom:54%;" />    <img src="../images/Medtrum.png" style="zoom:53%;" />
 - [CareSens Air](../caresens)  
   <img src="../images/Other.png" style="zoom:52%;" />    <img src="../images/CareSensAir.png" style="zoom:54%;" />

@@ -38,7 +38,7 @@ From the main xDrip display select the upper right 3 dots menu, Import Export fe
 
 </br>
 
-The current database will be saved in `/storage/emulated/0/xDrip` or `Internal Storage/xDrip`
+The current database will be saved in `/storage/emulated/0/xdrip` or `Internal Storage/xdrip`
 You need to authorize xDrip to access your phone memory.  
 You can make as many backups as your memory can store.
 
@@ -98,11 +98,11 @@ xDrip will confirm correct database restore.
 
 </br>
 
-If you want to restore a specific backup, from the main xDrip display select the upper right 3 dots menu, Import Export features, Import database.
+If you want to restore a specific backup, from the main xDrip display select the upper right 3 dots menu, Import Export features, Restore database.
 
 !!!xdrip "<img src="../../images/3dots_menu.png" style="zoom:75%;" />"  
     &ensp;Import Export features ►  
-    &emsp;Import database
+    &emsp;Restore database
 
 Instructions are displayed. You don't need to move the backup file if you didn't move it from another device, you don't need to unzip it. Be cautious on restoring a database with a different xDrip version: it is recommended that you install the [xDrip version](../../install/install/#verify-which-version-is-installed) that was used to perform the export before importing, then you can update xDrip.
 

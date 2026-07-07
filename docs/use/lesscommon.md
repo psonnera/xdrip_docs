@@ -74,7 +74,7 @@ Only select those you really need to see every 5 minutes.
 !!!xdripitem "Time <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;The current time
 
-!!!xdripitem "Calibration data (long) <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Calibration data (long) <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Show slope and intercept in long form
 
 !!!xdripitem "Calibration data (short) <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
@@ -198,7 +198,7 @@ Database exports will be saved in the same folder than manual exports:  `/storag
 #### Glucose retention
 
 Glucose retention will automatically delete data older than the number of days selected.  
-Zero means don't delete anything (recommended). You can use 90 days if you use a cloud backup like Nightscout, so that you will still have all statistics available in xDrip.
+Zero means don't delete anything. The shipped default is 180 days, so fresh installs auto-delete data older than 180 days unless you change this. You can use 90 days if you use a cloud backup like Nightscout, so that you will still have all statistics available in xDrip.
 
 !!!xdripitem "Glucose retention"  
     &ensp;Erase data older than this many days. 0 = don't erase anything.

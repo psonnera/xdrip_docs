@@ -1,7 +1,7 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
-    &ensp;&emsp;640G / Eversense
+    &ensp;&emsp;640G / EverSense
 
 !!!info "Eversense is also supported through [Companion App](../companion) data source" 
 

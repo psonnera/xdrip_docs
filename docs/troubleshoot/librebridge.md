@@ -16,7 +16,7 @@ Then go to System Status and also BT device. If you don't know how, look [here](
 
 **If your bridge shows as LimiTTer it probably means it's not connected or not recognized.**
 
-All devices report as LimiTTer until connected, only Libre 2 direct connection and some older bridges (Transmitter_T for example) will remain indicated as LimiTTer (and obviously [LimiTTer](https://github.com/JoernL/LimiTTer) itself).
+All devices report as LimiTTer until connected, only Libre 2 direct connection and some other bridges (BluCon for example) will remain indicated as LimiTTer (and obviously [LimiTTer](https://github.com/JoernL/LimiTTer) itself).
 
 <img src="../images/M-SS-CSL2.png" style="zoom:75%;" />
 

@@ -34,12 +34,12 @@ Disable force on missed readings will make the watch drop sensor/bridge connecti
 
 Only use wear can be enabled if you have setup the watch once but will not use your phone to connect to the sensor/bridge.
 
-!!!xdripitem "Use only Wear <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Only use Wear <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     If you plan to use a Wear Collector and never your phone
 
 If you have several Android Wear smartwatch with xDrip, you can select which one will be the collector. The other will only display xDrip data.
 
-!!!xdripitem "Device Running Collection Service"  
+!!!xdripitem "Device running Collection Service"  
 
 !!!note "Switching watch"  
     When switching between watches, xDrip might not be able to communicate its intention to both watches if one is switched off. If you want to change the collecting watch, force collector in xDrip and also force collector in the watch xDrip Prefs menu.

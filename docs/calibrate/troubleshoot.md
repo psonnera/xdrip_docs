@@ -38,16 +38,18 @@ Open your Calibration Data Table and check last calibration.
 
 <img src="../images/CAL17.png" style="zoom:75%;"  />
 
-!!!warning "Maximum authorized intercept is 40"  
-    An intercept above 40 mg/dl will prevent BG display for safety reason.
+!!!warning "Maximum authorized intercept is 39"  
+    An intercept above 39 mg/dl will prevent BG display for safety reason.
 
 Slope limits depend on your sensor:
 
-| Sensor                        | Minimum slope | Maximum slope |
-| ----------------------------- | ------------- | ------------- |
-| G5 or G6 non-native algorithm | 0.7           | 1.6           |
-| Libre (raw data source)       | 0.5           | 1.6           |
-| Libre 2 patched app           | 1 (fixed)     | 1 (fixed)     |
+| Sensor                                    | Minimum slope | Maximum slope |
+| ------------------------------------------ | ------------- | ------------- |
+| G5 or G6 non-native algorithm (2+ calibrations) | 0.7           | 1.6           |
+| G5 or G6 non-native algorithm (exactly 2 calibrations) | 0.75          | 1.5           |
+| Libre (raw data source, Non-fixed Libre Slopes enabled) | 0.5           | 1.6           |
+| Libre (raw data source, default fixed slope) | 1 (fixed)     | 1 (fixed)     |
+| Libre 2 patched app                       | 1 (fixed)     | 1 (fixed)     |
 
 Since slope and intercept safety limits will prevent xDrip from having a too high intercept, calibrations leading to this situation will be ignored.
 

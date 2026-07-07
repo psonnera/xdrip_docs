@@ -124,9 +124,9 @@ Define which slot will connect to the transmitter. Refer to the table [above](#g
 
 Enables/disable the connection of xDrip to the transmitter (using the phone slot).
 
-##### BlueJay uses Phone slot
+##### BlueJay uses Phone Slot
 
-!!!xdripitem "BlueJay uses Phone slot <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "BlueJay uses Phone Slot <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;This allows the BlueJay to occupy the phone slot on the transmitter. Select this if you want another non-phone device to be able to connect to the transmitter and you are not using a phone to connect to the transmitter.
 
 By default BlueJay uses the non-phone slot. You can let it use the phone slot with this option but you should then disable Run Phone Collector above.

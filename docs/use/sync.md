@@ -51,7 +51,7 @@ After Google shutdown the deprecated the [Firebase API](https://firebase.google.
 
 If xDrip uses too much battery when on SIM data your can try to enable this.
 
-!!!xdripitem "SavePower <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "SavePower <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Reduce battery and network overhead by using batch processing and excluding unnecessary data.  
 
 ##### Whole house
@@ -76,8 +76,27 @@ And if you used a Parakeet your master could send actual position to followers.
 
 Remote snoozing allows the snooze request to propagate along the group. Master or followers can snooze alarms. Use with care.
 
-!!!xdripitem "Remote snoozing"  
-    &ensp;Sending and receiving remote snoozes
+!!!xdripitem "Send snooze to all <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Snoozes will silence all handsets in group with the accept setting below enabled on them
+
+!!!xdripitem "Confirm sending snooze <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Pop up a dialog to confirm sending each remote snooze
+
+!!!xdripitem "Accept remote snoozes <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Allow remote handsets to silence alarms on this one
+
+!!!xdripitem "WiFi name must match <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+    &ensp;Only accept if the remote WiFi network name starts with the same letters as ours and matches very closely
+
+##### Local Broadcast
+
+Local Broadcast sends or accepts snoozes to/from other (non-xDrip) apps installed on the same handset, separate from remote snoozing between xDrip handsets.
+
+!!!xdripitem "Local Broadcast <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+    &ensp;Send snoozes to other apps on this handset
+
+!!!xdripitem "Accept Local Broadcast <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+    &ensp;Accept snoozes from other apps on this handset
 
 ##### Disable sync
 

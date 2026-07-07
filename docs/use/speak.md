@@ -16,9 +16,9 @@ When enabling the feature, if Text to Speech is not already present on your devi
 
 You can decide to hear your glucose value in specific conditions (changes above a certain threshold) or periodically.
 
-!!!xdripitem "When changes by (4 mgdl or mmol/l)"
+!!!xdripitem "When changes by (0 mgdl or mmol/l)"
 
-!!!xdripitem "Or per number of minutes (4)"
+!!!xdripitem "Or per number of minutes (0)"
 
 Alerts can also be spoken if you enable this.
 

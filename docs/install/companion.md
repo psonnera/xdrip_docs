@@ -11,7 +11,6 @@ This feature is available for:
 - 1/1+ and Stelo (only if the app shows BG notifications) apps
 - CamAPS app (including Canada version)
 - Guardian, MiniMed, Simplera apps
-- Omnipod 5 app
 - Eversense apps
 - Micro tech Aidex, LinX Vista, Equil G apps
 - Micro tech Diaexpert (Germany) and Smart 2 (Brazil) apps

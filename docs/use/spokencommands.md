@@ -21,6 +21,8 @@ speed up fake data source
 
 amplify fake data source
 
+fake data source one minute
+
 set sensor code
 
 multiple start
@@ -45,6 +47,10 @@ vehicle mode walk
 
 delete random glucose data
 
+test ui based collector
+
+test cloud backup
+
 delete selected glucose meter
 
 delete all finger stick data
@@ -61,7 +67,11 @@ enable dead sensor
 
 disable dead sensor
 
+clear all pair keeper
+
 restart g5 session
+
+restart g5 session nearly ended
 
 stop g5 session
 
@@ -83,15 +93,15 @@ test medtrum calibrate
 
 delete all desert sync data
 
-deleted all desert sync data
-
 delete all pen data
-
-deleted all pen sync data
 
 start usb configuration
 
+erase all plugins
+
 database administration
+
+simulate crash
 
 </br>
 

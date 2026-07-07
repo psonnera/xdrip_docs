@@ -69,7 +69,7 @@ The web server will respond to requests on address `127.0.0.1` port `17580`
 
 By default the web service is only available to your device, you can open it so that other devices on the network can access it. Make sure you need the feature enabled and understand the security implications. Make sure a Shared Secret is set.
 
-!!!xdripitem "Open Web Service <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+!!!xdripitem "Open Web Service <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Accept connections from any network instead of just internally within this device. There are security implications to enabling this! Shared secret will be required if set. 
 
 !!!xdripitem "xDrip Web Service Secret"  
@@ -257,5 +257,8 @@ xDrip can share steps, heart rate and BG with Google Health.
 !!!xdripitem "Get data from Health Connect <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
 
 !!!xdripitem "Send data to Health Connect <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+
+!!!xdripitem "Manage permissions"  
+    &ensp;Open Health Connect Settings to manually manage permissions
 
 [*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

@@ -10,7 +10,7 @@ There are many settings in xDrip, if you can't find what you're looking for, use
 ### Glucose Units
 
 !!!xdrip "Glucose Units"  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_ruler_grey600_48dp.png" style="width:5%;" />&ensp;mg/dl or mmol/l high and low
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_ruler_grey600_48dp.png" style="width:5%;" />&ensp;mmol/l or mg/dl high and low
 
 In this menu you can select the units used by xDrip (mg/dl or mmol/l) and set high and low targets.  
 
@@ -20,7 +20,7 @@ In this menu you can select the units used by xDrip (mg/dl or mmol/l) and set hi
 These two targets will decide when the graph BG dots change color above or below target.
 
 !!!xdripitem "High Value"  
-    &ensp;180
+    &ensp;170
 
 !!!xdripitem "Low Value"  
     &ensp;70
@@ -28,7 +28,7 @@ These two targets will decide when the graph BG dots change color above or below
 ### [Alarms and Alerts](../alarms)
 
 !!!xdrip "Alarms and Alerts"  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_add_alert_grey600_48dp.png" style="width:5%;" />&ensp;Glucose, calibration and other alerts
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_add_alert_grey600_48dp.png" style="width:5%;" />&ensp;Glucose, Calibration and Other alerts
 
 ### [Hardware Data Source](../../install/datasource)
 
@@ -36,18 +36,18 @@ These settings depend on the data source selected.
 
 !!!xdrip "Hardware Data Source"
 
-### [NFC Scan Features](../NFC)
+### [NFC Scan features](../NFC)
 
 This menu is only visible if you choose a Libre Bluetooth data source in the Hardware Data Source. If you need to access it to change smoothing parameters for Libre sensors, temporarily modify the data source.
 
-!!!xdrip "NFC Scan Features"  
+!!!xdrip "NFC Scan features"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_nfc_grey600_48dp.png" style="width:5%;" />&ensp;Options for scanning NFC based sensors with the phone handset  
 
-### [Auto Configure](../copysettings/#auto-configure)
+### [Auto configure](../copysettings/#auto-configure)
 
-Auto configure will help you copy settings between two xDrip apps installed on different phones.
+Auto configure will help you copy settings between two xDrip apps installed on different phones. This and [Show Settings QR Code](../copysettings/#show-settings-qr-code) both live under the "Copying Settings" screen.
 
-!!!xdrip "Auto Configure"  
+!!!xdrip "Auto configure"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Autoconfigure using a barcode
 
 ### [Cloud Upload](../cloud)
@@ -69,7 +69,7 @@ You can connect compatible glucose meters to xDrip.
 Various smartwatch can receive data and display them from xDrip, some can even act as a standalone collector.
 
 !!!xdrip "Smart Watch Features"  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Options for different watches
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Options for different Watches
 
 ### [Speak Readings](../speak)
 
@@ -78,43 +78,43 @@ xDrip can use the phone to speak values and alerts.
 !!!xdrip "Speak Readings"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_speak_reading_grey600_48dp.png" style="width:5%;" />&ensp;If the phone has text-to-speech capabilities it will speak each new reading
 
-### [Inter-app Settings](../interapp)
+### [Inter-app settings](../interapp)
 
 xDrip can accept or send data to other apps, and act as a local web server.
 
-!!!xdrip "Inter-app Settings"  
+!!!xdrip "Inter-app settings"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_open_in_app_grey600_48dp.png" style="width:5%;" />&ensp;For interacting with other compatible apps
 
-### [Less Common Settings](../lesscommon)
+### [Less common settings](../lesscommon)
 
 More settings are available in this menu.
 
-!!!xdrip "Less Common Settings"  
+!!!xdrip "Less common settings"  
     &ensp;Debug and other misc. options
 
-### [xDrip Display Settings](../display)
+### [Display](../display)
 
-!!!xdrip "xDrip Display Settings"  
+!!!xdrip "Display"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" />&ensp;Display customizations
 
-### [xDrip Predictive Simulation Settings](../predictions)
+### [Predictive simulations](../predictions)
 
-!!!xdrip "xDrip Predictive Simulation Settings"  
+!!!xdrip "Predictive simulations"  
     &emsp;<img src="../images/CrystalBall.png" style="width:5%;" />&ensp;Insulin, carb ratios, etc. for models
 
-### [xDrip Sync Settings](../sync)
+### [xDrip sync](../sync)
 
-!!!xdrip "xDrip Sync Settings"  
+!!!xdrip "xDrip sync"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;Settings for syncing between handsets
 
-### [xDrip Motion Tracking](../motion)
+### [Motion tracking](../motion)
 
-!!!xdrip "xDrip Motion Tracking"  
+!!!xdrip "Motion tracking"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_car_connected_grey600_48dp.png" style="width:5%;" />&ensp;Movement detection and vehicle mode
 
-### [xDrip Update Settings](../update)
+### [Update settings](../update)
 
-!!!xdrip "xDrip Update Settings"  
+!!!xdrip "Update settings"  
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;Automatic updates, crash report and feedback to developer
 
 ### [Show Settings QR Code](../copysettings/#show-settings-qr-code)

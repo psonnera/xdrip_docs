@@ -41,7 +41,7 @@ Missed data polling interval is an additional waiting time after received last r
 Used to avoid server lock if xDrip performs too frequent requests.
 
 !!!xdripitem "Missed data poll interval"  
-    &ensp;Grace period for data request in seconds
+    &ensp;Polling interval after missed data in minutes
 
 </br>
 
