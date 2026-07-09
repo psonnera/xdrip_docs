@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 8th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.08) | OB1 transmitter MAC caching fix, new G5/G6 firmware version recognized |
 | [ 3rd Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03) | Nightscout follower: self-healing skip after HTTP errors, Juggluco emulator compatibility fixes |
 | [ 1st Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.01) | **Nightscout follower rework**: uploader battery/charging status, pump battery priority, capped backfill |
 | [24th Jun 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.24) | mg/dL to mmol/L conversion factor fix                        |
