@@ -4,14 +4,14 @@
 
 You can buy your BlueJay Watch [here: <img src="../images/M-S-SW-BJ1.png" style="zoom:100%;" />](https://bluejay.website/) 
 
-Two new generations of BlueJay are available.  
-X2 is not sold anymore.  
-[GTS](https://bluejay.website/shop/product/bluejay-gts-26) can be setup without xDrip (only standalone) and also with xDrip.  
-[U1](https://bluejay.website/shop/product/bluejay-u1-27) is beta and runs the full xDrip package.  
-[U2](https://bluejay.website/shop/product/bluejay-u2-28) is released.
+The [BlueJay U3](https://bluejay.website/shop) is the current watch and is available now. It runs the full xDrip package on Android and connects directly to your G6, G7 and Dexcom ONE/ONE+ sensors.
+
+The earlier X2, GTS, U1 and U2 models are **no longer sold**. Their setup instructions are kept below for existing owners.  
+Legacy references: [GTS](https://bluejay.website/shop/product/bluejay-gts-26) (standalone or with xDrip), [U1](https://bluejay.website/shop/product/bluejay-u1-27) and [U2](https://bluejay.website/shop/product/bluejay-u2-28).
 
 !!!info "Sharing BG"  
-    BlueJay X2/GTS are only Bluetooth and cannot share BG data without being connected to your phone xDrip.
+    BlueJay X2/GTS are only Bluetooth and cannot share BG data without being connected to your phone xDrip.  
+    The U1/U2/U3 run full xDrip and can also relay readings to a phone or other followers over Bluetooth (xDrip Link) or the internet (xDrip Sync).
 
 BlueJay watches are powerful companions for your G6, G7 and 1/1+ sensors. They connect directly to the transmitter but you need to be aware of the limitations.
 
@@ -21,7 +21,7 @@ These transmitters have two Bluetooth slots: phone and non-phone.
 You can configure your slots as per the table below. Only two devices can be connected simultaneously to the transmitter, each one using a unique slot.  
 By default BlueJay uses the non-phone slot. See [here for GTS](#run-collector) how to change this setting.
 
-U1 and U2 need to be connected first to the sensor. Once connected, you can also enable the second connection and the watch will automatically select the available free slot.
+U1, U2 and U3 need to be connected first to the sensor. Once connected, you can also enable the second connection and the watch will automatically select the available free slot.
 
 | Vendor app          | Receiver                | Connected pump                            | BlueJay Watch                             |
 | ------------------- | ----------------------- | ----------------------------------------- | ----------------------------------------- |
@@ -32,6 +32,60 @@ U1 and U2 need to be connected first to the sensor. Once connected, you can also
 | Cannot be used      | Cannot be used          | CamAPS, DBLG1 **use phone slot**          | Non-phone slot                            |
 
 *Note: xDrip uses the phone slot by default, non-phone slot requires engineering mode*
+
+## BlueJay U3
+
+The U3 runs full Android and the xDrip core on the watch itself. You set it up on the watch and can optionally relay readings to your phone.
+
+### U3 controls
+
+The U3 has two physical buttons: a **Left** button (orange) and a **Right** button. On the U1/U2 the right control was a winder; on the U3 that position is the camera.
+
+- Press either button to wake the screen.  
+- The **Right** button turns the screen off.  
+- The **Left** button goes back.  
+- Long-press the power button for the Shutdown / Reboot / SOS menu, then swipe the option you want to the right.
+
+### Get readings on the U3
+
+Set the sensor identifier on the watch in xDrip, exactly as you would on a phone: go to Settings &ensp;›&ensp; Hardware Data Source &ensp;›&ensp; DexcomG5/G6/G7.
+
+- **G6** — enter the **Transmitter ID (TXID)**.  
+- **G7 / Dexcom ONE+** — enter the **4-digit pairing code**.
+
+With a new sensor, set the ID/code on the watch first and let it get readings before setting it on any phone app. With a sensor that is already running with a phone app connected, temporarily disable the phone app (turn it off, disable Bluetooth, or move out of range), connect the watch, then re-enable the phone app once the watch has readings.
+
+### Transmitter slot
+
+By default the U3 uses the **non-phone slot**. Refer to the [slot table above](#g6g7-and-11) to choose the right slot. To move the watch to the **phone slot**, scan the corresponding QR code in:
+
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Auto Configure
+
+Avoid repeatedly swapping the device on a slot: the sensor can jam. The slot is a fixed configuration, not a hot-swap.
+
+!!!warning "G7 phone-channel update"  
+    If your watch stops getting **G7** readings, apply the watch software update: on the watch open **Android Settings › Software Upgrade**, connected to WiFi and on charge (battery > 25%), check for updates and install.  
+    Afterwards you can switch the watch to the phone channel by scanning the QR code shown in xDrip **Settings › Auto-configure**, then reboot the watch.  
+    With this method the **watch and a phone app cannot both** get readings directly from the sensor: disable the phone app collector if the watch is the collector.
+
+### Snooze an xDrip alarm
+
+Long-press the **orange Left button** until the watch vibrates.
+
+### Relay readings to your phone or followers
+
+When the watch is the collector you can still feed your phone and other devices:
+
+- **xDrip Link** — watch ↔ phone over Bluetooth when in range. On the watch, open the **xDrip Link** app, enable it and scan its QR code in phone xDrip **Settings › Auto Configure**. BlueJay settings entered on the phone (including the TXID/pairing code) are copied to the watch. If the phone should not collect directly, set [Run Phone Collector](#run-phone-collector) **Off** on the phone.  
+- **xDrip Sync** — relays readings over the internet (WiFi/4G) from a master to one or more followers, including watch-to-watch and phone-to-watch.
+
+!!!info "Non-xDrip watch features"  
+    Inserting a SIM, WiFi, the camera, watch faces, straps, screen covers, Google account, phone calls, GPS, SOS calling, music and the on-watch software upgrade are documented by the vendor. See the BlueJay [Top Tips / FAQ](https://bluejay.website/faq).
+
+## Legacy models: X2 / GTS
+
+The following steps apply to the older X2 and GTS watches, which are no longer sold.
 
 ### Pair your watch to xDrip (X2 and GTS)
 
@@ -150,8 +204,10 @@ See the video [here](https://www.youtube.com/watch?v=JM5cw-xVAZk) for a guided t
 
 See here [how](https://www.youtube.com/watch?v=6YpjuZe2c_Q) to connect to the transmitter.
 
-## [BlueJay U1/U2](https://bluejay.website/website/u1-tips)
+## BlueJay U1/U2 (legacy)
+
+The U1 and U2 are no longer sold but run the same full-xDrip package as the U3, so the [U3 setup](#bluejay-u3) above applies. See the vendor [Top Tips / FAQ](https://bluejay.website/faq) for U-series watch tips.
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 7/18/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
