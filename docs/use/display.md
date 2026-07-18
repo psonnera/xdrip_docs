@@ -490,7 +490,7 @@ If you force always show BWP it will always suggest a correction (insulin or car
 
 This will bring xDrip [graph and notifications](../misc/#run-collector-in-foreground) at the top of the list, disabling it brings it down.
 
-You can disable High Priority Notifications, but you shouldn't disable it completely with [Run collector in foreground](../misc#run-collector-in-foreground) if you don't want xDrip to be put to sleep by Android.
+You can disable High Priority Notifications if you'd rather have xDrip lower in the notifications list. The [collector always runs in foreground](../misc#run-collector-in-foreground) on Android 8.0 and above, so xDrip won't be put to sleep by Android.
 
 !!!xdripitem "High Priority Notifications<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
     &ensp;Show notifications and graph at the top (also useful on lock screen).
@@ -527,15 +527,14 @@ xDrip can use Android accessibility to display its widget in the always on displ
 
 <img src="../images/M-S-DS6x3.png" style="zoom:75%;" />
 
-On Android 16 and above, you can alternatively show your glucose as a notification chip on the lock screen / always on display, using the ongoing persistent notification instead of accessibility. This requires [Notification Channels](../alarms/#notification-channels) to be enabled first.
+On Android 16 and above, you can alternatively show your glucose as a notification chip on the lock screen / always on display, using the ongoing persistent notification instead of accessibility. This relies on [Notification Channels](../alarms/#notification-channels), which are always active on Android 8.0 and above.
 
 !!!xdripitem "Use AOD chip style <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Display notification chip and lock screen notification. Android 16+ only
 
 ### Numbered wall on Locked Screen
 
-xDrip can display your BG value on the phone locked screen.  
-Some features requires Android 7 and above.
+xDrip can display your BG value on the phone locked screen.
 
 !!!xdripitem "Numbered wall on Locked Screen"
 
@@ -555,7 +554,7 @@ You will see a real time preview of the result (123 ⇅)
 
 <img src="../images/M-S-DS6z2.png" style="zoom:75%;" />
 
-Enable Locked screen display to show the numbered wall (Android 7 and above).
+Enable Locked screen display to show the numbered wall.
 
 !!!xdripitem "Use on Lock screen<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Show number wall on lock screen when enabled
@@ -610,16 +609,6 @@ If this doesn't work it means you shouldn't enable the feature.
 !!!xdripitem "Show Small Number Icon<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Shows the current glucose number as an icon for the notification bar and lock screen
 
-You can also enable a large icon (1), with or without arrow (2) **in the notifications area**.
-
-!!!xdripitem "Use Large Number Icon<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Shows a large number in the notification area only visible when opened
-
-!!!xdripitem "Show Arrow in Large Icon<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Shows the trend arrow in the large icon
-
-<img src="../images/M-S-DS6aa8.png" style="zoom:75%;" />
-
 ### Show xDrip on Boot
 
 This will make xDrip open automatically when your phone restarts.
@@ -631,4 +620,4 @@ It might be a good idea to enable this feature if your phone performs automatic 
 
 </br>
 
-[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)

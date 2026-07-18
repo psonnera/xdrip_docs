@@ -6,6 +6,8 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [15th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15) | Notification channel fixes following Android 7 retirement    |
+| [12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12) | **Android 7 (Nougat) support retired** — minimum is now Android 8.0; foreground collector and notification channels now always on, "large number icon" removed |
 | [ 8th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.08) | OB1 transmitter MAC caching fix, new G5/G6 firmware version recognized |
 | [ 3rd Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03) | Nightscout follower: self-healing skip after HTTP errors, Juggluco emulator compatibility fixes |
 | [ 1st Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.01) | **Nightscout follower rework**: uploader battery/charging status, pump battery priority, capped backfill |

@@ -108,10 +108,7 @@ These settings are default, but still make sure they are exactly like shown belo
     &ensp;&emsp;Other misc. Options  
     &ensp;&emsp;&emsp;Collector in foreground
 
-!!!xdripitem "Run Collector in foreground <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Shows a persistent notification graph, visible on lock-screen and prevents Android from killing the service.
-
-`Run Collector in Foreground` enables the graph in your phone drop down curtain but is **essential** to keep the app alive. It **must be enabled**.
+Since Android 7 support was retired ([12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12)), the collector always runs in foreground on Android 8.0 and above — there is no longer a toggle for it. The persistent notification graph in your phone drop down curtain is essential to keep the app alive and is always shown.
 
 !!!xdripitem "Compact Persistent Notification <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Enable to hide the graph in the notification and display only the current glucose value.
@@ -145,4 +142,4 @@ Proceed to [data source selection](../datasource)
 
 </br>
 
-[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)

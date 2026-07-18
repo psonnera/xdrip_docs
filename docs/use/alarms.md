@@ -213,12 +213,10 @@ You can define the number of minutes after which you want alerts to stop.
 
 ##### Notification Channels
 
-With Android 8 and above you can use the notification channels for your alerts. This will allow you to customize notifications at Android level.
+Since Android 8.0 is now the minimum supported version, xDrip always uses Android notification channels for your alerts, allowing you to customize notifications at Android level. The setting that used to enable them was removed when Android 7 support was retired ([12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12)) — channels are now always active.
 
-!!!xdripitem "Notification Channels"
-
-In order to setup this feature, go to Android Settings / Notifications / Apps / xDrip and allow sound and vibration.  
-You'll then be able to decide each notification behaviour. If you have multiple notification and alarms, disable the unwanted ones here.
+To fine tune this, go to Android Settings / Notifications / Apps / xDrip and allow sound and vibration.  
+You'll then be able to decide each notification behaviour. If you have multiple notifications and alarms, disable the unwanted ones here.
 
 <img src="../images/M-S-AA-GAj2.png" style="zoom:75%;" />
 
@@ -342,7 +340,7 @@ You can also setup alerts for fast BG changes and define the 1 minute change tri
 !!!xdripitem "<small>ALERT PREFERENCES (FOR THESE ALERTS)</small>"
 
 The alerts above and **also Missed Readings** use the sound defined below.  
-Some recent Android versions do not ring it unless you use [Notification channels](#notification-channels).
+On recent Android versions the alert sound is governed by the [Notification channels](#notification-channels), which are always active.
 
 !!!warning "Make sure to test the alarm"  
     This is an important feature to sleep safely. Reduce the missed readings period and put your phone in airplane mode (no Wi-Fi) to force the alarm to ring.
@@ -531,4 +529,4 @@ You can also completely turn off [notifications channels](#notification-channels
 
 
 
-[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)

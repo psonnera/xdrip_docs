@@ -25,7 +25,6 @@ Less Common/Advanced for Libre2/Show raw values in graph = true
 Less Common/Advanced for Libre2/Show sensor info in status... = true
     
      
-Less common/other misc options/Run collector in foreground = true
      
 Less common/other misc options/Out Of Process Libre Algorithm = false
      

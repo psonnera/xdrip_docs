@@ -8,11 +8,15 @@ If they are hidden here it's probably because you won't need to change them ever
 
 ##### Run collector in foreground
 
-Mandatory to keep xDrip from being put to sleep by Android.  
-This will force displaying a graph in the notifications area, **you shouldn't disable it**.
+!!!note  
+    Since Android 7 support was retired ([12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12)) this is no longer a toggle you can turn off.
 
-!!!xdripitem "Run collector in foreground <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Shows a persistent notification graph, visible on lock screen and prevents Android killing the service.
+On Android 8.0 and above (the minimum supported version) xDrip always runs its collector as a foreground service to keep it from being put to sleep by Android. A persistent notification graph is therefore always shown, visible on the lock screen.
+
+If you'd rather not show the graph, the `Compact Persistent Notification` option in the same menu displays only the current glucose value instead.
+
+!!!xdripitem "Compact Persistent Notification <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Enable to hide the graph in the notification and display only the current glucose value.
 
 <img src="../images/M-S-LCS15a2.png" style="zoom:75%;" />
 
@@ -114,4 +118,4 @@ This option is not available at all.
 
 </br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)
