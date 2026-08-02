@@ -79,11 +79,24 @@ Make all other phones followers (disable checkbox):
 
 </br>
 
+Set the follower data source:
+
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
+    &emsp;Hardware Data Source  
+    &ensp;&emsp;xDrip Sync Follower
+
+More about the [xDrip Sync Follower](../../install/xdripfollower/) data source.
+
+</br>
+
 !!!warning "Use xDrip Cloud must be set identically on all phones"  
     Master and followers. Either it is ON for all, or OFF for all.
 
 !!!xdripitem "Use xDrip Cloud"  
     &ensp;Use the new xDrip cloud servers. Master and follower must have this setting set the same.  
+
+Enabling [Use xDrip Cloud](../sync/#use-xdrip-cloud) on all devices is recommended as the more future-proof method.
 
 ### Copy the Sync Key from the master
 
@@ -146,4 +159,15 @@ Edit the key field and type **exactly** the same key than the master.
 
 </br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+## Follower actions
+
+By default, followers can send treatments, calibrations, and even sensor start or stop to the master.  
+If you want to prevent this, disable [Accept followers actions](../sync/#accept-followers-actions) on the master.
+
+## Verify
+
+To verify the follower is receiving data, check [System Status](../../troubleshoot/systemstatus/#xdrip-sync-follower) on the follower phone.
+
+</br>
+
+[*Last modified 21/07/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.19)

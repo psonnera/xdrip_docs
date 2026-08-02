@@ -6,6 +6,8 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 2nd Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.02) | Internal cleanup: androidx PreferenceManager migration, OkHttp/Retrofit library updates |
+| [19th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.19) | Nightscout follower status page tidy-up; insulin bolus profile fix |
 | [15th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15) | Notification channel fixes following Android 7 retirement    |
 | [12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12) | **Android 7 (Nougat) support retired** — minimum is now Android 8.0; foreground collector and notification channels now always on, "large number icon" removed |
 | [ 8th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.08) | OB1 transmitter MAC caching fix, new G5/G6 firmware version recognized |
