@@ -14,6 +14,7 @@ This feature is available for:
 - Eversense apps
 - Micro tech Aidex, LinX Vista, Equil G apps
 - Micro tech Diaexpert (Germany) and Smart 2 (Brazil) apps
+- GlucoRx Vixxa (India) app
 - Ottai Sens and Tag apps
 - Pasta app
 - CareSens and iCan (Sinocare) apps
@@ -62,4 +63,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Last modified 5/8/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.05)
