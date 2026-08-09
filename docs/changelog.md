@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 8th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.08) | **[Pebble Trend Clay watchface](../smartwatch/pebble) now supports all Pebble models** (full color on newer watches), Wear OS crash loop fix, follower collector status fix |
 | [ 5th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.05) | **GlucoRx Vixxa** companion app, Tidepool keeps session on transient network errors |
 | [ 2nd Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.02) | Internal cleanup: androidx PreferenceManager migration, OkHttp/Retrofit library updates |
 | [19th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.19) | Nightscout follower status page tidy-up; insulin bolus profile fix |

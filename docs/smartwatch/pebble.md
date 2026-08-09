@@ -2,8 +2,9 @@
     &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features  
     &emsp;  Pebble integration
 
-After you've paired your Pebble with your phone, you can enable it in xDrip.  
-With recent Android versions, using this legacy watch is [challenging](https://www.reddit.com/r/pebble/comments/1776bbx/installing_pebble_apk_on_fresh_android_14_setup/). Use [Rebble](https://rebble.io/) resources.
+xDrip supports both the original Pebble watches (discontinued in 2016) and the new Pebble models relaunched in 2025 (Pebble 2 Duo, Pebble Time 2).
+
+After you've paired your Pebble with your phone, you can enable it in xDrip.
 
 !!!xdripitem "Pebble watch integration <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>" 
 
@@ -21,6 +22,16 @@ You can select different watchfaces.
 
 <img src="../images/M-S-SW3e.png" style="zoom:75%;" />
 
+## New Pebble models (2025 onwards)
+
+Select the Pebble Trend Clay Version (All Models) watchface ([xDrip-Pebble-E](https://github.com/jstevensog/xDrip-Pebble-E)). It works on all Pebble models, old and new, with full color on color watches including the new Pebble Time 2.
+
+## Legacy Pebble models
+
+With recent Android versions, using a legacy Pebble watch is [challenging](https://www.reddit.com/r/pebble/comments/1776bbx/installing_pebble_apk_on_fresh_android_14_setup/). Use [Rebble](https://rebble.io/) resources.
+
+The Standard, Color Trend and Pebble Classic Trend watchfaces were made for the original Pebble models. The Pebble Trend Clay Version (All Models) watchface works on legacy models too.
+
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 8/8/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.08)
