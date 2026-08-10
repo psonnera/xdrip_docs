@@ -67,7 +67,7 @@ The original implementation included a 25 minutes smoothing algorithm to remove 
 
 Smoothing adds a delay in xDrip BG from raw data. The delay is about half the smoothing period. Set the delay accordingly to the sensor behavior for your safety. If you don't use a DIY closed loop system with xDrip providing glucose values, set it to 10 minutes.
 
-!!!xdripitem "Starting Bluetooth connection with Libre2 sensors"  
+!!!xdripitem "Smooth libre 3 data when using xxx method"  
     &emsp;10 minutes<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;  
     &emsp;15 minutes<span style="float: right;">○&emsp;</span>  
     &emsp;25 minutes ><span style="float: right;">●&emsp;</span>  
