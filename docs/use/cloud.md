@@ -244,6 +244,54 @@ Once enabled, you can show a QR code containing your NightLite connection detail
 
 !!!xdripitem "Show QR Code"
 
+### Nocturne
+
+!!!xdripitem "Nocturne"  
+    &ensp;Upload to Nocturne V4 API
+
+[Nocturne](https://getnocturne.dev/) is the Nightscout Foundation's modern successor to Nightscout. If you run your own Nocturne instance, xDrip can upload to it directly.
+
+!!!xdripitem "Enable Nocturne upload<span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"
+
+Enter the address of your Nocturne instance.
+
+!!!xdripitem "Nocturne instance URL"  
+    &ensp;Enter the URL of your Nocturne instance (e.g. https://mynocturne.example.com)
+
+Then authorize xDrip with your instance. No password is stored in xDrip: a code is displayed, which you enter on your Nocturne instance's approval page in the browser to complete the connection.
+
+!!!xdripitem "Connect to Nocturne"  
+    &ensp;Authorize xDrip+ with your Nocturne instance
+
+Select which data to upload. Glucose readings are enabled by default; everything else is optional.
+
+!!!xdripitem "Upload SGV<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload CGM sensor glucose readings
+
+!!!xdripitem "Upload treatments<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload boluses, carbs, notes and device events
+
+!!!xdripitem "Upload calibrations<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload sensor calibrations
+
+!!!xdripitem "Upload blood tests<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload fingerstick meter readings
+
+!!!xdripitem "Upload heart rate<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload heart rate data
+
+!!!xdripitem "Upload step count<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload step count data
+
+!!!xdripitem "Upload device status<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload phone battery level and charging state
+
+!!!xdripitem "Upload motion tracking<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Upload recognized activity classifications
+
+!!!xdripitem "Use mobile data<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
+    &ensp;Allow uploads over mobile data
+
 </br>
 
-[*Last modified 17/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17)
+[*Last modified 19/8/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19)

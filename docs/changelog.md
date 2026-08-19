@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [19th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19) | **[Nocturne](../use/cloud/#nocturne) uploader** — upload to Nocturne, the Nightscout Foundation's successor to Nightscout |
 | [14th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.14) | [Pebble Trend Clay](../smartwatch/pebble) crash fixes on Aplite and Gabbro/Round models, background service start guard |
 | [ 8th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.08) | **[Pebble Trend Clay watchface](../smartwatch/pebble) now supports all Pebble models** (full color on newer watches), Wear OS crash loop fix, follower collector status fix |
 | [ 5th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.05) | **GlucoRx Vixxa** companion app, Tidepool keeps session on transient network errors |

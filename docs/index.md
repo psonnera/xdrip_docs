@@ -14,7 +14,7 @@ Heart-rate and step counter data is processed from Android Wear, Garmin, Fitbit 
 
 The app contains sophisticated charting, customization and data entry features as well as a predictive simulation model.
 
-Instant two-way synchronization is possible by linking follower handsets, data can also be uploaded and downloaded to a Nightscout web service or uploaded directly to Tidepool, MongoDB or InfluxDB.
+Instant two-way synchronization is possible by linking follower handsets, data can also be uploaded and downloaded to a Nightscout web service or uploaded directly to Nocturne, Tidepool, MongoDB or InfluxDB.
 
 Customization allows for different options to configure alarms, vocalize readings, change the display preferences etc. International users can update translations from within the app too.
 
