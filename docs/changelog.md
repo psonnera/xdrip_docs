@@ -6,6 +6,8 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [29th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.29) | [CareLink follower](../install/carelinkfollow) fix: reported app version updated to 3.8.0, internal Parakeet/GCM code cleanup |
+| [26th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.26) | [Nocturne](../use/cloud/#nocturne) upload authentication fix, OB1 fix for lost readings with special pairing workaround, treatment entry warns on invalid time |
 | [19th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19) | **[Nocturne](../use/cloud/#nocturne) uploader** — upload to Nocturne, the Nightscout Foundation's successor to Nightscout |
 | [14th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.14) | [Pebble Trend Clay](../smartwatch/pebble) crash fixes on Aplite and Gabbro/Round models, background service start guard |
 | [ 8th Aug 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.08) | **[Pebble Trend Clay watchface](../smartwatch/pebble) now supports all Pebble models** (full color on newer watches), Wear OS crash loop fix, follower collector status fix |
