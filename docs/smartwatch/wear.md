@@ -71,6 +71,9 @@ This feature is not available for all sensors, see the table below:
 
 ***Limited\*:*** There are some bugs present on most Android Wear smartwatches which prevent them working correctly with the G5/G6. In the best case scenario you will have a reading every 10 minutes. Some watches could be [patched](https://github.com/NightscoutFoundation/xDrip/wiki/Patching-Android-Wear-devices-for-use-with-the-G5) to achieve 5 minutes readings.
 
+!!!info "Why can't my watch collect from a G5/G6 on its own?"  
+    Most Android Wear watches ship with Bluetooth firmware bugs that break the G5/G6 connection cycle, so the watch misses readings or only gets one every 10 minutes. The only fix found was to patch the watch firmware itself: unlock the bootloader and flash a patch through a custom recovery. This voids the warranty and only exists for a handful of older watches (Asus Zenwatch 2/3, Huawei Watch and Watch 2, LG G Watch, Polar M600). The full explanation, the list of supported watches and the "care pack" downloads are in the [Patching Android Wear devices for use with the G5](https://github.com/NightscoutFoundation/xDrip/wiki/Patching-Android-Wear-devices-for-use-with-the-G5) wiki page. If your watch isn't listed, it can't collect from a G5/G6 natively: use it as a display for the phone instead.
+
 ***Yes\*\*:*** You need to have a phone working with [OOP1](../../use/OOP/) or [OOP2](../../use/OOP/#oop2) and also need that same OOP app [sideloaded](../../troubleshoot/ADB/#smartwatch) to your watch. Some bridges might not be compatible.
 
 ### Prerequisites
@@ -136,4 +139,4 @@ This doesn't mean they need to be in the same place but the watch itself will no
 
 </br>
 
-[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

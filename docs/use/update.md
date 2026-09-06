@@ -38,7 +38,7 @@ There are four update channels:
 - Beta: versions that are candidates to stable release
 - Alpha: versions in development
 
-Once Alpha selected, update and you can see a new option:
+A fourth one only appears once Alpha has been selected (see [below](#getting-the-nightlies-on-automatic-update)):
 
 - Nightly: prototypes for testing
 
@@ -54,6 +54,23 @@ Less tested versions might include bugs but will also include latest features an
     &ensp;Beta - new features but not fully tested  
     &ensp;Alpha - versions for early testing  
     &ensp;Nightly - untested raw code - experts only!
+
+### Getting the nightlies on automatic update
+
+The Nightly channel is hidden until you have selected Alpha once.
+
+!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
+    &ensp;Settings  
+    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Update Settings  
+    &ensp;&emsp;Update Channel
+
+1. Open Update Channel. If Nightly is in the list, select it and you're done.
+2. If Nightly isn't listed, select Alpha, go back to the xDrip home screen, then open xDrip Update Settings and Update Channel again. Nightly is now visible: select it.
+
+!!!warning "Nightly is the least tested channel"  
+    Nightly builds contain the newest and least tested code. They are the first to receive new features, but also where bugs are usually uncovered. Keep an eye on xDrip after each update, and be ready to [downgrade](#downgrade) by installing an older release on top.
+
+Update checks happen roughly every 24 hours. To check immediately, use [Check for Update](../3dotsmenu/#check-for-updated-version) in the 3 dots menu.
 
 Looking in the [official repository](https://github.com/NightscoutFoundation/xDrip/releases), you can identify the latest release by the label Latest.    
 You can download the latest release [here](https://xdrip-plus-updates.appspot.com/stable/xdrip-plus-latest.apk).  
@@ -107,4 +124,4 @@ You don't need to uninstall xDrip to return to an older version (unless [switchi
 
 </br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

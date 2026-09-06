@@ -21,8 +21,6 @@ xDrip is the **master** (it uploads your data). The [NightLite iOS app](https://
     &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_cloud_upload_grey600_48dp.png" style="width:5%;" />&ensp;Cloud Upload  
     &ensp;&emsp;NightLite
 
-<img src="../images/M-S-NL1.png" style="zoom:33%;" />
-
 Enter your NightLite URL:
 
 !!!xdripitem "NightLite URL"  
@@ -32,8 +30,6 @@ Then enable the upload:
 
 !!!xdripitem "Upload to NightLite<span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
     &ensp;Whether to upload to the remote service
-
-<img src="../images/M-S-NL2.png" style="zoom:33%;" /> <img src="../images/M-S-NL3.png" style="zoom:33%;" />
 
 !!!warning  
     The NightLite URL contains your security key. Anyone with it can access your data, so don't share it.
@@ -56,4 +52,4 @@ Once the upload is enabled, xDrip can display a QR code that carries your whole 
 
 </br>
 
-[*Last modified 7/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01)
+[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01)
