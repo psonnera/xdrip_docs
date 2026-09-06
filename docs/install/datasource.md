@@ -14,7 +14,7 @@ If you use the vendor apps (G6, G7, 1+), you can connect xDrip as a [Share follo
 
 <img src="../images/DS-DShare.png" style="zoom:50%;" />
 
-When using [BYODA](../byod) (G6 only) if you've enabled Broadcast to xDrip you don't need a network connection to have data in xDrip. Use the 640G/Eversense data source
+When using [BYODA](../byod) (G6 only) if you've enabled Broadcast to xDrip you don't need a network connection to have data in xDrip. Use the Inter-app broadcast data source
 
 <img src="../images/DS-BYOD.png" style="zoom:45%;" />
 
@@ -69,11 +69,11 @@ You can add xDrip to your current setup and select [Companion app](../companion)
 
 ## Sibionics
 
-The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip with the [640G/Eversense](../640_670) data source.
+The [patched app](https://t.me/s/kubarev_modz) will allow you to use xDrip with the [Inter-app broadcast](../640_670) data source.
 
 ## CareSens Air
 
-You can receive data from the vendor app into xDrip with the [CareSens Air](../caresens) (or 640G/Eversense) data source.
+You can receive data from the vendor app into xDrip with the [CareSens Air](../caresens) (or Inter-app broadcast) data source.
 
 <img src="../images/DS-CareSens.png" style="zoom:50%;" />
 
@@ -208,7 +208,9 @@ Libre with patched SWR50 smartwatch
 [640G/670G pumps](../640_670), [Eversense](../eversense) and [Build your own app (BYODA)](../byod)
 
 !!!xdripitem "Hardware Data Source"  
-    &emsp;640G / EverSense<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
+    &emsp;Inter-app broadcast<span style="float: right;">○&emsp;</span>&emsp;&emsp;&emsp;
+
+This data source was named "640G / EverSense" before release 2026.09.04.
 
 [Medtrum A6/S7](../medtrum) 
 
@@ -264,4 +266,4 @@ If you want to disable xDrip.
 
 </br>
 
-[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.04)

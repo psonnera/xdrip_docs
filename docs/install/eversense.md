@@ -1,7 +1,7 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
     &ensp;Settings  
     &emsp;Hardware Data Source  
-    &ensp;&emsp;640G / EverSense
+    &ensp;&emsp;Inter-app broadcast
 
 !!!info "Eversense is also supported through [Companion App](../companion) data source" 
 
@@ -11,5 +11,5 @@ Original instructions [here](https://github.com/BernhardRo/Esel).
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.04)
 

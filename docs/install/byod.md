@@ -1,7 +1,7 @@
 !!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" /> "  
     &ensp;Settings  
     &emsp;Hardware Data Source  
-    &ensp;&emsp;640G / EverSense
+    &ensp;&emsp;Inter-app broadcast
 
 ### Build your own app
 
@@ -15,4 +15,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 3/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.04)
