@@ -263,6 +263,33 @@ Then authorize xDrip with your instance. No password is stored in xDrip: a code 
 !!!xdripitem "Connect to Nocturne"  
     &ensp;Authorize xDrip+ with your Nocturne instance
 
+#### Quick Connect from Nocturne
+
+Instead of typing the instance URL, let Nocturne configure xDrip for you. In your Nocturne instance open Connectors & Apps, then Set Up an Uploader, and select xDrip+ in the CGM Apps list.
+
+<img src="../images/M-S-N1.png" style="zoom:75%;" />
+
+The Set up xDrip+ page shows a Quick Connect QR code.
+
+<img src="../images/M-S-N2.png" style="zoom:60%;" />
+
+!!!warning "Scan this QR code with your phone camera app, not with xDrip"
+    The Quick Connect QR code is a link that opens xDrip on your phone directly on the Nocturne connector configuration. Scanning it with the xDrip [Auto configure](../copysettings/#auto-configure) settings importer will not work.
+
+xDrip then displays an authorization code. Enter it in the Enter Authorization Code field of the same Nocturne page and touch Continue to complete the connection.
+
+#### Alternate method: settings QR code
+
+If you prefer to prepare the Nocturne settings yourself, use the configurator below. Enter your instance URL, choose what to upload, then scan the generated QR code from inside xDrip with [Auto configure](../copysettings/#auto-configure) (Camera, or QR code from file with the downloaded PNG). xDrip lists the settings and asks for confirmation before applying them.
+
+!!!info "Unlike the Quick Connect QR code above, this one must be scanned with xDrip, not with the camera app."
+
+Once the settings are imported, open Settings, Cloud Upload, Nocturne, touch Connect to Nocturne and enter the authorization code shown by xDrip on your Nocturne instance. Authorization tokens are never part of the QR code.
+
+<iframe src="../nocturne-qr.html" title="xDrip+ Nocturne QR configurator" style="width:100%; height:800px; border:1px solid #d9dee5; border-radius:8px; background:#f6f7f9;" loading="lazy"></iframe>
+
+You can also [open the configurator in a separate page](../nocturne-qr.html).
+
 Select which data to upload. Glucose readings are enabled by default; everything else is optional.
 
 !!!xdripitem "Upload SGV<span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
@@ -294,4 +321,4 @@ Select which data to upload. Glucose readings are enabled by default; everything
 
 </br>
 
-[*Last modified 19/8/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19)
+[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19)
