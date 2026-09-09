@@ -112,10 +112,17 @@ Libre one minute display is still under development. xDrip displays BG values ev
 
 !!!xdripitem "Libre one minute <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
 
+Accept readings every minute instead of every 5 minutes from the [Inter-app broadcast](../../install/640_670) data source. Reboot the phone after changing it. Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09) this no longer requires engineering mode (it was named "640G/Eversense 1-minute" before).
+
+##### 1-min Inter-app broadcast
+
+!!!xdripitem "1-min Inter-app broadcast <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
+    &ensp;Accept data at one-minute intervals from Inter-app broadcast. Reboot your phone for changes to take effect.
+
 This option is not available at all.
 
 !!!xdripitem "NOT FOR PRODUCTION USE <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
 
 </br>
 
-[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)
+[*Last modified 9/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09)

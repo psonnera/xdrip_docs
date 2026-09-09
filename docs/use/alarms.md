@@ -213,12 +213,34 @@ You can define the number of minutes after which you want alerts to stop.
 
 ##### Notification Channels
 
-Since Android 8.0 is now the minimum supported version, xDrip always uses Android notification channels for your alerts, allowing you to customize notifications at Android level. The setting that used to enable them was removed when Android 7 support was retired ([12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12)) — channels are now always active.
+Since Android 8.0 is now the minimum supported version, xDrip always uses Android notification channels for your alerts. The setting that used to enable them was removed when Android 7 support was retired ([12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12)) — channels are now always active.
 
-To fine tune this, go to Android Settings / Notifications / Apps / xDrip and allow sound and vibration.  
-You'll then be able to decide each notification behaviour. If you have multiple notifications and alarms, disable the unwanted ones here.
+Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09) xDrip only creates four channels, and plays alert sounds and vibration itself instead of through the channel. Older channels are removed automatically.
 
-<img src="../images/M-S-AA-GAj2.png" style="zoom:75%;" />
+!!!xdripitem "xDrip notification channels"  
+    &ensp;Glucose level alerts  
+    &ensp;Other alerts  
+    &ensp;General  
+    &ensp;Ongoing notification
+
+The channel settings in Android Settings / Notifications / Apps / xDrip only decide whether the notification is displayed. Sound and vibration are governed by the xDrip settings: the [alert volume profile](#alert-volume-profile), and the Override silent mode and Vibrate on alert options of each alert. Turning a channel off hides the notification but does not silence the alert: disable the alert in xDrip instead.
+
+##### Alert priority
+
+Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09), when two alerts collide the more important one wins: it interrupts the sound and vibration of a less important alert already playing, and a less important alert cannot interrupt a more important one still sounding. This only affects sound and vibration, not snoozing or dismissing. From highest to lowest priority:
+
+1. Missed readings
+2. Low glucose level
+3. Persistent high
+4. High glucose level
+5. Forecasted low
+6. BlueReader alarm
+7. BG falling or rising fast
+8. Bad (noisy) value alerts
+9. Reminders
+10. Sensor expiry
+11. OB1 session restart
+12. Other notifications
 
 ##### Ascending Volume settings
 
@@ -339,8 +361,8 @@ You can also setup alerts for fast BG changes and define the 1 minute change tri
 
 !!!xdripitem "<small>ALERT PREFERENCES (FOR THESE ALERTS)</small>"
 
-The alerts above and **also Missed Readings** use the sound defined below.  
-On recent Android versions the alert sound is governed by the [Notification channels](#notification-channels), which are always active.
+The alerts above and **also Missed Readings** use the sound and vibration defined below.  
+Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09) xDrip plays them itself: the [notification channels](#notification-channels) no longer control sound or vibration. The Vibrate only and Silent [alert volume profiles](#alert-volume-profile) apply to these alerts too. When the phone is in vibrate mode only the vibration plays, and in silent mode nothing plays unless Override Silent mode is enabled.
 
 !!!warning "Make sure to test the alarm"  
     This is an important feature to sleep safely. Reduce the missed readings period and put your phone in airplane mode (no Wi-Fi) to force the alarm to ring.
@@ -348,7 +370,11 @@ On recent Android versions the alert sound is governed by the [Notification chan
 !!!xdripitem "Alert sound"  
     &ensp;Default
 
+Default is xDrip's own sound: the xDrip alarm for missed readings, a softer notification sound for the other alerts. Use CHOOSE FILE to pick a phone ringtone or your own file.
+
 !!!xdripitem "Override Silent mode on these alerts<img src="../../images/EN.png" style="zoom:75%;" />"
+
+!!!xdripitem "Vibrate on alert<img src="../../images/EN.png" style="zoom:75%;" />"
 
 ### Extra Alerts
 
@@ -382,6 +408,8 @@ Instead of a high alert that will trigger as soon as BG reaches the trigger valu
 !!!xdripitem "Override Silent Mode<img src="../../images/DIS.png" style="zoom:75%;">"  
     &ensp;Ring this alert even when the phone is set to silent
 
+!!!xdripitem "Vibrate on alert<img src="../../images/EN.png" style="zoom:75%;">"  
+
 ##### Forecasted Low Alert
 
 !!!xdripitem "Forecasted Low Alert"
@@ -412,6 +440,8 @@ Forecast Lows will display a message on xDrip screen. In order to have an alarm 
 !!!xdripitem "Override Silent Mode<img src="../../images/DIS.png" style="zoom:75%;">"  
     &ensp;Ring this alert even when the phone is set to silent
 
+!!!xdripitem "Vibrate on alert<img src="../../images/EN.png" style="zoom:75%;">"  
+
 In the example below if you set Alarm at forecasted low (min) to 50 minutes, il will trigger. The red dotted line is the forecasted BG trend, extrapolated from the previous measurements.
 
 <img src="../images/M-S-AA-EAb2.png" style="zoom:75%;" />
@@ -423,6 +453,8 @@ In the example below if you set Alarm at forecasted low (min) to 50 minutes, il 
 
 !!!xdripitem "Enable<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;Raise notifications when the sensor gets close to expiry.
+
+Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09) a follower shows the same notification when the master's expiry warning arrives, provided this setting is also enabled on the follower and treatments are synchronized from the master. The warning is shown once per sensor warning and ignored if it reaches the follower more than 30 minutes late.
 
 ##### Follower Chime New
 
@@ -511,11 +543,11 @@ When an alert triggers you will see it in the notifications drop down panel.
 <img src="../images/M-SNOg.png" style="zoom:75%;" />  
 
 Swiping it will snooze it, touching it will open a preferences menu.  
-Deliver quietly will remove [notifications channel](#notification-channels) sound and vibration.
+Deliver quietly only affects the Android notification itself. Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09) the alert sound and vibration are played by xDrip and follow the xDrip alert settings, not the [notification channel](#notification-channels).
 
 <img src="../images/M-SNOh.png" style="zoom:75%;" />
 
-You can restore it with allow sound and vibration with the [notifications channels](#notification-channels).
+You can switch back to alerting delivery from the same menu.
 
 <img src="../images/M-SNOi.png" style="zoom:75%;" />  
 
@@ -523,10 +555,10 @@ Settings will drive you to your phone notifications setup settings.
 
 <img src="../images/M-SNOk.png" style="zoom:75%;" />  
 
-You can also completely turn off [notifications channels](#notification-channels) for xDrip.
+You can also completely turn off [notifications channels](#notification-channels) for xDrip. This hides the notifications but does not stop the alert sound.
 
 <img src="../images/M-SNOj.png" style="zoom:75%;" />  
 
 
 
-[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)
+[*Last modified 9/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09)
