@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>xDrip+ Nocturne QR configurator</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1d2229; --muted:#5f6b7a; --line:#d9dee5; --accent:#2f6fed; --ok:#1d8f4b; --err:#c8332b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:1040px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  .lead { color:var(--muted); margin:0 0 20px; }
+  .grid { display:grid; grid-template-columns:1fr 360px; gap:20px; align-items:start; }
+  @media (max-width:820px){ .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px; }
+  .card h2 { font-size:17px; margin:0 0 12px; }
+  label.field { display:block; font-weight:600; margin:10px 0 4px; }
+  input[type=text], input[type=url], textarea { width:100%; padding:9px 11px; border:1px solid var(--line); border-radius:7px; font:inherit; }
+  textarea { min-height:70px; font-family:ui-monospace,Consolas,monospace; font-size:13px; }
+  .hint { font-size:13px; color:var(--muted); margin:4px 0 0; }
+  .hint.err { color:var(--err); }
+  .hint.warn { color:#a86a00; }
+  .row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:9px 0; border-top:1px solid var(--line); }
+  .row:first-of-type { border-top:0; }
+  .row .t { font-weight:600; }
+  .row .s { font-size:13px; color:var(--muted); }
+  .row code, .hint code { font-size:12px; color:var(--muted); background:#f0f2f5; padding:1px 5px; border-radius:4px; }
+  .sw { position:relative; width:46px; height:26px; flex:none; }
+  .sw input { opacity:0; width:0; height:0; position:absolute; }
+  .sw span { position:absolute; inset:0; background:#c3c9d2; border-radius:26px; cursor:pointer; transition:.15s; }
+  .sw span::before { content:""; position:absolute; width:20px; height:20px; left:3px; top:3px; background:#fff; border-radius:50%; transition:.15s; }
+  .sw input:checked + span { background:var(--accent); }
+  .sw input:checked + span::before { transform:translateX(20px); }
+  .dep { transition:opacity .15s; }
+  .dep.off { opacity:.5; }
+  #qr { display:flex; justify-content:center; min-height:296px; align-items:center; background:#fff; }
+  #qr img, #qr canvas { image-rendering:pixelated; }
+  .empty { color:var(--muted); font-size:14px; text-align:center; padding:20px; }
+  .btns { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  button { font:inherit; padding:8px 14px; border-radius:7px; border:1px solid var(--line); background:#fff; cursor:pointer; }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  button:disabled { opacity:.5; cursor:not-allowed; }
+  #payload { font-family:ui-monospace,Consolas,monospace; font-size:12px; word-break:break-all; color:var(--muted); margin-top:12px; }
+  ol.steps { padding-left:20px; margin:8px 0 0; }
+  ol.steps li { margin:4px 0; }
+  details { margin-top:14px; }
+  summary { cursor:pointer; font-weight:600; }
+  .count { font-size:13px; color:var(--muted); margin-top:8px; }
+  body.embedded { zoom:0.78; }
+  body.embedded .grid { grid-template-columns:1fr 320px !important; }
+  body.embedded .wrap { padding:8px 4px 16px; }
+  body.embedded h1, body.embedded .lead { display:none; }
+  @media print { body { background:#fff; } .noprint { display:none !important; } .grid { grid-template-columns:1fr; } .card { border:0; } }
+</style>
+</head>
+<body>
+<script>if (window.self !== window.top) document.body.className = "embedded";</script>
+<div class="wrap">
+  <h1>xDrip+ Nocturne QR configurator</h1>
+  <p class="lead">Fill in the Nocturne cloud upload settings, then scan the QR code from inside xDrip+
+    (<b>Settings &gt; Import settings from QR code</b>, or <b>QR code from file</b>). xDrip+ shows the list of keys and asks for confirmation before applying.</p>
+
+  <div class="grid">
+    <div>
+      <div class="card noprint">
+        <h2>Nocturne instance</h2>
+        <label class="field" for="url">Nocturne instance URL</label>
+        <input type="url" id="url" placeholder="https://mynocturne.example.com" autocomplete="off" spellcheck="false">
+        <p class="hint" id="urlHint">Enter the base URL of your Nocturne instance (no /api path, no trailing slash).</p>
+
+        <div class="row" style="margin-top:14px">
+          <div><div class="t">Enable Nocturne upload</div><div class="s">Master switch <code>nocturne_upload_enable</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_enable" checked><span></span></label>
+        </div>
+      </div>
+
+      <div class="card noprint dep" id="uploads" style="margin-top:16px">
+        <h2>What to upload</h2>
+        <div class="row"><div><div class="t">SGV</div><div class="s">CGM sensor glucose readings <code>nocturne_upload_sgv</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_sgv" checked><span></span></label></div>
+        <div class="row"><div><div class="t">Treatments</div><div class="s">Boluses, carbs, notes and device events <code>nocturne_upload_treatments</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_treatments"><span></span></label></div>
+        <div class="row"><div><div class="t">Calibrations</div><div class="s">Sensor calibrations <code>nocturne_upload_calibrations</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_calibrations"><span></span></label></div>
+        <div class="row"><div><div class="t">Blood tests</div><div class="s">Fingerstick meter readings <code>nocturne_upload_bloodtests</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_bloodtests"><span></span></label></div>
+        <div class="row"><div><div class="t">Heart rate</div><div class="s"><code>nocturne_upload_heartrate</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_heartrate"><span></span></label></div>
+        <div class="row"><div><div class="t">Step count</div><div class="s"><code>nocturne_upload_stepcount</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_stepcount"><span></span></label></div>
+        <div class="row"><div><div class="t">Device status</div><div class="s">Phone battery level and charging state <code>nocturne_upload_devicestatus</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_devicestatus"><span></span></label></div>
+        <div class="row"><div><div class="t">Motion tracking</div><div class="s">Recognized activity classifications <code>nocturne_upload_motion</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_upload_motion"><span></span></label></div>
+        <div class="row"><div><div class="t">Use mobile data</div><div class="s">Allow uploads over mobile data <code>nocturne_use_mobile</code></div></div>
+          <label class="sw"><input type="checkbox" id="k_nocturne_use_mobile" checked><span></span></label></div>
+
+        <details>
+          <summary>Additional xDrip+ settings (advanced)</summary>
+          <p class="hint">One <code>key=value</code> per line. Any xDrip+ preference key is accepted. Use <code>true</code>/<code>false</code> for switches.</p>
+          <textarea id="extra" placeholder="units=mgdl&#10;highValue=170"></textarea>
+        </details>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <h2>QR code for xDrip+</h2>
+        <div id="qr"><div class="empty">Enter the instance URL to generate the QR code.</div></div>
+        <div class="count" id="count"></div>
+        <div class="btns noprint">
+          <button class="primary" id="dl" disabled>Download PNG</button>
+          <button id="copy" disabled>Copy payload</button>
+          <button id="print" disabled>Print</button>
+          <button id="link" disabled>Copy link to this setup</button>
+        </div>
+        <div id="payload"></div>
+      </div>
+
+      <div class="card" style="margin-top:16px">
+        <h2>After scanning</h2>
+        <ol class="steps">
+          <li>Confirm the import in xDrip+.</li>
+          <li>Open <b>Settings &gt; Cloud Upload &gt; Nocturne</b>.</li>
+          <li>Tap <b>Connect to Nocturne</b>: xDrip+ shows an authorization code. Enter it on your Nocturne instance (Connectors &amp; Apps &gt; xDrip+ &gt; Enter Authorization Code).</li>
+        </ol>
+        <p class="hint">Authorization tokens are never part of the QR code. They are created on the phone during the connect step.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function () {
+  // xDrip+ settings QR format (QRcodeUtils.java / JoH.uncompressString):
+  //   "xdpref:" + base64( zlib-deflate( JSON map string->string ) )
+  var MARKER = "xdpref:";
+  var KEYS = [
+    "nocturne_upload_enable", "nocturne_upload_sgv", "nocturne_upload_treatments",
+    "nocturne_upload_calibrations", "nocturne_upload_bloodtests", "nocturne_upload_heartrate",
+    "nocturne_upload_stepcount", "nocturne_upload_devicestatus", "nocturne_upload_motion",
+    "nocturne_use_mobile"
+  ];
+  var $ = function (id) { return document.getElementById(id); };
+  var qrHolder = $("qr"), lastText = "";
+
+  function encodePrefs(map) {
+    var json = JSON.stringify(map);
+    var deflated = pako.deflate(new TextEncoder().encode(json), { level: 9 });
+    var bin = "";
+    for (var i = 0; i < deflated.length; i++) bin += String.fromCharCode(deflated[i]);
+    return MARKER + btoa(bin).replace(/=+$/, "");   // xDrip+ emits base64 without padding
+  }
+
+  function readUrl() {
+    var raw = $("url").value.trim().replace(/\/+$/, "");
+    var hint = $("urlHint");
+    hint.className = "hint";
+    if (!raw) { hint.textContent = "Enter the base URL of your Nocturne instance (no /api path, no trailing slash)."; return null; }
+    var u;
+    try { u = new URL(raw); } catch (e) { hint.className = "hint err"; hint.textContent = "Not a valid URL."; return null; }
+    if (u.protocol !== "https:" && u.protocol !== "http:") { hint.className = "hint err"; hint.textContent = "URL must start with https:// or http://."; return null; }
+    if (!u.hostname) { hint.className = "hint err"; hint.textContent = "URL needs a host name."; return null; }
+    if (u.protocol === "http:") { hint.className = "hint warn"; hint.textContent = "Insecure connection (HTTP). xDrip+ will warn but accept it."; }
+    else if (/\/api\b|\/connect\b/.test(u.pathname)) { hint.className = "hint warn"; hint.textContent = "This looks like an API or connect path. Use only the base URL of the instance."; }
+    else { hint.textContent = "OK: " + raw; }
+    return raw;
+  }
+
+  function buildMap(url) {
+    var map = {};
+    map["nocturne_upload_enable"] = String($("k_nocturne_upload_enable").checked);
+    map["nocturne_instance_url"] = url;
+    KEYS.slice(1).forEach(function (k) { map[k] = String($("k_" + k).checked); });
+    $("extra").value.split(/\r?\n/).forEach(function (line) {
+      var m = line.match(/^\s*([A-Za-z0-9_.-]+)\s*=\s*(.*?)\s*$/);
+      if (m) map[m[1]] = m[2];
+    });
+    return map;
+  }
+
+  function setButtons(on) { ["dl", "copy", "print", "link"].forEach(function (id) { $(id).disabled = !on; }); }
+
+  function render() {
+    $("uploads").classList.toggle("off", !$("k_nocturne_upload_enable").checked);
+    var url = readUrl();
+    if (!url) {
+      qrHolder.innerHTML = '<div class="empty">Enter the instance URL to generate the QR code.</div>';
+      $("payload").textContent = ""; $("count").textContent = ""; lastText = "";
+      setButtons(false); return;
+    }
+    var map = buildMap(url);
+    var text = encodePrefs(map);
+    if (text !== lastText) {
+      qrHolder.innerHTML = "";
+      new QRCode(qrHolder, { text: text, width: 280, height: 280, correctLevel: QRCode.CorrectLevel.M });
+      lastText = text;
+    }
+    $("payload").textContent = text;
+    $("count").textContent = Object.keys(map).length + " settings, " + text.length + " characters.";
+    setButtons(true);
+  }
+
+  function pngDataUrl() {
+    var c = qrHolder.querySelector("canvas");
+    return c ? c.toDataURL("image/png") : null;
+  }
+
+  $("dl").addEventListener("click", function () {
+    var d = pngDataUrl(); if (!d) return;
+    var host = (function () { try { return new URL($("url").value.trim()).hostname; } catch (e) { return "nocturne"; } })();
+    var a = document.createElement("a"); a.href = d; a.download = "xdrip-nocturne-" + host + ".png";
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+  $("copy").addEventListener("click", function () {
+    navigator.clipboard.writeText(lastText).then(function () { flash($("copy"), "Copied"); });
+  });
+  $("print").addEventListener("click", function () { window.print(); });
+  $("link").addEventListener("click", function () {
+    var p = new URLSearchParams();
+    p.set("url", $("url").value.trim());
+    KEYS.forEach(function (k) { p.set(k, $("k_" + k).checked ? "1" : "0"); });
+    if ($("extra").value.trim()) p.set("extra", $("extra").value.trim());
+    var href = location.origin + location.pathname + "?" + p.toString();
+    navigator.clipboard.writeText(href).then(function () { flash($("link"), "Link copied"); });
+  });
+  function flash(btn, msg) { var t = btn.textContent; btn.textContent = msg; setTimeout(function () { btn.textContent = t; }, 1200); }
+
+  // Pre-fill from query string, e.g. ?url=https://nocturne.example.com&nocturne_upload_treatments=1
+  (function prefill() {
+    var p = new URLSearchParams(location.search);
+    if (p.has("url")) $("url").value = p.get("url");
+    KEYS.forEach(function (k) { if (p.has(k)) $("k_" + k).checked = /^(1|true|on)$/i.test(p.get(k)); });
+    if (p.has("extra")) $("extra").value = p.get("extra");
+  })();
+
+  document.querySelectorAll("input, textarea").forEach(function (el) {
+    el.addEventListener("input", render); el.addEventListener("change", render);
+  });
+  render();
+})();
+</script>
+</body>
+</html>
