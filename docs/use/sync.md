@@ -65,13 +65,6 @@ If you use Libre sensors you can also use this feature, see [here](https://githu
 !!!xdripitem "Libre Whole House <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
     &ensp;This phone will be a collector in a Whole House Network
 
-##### Parakeet geolocalization
-
-And if you used a Parakeet your master could send actual position to followers.
-
-!!!xdripitem "Sync Parakeet geolocalization <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Send Parakeet map location to followers
-
 ##### Remote snoozing
 
 Remote snoozing allows the snooze request to propagate along the group. Master or followers can snooze alarms. Use with care.
@@ -145,4 +138,4 @@ Look in system status to check everything is connecting correctly.
 
 </br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)

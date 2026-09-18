@@ -262,8 +262,8 @@ If you want to disable xDrip.
 </br>
 
 !!!note  
-    The `Hardware Data Source` list also contains `Bluetooth Wixel`, `xBridge Wixel`, `Wifi Wixel / Parakeet`, `Wifi Wixel + BT Wixel` and  `Wifi Wixel + xBridge Wixel`: these are legacy/obsolete entries not covered in this documentation.
+    The `Hardware Data Source` list also contains `Bluetooth Wixel`, `xBridge Wixel`, `Wifi Wixel`, `Wifi Wixel + BT Wixel` and  `Wifi Wixel + xBridge Wixel`: these are legacy/obsolete entries not covered in this documentation.
 
 </br>
 
-[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.04)
+[*Last modified 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)

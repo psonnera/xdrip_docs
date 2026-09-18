@@ -503,12 +503,6 @@ This makes notifications visible on locked screen.
 
 !!!xdripitem "Public Notifications <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
 
-### Parakeet and Extra Test Features
-
-You might have wanted to use these settings with a [Parakeet](https://github.com/jamorham/wixel-xDrip/blob/parakeet-gsm-modem/README.md).
-
-!!!xdripitem "Parakeet and Extra Test Features <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"
-
 ### Enable Reminder Features
 
 Enabled by default, you'll find reminders in the [three dots menu](../3dotsmenu) top right on the main view.
@@ -620,4 +614,4 @@ It might be a good idea to enable this feature if your phone performs automatic 
 
 </br>
 
-[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)
+[*Last modified 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
