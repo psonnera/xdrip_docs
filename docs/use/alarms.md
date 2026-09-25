@@ -371,6 +371,7 @@ Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/
     &ensp;Default
 
 Default is xDrip's own sound: the xDrip alarm for missed readings, a softer notification sound for the other alerts. Use CHOOSE FILE to pick a phone ringtone or your own file.
+Since [25th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.25) the softer sound is also used when the phone's *Default* ringtone is selected, including on installs upgraded from before 9th Sep 2026 that never changed this setting: unclear, rise, fall and similar alerts no longer sound like the glucose alarm.
 
 !!!xdripitem "Override Silent mode on these alerts<img src="../../images/EN.png" style="zoom:75%;" />"
 
@@ -561,4 +562,4 @@ You can also completely turn off [notifications channels](#notification-channels
 
 
 
-[*Last modified 9/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09)
+[*Last modified 25/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.25)
