@@ -21,6 +21,7 @@ This feature is available for:
 - Vitatok app
 - Glucotech app
 - SiSensing Eco (China) app
+- Diabeloop DBLG2 app
 
 For the Omnipod 5 and MiniMed Mobile (EU) apps, xDrip also reads Insulin on Board (IoB) from the companion app notification when available.
 
@@ -63,4 +64,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 5/8/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.05)
+[*Last modified 2/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.02)
