@@ -234,13 +234,15 @@ Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/
 3. Persistent high
 4. High glucose level
 5. Forecasted low
-6. BlueReader alarm
-7. BG falling or rising fast
-8. Bad (noisy) value alerts
-9. Reminders
-10. Sensor expiry
+6. BG falling or rising fast
+7. Sensor expiry
+8. BlueReader alarm
+9. Bad (noisy) value alerts
+10. Reminders
 11. OB1 session restart
 12. Other notifications
+
+Since [9th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.09), when the phone is in silent mode (or the Silent [alert volume profile](#alert-volume-profile) is selected) and Override silent mode is off, the alerts down to BG falling or rising fast still write a log entry saying no sound was played, so you can see afterwards that an alert was triggered.
 
 ##### Ascending Volume settings
 
@@ -562,4 +564,4 @@ You can also completely turn off [notifications channels](#notification-channels
 
 
 
-[*Last modified 25/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.25)
+[*Last modified 10/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10)

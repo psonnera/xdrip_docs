@@ -6,6 +6,8 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [10th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10) | New Dexcom transmitter firmware recognized, internal library updates |
+| [ 9th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.09) | [Alert priority](../use/alarms/#alert-priority) reordered (sensor expiry above BlueReader, bad value alerts and reminders), log entry when an alert is silenced by silent mode, Web follower and Aidex readings identified in broadcasts, sync device list shows charging state, crash fixes |
 | [ 2nd Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.02) | **Diabeloop DBLG2** [companion app](../install/companion), [Nocturne](../use/cloud/#nocturne) upload recovers from a rejected token, more robust alert sound fallback |
 | [25th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.25) | [Other alerts](../use/alarms/#alert-preferences) set to the phone's default ringtone now play the soft notification sound instead of the glucose alarm, crash fix in delta display, remaining Parakeet strings removed |
 | [18th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18) | **Parakeet retired**: Parakeet map, menu items, `Parakeet and Extra test features` and `Sync Parakeet Geolocation` settings removed, data source renamed `Wifi Wixel`; `Use ongoing notification channel` setting removed (always on), Wifi Wixel status row fix |
