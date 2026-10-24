@@ -114,6 +114,8 @@ You can customize the volume of your alerts
 
 Ascending volume is recommended if you don't want the alarm to blare immediately (useful during the night). You can also [delay](#delay-ascending-volume) ascending volume to filter noisy readings and limit the maximum volume.
 
+Since [16th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.16), selecting Vibrate only or Silent asks for confirmation: with these profiles alerts make no sound, even those with Override Silent Mode enabled. The profile is only changed if you confirm.
+
 ##### Audio Focus
 
 Audio Focus allows you to decide how to handle other sounds when an xDrip alarm or alert triggers.
@@ -564,4 +566,4 @@ You can also completely turn off [notifications channels](#notification-channels
 
 
 
-[*Last modified 10/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10)
+[*Last modified 24/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23)

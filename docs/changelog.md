@@ -6,6 +6,8 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [23rd Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23) | Longer default notification sound for non-glucose alerts, Health Connect crash loop fix, watch keypad save tick visible on round watches |
+| [16th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.16) | Warning when selecting the Vibrate only or Silent [alert volume profile](../use/alarms/#alert-volume-profile), which mute alerts even with Override Silent Mode |
 | [10th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10) | New Dexcom transmitter firmware recognized, internal library updates |
 | [ 9th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.09) | [Alert priority](../use/alarms/#alert-priority) reordered (sensor expiry above BlueReader, bad value alerts and reminders), log entry when an alert is silenced by silent mode, Web follower and Aidex readings identified in broadcasts, sync device list shows charging state, crash fixes |
 | [ 2nd Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.02) | **Diabeloop DBLG2** [companion app](../install/companion), [Nocturne](../use/cloud/#nocturne) upload recovers from a rejected token, more robust alert sound fallback |
