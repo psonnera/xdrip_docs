@@ -6,6 +6,7 @@
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [ 3rd Nov 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.03) | New transmitter firmware version recognized, G7/ONE+ transmitters advertising as DX04 accepted |
 | [23rd Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23) | Longer default notification sound for non-glucose alerts, Health Connect crash loop fix, watch keypad save tick visible on round watches |
 | [16th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.16) | Warning when selecting the Vibrate only or Silent [alert volume profile](../use/alarms/#alert-volume-profile), which mute alerts even with Override Silent Mode |
 | [10th Oct 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10) | New Dexcom transmitter firmware recognized, internal library updates |
