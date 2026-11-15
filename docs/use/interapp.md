@@ -261,4 +261,6 @@ xDrip can share steps, heart rate and BG with Google Health.
 !!!xdripitem "Manage permissions"  
     &ensp;Open Health Connect Settings to manually manage permissions
 
-[*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+On some Android versions (notably 15 and 16) xDrip isn't allowed to open its Health Connect permission screen directly. It then opens the Health Connect app instead: go to *App permissions* and select xDrip to manage them. If Health Connect can't be opened at all, a message asks you to open the Health Connect app yourself and manage xDrip's permissions there.
+
+[*Last modified 15/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13)
