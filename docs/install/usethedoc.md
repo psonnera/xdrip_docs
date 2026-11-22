@@ -24,14 +24,16 @@ Always rely on the original documentation unless obsolete (will be mentioned).
 
 ### Translation
 
-The documentation is only available in English.  
-You might find it easier to follow if you [switch your xDrip to English](../../use/display/#language) and read it using and automatic translation with Google.
+The documentation is available in English, French and Italian. Use the language selector at the top of the page to switch, you will stay on the same page.  
+Translations are in progress: pages not yet translated are shown in English, with a notice. English is the reference version, a translated page whose English version has changed since is marked as such.
+
+For other languages, you might find it easier to follow if you [switch your xDrip to English](../../use/display/#language) and read it using an automatic translation with Google.
 
 Most menu pictures have been changed to text to allow automatic translation, this means they might not match the display but hopefully they will point you to the right item.
 
 ### Search
 
-You can search the documentation for a menu or a term using the upper right search lens feature (only English).
+You can search the documentation for a menu or a term using the upper right search lens feature, in the language you are reading.
 
 ### Typo, error, missing information
 

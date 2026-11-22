@@ -101,6 +101,24 @@ Cross-reference each verified feature/removal against `docs/` (subfolders: `inst
 - Update the page's footer line to the newest tag covered:
   `` [*Last modified <d/m/yyyy>*](https://github.com/NightscoutFoundation/xDrip/releases/tag/<newest_tag>) ``.
 
+## 5b. Update the French and Italian translations
+
+Rules: `i18n/README.md` (French "vous", Italian "tu", glossaries, app labels from `i18n/ui-strings.tsv`).
+
+1. Refresh the UI strings table at the newest tag:
+   `python .claude/scripts/ui-strings.py <xdrip_repo_path> <newest_tag>`
+   New settings documented in step 5 must use the fr/it label from this table.
+2. For each English page edited in step 5 that has a `page.fr.md` / `page.it.md`: make the same
+   change in the translation (same position, same structure, translated text, footer tag/date too).
+   Use `git diff -- docs/<page>.md` as the list of changes.
+3. Stamp each updated translation:
+   `python .claude/scripts/i18n-status.py --stamp docs/<page>.fr.md docs/<page>.it.md`
+   (`source_commit` will point at the last committed English version, which is fine: the hash is
+   what decides up to date / outdated.)
+4. If a new page was added to `nav`, add its label to both `nav_translations` blocks in `mkdocs.yml`.
+5. Run `python .claude/scripts/i18n-status.py` and include its summary in the report: it must show
+   0 outdated unless a translation was knowingly left behind (say which).
+
 ## 6. Wrap up
 
 - Leave all changes uncommitted — this repo's owner commits directly, don't commit for them
