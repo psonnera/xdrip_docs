@@ -1,5 +1,6 @@
-!!!warning  
-    Make sure you know what you're doing when using this feature
+::: warning
+Make sure you know what you're doing when using this feature
+:::
 
 Using the microphone in treatments you can perform some commands:
 
@@ -103,6 +104,6 @@ database administration
 
 simulate crash
 
-</br>
+<br>
 
 [*Last modified 3/5/2023*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26)

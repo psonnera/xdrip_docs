@@ -1,7 +1,8 @@
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" /> "  
-    &ensp;Settings  
-    &emsp;Hardware Data Source  
-    &ensp;&emsp;Inter-app broadcast
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" /> 
+&ensp;Settings  
+&emsp;Hardware Data Source  
+&ensp;&emsp;Inter-app broadcast
+:::
 
 ### Build your own app
 
@@ -9,10 +10,10 @@ You can create your own app using this [form](https://docs.google.com/forms/d/e/
 
 Broadcast to xDrip is only possible for G6 sensors.
 
-<img src="../images/byoda.png" style="zoom:75%;" />
+<img src="./images/byoda.png" style="zoom:75%;" />
 
-If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+If no data is visible and no error message pops up you might need to [Start sensor](../use/startsensor#followers-and-companion-apps).
 
-</br>
+<br>
 
 [*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.04)

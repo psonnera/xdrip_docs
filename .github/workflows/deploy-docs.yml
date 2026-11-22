@@ -8,16 +8,31 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          fetch-depth: 0
 
-      - run: pip install -r docs/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
 
-      - run: mkdocs gh-deploy --force
+      - run: npm ci
+
+      # VitePress build (en + fr + it) and legacy MkDocs URL redirects
+      - run: npm run docs:build
+
+      # Same target as before (gh-pages branch), so the GitHub Pages settings do not change
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
+          force_orphan: true

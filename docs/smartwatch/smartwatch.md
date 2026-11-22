@@ -1,15 +1,17 @@
 
 
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_watch_grey600_48dp.png" style="width:5%;" />&ensp;Smart Watch Features
+:::
 
 ## xDrip direct integration
 
 xDrip offers a wide range of smartwatch support.
 
-### [Android Wear Integration](../wear)
+### [Android Wear Integration](./wear)
 
-!!!xdripitem "Android Wear Integration" 
+::: xdripitem Android Wear Integration
+:::
 
 You'll find the most complete integration in Wear OS watches as they are running a part of the xDrip app locally.
 
@@ -17,53 +19,62 @@ The wear extension of xDrip is not under development anymore.
 
 If you need more watchfaces or customizations you can use [Tasker](https://github.com/FreDiabetics/xDrip--Tasker-Tizen-Watchface-Integration/blob/master/README.md) (but not as a standalone collector).
 
-### [Pebble Integration](../pebble)
+### [Pebble Integration](./pebble)
 
-!!!xdripitem "Pebble Integration" 
+::: xdripitem Pebble Integration
+:::
 
-Pebble smartwatch use is a historic milestone of CGM in the Cloud. Pebble has been bought by Fitbit in 2016 and resources have moved to archives and [rebble.io](https://rebble.io/).
+Pebble smartwatch use is a historic milestone of CGM in the Cloud. Pebble was bought by Fitbit in 2016 and resources have moved to archives and [rebble.io](https://rebble.io/).
 
 You need to download the watch app from [APKMirror](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/).
 
 ### [AmazFit Sync Service](https://crazyinfo.de/2018/07/25/xdrip-smartwatch-widget-fuer-amazfit-pace-stratos/)
 
-!!!xdripitem "AmazFit Sync Service" 
+::: xdripitem AmazFit Sync Service
+:::
 
 AmazFit was used only for Pace and Stratos models.  
 **You cannot use this feature for other AmazFit watches.**
 
-### [BlueJay Watch](../bluejay)
+### [BlueJay Watch](./bluejay)
 
-!!!xdripitem "BlueJay Watch" 
+::: xdripitem BlueJay Watch
+:::
 
 BlueJay is an incredible companion of your Dexcom sensor, with or without xDrip, with or without phone.
 
 ### [LeFun Band](https://www.lefunsmart.com/collections/smartwatches)
 
-!!!xdripitem "LeFun Band" 
+::: xdripitem LeFun Band
+:::
 
 LeFun band integration was an early implementation for smartbands, best if used in mmol/l.  
 Unless you still own a LeFun W3, F3, F3S, F11 or F12 band this is not of any use now.
 
-### [MiBand](../miband)
+### [MiBand](./miband)
 
-!!!xdripitem "MiBand" 
+::: xdripitem MiBand
+:::
 
 MiBand integration is the result of the huge work of [Artem](https://bigdigital.home.blog/).  
 Many smartwatches and smartbands are now supported using the companion app WatchDrip+.
 
-!!!note "Disable MiBand in xDrip if you use WatchDrip+"  
-    !!!xdripitem "Use MiBand <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>" 
+:::: info Disable MiBand in xDrip if you use WatchDrip+
+::: xdripitem Use MiBand <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+:::
+::::
 
 ## Smartwatch Sensors
 
-xDrip can use supported smartwatches sensors.
+xDrip can use supported smartwatch sensors.
 
-!!!xdripitem "Use Health data <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>" 
+::: xdripitem Use Health data <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+:::
 
 xDrip can request the heartbeat sensor to activate and you can smooth that graph.
 
-!!!xdripitem "Heart Rate Sensor <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"
+::: xdripitem Heart Rate Sensor <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+:::
 
 When available you can let xDrip collect health data like heartrate and steps.
 
@@ -72,14 +83,15 @@ Two additional icons will appear on the main view, and if enabled, graphic repre
 1.  A dark blue graph for heartrate
 2. A light cyan cloud line for steps
 
-<img src="../images/M-S-SW8c.png" style="zoom:75%;" />
+<img src="./images/M-S-SW8c.png" style="zoom:75%;" />
 
 ## Other smartwatches
 
 More smartwatches and devices can receive data from xDrip even if they are not directly integrated in the app.
 
-!!!info  
-    In order to have xDrip send data you need to enable xDrip [web service](../../use/interapp#web-service).
+::: info
+In order to have xDrip send data you need to enable xDrip [web service](../use/interapp#web-service).
+:::
 
 ### Android Wear
 
@@ -91,14 +103,17 @@ More smartwatches and devices can receive data from xDrip even if they are not d
 
 ### Fitbit
 
-!!!warning "Google is discontinuing Sense/Ionic/Versa"  
-    Consider these products will be end of life in the near future.
+::: warning Google is discontinuing Sense/Ionic/Versa
+Consider that these products will be end of life in the near future.
+:::
 
-!!!warning "Not available for EU users"  
-    Google has [removed](https://support.google.com/fitbit/answer/14237121?hl=en) the possibility since June 2024. Installed watchfaces are not impacted but new users can't install custom watchfaces anymore. You need to use a VPN as a workaround.
+::: warning Not available for EU users
+Google has [removed](https://support.google.com/fitbit/answer/14237121?hl=en) the possibility since June 2024. Installed watchfaces are not impacted but new users can't install custom watchfaces anymore. You need to use a VPN as a workaround.
+:::
 
-!!!warning "Android 9 and below"  
-    Android users with a version below 10 need to downgrade the Fitbit app to a previous version like 3.58 and disable automatic updates. You can find it in [Aptoide](https://fitbit.en.aptoide.com/versions) and other apk hosting servers.
+::: warning Android 9 and below
+Android users with a version below 10 need to downgrade the Fitbit app to a previous version like 3.58 and disable automatic updates. You can find it in [Aptoide](https://fitbit.en.aptoide.com/versions) and other apk hosting servers.
+:::
 
 ##### [Glance](https://gallery.fitbit.com/details/7b5d9822-7e8e-41f9-a2a7-e823548c001c)
 
@@ -109,7 +124,7 @@ Ionic/Sense/Versa/Versa 2/Versa 3/Versa 4/Versa Lite
 ##### [Sentinel](https://gallery.fitbit.com/developer/b50ac7f5-b932-441a-be18-e258b17c736b)
 
 Sentinel Elite for Sense/Versa 3  
-Sentinel Pro for  Ionic/Versa/Versa 2/Versa Lite
+Sentinel Pro for Ionic/Versa/Versa 2/Versa Lite
 
 Facebook group: [Sentinel](https://www.facebook.com/groups/3185325128159614)
 
@@ -145,6 +160,6 @@ By [John_](https://apps.garmin.com/en-US/developer/b2d30711-2708-4f3a-8e83-009c1
 
 By [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe9-434db16542a9/apps)
 
-</br>
+<br>
 
 [*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

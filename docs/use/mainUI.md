@@ -2,36 +2,37 @@
 
 Welcome to xDrip!
 
-<img src="../images/UI-basic.png" style="zoom:50%;" />
+<img src="./images/UI-basic.png" style="zoom:50%;" />
 
-If you've just setup xDrip you want to start with basic customizations:
+If you've just set up xDrip, you want to start with basic customizations:
 
-1. [Setup the unit you want to display your blood glucose with](../settings)
-2. [Add alarms](../alarms)
-3. If you're connecting xDrip to a sensor, [share data to another phone with xDrip](../syncsetup)
-4. Display xDrip on the phone when [screen is locked](../display/#numbered-wall-on-locked-screen)
+1. [Set up the unit you want to display your blood glucose with](./settings)
+2. [Add alarms](./alarms)
+3. If you're connecting xDrip to a sensor, [share data to another phone with xDrip](./syncsetup)
+4. Display xDrip on the phone when [screen is locked](./display#numbered-wall-on-locked-screen)
 5. Add a [widget](#widget) to your phone home screen
-6. Add a [smartwatch](../../smartwatch/smartwatch)
-7. Share data with your endocrinologist using [Tidepool](https://www.tidepool.org/), if you have a Tidepool account, just [setup xDrip](../cloud/#tidepool)
+6. Add a [smartwatch](../smartwatch/smartwatch)
+7. Share data with your endocrinologist using [Tidepool](https://www.tidepool.org/), if you have a Tidepool account, just [set up xDrip](./cloud#tidepool)
 8. Upload your data to [Nightscout](https://nightscout.github.io/) (recommended)
 
 ### Basic indications
 
 You will see these default indications when xDrip receives data.
 
-<img src="../images/UI-indications.png" style="zoom:75%;" />
+<img src="./images/UI-indications.png" style="zoom:75%;" />
 
 1. How long ago was the reading received and what's the BG difference with the previous value received.
 2. What's the last measured BG value.
-3. What's the trend in respect with the previous measurement.
+3. What's the trend with respect to the previous measurement.
 
 ##### Trend arrow
 
-!!!note  
-    The arrow gives the trend difference with the previous measurement, other CGM applications use an algorithm to give this indication and the result might not match.  
-    In case of missing readings, the arrow might indicate fast rise or drop, always correlate with the indication in `1`.
+::: info Note
+The arrow gives the trend difference with the previous measurement, other CGM applications use an algorithm to give this indication and the result might not match.  
+In case of missing readings, the arrow might indicate fast rise or drop, always correlate with the indication in `1`.
+:::
 
-You can customize the information shown in `1` with [Graph Settings](../display/#graph-settings).
+You can customize the information shown in `1` with [Graph Settings](./display#graph-settings).
 
 You can [customize the trend arrow aspect](#blood-drop-menu) but not behavior (i.e. it will always use the difference with the previous reading).
 
@@ -39,10 +40,10 @@ This is how the classic trend arrow will appear, it takes into account the diffe
 
 | BG difference (previous and current)                         |                                                           |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
-| Changed at most +/- 5mg/dl (0.28 mmol/l)                     | <img src="../images/ArrowFlat.png" style="zoom:75%;" />   |
-| Changed more than above and less than +/- 10mg/dl (0.56 mmol/l) | <img src="../images/ArrowUpDn.png" style="zoom:75%;" />   |
-| Changed more than above and less than +/- 17.5mg/dl (0.97 mmol/l) | <img src="../images/ArrowUpDn+.png" style="zoom:75%;" />  |
-| Changed more than above                                      | <img src="../images/ArrowUpDn++.png" style="zoom:75%;" /> |
+| Changed at most +/- 5mg/dl (0.28 mmol/l)                     | <img src="./images/ArrowFlat.png" style="zoom:75%;" />   |
+| Changed more than above and less than +/- 10mg/dl (0.56 mmol/l) | <img src="./images/ArrowUpDn.png" style="zoom:75%;" />   |
+| Changed more than above and less than +/- 17.5mg/dl (0.97 mmol/l) | <img src="./images/ArrowUpDn+.png" style="zoom:75%;" />  |
+| Changed more than above                                      | <img src="./images/ArrowUpDn++.png" style="zoom:75%;" /> |
 
 
 
@@ -50,7 +51,7 @@ This is how the classic trend arrow will appear, it takes into account the diffe
 
 You can log treatments with the syringe icon.
 
-<img src="../images/UI-Treat.png" style="zoom:75%;" />
+<img src="./images/UI-Treat.png" style="zoom:75%;" />
 
 Add one or more elements to your treatment.
 
@@ -58,45 +59,47 @@ Add one or more elements to your treatment.
 
 It will display in the unit selected in xDrip.
 
-<img src="../images/UI-Treat1.png" style="zoom:75%;" />
+<img src="./images/UI-Treat1.png" style="zoom:75%;" />
 
 #### Grams of carbs
 
-<img src="../images/UI-Treat2.png" style="zoom:75%;" />
+<img src="./images/UI-Treat2.png" style="zoom:75%;" />
 
 #### Units of insulin
 
-!!!note  
-    If you enabled [multiple insulin types](../predictions/#multiple-insulin-types), you should also select the insulin type for this treatment.
+::: info Note
+If you enabled [multiple insulin types](./predictions#multiple-insulin-types), you should also select the insulin type for this treatment.
+:::
 
-<img src="../images/UI-Treat3.png" style="zoom:75%;" />
+<img src="./images/UI-Treat3.png" style="zoom:75%;" />
 
 #### Time
 
-And eventually the time of the treatment (if not now) expressed in 24 hours format, with or without a separator.
+And optionally the time of the treatment (if not now) expressed in 24-hour format, with or without a separator.
 
-!!!note  
-    You can select a treatment time from 23 hours in the past, up to 1 hour in the future.
+::: info Note
+You can select a treatment time from 23 hours in the past, up to 1 hour in the future.
+:::
 
-<img src="../images/UI-Treat4.png" style="zoom:75%;" />
+<img src="./images/UI-Treat4.png" style="zoom:75%;" />
 
 Treatments are valid when the green check mark appears in the upper right corner. Touch it to confirm the entries.
 
-<img src="../images/UI-Treat6.png" style="zoom:75%;" />
+<img src="./images/UI-Treat6.png" style="zoom:75%;" />
 
 A summary is displayed. Touch the green `+` icon to confirm or red `x` icon to discard.
 
-<img src="../images/UI-Treat5.png" style="zoom:75%;" />
+<img src="./images/UI-Treat5.png" style="zoom:75%;" />
 
 Once done, new symbols will appear on your graph.
 
 Units and carbs show like this:
 
-<img src="../images/UI-Treat7.png" style="zoom:75%;" />
+<img src="./images/UI-Treat7.png" style="zoom:75%;" />
 
-And blood tests like this (note the symbol is square unlike [calibrations](/calibrate/calibrate) that are round):
+And blood tests like this (note the symbol is square unlike [calibrations](../calibrate/calibrate) that are round):
 
-<img src="../images/UI-Treat8.png" style="zoom:75%;" />
+<img src="./images/UI-Treat8.png" style="zoom:75%;" />
 
 #### Edit and delete
 
@@ -112,47 +115,50 @@ or Blood Test.
 
 - You can enter a note or touch DELETE to delete the entry. This applies to blood tests, carbs and insulin.
 
-!!!xdripitem "Treatment Note"  
-    <span style="color: cyan;">_____________________________________________________________________________________</span>  
-    <small>Default to voice input next time</small> ☐  
-    
+::: xdripitem Treatment Note
+<span style="color: cyan;">_____________________________________________________________________________________</span>  
+<small>Default to voice input next time</small> ☐  
 
-    <span style="color: cyan; float: left;">DELETE&emsp;</span><span style="color: cyan; float: right;">CANCEL&emsp;DONE&emsp;</span>
 
-Note that if you touch a blood test and edit it you can also convert it to a calibration using CALIBRATE. This is possible if you didn't select **Never use them** in [Advanced Calibrations](../../calibrate/advancedcal).
+<span style="color: cyan; float: left;">DELETE&emsp;</span><span style="color: cyan; float: right;">CANCEL&emsp;DONE&emsp;</span>
+:::
 
-!!!xdripitem "Blood Test Action"  
-    What would you like to do?  
-    
+Note that if you touch a blood test and edit it you can also convert it to a calibration using CALIBRATE. This is possible if you didn't select **Never use them** in [Advanced Calibrations](../calibrate/advancedcal).
 
-    <span style="color: cyan; float: left;">NOTHING&emsp;</span><span style="color: cyan; float: right;">DELETE&emsp;CALIBRATE&emsp;</span>
+::: xdripitem Blood Test Action
+What would you like to do?  
+
+
+<span style="color: cyan; float: left;">NOTHING&emsp;</span><span style="color: cyan; float: right;">DELETE&emsp;CALIBRATE&emsp;</span>
+:::
 
 ##### Spoken treatments
 
 You can use the microphone icon to verbally enter treatments or advanced commands.
 
-A long touch on the microphone icon will allow you to write [advanced commands](../../use/spokencommands/).
+A long touch on the microphone icon will allow you to write [advanced commands](./spokencommands).
 
 ### Treatment notes
 
 Independently of treatments you can enter notes.
 
-<img src="../images/UI-Note.png" style="zoom:75%;" />
+<img src="./images/UI-Note.png" style="zoom:75%;" />
 
 Enter the comment you want (like slow acting insulin units), or use the microphone icon to speak the note.
 
-!!!xdripitem "Treatment Note"  
-    <span style="color: cyan;">_____________________________________________________________________________________</span>  
-    <small>Default to voice input next time</small> ☐  
-    
+::: xdripitem Treatment Note
+<span style="color: cyan;">_____________________________________________________________________________________</span>  
+<small>Default to voice input next time</small> ☐  
 
-    <span style="color: cyan; float: left;">DELETE&emsp;</span><span style="color: cyan; float: right;">CANCEL&emsp;DONE&emsp;</span>
+
+<span style="color: cyan; float: left;">DELETE&emsp;</span><span style="color: cyan; float: right;">CANCEL&emsp;DONE&emsp;</span>
+:::
 
 
 
 They will be added to the graph like this:
 
-<img src="../images/UI-Note2.png" style="zoom:75%;" />
+<img src="./images/UI-Note2.png" style="zoom:75%;" />
 
 By touching them you can edit or delete them.
 
@@ -161,32 +167,34 @@ By touching them you can edit or delete them.
 1. Undo will step backwards through treatments simulations, calibrations and notes. After 30 minutes it will hide again.
 2. Redo can step forwards through treatments simulations, calibrations and notes. After 30 minutes it will hide again.
 
-<img src="../images/UI-UndoRedo.png" style="zoom:77%;" />
+<img src="./images/UI-UndoRedo.png" style="zoom:77%;" />
 
-### [Main menu](../hamburger)
+### [Main menu](./hamburger)
 
 Also called hamburger or drawer menu, this is the main menu in which you'll be able to find or add the most common actions you need and also all settings and customizations.
 
-<img src="../../images/hamburger_menu.png" style="zoom:75%;" />
+<img src="../images/hamburger_menu.png" style="zoom:75%;" />
 
 ### Blood drop menu
 
-With a long touch on the central area between main and three dots menu you can open another menu for customizing the user interface.
+With a long touch on the central area between the main and three dots menus you can open another menu for customizing the user interface.
 
-<img src="../../images/UImenu.png" style="zoom:75%;" />
+<img src="../images/UImenu.png" style="zoom:75%;" />
 
 ##### Source Wizard Button
 
-Shows the button driving you through the data source selection as described [here](../../install/datasource).
+Shows the button driving you through the data source selection as described [here](../install/datasource).
 
-!!!xdripitem "<span style="background-color: grey; color: white;">  &emsp;&emsp;START SOURCE SETUP WIZARD&emsp;</span>" 
+::: xdripitem <span style="background-color: grey; color: white;">  &emsp;&emsp;START SOURCE SETUP WIZARD&emsp;</span>
+:::
 
 ##### Show Time Buttons
 
 Adds a row of four presets for the main graph time range: 24, 12, 6 and 3 hours.  
 If you long press a time button you can lock the view to that time period.
 
-!!!xdripitem "<span style="background-color: grey; color: white;"> &ensp;24 HOUR&ensp;</span> &emsp;<span style="background-color: grey; color: white;"> &ensp;12 HOUR&ensp;</span>  &emsp;<span style="background-color: grey; color: white;"> &ensp;6 HOUR&ensp;</span>  &emsp;<span style="background-color: grey; color: white;"> &ensp;3 HOUR&ensp;</span> </span>" 
+::: xdripitem <span style="background-color: grey; color: white;"> &ensp;24 HOUR&ensp;</span> &emsp;<span style="background-color: grey; color: white;"> &ensp;12 HOUR&ensp;</span>  &emsp;<span style="background-color: grey; color: white;"> &ensp;6 HOUR&ensp;</span>  &emsp;<span style="background-color: grey; color: white;"> &ensp;3 HOUR&ensp;</span>
+:::
 
 ##### Locked time period always used
 
@@ -196,19 +204,19 @@ Sets the last modified display time period as default.
 
 Enables or disables the 24 hours small chart in the lower screen area.
 
-<img src="../images/UI-ChartPreview.png" style="zoom:75%;" />
+<img src="./images/UI-ChartPreview.png" style="zoom:75%;" />
 
 ##### Show Collector Status
 
 Shows information messages regarding the collector status below the main graph.
 
-<img src="../images/UI-CollStatus.png" style="zoom:75%;" />
+<img src="./images/UI-CollStatus.png" style="zoom:75%;" />
 
 ##### Show Sensor Expiry
 
 Displays the remaining time before sensor expiry below the main graph.
 
-<img src="../images/UI-SensorExpiry.png" style="zoom:75%;" />
+<img src="./images/UI-SensorExpiry.png" style="zoom:75%;" />
 
 ##### Show Graphical Trend Arrow
 
@@ -217,45 +225,45 @@ Adds an option allowing you to select other arrow styles.
 Use the wrench <img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_wrench_grey600_48dp.png" style="width:3%;" /> and drop down menu ▼ to select them.  
 Color arrows include a hue cursor to change color. 
 
-Graphical trend arrows angle depends on the reading difference with the previous value (5 minutes) and not only flat/45/90 degree like the classic arrows.
+Graphical trend arrows' angle depends on the reading difference with the previous value (5 minutes) and not only flat/45/90 degree like the classic arrows.
 
-<img src="../images/UI-GraphicArrow.png" style="zoom:90%;" />
+<img src="./images/UI-GraphicArrow.png" style="zoom:90%;" />
 
-### [Three dots menu](../3dotsmenu)
+### [Three dots menu](./3dotsmenu)
 
 This menu contains some shortcuts to settings and other unique functions.
 
-<img src="../../images/3dots_menu.png" style="zoom:75%;" />
+<img src="../images/3dots_menu.png" style="zoom:75%;" />
 
 ### Widget
 
 If your phone supports widgets, long touch an empty area on your home screen and select widgets.  
 Browse the apps until you find xDrip. 
 
-<img src="../images/Widget1.png" style="zoom:75%;" />
+<img src="./images/Widget1.png" style="zoom:75%;" />
 
 Keep your finger on the widget and drag it to the position you want it to be displayed.
 
-<img src="../images/Widget2.png" style="zoom:75%;" />
+<img src="./images/Widget2.png" style="zoom:75%;" />
 
 You can resize it using the blue dots.
 
-<img src="../images/Widget3.png" style="zoom:75%;" />
+<img src="./images/Widget3.png" style="zoom:75%;" />
 
-And make it the size you like. Then you can customize colors and contents aspect in [display settings](../display).
+And make it the size you like. Then you can customize colors and contents aspect in [display settings](./display).
 
-<img src="../images/Widget4.png" style="zoom:75%;" />
+<img src="./images/Widget4.png" style="zoom:75%;" />
 
 ### Screensaver
 
-If your phone supports this feature you can enable xDrip as screensaver in Android Settings.
+If your phone supports this feature you can enable xDrip as a screensaver in Android Settings.
 
-<img src="../images/ScreenSaver1.png" style="zoom:75%;" />
+<img src="./images/ScreenSaver1.png" style="zoom:75%;" />
 
-When you put your phone in charge it will display a small graph and the BG value.
+When you put your phone on charge it will display a small graph and the BG value.
 
-<img src="../images/ScreenSaver2.png" style="zoom:75%;" />
+<img src="./images/ScreenSaver2.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 [*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

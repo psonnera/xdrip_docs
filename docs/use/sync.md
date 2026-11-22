@@ -1,95 +1,113 @@
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;Settings  
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings
+:::
 
-!!!warning "Old xDrip Sync"  
-    In July 2024, Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip used for xDrip Sync.  
-    Update xDrip to a version at least [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
-    Updating xDrip to minimum latest release is recommended.
+::: warning Old xDrip Sync
+In July 2024, Google shut down the deprecated [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) xDrip used for xDrip Sync.  
+Update xDrip to a version from [July 23rd 2024](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) to use the legacy Sync method.  
+Updating xDrip to the latest release is recommended.
+:::
 
-!!!warning  
-    [Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
+::: warning
+[Google Play services](https://play.google.com/store/apps/details?id=com.google.android.gms) are mandatory to use this feature. Make sure they are present, enabled and not subject to battery optimization.
+:::
 
 xDrip provides a unique real time sync mechanism between Android devices making BG and treatments sharing the easiest possible task.
 
 The underlying security key can be customized instead of using the Google account key (not editable).
 
-!!!xdripitem "Sync using custom security key <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Key is used instead of Google account
+::: xdripitem Sync using custom security key <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Key is used instead of Google account
+:::
 
 ##### Handset group security sync key
 
-An unique key is created at xDrip install (it will be different if you reinstall xDrip) and should match all devices using xDrip sync. Even if you can customize this key making it your own (letters and numbers) you will usually leave it as generated.
+A unique key is created at xDrip install (it will be different if you reinstall xDrip) and should match all devices using xDrip sync. Even if you can customize this key making it your own (letters and numbers) you will usually leave it as generated.
 
-!!!xdripitem "Handset Group Security Sync Key"  
-    &ensp;Handset sync grouping key
+::: xdripitem Handset Group Security Sync Key
+&ensp;Handset sync grouping key
+:::
 
 ##### Be master for followers
 
 The device getting BG data from the sensor will be Master, all others will be Followers.  
 Only one master can use the same security key. If two masters are detected, the newly arrived one will be disabled and return to follower state.
 
-!!!xdripitem "Be master for followers <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;This device will send data to followers
+::: xdripitem Be master for followers <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;This device will send data to followers
+:::
 
 ##### Accept followers actions
 
-You can setup the master phone to receive and accept followers treatments and calibrations. Be extremely careful when using this feature if you use automatic calibrations. Also remember sensor start and stop might be sent by followers and accepted by the master.
+You can set up the master phone to receive and accept followers' treatments and calibrations. Be extremely careful when using this feature if you use automatic calibrations. Also remember sensor start and stop might be sent by followers and accepted by the master.
 
-!!!xdripitem "Accept followers actions <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Treatments, Calibrations, and other actions from followers will be accepted.
+::: xdripitem Accept followers actions <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Treatments, Calibrations, and other actions from followers will be accepted.
+:::
 
 ##### Use xDrip Cloud
 
-After Google shutdown the deprecated the [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) used for xDrip Sync in July 2024, a new sharing method has been developed.
+After Google shut down the deprecated [Firebase API](https://firebase.google.com/docs/cloud-messaging/migrate-v1) used for xDrip Sync in July 2024, a new sharing method has been developed.
 
-!!!warning "Must be set identically on all phones"  
-    Master and followers. Either it is ON for all, or OFF for all.
+::: warning Must be set identically on all phones
+Master and followers. Either it is ON for all, or OFF for all.
+:::
 
-!!!xdripitem "Use xDrip Cloud <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Use the new xDrip cloud servers. Master and follower must have this setting set the same.  
+::: xdripitem Use xDrip Cloud <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Use the new xDrip cloud servers. Master and follower must have this setting set the same.  
+:::
 
-If xDrip uses too much battery when on SIM data your can try to enable this.
+If xDrip uses too much battery when on SIM data you can try to enable this.
 
-!!!xdripitem "SavePower <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Reduce battery and network overhead by using batch processing and excluding unnecessary data.  
+::: xdripitem SavePower <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Reduce battery and network overhead by using batch processing and excluding unnecessary data.  
+:::
 
 ##### Whole house
 
 Based on the [Parakeet](https://github.com/jamorham/wixel-xDrip) project, multiple **master** devices can create a whole house network.  
 If you use Libre sensors you can also use this feature, see [here](https://github.com/tzachi-dar/LibreAllHouse) how to create your whole house network.
 
-!!!xdripitem "Whole House <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Participate in a Whole House Network
+::: xdripitem Whole House <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Participate in a Whole House Network
+:::
 
-!!!xdripitem "Libre Whole House <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;This phone will be a collector in a Whole House Network
+::: xdripitem Libre Whole House <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;This phone will be a collector in a Whole House Network
+:::
 
 ##### Remote snoozing
 
 Remote snoozing allows the snooze request to propagate along the group. Master or followers can snooze alarms. Use with care.
 
-!!!xdripitem "Send snooze to all <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Snoozes will silence all handsets in group with the accept setting below enabled on them
+::: xdripitem Send snooze to all <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Snoozes will silence all handsets in group with the accept setting below enabled on them
+:::
 
-!!!xdripitem "Confirm sending snooze <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Pop up a dialog to confirm sending each remote snooze
+::: xdripitem Confirm sending snooze <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Pop up a dialog to confirm sending each remote snooze
+:::
 
-!!!xdripitem "Accept remote snoozes <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Allow remote handsets to silence alarms on this one
+::: xdripitem Accept remote snoozes <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Allow remote handsets to silence alarms on this one
+:::
 
-!!!xdripitem "WiFi name must match <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Only accept if the remote WiFi network name starts with the same letters as ours and matches very closely
+::: xdripitem WiFi name must match <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Only accept if the remote WiFi network name starts with the same letters as ours and matches very closely
+:::
 
 ##### Local Broadcast
 
 Local Broadcast sends or accepts snoozes to/from other (non-xDrip) apps installed on the same handset, separate from remote snoozing between xDrip handsets.
 
-!!!xdripitem "Local Broadcast <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Send snoozes to other apps on this handset
+::: xdripitem Local Broadcast <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Send snoozes to other apps on this handset
+:::
 
-!!!xdripitem "Accept Local Broadcast <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Accept snoozes from other apps on this handset
+::: xdripitem Accept Local Broadcast <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Accept snoozes from other apps on this handset
+:::
 
 ##### Disable sync
 
@@ -97,45 +115,51 @@ Disable Sync completely disables sharing. You might need to restart your phone w
 
 You can use this option in case of complete Sync failure or when using a phone without Google Play Services.
 
-!!!xdripitem "Disable all Sync features <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Temporary work-around option, completely stops all synchronization. May need reboot after being re-enabled. Use with care!
+::: xdripitem Disable all Sync features <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Temporary work-around option, completely stops all synchronization. May need reboot after being re-enabled. Use with care!
+:::
 
 ### Desert Sync
 
 Desert Sync allows xDrip sync without internet or phone data coverage.
 
-!!!xdripitem "Desert Sync"  
-    <img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xxhdpi/desert_sync.png" style="width:5%;" />&ensp;Off-grid following
+::: xdripitem Desert Sync
+<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xxhdpi/desert_sync.png" style="width:5%;" />&ensp;Off-grid following
+:::
 
 Desert Sync allows you to share data between your xDrip master and followers when internet is not available. This can happen when traveling out of phone coverage or on a local intranet (no internet access).
 
 Enable desert sync on all devices.
 
-!!!xdripitem "Desert Sync <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Enable local non-internet sync facilities
+::: xdripitem Desert Sync <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Enable local non-internet sync facilities
+:::
 
 If you know the IP address of the master (this is for local intranets) enter it here.  
 You will find the master IP in the phone Android settings - About phone - IP address.
 
-!!!xdripitem "Master IP address"
+::: xdripitem Master IP address
+:::
 
-Now display the master settings QR code and scan it on your followers using [auto configure](../copysettings/#auto-configure).
+Now display the master settings QR code and scan it on your followers using [auto configure](./copysettings#auto-configure).
 
-!!!xdripitem "Show QR Code"  
-    Barcode for followers to scan to auto-configure them
+::: xdripitem Show QR Code
+Barcode for followers to scan to auto-configure them
+:::
 
 If you want to secure your connection (local intranets and public wifi) you can enable https.
 
-!!!xdripitem "Use HTTPS <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    Add another layer of encryption for shared networks, e.g. public WiFi
+::: xdripitem Use HTTPS <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+Add another layer of encryption for shared networks, e.g. public WiFi
+:::
 
-If you're without mobile or Wi-Fi data, put the master phone in Wi-Fi hotspot mode and connect the followers through tethering. Maximum distance between devices will be limited. This will also weight heavily on the master battery, make sure you have a backup power bank available.  
-When using tethering you will need to enable a [web service](../interapp/#web-service) on the master. Make sure the secret is identical on master and followers.
+If you're without mobile or Wi-Fi data, put the master phone in Wi-Fi hotspot mode and connect the followers through tethering. Maximum distance between devices will be limited. This will also weigh heavily on the master battery; make sure you have a backup power bank available.  
+When using tethering you will need to enable a [web service](./interapp#web-service) on the master. Make sure the secret is identical on master and followers.
 
 Look in system status to check everything is connecting correctly.
 
-<img src="../images/M-S-SY8d2.png" style="zoom:75%;" />
+<img src="./images/M-S-SY8d2.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 [*Last modified 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)

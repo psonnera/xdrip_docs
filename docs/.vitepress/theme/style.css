@@ -1,0 +1,91 @@
+/* xDrip menu mock-ups (::: xdrip / ::: xdripitem), ported from the MkDocs admonitions.css.
+   Always dark, like the app, in both light and dark site themes. */
+
+.vp-doc .admonition {
+  margin: 16px 0;
+  padding: 10px 14px;
+  border-left: 8px solid #8b0000;
+  border-radius: 3px;
+  background-color: #212121;
+  color: #ffffff;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.vp-doc .admonition + .admonition {
+  margin-top: -10px;
+}
+
+.vp-doc .admonition p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.vp-doc .admonition p + p {
+  margin-top: 0.5em;
+}
+
+.vp-doc .admonition a {
+  color: #9ecbff;
+}
+
+.vp-doc .admonition code {
+  color: #ffffff;
+  background-color: #3a3a3a;
+}
+
+.vp-doc .admonition img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.vp-doc .admonition .admonition-title {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.vp-doc .admonition.xdrip {
+  font-size: 1.05em;
+}
+
+.vp-doc .admonition.xdrip .admonition-title {
+  font-size: 1.2em;
+}
+
+.vp-doc .admonition.xdripitem {
+  font-size: 0.9em;
+}
+
+.vp-doc .admonition.xdripitem .admonition-title {
+  display: flex;
+  justify-content: space-between; /* title on the left, ON/OFF symbol on the right */
+  align-items: center;
+  font-weight: normal;
+  font-size: 1.4em;
+  padding: 0.2em 0;
+}
+
+.vp-doc .admonition.xdripitem .admonition-title .symbol {
+  font-size: 1.4em;
+  margin-left: 10px;
+}
+
+.vp-doc .admonition ul,
+.vp-doc .admonition ol {
+  margin: 0.3em 0;
+}
+
+.vp-doc .admonition table {
+  color: #ffffff;
+}
+
+/* Wide tables (changelog, comparisons) scroll instead of overflowing on phones */
+.vp-doc table {
+  display: block;
+  overflow-x: auto;
+}
+
+.i18n-notice {
+  margin-bottom: 24px;
+}

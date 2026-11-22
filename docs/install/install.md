@@ -1,129 +1,139 @@
 Once downloaded, install the xDrip apk.
 
-<img src="../images/InstallConfirm.png" style="zoom:50%;" />
+<img src="./images/InstallConfirm.png" style="zoom:50%;" />
 
-On recent Android versions you will see a Google Play Protect warning that the app is unsafe, was built for older Android versions. Ignore it with More details then, Install anyway.
+On recent Android versions you will see a Google Play Protect warning that the app is unsafe, as it was built for older Android versions. Ignore it with More details, then Install anyway.
 
-<img src="../images/PlayProtectWarning.png" style="zoom:50%;" />
+<img src="./images/PlayProtectWarning.png" style="zoom:50%;" />
 
 **You need to [authorize installation of apps from unknown sources](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources) in Android security settings.**  
-The official versions of xDrip are virus and malware free: being open source and controlled by the main developer make its distribution safe if you download it from GitHub.
+The official versions of xDrip are virus and malware free: being open source and controlled by the main developer makes its distribution safe if you download it from GitHub.
 
-<img src="../images/AllowUnknownSources.png" style="zoom:50%;" />
+<img src="./images/AllowUnknownSources.png" style="zoom:50%;" />
 
 Touch `Settings` then enable `Allow from this source`.
 
-<img src="../images/AllowFromThisSource.png" style="zoom:50%;" />
+<img src="./images/AllowFromThisSource.png" style="zoom:50%;" />
 
 Once installed, open xDrip.
 
-<img src="../images/Install03.png" style="zoom:75%;" />
+<img src="./images/Install03.png" style="zoom:75%;" />
 
-### Understand what is xDrip
+### Understand what xDrip is {#understand-what-is-xdrip}
 
-!!!warning "**Read** the important Warning"  
+::: warning **Read** the important Warning
+:::
 
-!!!xdrip "<img src="../images/ImportantWarning.png" style="zoom:50%;" />"  
-    <img src="../images/WarningAgree.png" style="zoom:50%;" />  
-    Do NOT use or rely on this software or any associated materials for any medical purpose or decision.  
-    Do NOT rely on this system for any real-time alarms or time critical data.  
-    Do NOT use or rely on this system for treatment decisions or use as a substitute for professional healthcare judgement.  
-    All software and materials have been provided for informational purposes only as a proof of concept to assist possibilities for further research.  
-    No claims at all are made about fitness for any purpose and everything is provided **AS IS**. Any part of the system can fail at any time.  
-    Always seek the advice of a qualified healthcare professional for any medical questions.  
-    Always follow your glucose-sensor or other device manufacturers' instructions when using any equipment; do not discontinue use of accompanying reader or receiver, other than as advised by your doctor.  
-    This software is not associated with or endorsed by any equipment manufacturer and all trademarks are those of their respective owners.  
-    Your use of this software is entirely at your own risk.  
-    No charge has been made by the developers for the use of this software.  
-    This is an open-source project which has been created by volunteers. The source code is published free and open-source for you to inspect and evaluate.  
-    By using this software and/or website you agree that you are over 18 years of age and have read, understood and agree to all of the above.
+::: xdrip <img src="./images/ImportantWarning.png" style="zoom:50%;" />
+<img src="./images/WarningAgree.png" style="zoom:50%;" />  
+Do NOT use or rely on this software or any associated materials for any medical purpose or decision.  
+Do NOT rely on this system for any real-time alarms or time critical data.  
+Do NOT use or rely on this system for treatment decisions or use as a substitute for professional healthcare judgement.  
+All software and materials have been provided for informational purposes only as a proof of concept to assist possibilities for further research.  
+No claims at all are made about fitness for any purpose and everything is provided **AS IS**. Any part of the system can fail at any time.  
+Always seek the advice of a qualified healthcare professional for any medical questions.  
+Always follow your glucose-sensor or other device manufacturers' instructions when using any equipment; do not discontinue use of accompanying reader or receiver, other than as advised by your doctor.  
+This software is not associated with or endorsed by any equipment manufacturer and all trademarks are those of their respective owners.  
+Your use of this software is entirely at your own risk.  
+No charge has been made by the developers for the use of this software.  
+This is an open-source project which has been created by volunteers. The source code is published free and open-source for you to inspect and evaluate.  
+By using this software and/or website you agree that you are over 18 years of age and have read, understood and agree to all of the above.
+:::
 
-</br>
+<br>
 
 **Read** the EULA.  
 
-!!!warning "Make sure you fully understand it before saving."
+::: warning Make sure you fully understand it before saving.
+:::
 
-!!!xDrip "<img src="../images/EULA.png" style="zoom:50%;" />"  
-    xDrip MUST NOT BE USED TO MAKE MEDICAL DECISIONS.  
-    IT IS A RESEARCH TOOL ONLY AND IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
-    THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  
-    SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+::: xdrip <img src="./images/EULA.png" style="zoom:50%;" />
+xDrip MUST NOT BE USED TO MAKE MEDICAL DECISIONS.  
+IT IS A RESEARCH TOOL ONLY AND IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  
+SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+:::
 
 
 
-</br>
+<br>
 
 ### Authorize background activity
 
-xDrip must have the right to run in background: it must be whitelisted to battery optimization. This is essential to a correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip`. Consult your phone manual as  it will depend on Android version and manufacturer.
+xDrip must have the right to run in background: it must be whitelisted from battery optimization. This is essential for correct functioning. It should ask you to allow this authorization. If it doesn't or you need to verify this later, you'll have to check it in your phone `Settings` - `Apps` - `xDrip`. Consult your phone manual as it will depend on Android version and manufacturer.
 
-!!!xdripitem "Please allow Permission"  
-    &emsp;xDrip needs whitelisting for proper performance.  
-      
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
+::: xdripitem Please allow Permission
+&emsp;xDrip needs whitelisting for proper performance.  
 
-<img src="../images/AllowRunInBackground.png" style="zoom:75%;" />
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
+:::
+
+<img src="./images/AllowRunInBackground.png" style="zoom:75%;" />
 
 *Note: With Android 12 and above you won't see **whitelisting** anymore.*
 
-More information [here](../../troubleshoot/savings/#apps-battery-savings).
+More information [here](../troubleshoot/savings#apps-battery-savings).
 
-</br>
+<br>
 
 ### Authorize notifications
 
 xDrip needs to access phone notifications to perform as expected.
 
-<img src="../images/Install47.png" style="zoom:75%;" />
+<img src="./images/Install47.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 ## Verify which version is installed
 
 Touch the back button on your phone until you're back to the main screen. Select the hamburger menu top left then `System Status`.
 
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;  System Status
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;  System Status
+:::
 
 Current version will be displayed after `Version`. In the example below, January 28th 2022.
 
-<img src="../../images/M-SS-Ver.png" style="zoom:75%;" />
+<img src="../images/M-SS-Ver.png" style="zoom:75%;" />
 
 On most recent versions, you will find it on all system status pages.
 
-<img src="../../images/M-SS-Ver2.png" style="zoom:76%;" />
+<img src="../images/M-SS-Ver2.png" style="zoom:76%;" />
 
-See [here](../../use/update/) for upgrade or downgrade.
+See [here](../use/update) for upgrade or downgrade.
 
-</br>
+<br>
 
 ## Make sure xDrip will not be put to sleep
 
-These settings are default, but still make sure they are exactly like shown below. Any time your phone will update, come back and check again: disable and enable checkboxes that should be enabled to enforce the settings.
+These settings are default, but still make sure they are exactly like shown below. Any time your phone updates, come back and check again: disable and enable checkboxes that should be enabled to enforce the settings.
 
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;Settings  
-    &emsp;Less Common Settings  
-    &ensp;&emsp;Other misc. Options  
-    &ensp;&emsp;&emsp;Collector in foreground
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;Settings  
+&emsp;Less Common Settings  
+&ensp;&emsp;Other misc. Options  
+&ensp;&emsp;&emsp;Collector in foreground
+:::
 
 Since Android 7 support was retired ([12th Jul 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12)), the collector always runs in foreground on Android 8.0 and above — there is no longer a toggle for it. The persistent notification graph in your phone drop down curtain is essential to keep the app alive and is always shown.
 
-!!!xdripitem "Compact Persistent Notification <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Enable to hide the graph in the notification and display only the current glucose value.
+::: xdripitem Compact Persistent Notification <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Enable to hide the graph in the notification and display only the current glucose value.
+:::
 
 If you'd rather not show the graph in the persistent notification, enable `Compact Persistent Notification` to show just the current glucose value instead.
 
-!!!xdripitem "Battery Optimization prompt <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;On Android 6+ ensure battery optimization is switched off (recommended).
+::: xdripitem Battery Optimization prompt <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;On Android 6+ ensure battery optimization is switched off (recommended).
+:::
 
 `Battery optimization prompt` should be **disabled** as you should have agreed to [battery whitelisting](#authorize-background-activity) during install. If not, whitelist xDrip from battery optimization in Android settings.
 
-!!!xdripitem "Wake workarounds <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Use workarounds to avoid non-standard Android behavior of some handsets. Without this, collectors usually fail to get data.
+::: xdripitem Wake workarounds <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Use workarounds to avoid non-standard Android behavior of some handsets. Without this, collectors usually fail to get data.
+:::
 
-Previously "Samsung workaround", this option is a fix to non compliance from some vendors to Android specifications. This option should enable automatically with some smartphones. Recommended.
+Previously "Samsung workaround", this option is a fix to non-compliance from some vendors to Android specifications. This option should enable automatically with some smartphones. Recommended.
 
 ### Enable location
 
@@ -132,14 +142,14 @@ If you will use xDrip with a Bluetooth sensor or bridge you **must** enable loca
 
 Make sure to select All the time from settings.
 
-<img src="../images/Install17a.png" style="zoom:75%;" />
+<img src="./images/Install17a.png" style="zoom:75%;" />
 
-<img src="../images/Install17.png" style="zoom:75%;" />
+<img src="./images/Install17.png" style="zoom:75%;" />
 
-</br>
+<br>
 
-Proceed to [data source selection](../datasource)
+Proceed to [data source selection](./datasource)
 
-</br>
+<br>
 
 [*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15)

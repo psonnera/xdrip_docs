@@ -1,7 +1,8 @@
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;Settings  
-    &emsp;Hardware Data Source  
-    &ensp;&emsp;Companion App
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;Settings  
+&emsp;Hardware Data Source  
+&ensp;&emsp;Companion App
+:::
 
 If you're using the vendor app, you can have xDrip get sensor data from it.
 
@@ -29,39 +30,40 @@ In order to use this feature you **must** authorize xDrip to access notification
 
 xDrip will not use this access for any other purpose than reading the glucose value from notifications.
 
-!!!xdripitem "Please allow permission"  
-      
+::: xdripitem Please allow permission
 
-    Permission is needed to receive data from other aplications. xDrip does not do anything beyond this scope. Please enable xDrip on the next screen.  
-      
-      &emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
+
+Permission is needed to receive data from other applications. xDrip does not do anything beyond this scope. Please enable xDrip on the next screen.  
+
+  &emsp;&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
+:::
 
 #### Older Android versions
 
-<img src="../images/Companion1a.png" style="zoom:78%;" />
+<img src="./images/Companion1a.png" style="zoom:78%;" />
 
 #### Android 13 and above
 
-<img src="../images/Companion2.png" style="zoom:78%;" />
+<img src="./images/Companion2.png" style="zoom:78%;" />
 
-<img src="../images/Companion3.png" style="zoom:78%;" />
+<img src="./images/Companion3.png" style="zoom:78%;" />
 
-<img src="../images/Companion4.png" style="zoom:78%;" />
+<img src="./images/Companion4.png" style="zoom:78%;" />
 
 #### Allow notification access greyed out
 
-<img src="../images/Companion5.png" style="zoom:78%;" />
+<img src="./images/Companion5.png" style="zoom:78%;" />
 
-If you cannot allow notification access, check the three dots menu in the app settings and chose Allow restricted settings.
+If you cannot allow notification access, check the three dots menu in the app settings and choose Allow restricted settings.
 
-<img src="../images/Companion6.png" style="zoom:78%;" />
+<img src="./images/Companion6.png" style="zoom:78%;" />
 
-</br>
+<br>
 
 You will get data in xDrip when available in the app and notifications from the app are visible on the phone.
 
-If no data is visible and no error message pops-up you might need to [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+If no data is visible and no error message pops up you might need to [Start sensor](../use/startsensor#followers-and-companion-apps).
 
-</br>
+<br>
 
 [*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20)

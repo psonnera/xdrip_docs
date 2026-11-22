@@ -1,4 +1,4 @@
-Out of process algorithms are external apps which function is to perform data processing that is not directly provided by xDrip.
+Out of process algorithms are external apps whose function is to perform data processing that is not directly provided by xDrip.
 
 They are only used for Libre sensors and bridges now.
 
@@ -6,11 +6,12 @@ There are two different families of Out Of Process Algorithms (OOP):
 
 ### OOP1
 
-<img src="../images/OOP_1.png" style="zoom:75%;" />
+<img src="./images/OOP_1.png" style="zoom:75%;" />
 
-!!!warning  "Old Android versions ONLY"  
-    Maximum supported Android version is 9.  
-    Few Android 10 and above phones have been reported to be functioning with OOP1new/OOP1us.
+::: warning Old Android versions ONLY
+Maximum supported Android version is 9.  
+A few Android 10 and above phones have been reported to be functioning with OOP1new/OOP1us.
+:::
 
 | OOP Version                                 | Version date | Supported sensors      | File size |
 | ------------------------------------------- | ------------ | ---------------------- | --------- |
@@ -18,26 +19,28 @@ There are two different families of Out Of Process Algorithms (OOP):
 | OOP1new (fa218ef)                           | 2019-11-22   | Libre, Libre 2 EU      | 25.3MB    |
 | OOP1us (e901151) - **do not use: use OOP2** | 2019-09-13   | Libre 14 days US (old) | 27.8MB    |
 
-OOP1 provides readings similar to the vendor reader without calibrating. You need a [compatible bridge](../../install/libreBT/#libre-and-bridge) if using any. OOP1 also applies to NFC scan results.
+OOP1 provides readings similar to the vendor reader without calibrating. You need a [compatible bridge](../install/libreBT) if using any. OOP1 also applies to NFC scan results.
 
-!!!warning "No calibration possible"  
-    Calibrations will be ignored when using OOP1.  
-    This is a safety feature as xDrip cannot perform sanity checks on data provided by OOP1.
+::: warning No calibration possible
+Calibrations will be ignored when using OOP1.  
+This is a safety feature as xDrip cannot perform sanity checks on data provided by OOP1.
+:::
 
 Two versions are available: [Libre 1 and Libre 2 EU](https://drive.google.com/open?id=13ERWcSVSFMLy9rhpbv5rArFrnDuAzriM) or [Libre 14 Days US](https://drive.google.com/open?id=172whZZYTyE_ZEuN0T-zhdMKhucy6jP-a). 
 *Note: you need to be logged into your Google account to access the links above*
 
-Out Of process Algorithm must be [enabled](../misc/#out-of-process-algorithm) when using OOP1.
+Out Of process Algorithm must be [enabled](./misc#out-of-process-algorithm) when using OOP1.
 
 ### OOP2
 
-<img src="../images/OOP_2.png" style="zoom:75%;" />
+<img src="./images/OOP_2.png" style="zoom:75%;" />
 
-OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, either for direct connection (Libre 2 EU only) or using a [compatible bridge](../../install/libreBT/#libre-and-bridge).
+OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, either for direct connection (Libre 2 EU only) or using a [compatible bridge](../install/libreBT).
 
-!!!info "Calibration is optional"  
-    You can either calibrate from raw data, not calibrate or add a calibration to native data.  
-    Check the [OOP2 settings](../misc/#oop2).
+::: info Calibration is optional
+You can either calibrate from raw data, not calibrate or add a calibration to native data.  
+Check the [OOP2 settings](./misc#oop2).
+:::
 
 **Use only the latest OOP2 app with the latest xDrip version.**
 
@@ -45,8 +48,9 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
 
 *Note: you need to be logged into your Google account to access the link above.* 
 
-!!!warning  
-    *Out Of process Libre Algorithm* (OOP1) must be [disabled in xDrip](../misc/#out-of-process-algorithm) when using OOP2.
+::: warning
+*Out Of process Libre Algorithm* (OOP1) must be [disabled in xDrip](./misc#out-of-process-algorithm) when using OOP2.
+:::
 
 | OOP Version                         | Version date   | Supported sensors                        | File size  |
 | ----------------------------------- | -------------- | ---------------------------------------- | ---------- |
@@ -64,30 +68,30 @@ OOP2 provides decoding for the Libre 14 days US and the Libre 2 EU sensor, eithe
 Some older xDrip versions will detect the presence or necessity of the out of process algorithm.
 
 Enable <u>only</u> for OOP1.  
-**Do not enable for OOP2**. If you enabled it by mistake: [disable](../misc/#out-of-process-algorithm) OOP1.
+**Do not enable for OOP2**. If you enabled it by mistake: [disable](./misc#out-of-process-algorithm) OOP1.
 
-<img src="../images/OOP_AD.png" style="zoom:75%;" />
+<img src="./images/OOP_AD.png" style="zoom:75%;" />
 
 ### Settings
 
-Use service corresponds to switching ON or OFF the OOP app. If you want to use it it must be enabled.
+Use service corresponds to switching ON or OFF the OOP app. If you want to use it, it must be enabled.
 
-<img src="../images/OOP_UI1.png" style="zoom:75%;" />
+<img src="./images/OOP_UI1.png" style="zoom:75%;" />
 
-Foreground service is an addition that makes it less probable the app will be put to sleep by the phone. This will not prevent Google Play Protect to stop it.  
+Foreground service is an addition that makes it less likely that the app will be put to sleep by the phone. This will not prevent Google Play Protect from stopping it.  
 Enable it if you have data loss (**recommended**).
 
-<img src="../images/OOP_UI2.png" style="zoom:75%;" />
+<img src="./images/OOP_UI2.png" style="zoom:75%;" />
 
 Direct intent can be enabled if your standalone Wear OS smartwatch requires it (bridge necessary).
 
-<img src="../images/OOP_UI4.png" style="zoom:75%;" />
+<img src="./images/OOP_UI4.png" style="zoom:75%;" />
 
 You can select the period at which OOP will make sure it's available.  
-When having data loss you can reduce the interval. The less the interval, the more battery use it will require.
+When having data loss you can reduce the interval. The shorter the interval, the more battery use it will require.
 
-<img src="../images/OOP_UI3.png" style="zoom:75%;" />
+<img src="./images/OOP_UI3.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 [*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

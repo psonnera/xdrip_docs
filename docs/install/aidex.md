@@ -1,16 +1,18 @@
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;Settings  
-    &emsp;Hardware Data Source  
-    &ensp;&emsp;GlucoRx/Aidex App
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;Settings  
+&emsp;Hardware Data Source  
+&ensp;&emsp;GlucoRx/Aidex App
+:::
 
-</br>
+<br>
 
-!!!info "Aidex is also supported through [Companion App](../companion) data source" 
+::: info Aidex is also supported through [Companion App](./companion) data source
+:::
 
 xDrip will receive data from the GlucoRx/Aidex app.
 
-<img src="../images/DS-AGRX.png" style="zoom:50%;" />
+<img src="./images/DS-AGRX.png" style="zoom:50%;" />
 
-</br>
+<br>
 
 [*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)

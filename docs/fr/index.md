@@ -1,12 +1,12 @@
 ---
-source_hash: a572f9889e
+source_hash: 133cbb42c8
 source_commit: 2bdf116
 ---
 <img src="./images/logo.png" style="zoom:70%;" />
 
-</br>
+<br>
 
-## Qu'est-ce que xDrip ?
+## Qu'est-ce que xDrip ? {#what-is-xdrip}
 
 ![](./images/ecosystem.png)
 
@@ -24,13 +24,13 @@ Vous pouvez personnaliser les alarmes, la lecture vocale des valeurs, les préf�
 
 Vos données vous appartiennent et peuvent être exportées de nombreuses façons. xDrip communique aussi avec d'autres applications, par exemple pour envoyer et recevoir des données en temps réel avec [AndroidAPS](https://androidaps.readthedocs.io/fr/latest/index.html).
 
-</br>
+<br>
 
-## [Prêt à commencer ? C'est par ici !](./install/usethedoc/)
+## [Prêt à commencer ? C'est par ici !](./install/usethedoc) {#ready-to-start-continue-here}
 
-</br>
+<br>
 
-## Historique
+## Historique {#history}
 
 [DexDrip](https://github.com/StephenBlackWasAlreadyTaken/DexDrip) a été créé par Emma Black en 2014, puis est devenu [xDrip](http://stephenblackwasalreadytaken.github.io/xDrip/), une application qui récupérait les données CGM d'un récepteur G4 ou d'un transmetteur et les envoyait vers [Nightscout](https://nightscout.github.io/). Elle était accompagnée de l'application de suivi [Nightwatch](http://stephenblackwasalreadytaken.github.io/NightWatch/) (obsolète).
 
@@ -40,9 +40,9 @@ Ce projet a ensuite été modifié par @jamorham pour devenir [xDrip](https://ja
 
 <img src="https://avatars.githubusercontent.com/u/12565568" style="zoom:33%;" />
 
-</br>
+<br>
 
-## **Avertissement**
+## **Avertissement** {#disclaimer-and-warning}
 
 - **Vous utilisez xDrip à vos propres risques : n'utilisez pas les informations ou le code pour prendre des décisions médicales.**
 - Le [code de github.com](https://github.com/NightscoutFoundation/xDrip) est utilisé sans garantie ni support officiel d'aucune sorte. Consultez la [LICENCE](https://github.com/NightscoutFoundation/xDrip/blob/master/LICENSE) du dépôt pour plus de détails.

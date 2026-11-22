@@ -1,57 +1,60 @@
 **This is a generic data source for various apps, not only the vendor patched app.**
 
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;Settings  
-    &emsp;Hardware Data Source  
-    &ensp;&emsp;Libre (patched app)
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;Settings  
+&emsp;Hardware Data Source  
+&ensp;&emsp;Libre (patched app)
+:::
 
 The apps listed below use the same protocol to send data to xDrip.
 
-!!!note  
-    External apps readings will be treated like sensor data in all effects, this includes [calibration limitations](../../calibrate/calibrate/#libre-2-patched-app).
+::: info Note
+External apps' readings will be treated like sensor data for all purposes; this includes [calibration limitations](../calibrate/calibrate#libre-2-patched-app).
+:::
 
-It shouldn't be necessary anymore but if you don't see data in xDrip [Start sensor](../../use/startsensor/#followers-and-companion-apps).
+It shouldn't be necessary anymore, but if you don't see data in xDrip, [Start sensor](../use/startsensor#followers-and-companion-apps).
 
-</br>
+<br>
 
-#### Libre 2 EU [Patched App](../../troubleshoot/libre2/#patched-app)
+#### Libre 2 EU [Patched App](../troubleshoot/libre2#patched-app)
 
-!!!info "Patched app"  
-    The patched app itself is only available for the European version of Libre 2.  
-    Being an old app, it is **rarely compatible with Android versions above 12**.
+::: info Patched app
+The patched app itself is only available for the European version of Libre 2.  
+Being an old app, it is **rarely compatible with Android versions above 12**.
+:::
 
-</br>
+<br>
 
 #### Juggluco
 
-If you use [Juggluco](https://www.juggluco.nl/Juggluco/index.html) you can broadcast to xDrip enabling Send to xDrip. You must have data streaming in Juggluco in order to see measurements in xDrip.
+If you use [Juggluco](https://www.juggluco.nl/Juggluco/index.html) you can broadcast to xDrip by enabling Send to xDrip. You must have data streaming in Juggluco in order to see measurements in xDrip.
 
-<img src="../images/Juggluco.png" style="zoom:50%;" />
+<img src="./images/Juggluco.png" style="zoom:50%;" />
 
-</br>
+<br>
 
 #### Diabox
 
-If you use a recent [Diabox](https://sirius.thetaphi.de/diabox/) version, you can broadcast to xDrip enabling the option below:
+If you use a recent [Diabox](https://sirius.thetaphi.de/diabox/) version, you can broadcast to xDrip by enabling the option below:
 
-<img src="../images/Diabox4.png" style="zoom:75%;" />
+<img src="./images/Diabox4.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 #### LinkUpConnect
 
-LinkUpConnect is a vendor server follower, you need a Libre 3 to have CGM data in the app.  
+LinkUpConnect is a vendor server follower; you need a Libre 3 to have CGM data in the app.  
 Data should be available in the vendor follower app.  
 Enable the `Forward to xDrip` flag.
 
-<img src="../images/LinkUpConnect.png" style="zoom:75%;" />
+<img src="./images/LinkUpConnect.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 #### Smoothing
 
-This data source is subject to 25 minutes default smoothing. The smoothing period can be adjusted in the [NFC menu](../../use/NFC/#smooth-libre-3-data-when-using-xxx-method) to decrease the delay generated, if the noise level allows it.
+This data source is subject to 25 minutes of default smoothing. The smoothing period can be adjusted in the [NFC menu](../use/NFC#smooth-libre-3-data-when-using-xxx-method) to decrease the delay generated, if the noise level allows it.
 
-</br>
+<br>
 
 [*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

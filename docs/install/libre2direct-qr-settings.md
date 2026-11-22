@@ -1,8 +1,8 @@
 # Importing Settings for Libre 2 Direct WITHOUT calibration
 
-<img src="../images/qr_libre2direct-nocalib.png" style="zoom:60%;" />
+<img src="./images/qr_libre2direct-nocalib.png" style="zoom:60%;" />
 
-Scan the QR code shown here to load the settings needed for Libre 2 direct. Under Settings in the left hand "hamburger" menu, select "Auto configure" and capture the QR code. You will need to press the Yes button to confirm that you want to import these settings.
+Scan the QR code shown here to load the settings needed for Libre 2 direct. Under Settings in the left-hand "hamburger" menu, select "Auto configure" and capture the QR code. You will need to press the Yes button to confirm that you want to import these settings.
 
 # Libre 2 Direct settings imported from QR code...
 
@@ -28,7 +28,7 @@ Less Common/Advanced for Libre2/Show sensor info in status... = true
      
 Less common/other misc options/Out Of Process Libre Algorithm = false
      
-Less common/other misc options/OOP2 algorith calib/NO CALIBRATION
+Less common/other misc options/OOP2 algorithm calib/NO CALIBRATION
     
 Less common/other misc options/Smooth Libre data = true
      

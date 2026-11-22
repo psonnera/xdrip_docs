@@ -91,7 +91,7 @@ resolved before re-flagging them.)
 Cross-reference each verified feature/removal against `docs/` (subfolders: `install/`, `use/`,
 `calibrate/`, `smartwatch/`, `troubleshoot/`). For each page touched:
 
-- Add new settings/features following the existing `!!!xdrip` / `!!!xdripitem` mockup
+- Add new settings/features following the existing `::: xdrip` / `::: xdripitem` mockup
   conventions already used on that page — match the surrounding style exactly rather than
   introducing a new format.
 - Remove documentation for retired features/devices — but only where the removal is confirmed
@@ -108,16 +108,21 @@ Rules: `i18n/README.md` (French "vous", Italian "tu", glossaries, app labels fro
 1. Refresh the UI strings table at the newest tag:
    `python .claude/scripts/ui-strings.py <xdrip_repo_path> <newest_tag>`
    New settings documented in step 5 must use the fr/it label from this table.
-2. For each English page edited in step 5 that has a `page.fr.md` / `page.it.md`: make the same
+2. For each English page `docs/<page>.md` edited in step 5 that has a `docs/fr/<page>.md` / `docs/it/<page>.md`: make the same
    change in the translation (same position, same structure, translated text, footer tag/date too).
    Use `git diff -- docs/<page>.md` as the list of changes.
-3. Stamp each updated translation:
-   `python .claude/scripts/i18n-status.py --stamp docs/<page>.fr.md docs/<page>.it.md`
+3. Run `npm run docs:build`, then give the translated headings their English anchors and stamp each updated translation:
+   `python .claude/scripts/i18n-status.py --anchors docs/fr/<page>.md docs/it/<page>.md`
+   `python .claude/scripts/i18n-status.py --stamp docs/fr/<page>.md docs/it/<page>.md`
+   (`--anchors` needs the same headings in the same order as the English page: a heading added in English is added
+   in the translations too.)
    (`source_commit` will point at the last committed English version, which is fine: the hash is
    what decides up to date / outdated.)
-4. If a new page was added to `nav`, add its label to both `nav_translations` blocks in `mkdocs.yml`.
+4. If a new page was added, add it to `docs/.vitepress/sidebar.mts` with its en / fr / it labels
+   (the sidebar is the only page list; untranslated pages are served in English automatically).
 5. Run `python .claude/scripts/i18n-status.py` and include its summary in the report: it must show
    0 outdated unless a translation was knowingly left behind (say which).
+6. Run `npm run docs:build`: it must succeed (dead links and invalid HTML fail the build).
 
 ## 6. Wrap up
 

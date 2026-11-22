@@ -1,8 +1,9 @@
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;Settings  
-    &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_open_in_app_grey600_48dp.png" style="width:5%;" />&ensp;Inter-app settings
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;Settings  
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_open_in_app_grey600_48dp.png" style="width:5%;" />&ensp;Inter-app settings
+:::
 
-</br>
+<br>
 
 Inter-app settings offers two ways to interface xDrip with other apps: local broadcast (internal to this phone) and web service (internal and external).
 
@@ -10,70 +11,83 @@ Inter-app settings offers two ways to interface xDrip with other apps: local bro
 
 Broadcast locally will make xDrip send internal messages that can be used by other apps like Nightwatch or AAPS.
 
-!!!xdripitem "Broadcast locally <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Enable local broadcast of data so that other apps (e.g.Nightwatch) can listen on new values
+::: xdripitem Broadcast locally <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;Enable local broadcast of data so that other apps (e.g.Nightwatch) can listen on new values
+:::
 
 If you're using calibration plugins or filtering, you can select to broadcast raw data or filtered/calibrated data.
 
-!!!xdripitem "Send Display Glucose <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Use noise smoothing and plugins etc. (if enabled) for broadcasted value
+::: xdripitem Send Display Glucose <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Use noise smoothing and plugins etc. (if enabled) for broadcasted value
+:::
 
 You can also block noisy data broadcast for safety. By default, only extreme noise level is not broadcasted.
 
-!!!xdripitem "Noise Blocking"  
-    &ensp;Level at which noisy data should not be broadcast as it could confuse receiving apps
+::: xdripitem Noise Blocking
+&ensp;Level at which noisy data should not be broadcast as it could confuse receiving apps
+:::
 
 Recent apps/phones should accept compatible broadcast. Do not uncheck.
 
-!!!xdripitem "Compatible Broadcast <span class='symbol'><img src="../../images/EN.png" style="zoom:75%;" /></span>"  
-    &ensp;Send broadcasts without locking the old permission model
+::: xdripitem Compatible Broadcast <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Send broadcasts without locking the old permission model
+:::
 
-You can specify the identified receiver if you want xDrip to send messages only to a specific app. One of the most common use is when xDrip is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
+You can specify the identified receiver if you want xDrip to send messages only to a specific app. One of the most common uses is when xDrip is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
 
-!!!xdripitem "Identify receiver"  
-    &ensp;Only send to named package
+::: xdripitem Identify receiver
+&ensp;Only send to named package
+:::
 
 ##### Receiving from NSClient.
 
-xDrip can also receive messages using this feature, you can enable or disable receiving data and treatments from other broadcasting apps.
+xDrip can also receive messages using this feature: you can enable or disable receiving data and treatments from other broadcasting apps.
 
-!!!xdripitem "Accept Glucose <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Process glucose data received from NSClient app
+::: xdripitem Accept Glucose <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;Process glucose data received from NSClient app
+:::
 
-!!!xdripitem "Accept Treatments <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Process treatment data received from NSClient app
+::: xdripitem Accept Treatments <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;Process treatment data received from NSClient app
+:::
 
 You can enable or disable (**disable for AAPS!!!**) the sound that plays after updating xDrip profile.
 
-!!!xdripitem "Import sounds <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Play sounds when importing significant data such as profiles
+::: xdripitem Import sounds <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Play sounds when importing significant data such as profiles
+:::
 
 Be careful when accepting calibrations from other apps.
 
-!!!xdripitem "Accept Calibrations <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Process calibrations received from other apps
+::: xdripitem Accept Calibrations <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;Process calibrations received from other apps
+:::
 
 ### Web Service
 
 Original documentation [here](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/technical/Local_Web_Services.md).
 
-!!!warning  
-    If you have another app using port 17580 (like Diabox) you should disable this feature.  
-    Note the service is not available as secured http and recent [Fitbit](../../smartwatch/smartwatch/#fitbit) apps might not accept data from it.
+::: warning
+If you have another app using port 17580 (like Diabox) you should disable this feature.  
+Note the service is not available as secured http and recent [Fitbit](../smartwatch/smartwatch#fitbit) apps might not accept data from it.
+:::
 
 Web service will open a local web service on your device to allow other devices (smartwatches) and apps to receive data from it.  
 The web server will respond to requests on address `127.0.0.1` port `17580`
 
-!!!xdripitem "xDrip Web Service <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Operating a local web server for interacting with Fitbit Ionic etc.
+::: xdripitem xDrip Web Service <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Operating a local web server for interacting with Fitbit Ionic etc.
+:::
 
-By default the web service is only available to your device, you can open it so that other devices on the network can access it. Make sure you need the feature enabled and understand the security implications. Make sure a Shared Secret is set.
+By default the web service is only available to your device; you can open it so that other devices on the network can access it. Make sure you need the feature enabled and understand the security implications. Make sure a Shared Secret is set.
 
-!!!xdripitem "Open Web Service <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
-    &ensp;Accept connections from any network instead of just internally within this device. There are security implications to enabling this! Shared secret will be required if set. 
+::: xdripitem Open Web Service <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Accept connections from any network instead of just internally within this device. There are security implications to enabling this! Shared secret will be required if set. 
+:::
 
-!!!xdripitem "xDrip Web Service Secret"  
-    &ensp;Shared secret for open web service.
+::: xdripitem xDrip Web Service Secret
+&ensp;Shared secret for open web service.
+:::
 
 #### Open option
 
@@ -83,7 +97,7 @@ Be very careful enabling this option as there are powerful features accessible, 
 
 #### Authentication
 
-For safety reason (anybody on the network can access this service) you should protect it with a password, if you have a Nightscout site use your API_SECRET.
+For safety reasons (anybody on the network can access this service) you should protect it with a password; if you have a Nightscout site use your API_SECRET.
 
 If the `xDrip Web Service Secret` is set to anything other than an empty string (the default) then requests coming in via the open non-loopback networks will have to supply a http header `api-secret` which contains the SHA1 hash of the same secret password or their connection will be rejected. Rejection information is stored in the Event Log and returned via the http response. The result code 403 (forbidden) is set when a connection is rejected.
 
@@ -99,7 +113,7 @@ Above shows http header for password `Abc`
 
 #### Nightscout Pebble endpoint
 
-`/pebble` emulates the same URL on Nightscout, with a watchface which supporting this, you can enter the address on the watchface, for example, Set the data endpoint on Pebble Nightscout watchface to:
+`/pebble` emulates the same URL on Nightscout, with a watchface which supports this, you can enter the address on the watchface, for example, set the data endpoint on Pebble Nightscout watchface to:
 
 ```
 http://127.0.0.1:17580/pebble
@@ -121,7 +135,7 @@ You can also access the steps endpoint by appending a query parameter
 http://127.0.0.1:17580/sgv.json?steps=1234
 ```
 
-When doing this look for `steps_result` number in the first record of the json reply, 200 indicates success, anything else failure to set the steps value. Steps value should be the current cummulative step counter from the device.
+When doing this look for `steps_result` number in the first record of the json reply, 200 indicates success, anything else failure to set the steps value. Steps value should be the current cumulative step counter from the device.
 
 You can also access the heart endpoint by appending a query parameter
 
@@ -169,7 +183,7 @@ http://127.0.0.1:17580/treatments.json
 
 #### status.json endpoint
 
-This implements a small subset of the data you might receive from Nightscouts status.json
+This implements a small subset of the data you might receive from Nightscout's status.json
 
 ```
 http://127.0.0.1:17580/status.json
@@ -187,7 +201,7 @@ High and low marks set within the app represented in the local units.
 
 `/Libre2ConnectCode.json` returns Bluetooth unlock buffer and device Mac address.
 
-This is used by [whole house](../sync/#whole-house).
+This is used by [whole house](./sync#whole-house).
 
 ```
 http://127.0.0.1:17580/Libre2ConnectCode.json
@@ -219,47 +233,55 @@ This should be the current cumulative step counter on the device measuring steps
 http://127.0.0.1:17580/heart/set/123/1
 ```
 
-This should be the current cumulative rate bpm on the device measuring. Not a historical record. The first parameter is BPM and the second is accuracy. If unsure of accuracy parameter just set to 1.
+This should be the current heart rate in BPM on the measuring device. Not a historical record. The first parameter is BPM and the second is accuracy. If unsure of accuracy parameter just set to 1.
 
-</br>
+<br>
 
 ### Broadcast Service API
 
 This service allows broadcast of xDrip values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) (enable the feature for WatchDrip+).
 
-!!!xdripitem "Broadcast Service API <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Enable xDrip communication with third-party applications by using new API
+::: xdripitem Broadcast Service API <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;Enable xDrip communication with third-party applications by using new API
+:::
 
-!!!xdripitem "Enable IoB reporting in API <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Enable IoB reporting in web service API endpoint used by some smartwatches.
+::: xdripitem Enable IoB reporting in API <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;Enable IoB reporting in web service API endpoint used by some smartwatches.
+:::
 
-!!!xdripitem "Fetch IoB from Companion App <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
-    &ensp;Fetch IoB value from Companion App running on the same device, such as the Omnipod 5 app .
+::: xdripitem Fetch IoB from Companion App <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+&ensp;Fetch IoB value from companion app running on the same device, such as the Omnipod 5 App
+:::
 
-</br>
+<br>
 
 ### Google Health connect
 
 You can share information with Google Health.
 
-!!!xdripitem "Google Health Connect"  
-    &ensp;Send and receive data from Google Health Connect and Google Fit
+::: xdripitem Google Health Connect
+&ensp;Send and receive data from Google Health Connect and Google Fit
+:::
 
 You need [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata&hl=en&gl=US) installed on your device, which is available for Android 8 and above.
 
-!!!xdripitem "Use Health Connect <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
-    &ensp;Required Android 8+ and Google companion application
+::: xdripitem Use Health Connect <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;Required Android 8+ and Google companion application
+:::
 
 You can then decide to use incoming and allow outgoing data.
 
 xDrip can share steps, heart rate and BG with Google Health.
 
-!!!xdripitem "Get data from Health Connect <span class='symbol'><img src="../../images/ON.png" style="zoom:75%;" /></span>"  
+::: xdripitem Get data from Health Connect <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+:::
 
-!!!xdripitem "Send data to Health Connect <span class='symbol'><img src="../../images/OFF.png" style="zoom:75%;" /></span>"  
+::: xdripitem Send data to Health Connect <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+:::
 
-!!!xdripitem "Manage permissions"  
-    &ensp;Open Health Connect Settings to manually manage permissions
+::: xdripitem Manage permissions
+&ensp;Open Health Connect Settings to manually manage permissions
+:::
 
 On some Android versions (notably 15 and 16) xDrip isn't allowed to open its Health Connect permission screen directly. It then opens the Health Connect app instead: go to *App permissions* and select xDrip to manage them. If Health Connect can't be opened at all, a message asks you to open the Health Connect app yourself and manage xDrip's permissions there.
 

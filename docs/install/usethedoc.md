@@ -1,35 +1,36 @@
-This documentation is based on the [latest Nightly Build](https://github.com/NightscoutFoundation/xDrip/releases) (allow a few days latency after release).  
+This documentation is based on the [latest Nightly Build](https://github.com/NightscoutFoundation/xDrip/releases) (allow a few days' latency after release).  
 
 
 ## **If you're completely new to xDrip**
 
-If you want to install it for the first time continue to ⇒ [prerequisites](../prerequisites) and follow the flow.
+If you want to install it for the first time, continue to ⇒ [prerequisites](./prerequisites) and follow the flow.
 
 ## **If you're already using xDrip** 
 
-If you don't find a feature documented here and want it, you might need to [update](../../use/update) your xDrip app.  
-See at the bottom of each page the version at which it was written, if you have an older version it might not include the feature.
+If you don't find a feature documented here and want it, you might need to [update](../use/update) your xDrip app.  
+See at the bottom of each page the version at which it was written; if you have an older version it might not include the feature.
 
-</br>
+<br>
 
-!!!info  
-    Engineering mode features are voluntarily not documented.
+::: info
+Engineering mode features are intentionally not documented.
+:::
 
-</br>
+<br>
 
 ### Original documentation
 
-This documentation is a collection of various sources, when applicable you will find links to the **original and reference documentation**.  
+This documentation is a collection of various sources; when applicable you will find links to the **original and reference documentation**.  
 Always rely on the original documentation unless obsolete (will be mentioned).
 
 ### Translation
 
-The documentation is available in English, French and Italian. Use the language selector at the top of the page to switch, you will stay on the same page.  
-Translations are in progress: pages not yet translated are shown in English, with a notice. English is the reference version, a translated page whose English version has changed since is marked as such.
+The documentation is available in English, French and Italian. Use the language selector at the top of the page to switch; you will stay on the same page.  
+Translations are in progress: pages not yet translated are shown in English, with a notice. English is the reference version; a translated page whose English version has changed since is marked as such.
 
-For other languages, you might find it easier to follow if you [switch your xDrip to English](../../use/display/#language) and read it using an automatic translation with Google.
+For other languages, you might find it easier to follow if you [switch your xDrip to English](../use/display#language) and read it using an automatic translation with Google.
 
-Most menu pictures have been changed to text to allow automatic translation, this means they might not match the display but hopefully they will point you to the right item.
+Most menu pictures have been changed to text to allow automatic translation; this means they might not match the display but hopefully they will point you to the right item.
 
 ### Search
 
@@ -37,12 +38,12 @@ You can search the documentation for a menu or a term using the upper right sear
 
 ### Typo, error, missing information
 
-You're welcome to feedback opening an [issue](https://github.com/xdrip/xdrip_docs/issues) in GitHub.
+You're welcome to give feedback by opening an [issue](https://github.com/xdrip/xdrip_docs/issues) in GitHub.
 
-You're welcome to contribute creating a [pull request](https://github.com/xdrip/xdrip_docs/pulls) in the main repository.
+You're welcome to contribute by creating a [pull request](https://github.com/xdrip/xdrip_docs/pulls) in the main repository.
 
-You can also feedback in the the main Facebook group [xDrip](https://www.facebook.com/groups/xDripG5) (GitHub recommended though).
+You can also give feedback in the main Facebook group [xDrip](https://www.facebook.com/groups/xDripG5) (GitHub recommended though).
 
-</br>
+<br>
 
 [*Last modified now*](https://github.com/NightscoutFoundation/xDrip/releases)

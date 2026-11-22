@@ -1,50 +1,51 @@
-!!!xdrip "<img src="../../images/hamburger_menu.png" style="zoom:75%;" />"  
-    &ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" /> Statistics
+::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
+&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" /> Statistics
+:::
 
 Statistics view offers 3 basic statistics displays you can configure for different periods of time.
 
-1. First select the period of time you want to calculate statistics on. ToDay, YestTerDay, last 7, 30 or 90 days.
+1. First select the period of time you want to calculate statistics on. ToDay, YesTerDay, last 7, 30 or 90 days.
 2. You can display the graph full screen (touch it again to exit full screen mode).
 3. You can share the screen as a screenshot.
 
-<img src="../images/M-STA1.png" style="zoom:75%;" />
+<img src="./images/M-STA1.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 First screen shows your numbers.
 
-<img src="../images/M-STA2.png" style="zoom:75%;" />
+<img src="./images/M-STA2.png" style="zoom:75%;" />
 
 Percentage in range is calculated using low and high values range defined in Menu - Glucose Units.  
-Absolute numbers counts the number of measurements in range, above and below.  
-Median BG is the central value of your data: same amount of measurements above and same below.  
+Absolute numbers count the number of measurements in range, above and below.  
+Median BG is the central value of your data: same number of measurements above and below.  
 Mean BG is the mathematical average of all measurements.  
-Estimated HbA1c is only a mathematical calculation based on the average BG, and converted in mmol/mol or percent.  
+Estimated HbA1c is only a mathematical calculation based on the average BG, and converted to mmol/mol or percent.  
 StdDev or standard deviation is the mathematical result of the calculation. It shows the dispersion of your BG.  
 Relative SD (CV) is the StdDev divided by mean and also shows the dispersion of your measurements.  
-GVI and PGS were parameters introduced by Dexcom see [here](https://web.archive.org/web/20160523152519/http://www.healthline.com/diabetesmine/a-new-view-of-glycemic-variability-how-long-is-your-line). 
+GVI and PGS were parameters introduced by Dexcom, see [here](https://web.archive.org/web/20160523152519/http://www.healthline.com/diabetesmine/a-new-view-of-glycemic-variability-how-long-is-your-line). 
 
-Look [here](https://diatribe.org/understanding-average-glucose-standard-deviation-cv-and-blood-sugar-variability) for explanations of these parameters, and remember they are based on measurements and depend on their quality. Bad measurements (inaccurate) will lead to bad statistics, should it be because of the sensor accuracy or your calibrations.
+Look [here](https://diatribe.org/understanding-average-glucose-standard-deviation-cv-and-blood-sugar-variability) for explanations of these parameters, and remember they are based on measurements and depend on their quality. Bad measurements (inaccurate) will lead to bad statistics, whether it is because of the sensor accuracy or your calibrations.
 
-You can choose which of these values are shown. Touch the menu (⋮) top right and select `Parameters`, then check or uncheck: Absolutes #s, Median BG, Estimated A1C, Relative SD, GVI, PGS, Standard Deviation.
+You can choose which of these values are shown. Touch the menu (⋮) top right and select `Parameters`, then check or uncheck: Absolute #s, Median BG, Estimated A1C, Relative SD, GVI, PGS, Standard Deviation.
 
-</br>
+<br>
 
 Swipe towards the left to see a graphical representation of your percentage in range.  
 Green is in range, yellow above and red below target.
 
-<img src="../images/M-STA3.png" style="zoom:75%;" />
+<img src="./images/M-STA3.png" style="zoom:75%;" />
 
-</br>
+<br>
 
 Swipe again to see the percentile chart.
 
-<img src="../images/M-STA4.png" style="zoom:75%;" />
+<img src="./images/M-STA4.png" style="zoom:75%;" />
 
 Rotate the screen to make it look better.
 
-<img src="../images/M-STA5.png" style="zoom:50%;" />
+<img src="./images/M-STA5.png" style="zoom:50%;" />
 
-</br>
+<br>
 
 [*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
