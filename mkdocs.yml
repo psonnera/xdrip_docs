@@ -47,6 +47,7 @@ nav:
         - 'Libre bridge': 'install/libreBT.md'
         - 'Libre 2 Direct': 'install/libre2.md'
         - 'Libre patched app': 'install/libre2patch.md'
+        - 'Li3': 'install/li3.md'
         - 'Eversense': 'install/eversense.md'
         - '640G/670G': 'install/640_670.md'
         - 'xDrip follower': 'install/xdripfollower.md'

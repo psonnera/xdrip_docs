@@ -26,16 +26,6 @@ Install the [vendor app](http://tomato.cool/) that will automatically upgrade yo
 
 Once updated, uninstall the app, reset the device and [Scan Bluetooth](../../install/libreBT/#connect-bluetooth-bridge) in xDrip to reconnect.
 
-### Bubble
-
-All firmware are compatible with xDrip. Always keep the device updated to the latest version.
-
-In order to upgrade your firmware, you first need to [Forget Device](../systemstatus/#restart-collector-forget-device) from xDrip System Status.
-
-Install the [vendor app](https://sirius.thetaphi.de/diabox/) that will automatically upgrade your Bubble firmware.
-
-Once updated, uninstall the app, reset the device and [Scan Bluetooth](../../install/libreBT/#connect-bluetooth-bridge) in xDrip to reconnect.
-
 </br>
 
-[*Last modified 4/8/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

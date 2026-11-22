@@ -23,7 +23,7 @@ This feature is available for:
 - SiSensing Eco (China) app
 - Diabeloop DBLG2 app
 
-For the Omnipod 5 and MiniMed Mobile (EU) apps, xDrip also reads Insulin on Board (IoB) from the companion app notification when available.
+For the Omnipod 5 and MiniMed Mobile (EU) apps, xDrip also reads Insulin on Board (IoB) from the companion app notification when available. For MiniMed Mobile (EU) this works whatever the app language.
 
 In order to use this feature you **must** authorize xDrip to access notifications.
 
@@ -64,4 +64,4 @@ If no data is visible and no error message pops-up you might need to [Start sens
 
 </br>
 
-[*Last modified 2/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.02)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20)

@@ -126,7 +126,7 @@ First time attempt or failure recovery:
   <img src="../images/M-S-SW-AW-ST3b.png" style="zoom:75%;" />
 - From the xDrip watchface 3 dots menu, Restart Collector.  
   <img src="../images/M-S-SW-AW-3DM.png" style="zoom:75%;" />
-- In the watch Bluetooth settings, find your bridge device and pretend to pair it (you can't pair Miaomiao/Bubble with the watch but it will try to establish a link to it). After pairing fails, wait 10 minutes for readings to show-up.
+- In the watch Bluetooth settings, find your bridge device and pretend to pair it (you can't pair Miaomiao with the watch but it will try to establish a link to it). After pairing fails, wait 10 minutes for readings to show-up.
 - If readings don't appear, disable Force collector and retry the sequence.
 
 ## Sharing data in standalone mode
@@ -139,4 +139,4 @@ This doesn't mean they need to be in the same place but the watch itself will no
 
 </br>
 
-[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20)

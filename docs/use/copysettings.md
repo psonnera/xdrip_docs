@@ -63,6 +63,12 @@ Current settings will be overwritten, a list will be displayed for you to acknow
       
     &emsp;No &emsp;&emsp;&emsp;&emsp;Yes
 
+A *Copy all settings* QR code doesn't contain the settings themselves: xDrip downloads them once you confirm. Since release 2026.11.21 you are asked to confirm first.
+
+!!!xdripitem "Are you sure?"  
+    &ensp;Only import settings from sources you trust!  
+    &ensp;Please confirm to download and import all settings from this code.
+
 You might need to restart your phone to apply the changes.
 
 #### Image file
@@ -94,4 +100,4 @@ You might need to restart your phone to apply the changes.
 
 </br>
 
-[*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

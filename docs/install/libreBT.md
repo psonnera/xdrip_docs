@@ -18,12 +18,11 @@ Here below a compatibility table for supported bridge devices, for compatible se
 |  MiaoMiao   |       `Yes`       |     `39*`      |       `39*`       |
 | MiaoMiao 2  |       `Yes`       |      `7*`      |       `7*`        |
 | MiaoMiao 3  |       `Yes`       |     `3A*`      |       `3A*`       |
-|   Bubble    |       `Yes`       |     `2.6*`     |      `2.6*`       |
-| Bubble mini |       `Yes`       |     `2.6*`     |      `2.6*`       |
 |    Atom     |       `Yes`       |                |                   |
 
 *Note:*  
-*`*` [external OOP add-on required](../../use/OOP)*
+*`*` [external OOP add-on required](../../use/OOP)*  
+*Bubble and Bubble mini are no longer supported since release 2026.11.20.*
 
 </br>
 
@@ -158,4 +157,4 @@ This will reset all calibrations and allow xDrip to start a new sensor.
 
 </br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

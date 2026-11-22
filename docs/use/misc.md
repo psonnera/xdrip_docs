@@ -108,11 +108,15 @@ Retrieve Libre History is required for BluCon bridges. Other bridges perform bac
 !!!xdripitem "Retrieve Libre History <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     Retrieve missing history from Blucon device when reconnecting to the sensor.
 
-Libre one minute display is still under development. xDrip displays BG values every 5 minutes.
+Libre one minute display is still under development. xDrip displays BG values every 5 minutes. With the [Li3](../../install/li3) data source, readings are stored every minute when it's enabled.
 
 !!!xdripitem "Libre one minute <span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"
 
 Accept readings every minute instead of every 5 minutes from the [Inter-app broadcast](../../install/640_670) data source. Reboot the phone after changing it. Since [9th Sep 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09) this no longer requires engineering mode (it was named "640G/Eversense 1-minute" before).
+
+##### Li3
+
+The Li3 settings (Account ID, Official app, Smooth Li3 readings) are explained on the [Li3](../../install/li3/#li3-settings) page.
 
 ##### 1-min Inter-app broadcast
 
@@ -125,4 +129,4 @@ This option is not available at all.
 
 </br>
 
-[*Last modified 9/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

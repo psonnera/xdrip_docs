@@ -39,6 +39,8 @@ Some of these bridges also work with Libre 2/2+ EU. Check your sensor doesn't re
 
 <img src="../images/DS-LBT.png" style="zoom:50%;" />
 
+Since release 2026.11.21 the Libre group also has the [Li3](../li3) data source, which connects xDrip directly to a Li3 device by NFC and Bluetooth.
+
 For non-supported sensors (Libre 2/2+ non-EU and Libre 3/3+) you can also use Diabox or Juggluco, then [broadcast](../libre2patch) data to xDrip that will receive data from the [Libre 2 patched](../libre2patch) data source (**not** the patched app itself).
 
 <img src="../images/DS-LOther.png" style="zoom:50%;" />
@@ -266,4 +268,4 @@ If you want to disable xDrip.
 
 </br>
 
-[*Last modified 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

@@ -49,7 +49,7 @@ For G5 sensors you can systematically have xDrip turn off and on Bluetooth. Keep
 
 When this option is enabled, xDrip will go through complete disconnection then reconnection of your Bluetooth device (close link, discover and connect) when connection is lost. Since this might not be efficient, it is recommended to leave it **disabled** so that it's maintained in memory and will only try to connect back to it as a known BLE device.
 
-*Collector: Classic bridge collector (`DexCollectionService`) — G4/Libre bridges, BlueReader/Bubble/Atom/Tomato*
+*Collector: Classic bridge collector (`DexCollectionService`) — G4/Libre bridges, BlueReader/Atom/Tomato*
 
 !!!xdripitem "Close GATT on BLE disconnect<span class='symbol'><img src="../../images/DIS.png" style="zoom:75%;" /></span>"  
     &ensp;If the Bluetooth watchdog activates too often then you can try unchecking this option to see if it helps
@@ -146,4 +146,4 @@ Allow BluCon unbonding is only useful if you use a BluCon bridge as others don't
 
 </br>
 
-[*Last modified 14/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
