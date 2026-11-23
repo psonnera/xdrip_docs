@@ -219,4 +219,4 @@ Force screen on garantit que la montre sera complètement réveillée pendant la
 
 <br>
 
-[*Dernière modification le 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

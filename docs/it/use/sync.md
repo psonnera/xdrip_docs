@@ -166,4 +166,4 @@ Controlla in Stato del sistema che tutto si connetta correttamente.
 
 <br>
 
-[*Ultima modifica 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

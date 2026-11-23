@@ -76,7 +76,7 @@ Ora xDrip attenderà le letture e aggiornerà l'avanzamento. Resta su questa sch
 
 ::: xdripitem Sto raccogliendo le prime letture
 &ensp;✔ Raccolta dati in esecuzione  
-&ensp;⧖  Ricezione dati dal collector  
+&ensp;⧖  Ricezione dati dal collector MiaoMiao  
 &emsp;&nbsp;Ho ricevuto alcuni dati recenti  
 &emsp;&nbsp;Ho ricevuto abbastanza dati per calibrare  
 &ensp;***No data received yet***  
@@ -89,10 +89,10 @@ L'indicazione ***No data received yet*** diventerà ***Need 3 recent readings***
 
 ::: xdripitem Sto raccogliendo le prime letture
 &ensp;✔ Raccolta dati in esecuzione  
-&ensp;✔ Ricezione dati dal collector  
+&ensp;✔ Ricezione dati dal collector MiaoMiao  
 &ensp;✔ Ho ricevuto alcuni dati recenti  
 &ensp;⧖ Ho ricevuto abbastanza dati per calibrare  
-&ensp;***Need 3 recent readings, got only one so far***  
+&ensp;***Need 3 recent readings, got only 1 so far***  
 &ensp;Next reading expected in 1 minute 
 :::
 
@@ -149,4 +149,4 @@ xDrip dovrebbe ricevere le letture con la misurazione successiva.
 
 <br>
 
-[*Ultima modifica 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

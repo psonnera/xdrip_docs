@@ -108,7 +108,7 @@ Per forzare l'aggiornamento dell'orologio, puoi inviare una lettura manualmente.
 
 Se hai problemi a visualizzare il grafico, prova a disattivare i valori MTU elevati.
 
-::: xdripitem Disable high MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Disable hight MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 
 ### Funzioni {#features}
@@ -168,7 +168,7 @@ Lasciale disattivate a meno che tu non abbia preparato correttamente i file nece
 
 Per consigli ed esempi guarda [qui](https://github.com/twinko).
 
-::: xdripitem Disable high MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Disable hight MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 
 Disable high MTU values (disattiva i valori MTU elevati) può essere usato in caso di problemi di visualizzazione del quadrante.
@@ -197,4 +197,4 @@ Attiva Servizio di Trasmissione API in Impostazioni -> Impostazioni Inter-app
 
 <br>
 
-[*Ultima modifica 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

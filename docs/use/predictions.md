@@ -38,7 +38,7 @@ Carb ratio is the amount of carbohydrates that will be covered by 1 unit of insu
 For example 10 means each 10g of carbohydrates will require 1 unit of insulin.
 
 ::: xdripitem Carb Ratio
-&ensp;Grams of carbohydrates 1 Unit covers
+&ensp;Grams of Carbohydrate 1 Unit covers
 :::
 
 Insulin sensitivity is the resulting blood glucose drop for one unit of insulin, with no carbohydrates in the blood stream.
@@ -54,7 +54,7 @@ For example 50 (or 2.8) means 1 unit drops BG by 50 mg/dl (or 2.8 mmol/l).
 Carbohydrate absorption rate is the speed at which your body will assimilate carbohydrates. See [here](https://diyps.org/2014/05/29/determining-your-carbohydrate-absorption-rate-diyps-lessons-learned/) how to calculate that parameter.
 
 ::: xdripitem Carb absorption rate
-&ensp;Linear model carbs absorbed by hour
+&ensp;Linear model carbs absorbed per hour
 :::
 
 Touching one of the two menus above will open the treatment profile editor.
@@ -131,7 +131,7 @@ Including current trend (1) can prevent sharp prediction variations and might be
 Review the [EULA](../install/install#understand-what-is-xdrip) before using this feature.
 
 ::: xdripitem End User License Agreement
-&ensp;Not for medical use - research only
+&ensp;Not for medical use - research tool only
 :::
 
 ### Low Level prediction
@@ -146,9 +146,9 @@ Target is used for bolus wizard calculator. This is the desired BG target.
 
 Insulin [duration](https://www.diabettech.com/insulin/why-we-are-regularly-wrong-in-the-duration-of-insulin-action-dia-times-we-use-and-why-it-matters/) depends on your insulin type. Changing the value requires xDrip restart (or phone restart).
 
-Target glucose value is the value used to calculate suggested corrections.
+Target Glucose Default is the value used to calculate suggested corrections.
 
-::: xdripitem Target glucose value
+::: xdripitem Target Glucose Default
 &ensp;100 / 5.6
 :::
 
@@ -164,7 +164,7 @@ Liver parameters were introduced to take into account liver glycogen reaction to
 &ensp;2
 :::
 
-::: xdripitem Default liver maximum impact (0 to 1)
+::: xdripitem Default Liver Maximum Impact (0–1)
 &ensp;0.8
 :::
 
@@ -225,4 +225,4 @@ Multiple insulin types will be displayed in an identical way on the main graph.
 
 <br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

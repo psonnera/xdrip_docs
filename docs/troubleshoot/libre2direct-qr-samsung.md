@@ -8,9 +8,6 @@ Scan the QR code shown here to load the settings needed for Libre 2 direct. Unde
 
 Scanning the QR code will only change the following 3 settings. 
 
-Less common settings/Bluetooth Settings/Use scanning= false
-   
-Less common settings/Bluetooth Settings/Trust Auto-connect = false
-    
-Less common settings/Bluetooth Settings/Use background scans = false
-    
+- Less common settings → Bluetooth Settings → Use scanning = disabled
+- Less common settings → Bluetooth Settings → Trust Auto-Connect = disabled
+- Less common settings → Bluetooth Settings → Use Background Scans = disabled

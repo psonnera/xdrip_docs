@@ -14,7 +14,7 @@ Ricordati di attivare prima la funzione NFC nelle impostazioni di Android.
 :::
 
 ::: xdripitem Usa funzionalità NFC <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Consenti la scansione dei sensori quando l'app è aperta. I dati storici saranno ripristinati.
+&ensp;Consenti la scansione dei sensori quando l'app è aperta. I dati storici saranno ripristinati. Altamente sperimentale! Attenzione che questo potrebbe rompere il sensore. Prova la compatibilità con un sensore quasi scaduto. Sei stato avvisato!
 :::
 
 Puoi mostrare l'età del sensore in fondo al grafico principale (xDrip master).
@@ -91,4 +91,4 @@ Lo smoothing aggiunge un ritardo alla glicemia di xDrip rispetto ai dati grezzi.
 
 <br>
 
-[*Ultima modifica 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

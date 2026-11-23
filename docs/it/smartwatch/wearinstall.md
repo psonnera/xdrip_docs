@@ -127,7 +127,7 @@ Usa [GeminiMan Wear OS Manager](https://play.google.com/store/apps/details?id=co
 
 Google e Samsung hanno introdotto cambiamenti importanti in Wear OS 5 e non permettono facilmente i quadranti personalizzati.
 
-L'installazione del quadrante AAPS va fatta con Wear Installer 2 seguendo [questo video](https://www.youtube.com/watch?v=EvTGEnPA9PY).
+L'installazione dell'app xDrip per l'orologio va fatta con Wear Installer 2 seguendo [questo video](https://www.youtube.com/watch?v=EvTGEnPA9PY) (mostra il quadrante AAPS: la procedura è la stessa con l'APK wear di xDrip).
 
 **Se per errore cambi il quadrante con un altro, devi ripetere la procedura qui sopra.**
 
@@ -165,4 +165,4 @@ Reinstalla il quadrante con [Wear Installer 2](#wear-os-5).
 
 <br>
 
-[*Ultima modifica 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

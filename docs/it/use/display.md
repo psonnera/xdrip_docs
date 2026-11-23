@@ -10,6 +10,7 @@ source_commit: 7a18e7c
 Questo menu ti permette di personalizzare molti aspetti visivi di xDrip.
 
 ::: xdripitem xDrip+ impostazioni di visualizzazione
+&ensp;Personalizzazioni di visualizzazione
 :::
 
 *Nota: controlla le funzioni delle [Impostazioni grafico](#graph-settings) prima di usare le impostazioni dei colori.*
@@ -76,7 +77,11 @@ Valori Glicemici Elevati<span style="float: right; width: 40px; height: 40px; ba
 Valori Glicemici nella media<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
 
 Valori Glicemici Bassi<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
+
+Previsione ipo (critica)<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
 :::
+
+Previsione ipo (critica) è il colore del messaggio di previsione di glicemia bassa sulla schermata principale quando la glicemia bassa è vicina.
 
 ##### Curve dei trattamenti e delle previsioni {#treatments-and-predictions-curves}
 
@@ -257,7 +262,7 @@ Porta l'interruttore Forza testo inglese su ON.
 Il lisciamento mostra la curva lisciata (non modifica le letture), utile in caso di misurazioni disturbate.  
 Puoi anche provare il [Lisciamento del Grafico](#graph-smoothing) per pulire il grafico.
 
-::: xdripitem Liscia il rumore del sensore<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem ⚠ Liscia il rumore del sensore<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
 &ensp;Cerca di risolvere letture disturbate
 :::
 
@@ -427,9 +432,10 @@ Puoi visualizzare diverse linee di riferimento sul grafico:
 
 ##### Previsioni G6 {#g6-predictions}
 
-La previsione G6 è una funzione integrata del trasmettitore G6, mostrata con piccoli punti grigi.
+Predizione G6 è una funzione integrata del trasmettitore Dexcom G6, mostrata con piccoli punti grigi.
 
 ::: xdripitem Predizione G6 <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Mostra i punti di glicemia predittiva G6
 :::
 
 <img src="./images/M-S-DS6j2.png" style="zoom:75%;" />
@@ -504,8 +510,8 @@ Per impostazione predefinita, quando le letture sono fuori da questo intervallo,
 Se preferisci mantenere fisso l'intervallo dell'asse Y e spostare il grafico in verticale invece di espanderlo, attiva Spostamento auto asse Y.
 
 ::: xdripitem Spostamento auto asse Y <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Abilita: Sposta il grafico con un asse Y fisso (minimo-massimo) per mostrare le letture fuori intervallo.  
-&ensp;Disabilita: Espandi l'intervallo dell'asse Y per includere le letture fuori intervallo.
+&ensp;**Abilita:** Sposta il grafico con un asse Y fisso (minimo-massimo) per mostrare le letture fuori intervallo.  
+&ensp;**Disabilita:** Espandi l'intervallo dell'asse Y per includere le letture fuori intervallo.
 :::
 
 ### Numero di glucosio da Filtrata {#glucose-number-from-filtered}
@@ -582,7 +588,7 @@ Se il telefono lo supporta, xDrip può usare l'accessibilità di Android per mos
 Su Android 16 e successivi puoi in alternativa mostrare la glicemia come chip di notifica sulla schermata di blocco / Always On Display, usando la notifica persistente invece dell'accessibilità. Questo si basa sui [canali di notifica](./alarms#notification-channels), sempre attivi su Android 8.0 e successivi.
 
 ::: xdripitem Use AOD chip style <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Display notification chip and lock screen notification. Android 16+ only
+&ensp;Display notification chip and lockscreen notification. Android 16+ only
 :::
 
 ### Valore della glicemia nella schermata di blocco {#numbered-wall-on-locked-screen}
@@ -632,7 +638,7 @@ Colore ombra<span style="float: right; width: 40px; height: 40px; background-col
 
 Attiva e disattiva la funzione per un periodo definito della giornata. Per impostazione predefinita è attiva tutto il giorno.
 
-::: xdripitem Accendi (Tutto il giorno)
+::: xdripitem Accendi
 Scegli l'orario di inizio visualizzazione
 :::
 
@@ -685,4 +691,4 @@ Può essere utile attivarla se il telefono esegue aggiornamenti e riavvii automa
 
 <br>
 
-[*Ultima modifica 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

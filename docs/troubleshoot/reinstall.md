@@ -31,10 +31,10 @@ Using upload to [Nightscout](https://nightscout.github.io/) is also strongly rec
 
 Exporting the database will also [save settings](../use/loadsavesettings#save-settings).
 
-From the main xDrip display select the upper right 3 dots menu, Import Export features, Export database.
+From the main xDrip display select the upper right 3 dots menu, Import / Export features, Export database.
 
 ::: xdrip <img src="../images/3dots_menu.png" style="zoom:75%;" />
-&ensp;Import Export features ►  
+&ensp;Import / Export features ►  
 &emsp;Export database
 :::
 
@@ -87,8 +87,7 @@ When xDrip install is complete, if a database backup is available, xDrip might p
 Make sure this is the database you want to restore, then select RESTORE.
 
 ::: xdripitem Restore backup?
-&emsp;Do you want to restore the backup?  
-&emsp;file:export20210328-085436.zip  
+&emsp;Do you want to restore the backup file: export20210328-085436.zip  
 
 
 &emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;RESTORE&ensp;</span>
@@ -96,18 +95,18 @@ Make sure this is the database you want to restore, then select RESTORE.
 
 xDrip will confirm correct database restore.
 
-::: xdripitem Import result
-&emsp;Successfully imported database.
+::: xdripitem Import Result
+&emsp;Successfully imported database
 :::
 
 *Note: the current database will be exported first, for safety; you will find it in the list named `b4import` and the date/time the import was done. This will allow you to recover it if necessary.*
 
 <br>
 
-If you want to restore a specific backup, from the main xDrip display select the upper right 3 dots menu, Import Export features, Restore database.
+If you want to restore a specific backup, from the main xDrip display select the upper right 3 dots menu, Import / Export features, Restore database.
 
 ::: xdrip <img src="../images/3dots_menu.png" style="zoom:75%;" />
-&ensp;Import Export features ►  
+&ensp;Import / Export features ►  
 &emsp;Restore database
 :::
 
@@ -140,17 +139,17 @@ b4import20220129-194141.zip
 Once sure you're trying to restore the correct backup, `Ok`
 
 ::: xdripitem Confirm Import
-&emsp;Do you want to import  
+&emsp;Do you really want to import  
 &emsp;'export20220129-184615.zip'?  
-&emsp;This might negatively affect the data integrity of your system!  
+&emsp;This may negatively affect the data integrity of your system!  
 
 &emsp;CANCEL&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 :::
 
 xDrip will confirm correct database restore.
 
-::: xdripitem Import result
-&emsp;Successfully imported database.
+::: xdripitem Import Result
+&emsp;Successfully imported database
 :::
 
 If you restored the wrong database, just redo the same steps and select the latest `b4import` version to roll back.
@@ -169,7 +168,7 @@ You must be logged in to your Google account to use this feature.
 Select Cloud Backup.
 
 ::: xdrip <img src="../images/3dots_menu.png" style="zoom:75%;" />
-&ensp;Import Export features ►  
+&ensp;Import / Export features ►  
 &emsp;Cloud backup
 :::
 
@@ -276,4 +275,4 @@ On the new phone:
 
 <br>
 
-[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

@@ -104,4 +104,4 @@ Le informazioni del microinfusore (stato, basale) sono <u>visibili solo</u> nell
 
 Se non vedi dati e non compare alcun messaggio di errore, potrebbe essere necessario [Inizializza Sensore](../use/startsensor#followers-and-companion-apps).
 
-[*Ultima modifica 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

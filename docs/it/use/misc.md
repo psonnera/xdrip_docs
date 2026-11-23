@@ -70,8 +70,8 @@ Vecchi wakelocks gratuiti possono consumare la batteria, ma potrebbero essere ne
 
 Mostra Valori Predetti (vecchio metodo) è deprecato. Usa la [simulazione predittiva](./predictions).
 
-::: xdripitem Mostra Valori Predetti (vecchio metodo) <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-Vecchio metodo - Non consigliato!
+::: xdripitem Mostra Valori Predetti <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Vecchio metodo - Non consigliato! Tenta di prevedere letture ogni minuto sulla base di pochi valori precedenti.
 :::
 
 Proper Ongoing è indispensabile per i dispositivi con Android 8 e successivi. Visibile solo con la Modalità Sviluppatore attivata.
@@ -99,7 +99,7 @@ Deve essere disattivata per OOP2.
 OOP2 è indispensabile per gestire i dati dei sensori Libre 14 days US e Libre 2/2+ EU.
 
 ::: xdripitem Calibrazione dell'algoritmo OOP2.
-&ensp;Apply xDrip calibration method on OOP2 data
+&ensp;Applica le calibrazioni xDrip sui dati da OOP2.
 :::
 
 Puoi usare OOP2 in modi diversi:
@@ -111,7 +111,7 @@ Puoi usare OOP2 in modi diversi:
 ::: xdripitem Calibrazione dell'algoritmo OOP2.
 &emsp;No calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
 &emsp;Calibrate based on raw&emsp;&emsp;&emsp;●  
-&emsp;Calibrate based on glucose&nbsp;&emsp;○
+&emsp;Calibrate based on glucose (experimental)&nbsp;&emsp;○
 :::
 
 Liscia dati Libre fa la media su 5 misure. Questo ritarda anche le letture.  
@@ -124,12 +124,13 @@ Se questa opzione non porta il miglioramento atteso, prova anche [Liscia il rumo
 Recupera cronologia Libre è necessario per i bridge BluCon. Gli altri bridge recuperano i dati mancanti automaticamente.
 
 ::: xdripitem Recupera cronologia Libre <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-Recupera la cronologia dal dispositivo Blukon quando si ricollega al sensore.
+&ensp;Recupera la cronologia dal dispositivo Blukon quando si ricollega al sensore.
 :::
 
 La visualizzazione Libre a un minuto è ancora in sviluppo. xDrip mostra i valori glicemici ogni 5 minuti. Con la sorgente dati [Li3](../install/li3), quando è attivata, le letture vengono salvate ogni minuto.
 
 ::: xdripitem Libre 1-minuto <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Accetta i dati ad intervalli di un minuto da Libre. Riavvia il telefono per attivare la modifica.
 :::
 
 ##### Li3 {#li3}
@@ -151,4 +152,4 @@ L'opzione qui sotto è sempre disattivata (in grigio) nell'app: non può essere 
 
 <br>
 
-[*Ultima modifica 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

@@ -57,7 +57,7 @@ xDrip peut aussi recevoir des messages avec cette fonction : vous pouvez activer
 
 Vous pouvez activer ou désactiver (**à désactiver pour AAPS !!!**) le son joué après la mise à jour du profil xDrip.
 
-::: xdripitem Importer des sons <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Importer des sons <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
 &ensp;Jouer des sons lors de l'importation de données significatives telles que des profils
 :::
 
@@ -86,7 +86,7 @@ Le serveur web répond aux requêtes à l'adresse `127.0.0.1` sur le port `17580
 Par défaut, le service web n'est accessible qu'à votre appareil ; vous pouvez l'ouvrir pour que d'autres appareils du réseau puissent y accéder. Assurez-vous d'avoir vraiment besoin de cette fonction et d'en comprendre les implications de sécurité. Assurez-vous qu'un secret partagé est défini.
 
 ::: xdripitem Service Web Ouvert <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Accepter les connexions depuis n'importe quel réseau au lieu de se limiter à l'intérieur de cet appareil. Il y a des implications de sécurité pour activer ceci ! Le Secret partagé sera requis si défini. 
+&ensp;Accepter les connexions depuis n'importe quel réseau au lieu de se limiter à l'intérieur de cet appareil. Il y a des implications de sécurité pour activer ceci ! Le Secret partagé sera requis si défini.
 :::
 
 ::: xdripitem Secret du Service Web xDrip
@@ -289,4 +289,4 @@ xDrip peut partager les pas, la fréquence cardiaque et la glycémie avec Google
 
 Sur certaines versions d'Android (notamment 15 et 16), xDrip n'est pas autorisé à ouvrir directement son écran d'autorisations Health Connect. Il ouvre alors l'application Health Connect : allez dans *Autorisations des applis* (App permissions) et sélectionnez xDrip pour les gérer. Si Health Connect ne peut pas du tout être ouvert, un message vous demande d'ouvrir vous-même l'application Health Connect et d'y gérer les autorisations de xDrip.
 
-[*Dernière modification le 15/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

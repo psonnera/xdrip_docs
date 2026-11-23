@@ -31,7 +31,8 @@ NightLite non può essere usato mentre xDrip funziona come [follower Nightscout]
 Inserisci il tuo URL NightLite:
 
 ::: xdripitem NightLite URL
-&ensp;Contains your security key, do not disclose it.
+&ensp;Typically entered by scanning QR code from dashboard  
+&ensp;This contains your security key - do not disclose it
 :::
 
 Poi attiva il caricamento:
@@ -64,4 +65,4 @@ Il servizio NightLite può inviare notifiche a xDrip e, se necessario, interromp
 
 <br>
 
-[*Ultima modifica 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

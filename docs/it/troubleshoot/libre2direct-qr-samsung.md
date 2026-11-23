@@ -12,9 +12,7 @@ Scansiona il codice QR qui sopra per caricare le impostazioni necessarie per Lib
 
 La scansione del codice QR modifica solo le 3 impostazioni seguenti. 
 
-Impostazioni Meno Usate/Impostazioni Bluetooth/Usa scansione = false
-   
-Impostazioni Meno Usate/Impostazioni Bluetooth/Trust Auto-Connect = false
-    
-Impostazioni Meno Usate/Impostazioni Bluetooth/Usa Scansione In Background = false
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Usa scansione = disattivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Trust Auto-Connect = disattivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Usa Scansione In Background = disattivato
     

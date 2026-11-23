@@ -165,4 +165,4 @@ Questo non significa che debbano trovarsi nello stesso posto, ma l'orologio non 
 
 <br>
 
-[*Ultima modifica 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

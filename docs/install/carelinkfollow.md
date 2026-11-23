@@ -57,19 +57,19 @@ Used to avoid server lock if xDrip performs too frequent requests.
 You can download treatments and receive notifications.
 
 ::: xdripitem Finger BGs <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;You can download finger BGs from CareLink  
+&ensp;Download finger BGs from CareLink  
 :::
 
 ::: xdripitem Boluses <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;You can download boluses from CareLink
+&ensp;Download boluses from CareLink
 :::
 
 ::: xdripitem Meals <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;You can download meals from CareLink
+&ensp;Download meals from CareLink
 :::
 
 ::: xdripitem Notifications <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;You can download notifications from CareLink
+&ensp;Download notifications from CareLink
 :::
 
 <br>
@@ -100,5 +100,5 @@ Pump information (status, basal) is <u>only visible</u> in the status line and *
 
 If no data is visible and no error message pops up you might need to [Start sensor](../use/startsensor#followers-and-companion-apps).
 
-[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
 

@@ -189,4 +189,4 @@ Per verificare che il follower riceva i dati, controlla lo [Stato del sistema](.
 
 <br>
 
-[*Ultima modifica 21/07/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.19)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

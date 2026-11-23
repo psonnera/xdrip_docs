@@ -40,19 +40,15 @@ Se vedi il messaggio **xDrip turned off Bluetooth**, probabilmente è scattato i
 &ensp;Resetta Bluetooth (spegni e riaccendi) se non si ricevono dati in 20 minuti
 :::
 
-::: info Nota
-Tieni presente che l'attivazione del watchdog Bluetooth e del watchdog Bluetooth G5 provoca una disconnessione Bluetooth temporanea di tutti i dispositivi connessi. Potresti voler disattivare questa funzione se usi AAPS e il tuo bridge/microinfusore non recupera automaticamente la connessione Bluetooth.  
-Nota che il watchdog Bluetooth di G6/G7/1/1+ non è controllato da questa impostazione
+Quando il watchdog è attivato, puoi scegliere dopo quanto tempo senza dati deve scattare: 20 (predefinito), 15, 10 o 5 minuti.
+
+::: xdripitem Valore timer per il watchdog Bluetooth
+&ensp;Valore in minuti
 :::
 
-#### Watchdog Bluetooth G5 {#dex-bluetooth-watchdog}
-
-Con i sensori G5 puoi fare in modo che xDrip spenga e riaccenda sistematicamente il Bluetooth. Tienilo attivato se hai problemi di connessione.
-
-*Collector: percorsi del collector OB1 Dex — Dexcom G5/G6/G7*
-
-::: xdripitem Watchdog Bluetooth G5<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Resetta Bluetooth (spegni/riaccendi) per mantenere la sorgente di dati G5 in funzione. Senza questo il collettore G5 potrebbe fallire.
+::: info Nota
+Tieni presente che l'attivazione del watchdog Bluetooth provoca una disconnessione Bluetooth temporanea di tutti i dispositivi connessi. Potresti voler disattivare questa funzione se usi AAPS e il tuo bridge/microinfusore non recupera automaticamente la connessione Bluetooth.  
+Nota che il collector Dexcom (G5/G6/G7/ONE/ONE+/Stelo) ha un proprio watchdog Bluetooth, sempre attivo e non controllato da questa impostazione (l'impostazione Dex Bluetooth Watchdog è stata rimossa nella versione [2026.04.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.22)).
 :::
 
 #### Chiusura GATT per scollegamento BLE {#close-gatt-on-ble-disconnect}
@@ -112,7 +108,7 @@ Companion Bluetooth permette all'app di funzionare insieme all'app master Dex co
 *Collector: listener compagno BlueTails — trasmettitori Dexcom in configurazioni companion/sniffer*
 
 ::: xdripitem Companion Bluetooth<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Use Bluetooth with Companion app data source
+&ensp;Use Bluetooth with companion app data source
 :::
 
 #### Bluetooth Wakelocks {#bluetooth-wakelocks}
@@ -167,4 +163,4 @@ Consenti unbonding Blucon è utile solo se usi un bridge BluCon, perché gli alt
 
 <br>
 
-[*Ultima modifica 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

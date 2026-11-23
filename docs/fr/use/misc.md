@@ -71,7 +71,7 @@ Wakelocks anciennes qui peuvent drainer la batterie, mais pourraient être néce
 Afficher les valeurs prédictives (ancienne méthode) est obsolète. Utilisez la [simulation prédictive](./predictions).
 
 ::: xdripitem Afficher les valeurs prédictives <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-Vieille méthode - non recommandée !
+&ensp;Vieille méthode - non recommandée ! Tente de prédire les lectures chaque minute basé sur les valeurs passées récentes.
 :::
 
 Proper Ongoing est indispensable pour les appareils sous Android 8 et plus. Visible uniquement lorsque l'Engineering mode (Mode développeur) est activé.
@@ -99,7 +99,7 @@ Elle doit être désactivée pour OOP2.
 OOP2 est indispensable pour traiter les données des Libre 14 jours US et Libre 2/2+ EU.
 
 ::: xdripitem Calibration par algorithme OOP2.
-&ensp;Apply xDrip calibration method on OOP2 data (appliquer la méthode d'étalonnage de xDrip aux données OOP2)
+&ensp;Appliquer les méthodes de calibration xDrip sur des données OOP.
 :::
 
 Vous pouvez utiliser OOP2 de différentes façons :
@@ -111,7 +111,7 @@ Vous pouvez utiliser OOP2 de différentes façons :
 ::: xdripitem Calibration par algorithme OOP2.
 &emsp;No calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
 &emsp;Calibrate based on raw&emsp;&emsp;&emsp;●  
-&emsp;Calibrate based on glucose&nbsp;&emsp;○
+&emsp;Calibrate based on glucose (experimental)&nbsp;&emsp;○
 :::
 
 Lissage des données Libre fait la moyenne sur 5 mesures. Cela retarde aussi les valeurs.  
@@ -124,12 +124,13 @@ Si cette option n'apporte pas l'amélioration attendue, essayez aussi [Smooth Se
 Récupérer l'historique du Freestyle Libre est nécessaire pour les transmetteurs BluCon. Les autres transmetteurs récupèrent automatiquement les données manquantes.
 
 ::: xdripitem Récupérer l'historique du Freestyle Libre <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-Extraire l'historique manqué du périphérique BluCon lors de la reconnexion au capteur.
+&ensp;Extraire l'historique manqué du périphérique BluCon lors de la reconnexion au capteur.
 :::
 
-L'affichage Libre one minute est encore en développement. xDrip affiche les glycémies toutes les 5 minutes. Avec la source de données [Li3](../install/li3), les valeurs sont enregistrées chaque minute lorsque cette option est activée.
+L'affichage Libre 1 minute est encore en développement. xDrip affiche les glycémies toutes les 5 minutes. Avec la source de données [Li3](../install/li3), les valeurs sont enregistrées chaque minute lorsque cette option est activée.
 
-::: xdripitem Libre one minute <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+::: xdripitem Libre 1 minute <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Accepter les données à intervalles d'une minute de Libre. Redémarrez votre téléphone pour que les modifications prennent effet.
 :::
 
 ##### Li3 {#li3}
@@ -151,4 +152,4 @@ L'option ci-dessous est toujours grisée dans l'application : elle ne peut pas �
 
 <br>
 
-[*Dernière modification le 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

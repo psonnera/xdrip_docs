@@ -91,8 +91,7 @@ Al termine dell'installazione di xDrip, se è disponibile un backup del database
 Assicurati che sia il database che vuoi ripristinare, poi seleziona RIPRISTINA.
 
 ::: xdripitem Ripristinare il backup?
-&emsp;Ripristinare il file di backup:  
-&emsp;file:export20210328-085436.zip  
+&emsp;Ripristinare il file di backup: export20210328-085436.zip  
 
 
 &emsp;NO&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;RIPRISTINA&ensp;</span>
@@ -100,8 +99,8 @@ Assicurati che sia il database che vuoi ripristinare, poi seleziona RIPRISTINA.
 
 xDrip confermerà che il database è stato ripristinato correttamente.
 
-::: xdripitem Import result
-&emsp;Successfully imported database.
+::: xdripitem Import Result
+&emsp;Successfully imported database
 :::
 
 *Nota: per sicurezza, il database attuale viene prima esportato; lo troverai nell'elenco con il nome `b4import` seguito dalla data e ora dell'importazione. Così potrai recuperarlo se necessario.*
@@ -144,17 +143,17 @@ b4import20220129-194141.zip
 Quando sei sicuro di ripristinare il backup corretto, `Ok`
 
 ::: xdripitem Confirm Import
-&emsp;Do you want to import  
+&emsp;Do you really want to import  
 &emsp;'export20220129-184615.zip'?  
-&emsp;This might negatively affect the data integrity of your system!  
+&emsp;This may negatively affect the data integrity of your system!  
 
 &emsp;ANNULLA&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;OK&ensp;</span>
 :::
 
 xDrip confermerà che il database è stato ripristinato correttamente.
 
-::: xdripitem Import result
-&emsp;Successfully imported database.
+::: xdripitem Import Result
+&emsp;Successfully imported database
 :::
 
 Se hai ripristinato il database sbagliato, ripeti semplicemente gli stessi passaggi e seleziona la versione `b4import` più recente per tornare indietro.
@@ -280,4 +279,4 @@ Sul nuovo telefono:
 
 <br>
 
-[*Ultima modifica 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

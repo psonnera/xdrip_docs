@@ -5,11 +5,11 @@ xDrip provides an easy way to copy settings from one phone to another.
 Show settings QR code displays a QR code containing xDrip settings.
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
-&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show settings QR code
+&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show Settings QR codes
 :::
 
 ::: xdrip Share Settings via QR code
-&ensp;Use QR codes to transfer settings->Auto configure feature
+&ensp;Use QR codes to transfer settings using Settings->Auto Configure feature
 :::
 
 xDrip security key is used for xDrip Sync, if you only want to share a follower code (that is difficult to copy manually) use this.
@@ -112,4 +112,4 @@ You might need to restart your phone to apply the changes.
 
 <br>
 
-[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

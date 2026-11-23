@@ -80,10 +80,10 @@ Les plugins ne sont pas entièrement implémentés dans Wear. Vous pourriez voir
 
 ::: xdripitem Plugin de Calibration
 &emsp;None  
-&emsp;Datricsae  
-&emsp;Fixed slope - **NE PAS UTILISER**  
-&emsp;xDrip   
-&emsp;Last7Ua
+&emsp;Datricsae - pronounced: da-trix-ee - highly experimental  
+&emsp;Fixed Slope Example - never use for real data  
+&emsp;xDrip Original - classic algorithm  
+&emsp;Last7Ua - Unweighted last 7 calibrations. Example only
 :::
 
 **`None`** : par défaut, l'algorithme de xDrip est utilisé. **Recommandé**
@@ -116,7 +116,7 @@ Activez cette option si vous voulez que la valeur de glycémie principale provie
 <img src="./images/M-S-LCS-AC5a.png" style="zoom:75%;" />
 
 ::: xdripitem Plugin surpasse tous les autres <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;L'affichage des chiffres principaux de glucides proviennent du plugin !  
+&ensp;Toutes les nouvelles données de glycémie seront calculées et enregistrées du plugin sélectionné et non à partir de l'algorithme standard xDrip. Ce n'est pas testé et peut être inexacte et pleins de bug. Utiliser avec une extrême prudence.  
 :::
 
 Non implémenté.
@@ -169,13 +169,13 @@ Lors des mesures préliminaires avant la première calibration, 3 mesures valide
 
 ::: xdripitem Collecte des premières lectures
 &ensp;✔ Collecteur de données en cours d'exécution  
-&ensp;✔ Réception des données du Collecteur  
+&ensp;✔ Réception des données du Collecteur MiaoMiao  
 &ensp;✔ Reçu quelques données récentes  
 &ensp;⧖ Reçu assez de bonnes données pour calibrer  
-&ensp;**Need 3 recent readings, got only one so far**  
+&ensp;**Need 3 recent readings, got only 1 so far**  
 &ensp;Next reading expected in 1 minute 
 :::
 
 <br>
 
-[*Dernière modification le 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

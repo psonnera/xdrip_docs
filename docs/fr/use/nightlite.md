@@ -31,7 +31,8 @@ NightLite ne peut pas être utilisé lorsque xDrip fonctionne en tant qu'[abonn�
 Saisissez votre URL NightLite :
 
 ::: xdripitem NightLite URL
-&ensp;Contains your security key, do not disclose it. (contient votre clé de sécurité, ne la divulguez pas)
+&ensp;Typically entered by scanning QR code from dashboard (généralement saisie en scannant le QR code du tableau de bord)  
+&ensp;This contains your security key - do not disclose it (contient votre clé de sécurité, ne la divulguez pas)
 :::
 
 Activez ensuite l'envoi :
@@ -64,4 +65,4 @@ Le service NightLite peut renvoyer des notifications à xDrip et peut arrêter l
 
 <br>
 
-[*Dernière modification le 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

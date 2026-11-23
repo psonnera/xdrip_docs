@@ -27,9 +27,7 @@ Se ti servono altri quadranti o personalizzazioni puoi usare [Tasker](https://gi
 ::: xdripitem Integrazione Pebble
 :::
 
-L'uso dello smartwatch Pebble è una tappa storica di CGM in the Cloud. Pebble è stata acquistata da Fitbit nel 2016 e le risorse sono state spostate negli archivi e su [rebble.io](https://rebble.io/).
-
-Devi scaricare l'app dell'orologio da [APKMirror](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/).
+L'uso dello smartwatch Pebble è una tappa storica di CGM in the Cloud. Gli orologi Pebble originali sono stati dismessi nel 2016, quando Pebble è stata acquistata da Fitbit (le sue risorse sono state spostate negli archivi e su [rebble.io](https://rebble.io/)). Nel 2025 sono stati rilanciati nuovi modelli Pebble: xDrip li supporta entrambi, vedi [Integrazione Pebble](./pebble).
 
 ### [Servizio di sincronizzazione AmazFit](https://crazyinfo.de/2018/07/25/xdrip-smartwatch-widget-fuer-amazfit-pace-stratos/) {#amazfit-sync-service}
 
@@ -165,4 +163,4 @@ Di [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe9
 
 <br>
 
-[*Ultima modifica 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

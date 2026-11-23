@@ -57,14 +57,8 @@ Le Bluetooth doit être allumé. **Activez** `Activer le Bluetooth`.
 &ensp;Réinitialiser Bluetooth en le désactivant puis réactivant si nous n’obtenons rien pendant 20 minutes
 :::
 
-**Activez** le garde-fou Dex, mais lisez l'information ci-dessous.
-
-::: xdripitem Chien de garde Bluetooth Dex <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Réinitialiser Bluetooth en le désactivant et reactivant pour continuer de faire marcher la source de données. Sans cela, le collecteur peut échouer.
-:::
-
 ::: info Remarque
-Attention : le Garde-fou Bluetooth et le Chien de garde Bluetooth Dex éteignent puis rallument le Bluetooth du téléphone, ce qui provoque une déconnexion Bluetooth temporaire de tous les appareils connectés. Vous voudrez peut-être désactiver cette fonction si vous utilisez AAPS et que votre transmetteur ou votre pompe ne rétablit pas automatiquement la connexion Bluetooth.
+Attention : le Garde-fou Bluetooth éteint puis rallume le Bluetooth du téléphone, ce qui provoque une déconnexion Bluetooth temporaire de tous les appareils connectés. Vous voudrez peut-être désactiver cette fonction si vous utilisez AAPS et que votre transmetteur ou votre pompe ne rétablit pas automatiquement la connexion Bluetooth.
 :::
 
 **Désactivez** Fermer GATT.
@@ -180,4 +174,4 @@ Cela réinitialise toutes les calibrations et permet à xDrip de démarrer un no
 
 <br>
 
-[*Dernière modification le 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

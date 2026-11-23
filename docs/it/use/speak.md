@@ -67,4 +67,4 @@ E, facoltativamente, aggiungere una scorciatoia al menu principale.
 
 <br>
 
-[*Ultima modifica 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

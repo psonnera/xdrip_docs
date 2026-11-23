@@ -9,20 +9,20 @@ This can be used to share data with non-xDrip devices and for reporting.
 ### Nightscout Sync (REST-API)
 
 ::: xdripitem Nightscout Sync (REST-API)
-&ensp;The REST-API is the standard way to connect to Nightscout  
+&ensp;The REST API is the standard way to connect to Nightscout  
 :::
 
 [Nightscout](https://nightscout.github.io/) is the universal method to share your BG numbers, create reports and much more...
 
 After you have created your Nightscout site, enable Sync to upload data from xDrip.
 
-::: xdripitem Enable<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;The REST-API is the standard way to connect to Nightscout  
+::: xdripitem Enabled<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+&ensp;The REST API is the standard way to connect to Nightscout  
 :::
 
 If you want to use Nightscout to share your BG, make sure this is enabled if you're using a cellular phone with a SIM and a data plan. Else it will only upload when connected to a Wi-Fi network, which is fine if you use Nightscout to collect data for reports.
 
-::: xdripitem Use mobile data<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem Use mobile data<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
 &ensp;Upload even when using mobile data  
 :::
 
@@ -36,7 +36,7 @@ The base URL is composed of your API_SECRET (or a token) and the URL of your sit
 The example provided in the dialog was for an Azure based Nightscout.
 
 ::: xdripitem Base URL
-&ensp;https://password.hostname/api/v1  
+&ensp;Format: https://password@hostname/api/v1/  
 :::
 
 The URL format should be like this:
@@ -67,7 +67,7 @@ This is the same [Automatic Calibration](../calibrate/advancedcal#use-treatment-
 :::
 
 ::: xdripitem Automatic Calibration<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Calibrate using new blood glucose reading if the conditions appear right to do so without asking confirmation (experimental)  
+&ensp;Calibrate using new blood glucose readings if the conditions appear right to do so without asking confirmation (experimental)  
 :::
 
 <br>
@@ -84,11 +84,11 @@ If your Nightscout is available only on a local server (on a private IP), don't 
 You can upload your bridge or sensor battery level (if supported).
 
 ::: xdripitem Upload bridge battery<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Send your bridge battery level to Nightscout. Uncheck if your battery sensor is broken
+&ensp;Send your bridge battery level to Nightscout. Uncheck if your battery sensor is broken.
 :::
 
-::: xdripitem Upload OB1 Dex transmitter battery<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Send Dexcom transmitter battery statistics to Nightscout. Includes all the data shown on the Collector Status screen
+::: xdripitem Upload Dexcom battery<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Send Dexcom transmitter battery statistics to Nightscout. Includes all of the data shown on the Collector Status screen.
 :::
 
 You can upload locally entered [treatments](./mainUI#treatments) to Nightscout [Care Portal](https://nightscout.github.io/nightscout/setup_variables/#careportal-careportal).
@@ -104,7 +104,7 @@ You can set up an alert when upload fails, and add more information to the BG da
 :::
 
 ::: xdripitem Append source info to device name<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;For Dex, send collector type (e.g. OB1) and reading backfill status (for native) to Nightscout
+&ensp;For Dex, sends collector type (e.g. OB1) and reading backfill status (for native) to Nightscout.
 :::
 
 ##### Backfill data to Nightscout
@@ -119,7 +119,7 @@ Select the first day of the period you want to upload (until today) and touch **
 Depending on the amount of data and network speed, upload can take a very long time (hours).
 
 ::: xdrip <img src="../images/BDM.png" style="zoom:75%;" />Nightscout Backfill
-Choose the date for the oldest record to send to Nightscout, use with care!  
+Choose the date for the oldest record to send to Nightscout. Use with care!  
 
 
 <div style="background-color: gray; color: white; text-align: center;">  &emsp;FEBRUARY 12, 2022 11:29PM&emsp;</div>  
@@ -184,23 +184,25 @@ Once you have an active follower, created by the Dexcom apps, you can use xDrip 
 You can upload your BG to Dexcom Share, **not to Dexcom Clarity**.
 :::
 
-::: xdripitem Upload BG values as Dexcom Share<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Enable this to upload to Dexcom's servers
+::: xdripitem Upload BG values to Dex Share<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Enable this to upload to Dex Share servers
 :::
 
 If you use a USA account enable this, **for any other country leave it disabled**. 
 
-::: xdripitem Dexcom USA based account<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Enable = Your account and follower apps are from the USA
+::: xdripitem Dex USA based account<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Enabled = Your account and follower apps are from the USA
 :::
 
 Enter the credentials you use to log into Clarity.
 
-::: xdripitem Dexcom Account Login
+::: xdripitem Dex Account Login
+&ensp;Your login for Dex share
 :::
 
 
-::: xdripitem Dexcom Account Password
+::: xdripitem Dex Account Password
+&ensp;Your password for Dex share
 :::
 
 ### Tidepool
@@ -256,12 +258,6 @@ If you also upload data manually from your pump, you might want to disable xDrip
 Upload only CGM data to avoid duplicates with manual pump upload
 :::
 
-If upload fails, enable the new authentication protocol.
-
-::: xdripitem Use new Auth<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-2023 openid authentication method
-:::
-
 ##### Web Deposit
 
 Web Deposit is a simple batch upload API currently used for diagnostics. It's hidden behind Engineering Mode and not intended for regular use.
@@ -281,7 +277,8 @@ See [NightLite follower setup](./nightlite) for the full install sequence.
 :::
 
 ::: xdripitem NightLite URL
-&ensp;Contains your security key, do not disclose it. Typically entered by scanning a QR code from the dashboard.
+&ensp;Typically entered by scanning QR code from dashboard  
+&ensp;This contains your security key - do not disclose it
 :::
 
 Once enabled, you can show a QR code containing your NightLite connection details for followers to scan.
@@ -309,7 +306,7 @@ Enter the address of your Nocturne instance.
 Then authorize xDrip with your instance. No password is stored in xDrip: a code is displayed, which you enter on your Nocturne instance's approval page in the browser to complete the connection.
 
 ::: xdripitem Connect to Nocturne
-&ensp;Authorize xDrip+ with your Nocturne instance
+&ensp;Authorize xDrip with your Nocturne instance
 :::
 
 #### Quick Connect from Nocturne
@@ -381,4 +378,4 @@ Select which data to upload. Glucose readings are enabled by default; everything
 
 <br>
 
-[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

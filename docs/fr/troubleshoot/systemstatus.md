@@ -83,7 +83,7 @@ Indique quand xDrip a reçu les données par rapport à l'heure attendue. Quelqu
 
 #### G6, G7, 1 et 1+ {#g6-g7-1-and-1}
 
-Voir [ici](https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html).
+Voir les pages dédiées [G6/ONE](./g6) et [G7/ONE+](./g7). Plus de détails sur la connectivité [ici](https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html).
 
 #### Libre Bluetooth {#libre-bluetooth}
 
@@ -123,4 +123,4 @@ Les anciennes versions d'Android peuvent utiliser des certificats expirés et em
 
 <br>
 
-[*Dernière modification le 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

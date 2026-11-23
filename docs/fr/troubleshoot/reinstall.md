@@ -91,8 +91,7 @@ Une fois l'installation de xDrip terminée, si une sauvegarde de base de donnée
 Vérifiez qu'il s'agit bien de la base de données que vous voulez restaurer, puis sélectionnez RESTAURER.
 
 ::: xdripitem Restaurer la sauvegarde ?
-&emsp;Voulez-vous restaurer le fichier de sauvegarde :  
-&emsp;file:export20210328-085436.zip  
+&emsp;Voulez-vous restaurer le fichier de sauvegarde : export20210328-085436.zip  
 
 
 &emsp;NON&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;RESTAURER&ensp;</span>
@@ -100,8 +99,8 @@ Vérifiez qu'il s'agit bien de la base de données que vous voulez restaurer, pu
 
 xDrip confirmera que la base de données a bien été restaurée.
 
-::: xdripitem Import result
-&emsp;Successfully imported database.
+::: xdripitem Import Result
+&emsp;Successfully imported database
 :::
 
 *Remarque : par sécurité, la base de données actuelle est d'abord exportée ; vous la trouverez dans la liste sous le nom `b4import` suivi de la date et de l'heure de l'importation. Vous pourrez ainsi la récupérer si nécessaire.*
@@ -144,17 +143,17 @@ b4import20220129-194141.zip
 Une fois certain de restaurer la bonne sauvegarde, `D'accord`
 
 ::: xdripitem Confirm Import
-&emsp;Do you want to import  
+&emsp;Do you really want to import  
 &emsp;'export20220129-184615.zip'?  
-&emsp;This might negatively affect the data integrity of your system!  
+&emsp;This may negatively affect the data integrity of your system!  
 
 &emsp;ANNULER&emsp;&emsp;&emsp;&emsp;<span style="background-color: white; color: black;">&ensp;D'ACCORD&ensp;</span>
 :::
 
 xDrip confirmera que la base de données a bien été restaurée.
 
-::: xdripitem Import result
-&emsp;Successfully imported database.
+::: xdripitem Import Result
+&emsp;Successfully imported database
 :::
 
 Si vous avez restauré la mauvaise base de données, refaites simplement les mêmes étapes et sélectionnez la dernière version `b4import` pour revenir en arrière.
@@ -280,4 +279,4 @@ Sur le nouveau téléphone :
 
 <br>
 
-[*Dernière modification le 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

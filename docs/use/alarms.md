@@ -61,7 +61,7 @@ To modify an existing alert, long touch the alert
 
 - xDrip default sound uses the app default.
 
-::: xdripitem What type of Alert?
+::: xdripitem What type of sound?
 &emsp;System sound/Alarm  
 &emsp;Custom Sound/Alarm  
 &emsp;Default xDrip Sound
@@ -184,7 +184,7 @@ Buttons silence alarms is a quick way to snooze alarms by just pressing volume u
 Alert buttons will add an action button in the drop down view of the alert.
 
 ::: xdripitem Alert buttons <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Show action buttons (like Snooze Alert) within alert notifications
+&ensp;Show action buttons (like Snooze) within alert notifications
 :::
 
 <img src="./images/M-S-AA-GAm2.png" style="zoom:75%;" />
@@ -348,12 +348,12 @@ When relying on xDrip to alert you for lows and highs, it is essential to make s
 
 Setup is similar to [glucose level alerts](#glucose-level-alerts-list). **The alarm sound has to be defined in Other Alerts** (See [below](#alert-preferences)). In order to test it, put your phone in airplane mode until it triggers.
 
-::: xdrip ☰&emsp;Configure Missed Readings
-&emsp;<small>✅ Enable missed reading alert</small>  
-&emsp;<small>Alert if no data is received in:</small>  
+::: xdrip ☰&emsp;Missed readings
+&emsp;<small>✅ Enable Missed Reading Alert</small>  
+&emsp;<small>Alert if no data received in:</small>  
 &emsp;<small><u>&ensp;30&ensp;</u>&ensp;minutes</small>  
 &emsp;<small>Select time for alert:</small>  
-&emsp;<small>✅ All day</small>  
+&emsp;<small>✅ all day</small>  
 
 &emsp;<small>Wait before raising the same alert after snooze:</small>  
 &emsp;<small><u>&ensp;20&ensp;</u>&ensp;minutes</small>  
@@ -405,14 +405,14 @@ You can also set up alerts for fast BG changes and define the 1 minute change tr
 :::
 
 ::: xdripitem falling rate threshold
-&ensp;3mg/dl/min (0.17mmol/l/min)
+&ensp;3 mg/dl/min (0.17 mmol/l/min)
 :::
 
 ::: xdripitem BG rising fast<img src="../images/DIS.png" style="zoom:75%;">
 :::
 
 ::: xdripitem rising rate threshold 
-&ensp;3mg/dl/min (0.17mmol/l/min)
+&ensp;3 mg/dl/min (0.17 mmol/l/min)
 :::
 
 ##### Alert preferences
@@ -457,8 +457,8 @@ Instead of a high alert that will trigger as soon as BG reaches the trigger valu
 :::
 
 ::: xdripitem Threshold: High Value<img src="../images/ON.png" style="zoom:75%;">
-&ensp;When enabled, High value is the threshold.  
-&ensp;When disabled, the threshold is the value defined below.  
+&ensp;When enabled, High Value is the threshold.  
+&ensp;When disabled, the threshold is the value specified below.  
 :::
 
 ::: xdripitem Threshold
@@ -474,11 +474,10 @@ Instead of a high alert that will trigger as soon as BG reaches the trigger valu
 :::
 
 ::: xdripitem Alert Sound  
-&ensp;Choose the sound used for the alarm
+&ensp;Choose the sound used for the alarm.
 :::
 
 ::: xdripitem Override Silent Mode<img src="../images/DIS.png" style="zoom:75%;">
-&ensp;Ring this alert even when the phone is set to silent
 :::
 
 ::: xdripitem Vibrate on alert<img src="../images/EN.png" style="zoom:75%;">
@@ -493,33 +492,32 @@ You can set an alarm on forecasted low value. This feature will use the **moment
 
 Forecast Lows will display a message on xDrip screen. In order to have an alarm sound when a low is forecast, enable Raise alarm on Forecast Low.
 
-::: xdripitem Forecasted Lows<img src="../images/ON.png" style="zoom:75%;">
-&ensp;Extrapolate data to try to predict lows
+::: xdripitem Forecast Lows<img src="../images/ON.png" style="zoom:75%;">
+&ensp;Considering the current value and trend, calculate what the next few readings will be if the trend persists (extrapolate). This ignores insulin or carbs on board.
 :::
 
 ::: xdripitem Raise alarm on Forecast Low<img src="../images/DIS.png" style="zoom:75%;">
-&ensp;Notify when predicted low time reaches threshold
+&ensp;Notify when forecasted low time reaches time threshold
 :::
 
 ::: xdripitem Threshold: Low Value<img src="../images/ON.png" style="zoom:75%;">
-&ensp;When enabled, Low value is the threshold.  
-&ensp;When disabled, the threshold is the value defined below.
+&ensp;When enabled, Low Value is the threshold.  
+&ensp;When disabled, the threshold is the value specified below.
 :::
 
 ::: xdripitem Threshold
 &ensp;70 mg/dl
 :::
 
-::: xdripitem Alarm at Forecast Low min
+::: xdripitem Time threshold [min]
 &ensp;40
 :::
 
-::: xdripitem Predicted Low Sound 
-&ensp;Choose the sound used for the alarm
+::: xdripitem Alert Sound
+&ensp;Choose the sound used for the alarm.
 :::
 
 ::: xdripitem Override Silent Mode<img src="../images/DIS.png" style="zoom:75%;">
-&ensp;Ring this alert even when the phone is set to silent
 :::
 
 ::: xdripitem Vibrate on alert<img src="../images/EN.png" style="zoom:75%;">
@@ -652,4 +650,4 @@ You can also completely turn off [notification channels](#notification-channels)
 
 
 
-[*Last modified 24/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

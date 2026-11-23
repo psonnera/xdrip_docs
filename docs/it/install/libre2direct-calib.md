@@ -13,41 +13,21 @@ Scansiona il codice QR qui sotto per caricare le impostazioni necessarie per Lib
 Scansionando il codice QR otterrai le impostazioni e i valori seguenti.
 Sono le modifiche alle impostazioni necessarie per il corretto funzionamento di Libre 2 diretto.
 
-Dati Hardware di origine/Libre Bluetooth (voce di menu)
-    
-Funzionalità Scansione NFC/Usa funzionalità NFC = true
-.  
-Funzionalità Scansione NFC/Avvio della connessione bluetooth con i sensori Libre2  (Connettersi sempre ai sensori Libre 2) 
-   
-Funzionalità Scansione NFC/Usa il metodo più veloce di lettura multi-blocco = false
-.   
-Funzionalità Scansione NFC/Usa il metodo di lettura ottimizzato any-tag = false
-.  
-
-Impostazioni Meno Usate/Impostazioni avanzate per Libre 2/Mostra i valori grezzi nel grafico = true
-     
-Impostazioni Meno Usate/Impostazioni avanzate per Libre 2/Mostra informazioni sensore nello stato = true
-    
-     
-     
-Impostazioni Meno Usate/Altre opzioni/Algoritmo Libre OOP. = false
-     
-Impostazioni Meno Usate/Altre opzioni/Calibrazione dell'algoritmo OOP2./calibrate based on raw 
-    
-Impostazioni Meno Usate/Altre opzioni/Liscia dati Libre. = true
-     
-Impostazioni Meno Usate/Altre opzioni/Recupera cronologia Libre = true
-     
-
-Impostazioni Meno Usate/Impostazioni Bluetooth/Attiva Bluetooth = true
-   
-Impostazioni Meno Usate/Impostazioni Bluetooth/Consenti unbonding Blucon = true
-    
-Impostazioni Meno Usate/Impostazioni Bluetooth/Watchdog Bluetooth = true
-   
-Impostazioni Meno Usate/Impostazioni Bluetooth/Trust Auto-Connect = true
-    
-Impostazioni Meno Usate/Impostazioni Bluetooth/Usa Scansione In Background = true
-    
-Impostazioni Meno Usate/Impostazioni Bluetooth/Chiusura GATT per scollegamento BLE = false
+- Dati Hardware di origine = Libre Bluetooth
+- Funzionalità Scansione NFC → Usa funzionalità NFC = attivato
+- Funzionalità Scansione NFC → Avvio della connessione bluetooth con i sensori Libre2 = Connettersi sempre ai sensori Libre 2
+- Funzionalità Scansione NFC → Usa il metodo più veloce di lettura multi-blocco = disattivato
+- Funzionalità Scansione NFC → Usa il metodo di lettura ottimizzato any-tag = disattivato
+- Impostazioni Meno Usate → Impostazioni avanzate per Libre 2 → Mostra i valori grezzi nel grafico = attivato
+- Impostazioni Meno Usate → Impostazioni avanzate per Libre 2 → Mostra informazioni sensore nello stato = attivato
+- Impostazioni Meno Usate → Altre opzioni → Algoritmo Libre OOP. = disattivato
+- Impostazioni Meno Usate → Altre opzioni → Calibrazione dell'algoritmo OOP2. = Calibrate based on raw
+- Impostazioni Meno Usate → Altre opzioni → Liscia dati Libre. = attivato
+- Impostazioni Meno Usate → Altre opzioni → Recupera cronologia Libre = attivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Attiva Bluetooth = attivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Consenti unbonding Blucon = attivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Watchdog Bluetooth = attivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Trust Auto-Connect = attivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Usa Scansione In Background = attivato
+- Impostazioni Meno Usate → Impostazioni Bluetooth → Chiusura GATT per scollegamento BLE = disattivato
     

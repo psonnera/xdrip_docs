@@ -11,7 +11,7 @@ This menu provides some important settings and mechanisms for calibration.
 You can decide to use BG [treatments](../use/mainUI#treatments) (blood tests) as calibrations.
 
 ::: xdripitem Use Treatment BG values
-&ensp;Choose whether to calibrate with the BG value in a Treatments entry  
+&ensp;Choose whether to calibrate with the BG value in a Treatment entry  
 :::
 
 ::: warning
@@ -54,8 +54,8 @@ It is recommended to **disable this for G6/G7/1/1+ sensors**.
 
 Automatic calibration will accept a treatment as a calibration if it satisfies the conditions of a flat trend for 20 minutes.
 
-::: xdripitem Automatic Calibrations <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Calibrate using new blood glucose reading if the conditions appear right to do so without asking confirmation (experimental)  
+::: xdripitem Automatic Calibration <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Calibrate using new blood glucose readings if the conditions appear right to do so without asking confirmation (experimental)  
 :::
 
 ### Plugins
@@ -67,7 +67,7 @@ Calibration plugins are available in xDrip, most are not used anymore. If enable
 :::
 
 ::: xdripitem Calibration Plugin
-&ensp;Experimental calibration secondary plugin  
+&ensp;Experimental secondary calibration plugin  
 :::
 
 ::: warning Wear extension
@@ -76,10 +76,10 @@ Plugins are not fully implemented in Wear. You might see different values on you
 
 ::: xdripitem Calibration Plugin
 &emsp;None  
-&emsp;Datricsae  
-&emsp;Fixed slope - **DO NOT USE**  
-&emsp;xDrip   
-&emsp;Last7Ua
+&emsp;Datricsae - pronounced: da-trix-ee - highly experimental  
+&emsp;Fixed Slope Example - never use for real data  
+&emsp;xDrip Original - classic algorithm  
+&emsp;Last7Ua - Unweighted last 7 calibrations. Example only
 :::
 
 **`None`** by default the xDrip algorithm is used. **Recommended**
@@ -112,7 +112,7 @@ Enable if you want the main BG number to be from plugin results. A circled P wil
 <img src="./images/M-S-LCS-AC5a.png" style="zoom:75%;" />
 
 ::: xdripitem Plugin Override ALL <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;Main glucose display number comes from plugin!  
+&ensp;ALL new glucose data will be calculated and saved from the selected plugin and not from the standard xDrip algorithm. This is untested and may be inaccurate and buggy. Use with extreme caution.  
 :::
 
 Not implemented.
@@ -164,14 +164,14 @@ Carrying forward calibrations from the old sensor to a new one is dangerous. **L
 During preliminary measurements for first calibration, 3 valid measurements are required. If they are missing or fail safety values, xDrip will wait. Enabling this will allow calibration without checking. **Not recommended.**
 
 ::: xdripitem Collecting Initial Readings
-&ensp;✔ Data collector running  
-&ensp;✔ Receiving data from collector  
-&ensp;✔ Received some recent data  
-&ensp;⧖ Received enough good data to calibrate  
-&ensp;**Need 3 recent readings, got only one so far**  
+&ensp;✔ Data Collector Running  
+&ensp;✔ Receiving Data from MiaoMiao Collector  
+&ensp;✔ Received Some Recent Data  
+&ensp;⧖ Received Enough Good Data to Calibrate  
+&ensp;**Need 3 recent readings, got only 1 so far**  
 &ensp;Next reading expected in 1 minute 
 :::
 
 <br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

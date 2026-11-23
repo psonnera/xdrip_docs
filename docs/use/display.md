@@ -1,24 +1,25 @@
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Display Settings
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_chart_areaspline_grey600_48dp.png" style="width:5%;" />&ensp;Display
 :::
 
 This menu allows you to customize many visual aspect settings of xDrip.
 
-::: xdripitem xDrip Display Settings
+::: xdripitem Display
+&ensp;Display customizations
 :::
 
 *Note: Check [Graph settings](#graph-settings) features before using Color settings.*
 
 ### Color Settings
 
-::: xdripitem xDrip Color Settings
+::: xdripitem Color settings
   &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_palette_grey600_48dp.png" style="width:8%;" />&ensp;Customize Colors
 :::
 
 The example chart on top will show the effect of what you modify.
 
-::: xdripitem Example Chart
+::: xdripitem Example graph
   &emsp;<img src="./images/M-S-DS2a.png" style="zoom:75%;" />
 :::
 
@@ -40,17 +41,17 @@ You can customize the main BG plot. High and Low limits are defined in [Glucose 
 
 High, In-range and Low Values color will change the graph and limit lines on your main view, notification and widget charts.
 
-::: xdrip <small><small>GLUCOSE VALUES AND LINES</small></small>
-High Glucose Values<span style="float: right; width: 40px; height: 40px; background-color: #FFBB33; display: inline-block;"></span>  
+::: xdrip <small><small>READING DOTS</small></small>
+High<span style="float: right; width: 40px; height: 40px; background-color: #FFBB33; display: inline-block;"></span>  
 
 
-In-Range Glucose Values<span style="float: right; width: 40px; height: 40px; background-color: #33B5E6; display: inline-block;"></span>  
+In-range<span style="float: right; width: 40px; height: 40px; background-color: #33B5E6; display: inline-block;"></span>  
 
-Low Glucose Values<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
+Low<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
 
-Bad Glucose Values<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
+Bad<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
 
-Filtered Values<span style="float: right; width: 40px; height: 40px; background-color: #A0A0A0; display: inline-block;"></span>  
+Filtered<span style="float: right; width: 40px; height: 40px; background-color: #A0A0A0; display: inline-block;"></span>  
 :::
 
 <img src="./images/M-S-DS2b2.png" style="zoom:75%;" />
@@ -65,21 +66,25 @@ You can also customize the current BG value and trend arrow color with respect t
 
 <img src="./images/M-S-DS2b.png" style="zoom:75%;" />
 
-::: xdrip <small><small>COLOR OF THE BG READING AND TREND ARROW</small></small>
-High Glucose Values<span style="float: right; width: 40px; height: 40px; background-color: #FFBB33; display: inline-block;"></span>  
+::: xdrip <small><small>FONTS</small></small>
+High<span style="float: right; width: 40px; height: 40px; background-color: #FFBB33; display: inline-block;"></span>  
 
 
-In-Range Glucose Values<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
+In-range<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
 
-Low Glucose Values<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
+Low<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
+
+Forecasted low (critical)<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
 :::
+
+Forecasted low (critical) is the color of the forecasted low message on the main screen when the low is close.
 
 ##### Treatments and predictions curves
 
 1. Insulin on board ([treatment](./mainUI#units-of-insulin) main curve)
 2. Insulin activity (small dotted line)
 
-::: xdrip <small><small>TREATMENTS/PREDICTION CURVES</small></small>
+::: xdrip <small><small>TREATMENTS / PREDICTION CURVES</small></small>
 Insulin on Board<span style="float: right; width: 40px; height: 40px; background-color: #77AA00; display: inline-block;"></span>  
 
 
@@ -93,7 +98,7 @@ Insulin Activity<span style="float: right; width: 40px; height: 40px; background
 1. Glucose [prediction](./predictions) (main prediction graph)
 2. [Carbs](./mainUI#grams-of-carbs) on board (small dotted line)
 
-::: xdrip <small><small>TREATMENTS/PREDICTION CURVES</small></small>
+::: xdrip <small><small>TREATMENTS / PREDICTION CURVES</small></small>
 Glucose Prediction<span style="float: right; width: 40px; height: 40px; background-color: #AA66CC; display: inline-block;"></span>  
 
 
@@ -109,12 +114,12 @@ Carbs on Board<span style="float: right; width: 40px; height: 40px; background-c
 3. Target line
 
 ::: xdrip <small><small>AVERAGE AND TARGET LINES</small></small>
-8-Hour Average Line<span style="float: right; width: 40px; height: 40px; background-color: #558800; display: inline-block;"></span>  
+8-hour average<span style="float: right; width: 40px; height: 40px; background-color: #558800; display: inline-block;"></span>  
 
 
-24-Hour Average Line<span style="float: right; width: 40px; height: 40px; background-color: #C56F9D; display: inline-block;"></span>  
+24-hour average<span style="float: right; width: 40px; height: 40px; background-color: #C56F9D; display: inline-block;"></span>  
 
-Glucose Target Line<span style="float: right; width: 40px; height: 40px; background-color: #A4A409; display: inline-block;"></span>  
+Target<span style="float: right; width: 40px; height: 40px; background-color: #A4A409; display: inline-block;"></span>  
 :::
 
 <img src="./images/M-S-DS2g2.png" style="zoom:75%;" />
@@ -124,14 +129,14 @@ Glucose Target Line<span style="float: right; width: 40px; height: 40px; backgro
 [Blood tests (also calibrations), and treatments.](./mainUI#treatments)
 
 ::: xdrip <small><small>ANNOTATIONS AND DOTS</small></small>
-Blood Test Background<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
+Blood test background<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
 
 
-Blood Test Foreground<span style="float: right; width: 40px; height: 40px; background-color: #FF4444; display: inline-block;"></span>  
+Blood test dot<span style="float: right; width: 40px; height: 40px; background-color: #FF4444; display: inline-block;"></span>  
 
-Treatment Background<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
+Treatment background<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
 
-Treatment Foreground<span style="float: right; width: 40px; height: 40px; background-color: #77AA00; display: inline-block;"></span>  
+Treatment dot<span style="float: right; width: 40px; height: 40px; background-color: #77AA00; display: inline-block;"></span>  
 :::
 
 ##### 
@@ -143,12 +148,12 @@ Treatment Foreground<span style="float: right; width: 40px; height: 40px; backgr
 Graph backgrounds, main chart
 
 ::: xdrip <small><small>BACKGROUNDS</small></small>
-Main Chart Background  <span style="float: right; width: 40px; height: 40px; background-color: #212121; border: 1px solid #FFFFFF; display: inline-block;"></span>  
+Main graph  <span style="float: right; width: 40px; height: 40px; background-color: #212121; border: 1px solid #FFFFFF; display: inline-block;"></span>  
 
 
-Notification Chart Background  <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #FFFFFF; background-image: linear-gradient(45deg, #888 25%, transparent 25%, transparent 75%, #888 75%, #888), linear-gradient(45deg, #888 25%, transparent 25%, transparent 75%, #888 75%, #888); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
+Notification graph  <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #FFFFFF; background-image: linear-gradient(45deg, #888 25%, transparent 25%, transparent 75%, #888 75%, #888), linear-gradient(45deg, #888 25%, transparent 25%, transparent 75%, #888 75%, #888); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
 
-Widget Chart Background <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #4C4C4C; background-image: linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333), linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
+Widget <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #4C4C4C; background-image: linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333), linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
 :::
 
 Example: notification chart background
@@ -161,7 +166,7 @@ If you use a [plugin](../calibrate/advancedcal#plugins) you can also display the
 Plugin plot on graph must be enabled.
 
 ::: xdrip <small><small>PLUGINS AND FEATURES</small></small>
-Secondary Plugin Glucose value  <span style="float: right; width: 40px; height: 40px; background-color: #292A2B; border: 1px solid #FFFFFF; display: inline-block;"></span>  
+Secondary plugin value  <span style="float: right; width: 40px; height: 40px; background-color: #292A2B; border: 1px solid #FFFFFF; display: inline-block;"></span>  
 :::
       
 
@@ -170,9 +175,9 @@ Secondary Plugin Glucose value  <span style="float: right; width: 40px; height: 
 If you have steps and heart rate from a [wearable device](../smartwatch/smartwatch#smartwatch-sensors) you can customize graph colors. 
 
 ::: xdrip <small><small>PLUGINS AND FEATURES</small></small>
-Step counter 1st Color <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #CBE5DF; background-image: linear-gradient(45deg, #6B857F 25%, transparent 25%, transparent 75%, #6B857F 75%, #6B857F), linear-gradient(45deg, #6B857F 25%, transparent 25%, transparent 75%, #6B857F 75%, #6B857F); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
+Step counter 1st color <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #CBE5DF; background-image: linear-gradient(45deg, #6B857F 25%, transparent 25%, transparent 75%, #6B857F 75%, #6B857F), linear-gradient(45deg, #6B857F 25%, transparent 25%, transparent 75%, #6B857F 75%, #6B857F); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
 
-Step counter 2nd Color <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #DEF1F0; background-image: linear-gradient(45deg, #7D908F 25%, transparent 25%, transparent 75%, #7D908F 75%, #7D908F), linear-gradient(45deg, #7D908F 25%, transparent 25%, transparent 75%, #7D908F 75%, #7D908F); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
+Step counter 2nd color <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #DEF1F0; background-image: linear-gradient(45deg, #7D908F 25%, transparent 25%, transparent 75%, #7D908F 75%, #7D908F), linear-gradient(45deg, #7D908F 25%, transparent 25%, transparent 75%, #7D908F 75%, #7D908F); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
 
 Heart rate monitor <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #DADCF9; background-image: linear-gradient(45deg, #707290 25%, transparent 25%, transparent 75%, #707290 75%, #707290), linear-gradient(45deg, #707290 25%, transparent 25%, transparent 75%, #707290 75%, #707290); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>
 :::
@@ -185,7 +190,7 @@ In the example below 1. heart rate and 2. step counter.
 
 If you manage to display basal ([from AAPS](#basal-information) or [manual setup](./predictions#basal-profile-editor)) you can also customize the color.
 
-::: xdrip <small><small>INSULIN COLORS</small></small>
+::: xdrip <small><small>INSULIN</small></small>
 Basal TBR <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #558AE4; background-image: linear-gradient(45deg, #3F74CE 25%, transparent 25%, transparent 75%, #3F74CE 75%, #3F74CE), linear-gradient(45deg, #3F74CE 25%, transparent 25%, transparent 75%, #3F74CE 75%, #3F74CE); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
 
 SMB Icon <span style="float: right; display: inline-block; width: 40px; height: 40px; background-color: #E4DF63; background-image: linear-gradient(45deg, #CEC94D 25%, transparent 25%, transparent 75%, #CEC94D 75%, #CEC94D), linear-gradient(45deg, #CEC94D 25%, transparent 25%, transparent 75%, #CEC94D 75%, #CEC94D); background-size: 20px 20px; background-position: 0 0, 10px 10px; border: 1px solid #000;"></span>  
@@ -203,7 +208,7 @@ SMB Line <span style="float: right; display: inline-block; width: 40px; height: 
 
 If you want to put some color on the top and bottom bars of your Android screen, enable flair colors.
 
-::: xdrip <small><small>FLAIR COLORS</small></small>
+::: xdrip <small><small>FLAIR</small></small>
 Custom Title/Nav Bar  <span style="float: right;"><img src="../images/OFF.png" style="zoom:75%;" /></span>   
 
 
@@ -243,7 +248,7 @@ Select the language in Choose a specific language.
 
 <img src="./images/M-S-DS3a.png" style="zoom:75%;" />
 
-Toggle the Force language Text switch to ON.
+Toggle the Force English Text switch to ON.
 
 ::: xdripitem Force English Text<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
 :::
@@ -253,7 +258,7 @@ Toggle the Force language Text switch to ON.
 Smoothing displays the smoothed curve (it does not change readings), useful for noisy measurements.  
 You can also try [Graph smoothing](#graph-smoothing) to clean your graph.
 
-::: xdripitem Smooth sensor noise<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem ⚠ Smooth sensor noise<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
 &ensp;Try to work around noisy readings
 :::
 
@@ -264,7 +269,7 @@ You can also try [Graph smoothing](#graph-smoothing) to clean your graph.
 After you first install xDrip you will see hints during first opening of some features, you can disable this behavior or reset it.
 
 ::: xdripitem Show interface hints<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Show tips/hints describing buttons functions etc. Uncheck and recheck to reset to the beginning.
+&ensp;Show tips / hints describing button functions etc. Uncheck and Recheck to reset to the beginning
 :::
 
 <img src="./images/M-S-DS5a.png" style="zoom:75%;" />
@@ -423,9 +428,10 @@ You can visualize various reference lines on the graph:
 
 ##### G6 predictions
 
-G6 prediction is a built-in feature of the G6 transmitter showing as small grey dots.
+Dex Prediction is a built-in feature of the Dexcom G6 transmitter showing as small grey dots.
 
-::: xdripitem G6 prediction <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+::: xdripitem Dex Prediction <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Show Dex predictive glucose dots
 :::
 
 <img src="./images/M-S-DS6j2.png" style="zoom:75%;" />
@@ -500,8 +506,8 @@ By default, whenever readings are out of this range, the graph will temporarily 
 If you'd rather keep the Y-axis range fixed and pan the graph vertically instead of expanding it, enable Auto-pan.
 
 ::: xdripitem Auto-pan Y-axis <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Enable: Pan the graph with a fixed Y-axis range (minimum-maximum) to show out-of-range readings.  
-&ensp;Disable: Expand the Y-axis range to include out-of-range readings.
+&ensp;**Enable:** Pan the graph with a fixed Y-axis range (minimum–maximum) to show out-of-range readings.  
+&ensp;**Disable:** Expand the Y-axis range to include out-of-range readings.
 :::
 
 ### Glucose number from Filtered
@@ -529,7 +535,7 @@ Bolus Wizard Preview will show only when either carbs or insulin are present.
 <img src="./images/M-S-DS6s3.png" style="zoom:75%;" />
 
 ::: xdripitem Always show Bolus Wizard Preview <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Display Insulin/Carb calculations all the time
+&ensp;Display Insulin/Carb calculations at all times
 :::
 
 If you force always show BWP it will always suggest a correction (insulin or carbs).
@@ -543,7 +549,7 @@ This will bring xDrip [graph and notifications](./misc#run-collector-in-foregrou
 You can disable High Priority Notifications if you'd rather have xDrip lower in the notifications list. The [collector always runs in foreground](./misc#run-collector-in-foreground) on Android 8.0 and above, so xDrip won't be put to sleep by Android.
 
 ::: xdripitem High Priority Notifications<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Show notifications and graph at the top (also useful on lock screen).
+&ensp;Show notifications and graph at the top (also useful on lockscreen)
 :::
 
 <img src="./images/M-S-DS2j2.png" style="zoom:75%;" />
@@ -578,14 +584,14 @@ xDrip can use Android accessibility to display its widget in the always on displ
 On Android 16 and above, you can alternatively show your glucose as a notification chip on the lock screen / always on display, using the ongoing persistent notification instead of accessibility. This relies on [Notification Channels](./alarms#notification-channels), which are always active on Android 8.0 and above.
 
 ::: xdripitem Use AOD chip style <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Display notification chip and lock screen notification. Android 16+ only
+&ensp;Display notification chip and lockscreen notification. Android 16+ only
 :::
 
 ### Numbered wall on Locked Screen
 
 xDrip can display your BG value on the phone locked screen.
 
-::: xdripitem Numbered wall on Locked Screen
+::: xdripitem Number wall on lock screen
 :::
 
 This menu allows you to customize the number displayed.
@@ -628,12 +634,12 @@ Text shadow color<span style="float: right; width: 40px; height: 40px; backgroun
 
 Enable and disable the feature for a defined period of the day. By default it is enabled all day long.
 
-::: xdripitem Start time (all day)
+::: xdripitem Start time
 Choose number wall start time (same as end for all day)
 :::
 
 ::: xdripitem End time
-Choose number wall end time - set to same as start time for always on
+Choose number wall end time (same as start for all day)
 :::
 
 ### Number Icon in Notification Area
@@ -681,4 +687,4 @@ It might be a good idea to enable this feature if your phone performs automatic 
 
 <br>
 
-[*Last modified 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

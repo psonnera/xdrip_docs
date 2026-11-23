@@ -232,4 +232,4 @@ The U1 and U2 are no longer sold but run the same full-xDrip package as the U3, 
 
 <br>
 
-[*Last modified 7/18/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 18/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)

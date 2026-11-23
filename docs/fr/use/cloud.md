@@ -20,13 +20,13 @@ Cela permet de partager les données avec des appareils autres que xDrip et de p
 
 Une fois votre site Nightscout créé, activez la synchronisation pour envoyer les données depuis xDrip.
 
-::: xdripitem Activer<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem Activée<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
 &ensp;L'API REST est le moyen standard de se connecter à Nightscout  
 :::
 
 Si vous voulez utiliser Nightscout pour partager vos glycémies, vérifiez que cette option est activée si vous utilisez un téléphone mobile avec une carte SIM et un forfait de données. Sinon, l'envoi n'aura lieu que lorsque vous êtes connecté à un réseau Wi-Fi, ce qui convient si vous utilisez Nightscout pour collecter des données pour vos rapports.
 
-::: xdripitem Utiliser les données mobiles<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem Utiliser les données mobiles<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
 &ensp;Charger même en utilisant les données mobiles  
 :::
 
@@ -40,7 +40,7 @@ L'URL de base est composée de votre API_SECRET (ou d'un jeton) et de l'URL de v
 L'exemple fourni dans la boîte de dialogue concernait un Nightscout hébergé sur Azure.
 
 ::: xdripitem URL de base
-&ensp;https://password.hostname/api/v1  
+&ensp;Format: https://password@hostname/api/v1/  
 :::
 
 Le format de l'URL doit être le suivant :
@@ -123,7 +123,7 @@ Sélectionnez le premier jour de la période à envoyer (jusqu'à aujourd'hui) e
 Selon la quantité de données et la vitesse du réseau, l'envoi peut prendre très longtemps (des heures).
 
 ::: xdrip <img src="../images/BDM.png" style="zoom:75%;" />Nightscout Backfill
-Choose the date for the oldest record to send to Nightscout, use with care!  
+Choose the date for the oldest record to send to Nightscout. Use with care!  
 
 
 <div style="background-color: gray; color: white; text-align: center;">  &emsp;FEBRUARY 12, 2022 11:29PM&emsp;</div>  
@@ -189,7 +189,7 @@ Vous pouvez envoyer vos glycémies vers Dexcom Share, **pas vers Dexcom Clarity*
 :::
 
 ::: xdripitem Charger les valeurs BG vers Dexcom Share<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Enable this to upload to Dexcom's servers
+&ensp;Activer ceci pour charger vers les serveurs Dexcom Share
 :::
 
 Si vous utilisez un compte américain, activez cette option ; **pour tout autre pays, laissez-la désactivée**. 
@@ -201,10 +201,12 @@ Si vous utilisez un compte américain, activez cette option ; **pour tout autre 
 Saisissez les identifiants que vous utilisez pour vous connecter à Clarity.
 
 ::: xdripitem Utilisateur du compte Dexcom Share
+&ensp;Votre login pour le site Dexcom Share
 :::
 
 
 ::: xdripitem Mot de passe de compte Dexcom Share
+&ensp;Votre mot de passe pour le compte Dexcom Share
 :::
 
 ### Tidepool {#tidepool}
@@ -260,12 +262,6 @@ Si vous envoyez aussi manuellement les données de votre pompe, vous voudrez peu
 Télécharger uniquement les données MGC pour éviter les doublons avec l'envoi manuel de la pompe
 :::
 
-Si l'envoi échoue, activez le nouveau protocole d'authentification.
-
-::: xdripitem Use new Auth<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-2023 openid authentication method
-:::
-
 ##### Web Deposit {#web-deposit}
 
 Web Deposit est une API simple d'envoi par lots, utilisée actuellement pour le diagnostic. Elle est cachée derrière le Mode développeur et n'est pas destinée à un usage courant.
@@ -285,7 +281,8 @@ Consultez la [configuration de l'abonné NightLite](./nightlite) pour la procéd
 :::
 
 ::: xdripitem NightLite URL
-&ensp;Contains your security key, do not disclose it. Typically entered by scanning a QR code from the dashboard.
+&ensp;Typically entered by scanning QR code from dashboard  
+&ensp;This contains your security key - do not disclose it
 :::
 
 Une fois l'option activée, vous pouvez afficher un QR code contenant vos informations de connexion NightLite, que vos abonnés pourront scanner.
@@ -385,4 +382,4 @@ Sélectionnez les données à envoyer. Les glycémies sont activées par défaut
 
 <br>
 
-[*Dernière modification le 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

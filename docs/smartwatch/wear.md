@@ -41,7 +41,7 @@ Disable Force Wear Collection Service on minutes since last reading from Wear
 Only use wear can be enabled if you have set up the watch once but will not use your phone to connect to the sensor/bridge.
 
 ::: xdripitem Only use Wear <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-If you plan to use a Wear Collector and never your phone
+If you plan to only use a Wear collector and never your phone.
 :::
 
 If you have several Android Wear smartwatches with xDrip, you can select which one will be the collector. The others will only display xDrip data.
@@ -161,4 +161,4 @@ This doesn't mean they need to be in the same place but the watch itself will no
 
 <br>
 
-[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

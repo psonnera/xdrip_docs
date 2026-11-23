@@ -44,47 +44,41 @@ Use settings as shown below to start with.
 Bluetooth must be on. **Enable** `Turn Bluetooth on`.
 
 ::: xdripitem Turn Bluetooth on <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Automatically turn on Bluetooth if it is switched off when we try to connect to a Bluetooth device.
+&ensp;Automatically enable Bluetooth if it is switched off when we try to connect to a Bluetooth device
 :::
 
 **Enable** the Watchdog but read the info below.
 
 ::: xdripitem Bluetooth Watchdog <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Reset Bluetooth by turning it off then on if we don't get anything within 20 minutes
-:::
-
-**Enable** the Dex Watchdog but read the info below.
-
-::: xdripitem Dex Bluetooth Watchdog <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Reset Bluetooth by turning it off then on as a way to keep the Dex data source working. Without this, the Dex collector may fail.
+&ensp;Reset Bluetooth by turning it off and on if we don't get anything in 20 minutes
 :::
 
 ::: info
-Mind the Bluetooth watchdog and Dex Bluetooth watchdog will turn your phone Bluetooth off, then on: this will lead to a temporary Bluetooth disconnection on all connected devices. You might want to disable this feature if you use AAPS and your bridge/pump doesn't automatically recover the Bluetooth connection.
+Mind the Bluetooth watchdog will turn your phone Bluetooth off, then on: this will lead to a temporary Bluetooth disconnection on all connected devices. You might want to disable this feature if you use AAPS and your bridge/pump doesn't automatically recover the Bluetooth connection.
 :::
 
 **Disable** close GATT.
 
 ::: xdripitem Close GATT on BLE disconnect <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;If the Bluetooth watchdog activates too often then you can try unchecking this option to see if it helps.
+&ensp;If the Bluetooth watchdog activates often then you can try unchecking this option to see if it helps
 :::
 
 If your bridge loses connection and scanning Bluetooth allows you to recover, you can try to enable `Use scanning`. Leave **disabled** to start.
 
 ::: xdripitem Use scanning <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Scan before connecting on xBridge and Libre Bluetooth.
+&ensp;Scan before connecting on xBridge and Libre Bluetooth
 :::
 
 For Samsung and many Chinese phones you **must disable `Trust Auto-Connect`**! If your phone loses connection you should **disable** it.
 
-::: xdripitem Trust auto-connect <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Use and trust Android Bluetooth auto-connect feature.
+::: xdripitem Trust Auto-Connect <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Use and trust Android Bluetooth auto connect feature
 :::
 
 For Android version 8 and above you can enable `Use Background Scans`. If you lose connection, **leave it disabled**.
 
 ::: xdripitem Use Background Scans <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Use Android 8+ background scanning feature.
+&ensp;Use Android 8+ background scanning feature
 :::
 
 Leave both the options below **disabled**.
@@ -94,13 +88,13 @@ Leave both the options below **disabled**.
 :::
 
 ::: xdripitem Constantly reset Bluetooth <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Reset Bluetooth by turning it off then on every few minutes! Only select if you are testing. It may disrupt anything else using Bluetooth.
+&ensp;Reset Bluetooth by turning it off and on every few minutes! Only select if you are testing. It may disrupt anything else using Bluetooth.
 :::
 
 If your bridge is a Transmitter_T or a Droplet, enable this; otherwise keep it **disabled**.
 
 ::: xdripitem Transmitter (PL) support <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Experimental support for "Transmitter" device from @FPV-UAV - test only.
+&ensp;Experimental support for 'Transmitter' device from @FPV-UAV - test only
 :::
 
 If you have connection losses you can **enable** polling mode. It will not do anything useful but keep the phone Bluetooth awake.
@@ -176,4 +170,4 @@ This will reset all calibrations and allow xDrip to start a new sensor.
 
 <br>
 
-[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

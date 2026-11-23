@@ -83,7 +83,7 @@ Ne sélectionnez que celles que vous avez vraiment besoin de voir toutes les 5 m
 :::
 
 ::: xdripitem Pourcentage de capture de paquets <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Pourcentage des lectures du capteur reçus 
+&ensp;Pourcentage des lectures du capteur reçus
 :::
 
 ::: xdripitem Pourcentage de capture de paquets en temps réel <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
@@ -150,7 +150,7 @@ Affiche des informations supplémentaires pour les capteurs Libre 2
 Afficher les valeurs brutes sur le [graphique principal](./display#graph-settings)
 
 ::: xdripitem Afficher les valeurs brutes dans le graphique <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;Switch on to show the raw values on the graph (activez pour afficher les valeurs brutes sur le graphique)
+&ensp;Activer pour afficher les valeurs brutes dans le graphique.
 :::
 
 <img src="./images/M-S-DS6f3.png" style="zoom:75%;" />
@@ -257,4 +257,4 @@ Voir la section dédiée.
 
 <br>
 
-[*Dernière modification le 19/1/2025*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.18)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

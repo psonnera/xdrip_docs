@@ -71,10 +71,10 @@ If you see a purple arrow you might have made a mistake in the date and time the
 xDrip will now wait for readings and update the progress. Stay on this screen. Every reading is done 5 minutes apart so it should take less than 20 minutes.
 
 ::: xdripitem Collecting Initial Readings
-&ensp;✔ Data collector running  
-&ensp;⧖  Receiving data from collector  
-&emsp;&nbsp;Received some recent data  
-&emsp;&nbsp;Received enough good data to calibrate  
+&ensp;✔ Data Collector Running  
+&ensp;⧖  Receiving Data from MiaoMiao Collector  
+&emsp;&nbsp;Received Some Recent Data  
+&emsp;&nbsp;Received Enough Good Data to Calibrate  
 &ensp;***No data received yet***  
 :::
 If the data source shows LimiTTer and you're not using an actual [LimiTTer](https://github.com/JoernL/LimiTTer), your bridge device is not connected correctly.
@@ -84,11 +84,11 @@ If the data source shows LimiTTer and you're not using an actual [LimiTTer](http
 The indication ***No data received yet*** will change to ***Need 3 recent readings***. If no data is received, [check your parameters](../install/libreBT#bridge-settings).
 
 ::: xdripitem Collecting Initial Readings
-&ensp;✔ Data collector running  
-&ensp;✔ Receiving data from collector  
-&ensp;✔ Received some recent data  
-&ensp;⧖ Received enough good data to calibrate  
-&ensp;***Need 3 recent readings, got only one so far***  
+&ensp;✔ Data Collector Running  
+&ensp;✔ Receiving Data from MiaoMiao Collector  
+&ensp;✔ Received Some Recent Data  
+&ensp;⧖ Received Enough Good Data to Calibrate  
+&ensp;***Need 3 recent readings, got only 1 so far***  
 &ensp;Next reading expected in 1 minute 
 :::
 
@@ -145,4 +145,4 @@ xDrip should pick up readings with the next measurement.
 
 <br>
 
-[*Last modified 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

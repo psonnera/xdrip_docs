@@ -57,7 +57,7 @@ Con questa funzione xDrip può anche ricevere messaggi: puoi attivare o disattiv
 
 Puoi attivare o disattivare (**disattivalo con AAPS!!!**) il suono riprodotto dopo l'aggiornamento del profilo di xDrip.
 
-::: xdripitem Importa Suoni <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Importa Suoni <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
 &ensp;Suona durante l'importazione di dati significativi come i profili
 :::
 
@@ -289,4 +289,4 @@ xDrip può condividere passi, frequenza cardiaca e glicemia con Google Health.
 
 Su alcune versioni di Android (in particolare 15 e 16) xDrip non può aprire direttamente la propria schermata dei permessi di Health Connect. Apre allora l'app Health Connect: vai in *Autorizzazioni app* e seleziona xDrip per gestirli. Se Health Connect non si può aprire affatto, un messaggio ti chiede di aprire tu stesso l'app Health Connect e di gestire lì i permessi di xDrip.
 
-[*Ultima modifica 15/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

@@ -1,6 +1,6 @@
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip sync
 :::
 
 ::: warning Old xDrip Sync
@@ -32,7 +32,7 @@ Make the primary data source phone master (enable checkbox):
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip sync  
 
 
 &emsp;&emsp;&emsp;&emsp;**Be Master for Followers <span class='symbol' style="float: right;"><img src="../images/EN.png" style="zoom:75%;" />&emsp;&emsp;</span>**
@@ -47,7 +47,7 @@ Make the primary data source phone master (enable checkbox):
 On the master phone display the Sync Key QR code:
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
-&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show settings QR code  
+&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrcode_grey600_48dp.png" style="width:5%;" />&ensp;Show Settings QR codes  
 <div style="background-color: gray; color: white; text-align: center;">  &emsp;XDRIP PLUS SECURITY KEY SETTINGS ONLY&emsp;</div>
 :::
 
@@ -63,7 +63,7 @@ Take a screenshot of the QR code and send it to the follower phone (MMS, WhatsAp
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip sync  
 
 &emsp;&emsp;&emsp;&emsp;**Handset Group Security Sync Key**
 :::
@@ -78,7 +78,7 @@ Make all other phones followers (disable checkbox):
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip sync  
 
 
 &emsp;&emsp;&emsp;&emsp;**Be Master for Followers <span class='symbol' style="float: right;"><img src="../images/DIS.png" style="zoom:75%;" />&emsp;&emsp;</span>**
@@ -103,7 +103,7 @@ Master and followers. Either it is ON for all, or OFF for all.
 :::
 
 ::: xdripitem Use xDrip Cloud
-&ensp;Use the new xDrip cloud servers. Master and follower must have this setting set the same.  
+&ensp;Use the new xDrip cloud servers. Master and followers must all have this setting set the same.  
 :::
 
 Enabling [Use xDrip Cloud](./sync#use-xdrip-cloud) on all devices is recommended as the more future-proof method.
@@ -114,7 +114,7 @@ Enabling [Use xDrip Cloud](./sync#use-xdrip-cloud) on all devices is recommended
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure  
+&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto configure  
 &emsp;&emsp;&emsp;Camera
 :::
 
@@ -140,7 +140,7 @@ No&emsp;&emsp;<span style="background-color: gray; color: white; text-align: cen
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto Configure  
+&ensp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto configure  
 &emsp;&emsp;&emsp;Image file
 :::
 
@@ -165,7 +165,7 @@ Edit the key field and type **exactly** the same key as the master.
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings  
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip sync  
 
 &emsp;&emsp;&emsp;&emsp;**Handset Group Security Sync Key**
 :::
@@ -177,7 +177,7 @@ Edit the key field and type **exactly** the same key as the master.
 ## Follower actions
 
 By default, followers can send treatments, calibrations, and even sensor start or stop to the master.  
-If you want to prevent this, disable [Accept followers actions](./sync#accept-followers-actions) on the master.
+If you want to prevent this, disable [Accept follower actions](./sync#accept-followers-actions) on the master.
 
 ## Verify
 
@@ -185,4 +185,4 @@ To verify the follower is receiving data, check [System Status](../troubleshoot/
 
 <br>
 
-[*Last modified 21/07/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.19)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

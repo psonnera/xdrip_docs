@@ -55,7 +55,7 @@ Le versioni più testate non includono le funzioni e le correzioni più recenti.
 
 Le versioni meno testate possono contenere bug, ma includono anche le funzioni e le correzioni più recenti.
 
-::: xdripitem Aggiorna Canale (beta)
+::: xdripitem Aggiorna Canale
 &ensp;Scegli Trasmissione Stable, Beta o Alpha
 :::
 
@@ -140,4 +140,4 @@ Non serve disinstallare xDrip per tornare a una versione più vecchia (a meno ch
 
 <br>
 
-[*Ultima modifica 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

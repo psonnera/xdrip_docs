@@ -66,8 +66,8 @@ Older gratuitous wakelocks which can drain extra battery but might be needed for
 
 Display Predictive Values (old method) is deprecated. Use [Predictive Simulation](./predictions).
 
-::: xdripitem Display Predictive Values (old method) <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-Old method - Not recommended!
+::: xdripitem Display Predictive Values <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Old method - Not Recommended! Attempts to predict readings each minute based on the past few values.
 :::
 
 Proper Ongoing is mandatory for devices with Android 8 and above. Only visible with Engineering Mode enabled.
@@ -87,7 +87,7 @@ It must be disabled for OOP2.
 :::
 
 ::: xdripitem Out of process Libre algorithm <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Use an out of process (OOP) Libre algorithm. (Bridge/NFC/LibreAlarm)
+&ensp;Use an out of process (OOP) Libre algorithm. (BluCon/NFC/LibreAlarm)
 :::
 
 ##### OOP2
@@ -95,7 +95,7 @@ It must be disabled for OOP2.
 OOP2 is mandatory to handle data from Libre 14 days US, Libre 2/2+ EU.
 
 ::: xdripitem OOP2 algorithm calibration
-&ensp;Apply xDrip calibration method on OOP2 data
+&ensp;Apply xDrip calibration methods on OOP2 data.
 :::
 
 You can use OOP2 in different ways:
@@ -107,7 +107,7 @@ You can use OOP2 in different ways:
 ::: xdripitem OOP2 algorithm calibration
 &emsp;No calibration&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;○  
 &emsp;Calibrate based on raw&emsp;&emsp;&emsp;●  
-&emsp;Calibrate based on glucose&nbsp;&emsp;○
+&emsp;Calibrate based on glucose (experimental)&nbsp;&emsp;○
 :::
 
 Smooth Libre data averages over 5 measurements. This will also delay readings.  
@@ -119,13 +119,14 @@ If this option doesn't bring the improvement expected, also try [Smooth Sensor N
 
 Retrieve Libre History is required for BluCon bridges. Other bridges perform backfilling automatically.
 
-::: xdripitem Retrieve Libre History <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-Retrieve missing history from Blucon device when reconnecting to the sensor.
+::: xdripitem Retrieve Libre history <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Retrieve missed history from BluCon device when reconnecting to sensor.
 :::
 
-Libre one minute display is still under development. xDrip displays BG values every 5 minutes. With the [Li3](../install/li3) data source, readings are stored every minute when it's enabled.
+Libre 1-minute display is still under development. xDrip displays BG values every 5 minutes. With the [Li3](../install/li3) data source, readings are stored every minute when it's enabled.
 
-::: xdripitem Libre one minute <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+::: xdripitem Libre 1-minute <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Accept data at one-minute intervals from Libre. Reboot your phone for changes to take effect.
 :::
 
 ##### Li3
@@ -147,4 +148,4 @@ The option below is always greyed out in the app: it cannot be enabled.
 
 <br>
 
-[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

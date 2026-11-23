@@ -189,4 +189,4 @@ Pour vérifier que l'abonné reçoit bien les données, consultez [État du syst
 
 <br>
 
-[*Dernière modification le 21/07/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.19)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

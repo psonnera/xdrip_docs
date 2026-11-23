@@ -1,6 +1,6 @@
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Sync Settings
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_google_circles_communities_grey600_48dp.png" style="width:5%;" />&ensp;xDrip sync
 :::
 
 ::: warning Old xDrip Sync
@@ -38,12 +38,12 @@ Only one master can use the same security key. If two masters are detected, the 
 &ensp;This device will send data to followers
 :::
 
-##### Accept followers actions
+##### Accept follower actions {#accept-followers-actions}
 
 You can set up the master phone to receive and accept followers' treatments and calibrations. Be extremely careful when using this feature if you use automatic calibrations. Also remember sensor start and stop might be sent by followers and accepted by the master.
 
-::: xdripitem Accept followers actions <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Treatments, Calibrations, and other actions from followers will be accepted.
+::: xdripitem Accept follower actions <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Treatments, Calibrations and other actions from followers will be accepted
 :::
 
 ##### Use xDrip Cloud
@@ -55,13 +55,13 @@ Master and followers. Either it is ON for all, or OFF for all.
 :::
 
 ::: xdripitem Use xDrip Cloud <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;Use the new xDrip cloud servers. Master and follower must have this setting set the same.  
+&ensp;Use the new xDrip cloud servers. Master and followers must all have this setting set the same.  
 :::
 
 If xDrip uses too much battery when on SIM data you can try to enable this.
 
-::: xdripitem SavePower <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Reduce battery and network overhead by using batch processing and excluding unnecessary data.  
+::: xdripitem Save Power <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
+&ensp;Reduce battery and network overhead by using batch processing and excluding unnecessary data  
 :::
 
 ##### Whole house
@@ -132,7 +132,7 @@ Desert Sync allows you to share data between your xDrip master and followers whe
 Enable desert sync on all devices.
 
 ::: xdripitem Desert Sync <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;Enable local non-internet sync facilities
+&ensp;Enabled local non-internet sync facilities
 :::
 
 If you know the IP address of the master (this is for local intranets) enter it here.  
@@ -162,4 +162,4 @@ Look in system status to check everything is connecting correctly.
 
 <br>
 
-[*Last modified 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

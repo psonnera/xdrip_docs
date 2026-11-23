@@ -104,4 +104,4 @@ Les informations de la pompe (état, basal) sont <u>uniquement visibles</u> dans
 
 Si aucune donnée n'apparaît et qu'aucun message d'erreur ne s'affiche, vous devrez peut-être [Démarrer le capteur](../use/startsensor#followers-and-companion-apps).
 
-[*Dernière modification le 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

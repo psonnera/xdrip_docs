@@ -14,7 +14,7 @@ Pensez à activer d'abord la fonction NFC dans les paramètres Android.
 :::
 
 ::: xdripitem Utiliser la fonction NFC <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Permettre aux capteurs d'être scannés lorsque l'application est ouverte. Les données historiques seront récupérées.
+&ensp;Permettre aux capteurs d'être scannés lorsque l'application est ouverte. Les données historiques seront récupérées. Très expérimental ! Méfiez-vous cela peut casser le capteur. Tester la compatibilité du téléphone avec un capteur presque expiré tout d'abord. Vous aurez été prévenu !
 :::
 
 Vous pouvez afficher l'âge du capteur en bas du graphique principal (xDrip principal).
@@ -91,4 +91,4 @@ Le lissage ajoute un retard à la glycémie de xDrip par rapport aux données br
 
 <br>
 
-[*Dernière modification le 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

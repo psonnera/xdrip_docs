@@ -4,7 +4,7 @@ You can also use the xDrip internal update mechanism.
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Update Settings
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;Update settings
 :::
 
 Update settings allow you to choose which xDrip versions you are offered as updates.
@@ -51,8 +51,8 @@ Most tested versions will not include the latest features and fixes.
 
 Less tested versions might include bugs but will also include the latest features and fixes.
 
-::: xdripitem Update channel (beta)
-&ensp;Choose Stable, Beta or Alpha release
+::: xdripitem Update Channel
+&ensp;Choose Stable, Beta or Alpha releases
 :::
 
 ::: xdripitem Update Channel
@@ -68,7 +68,7 @@ The Nightly channel is hidden until you have selected Alpha once.
 
 ::: xdrip <img src="../images/hamburger_menu.png" style="zoom:75%;" />
 &ensp;Settings  
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;xDrip Update Settings  
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;Update settings  
 &ensp;&emsp;Update Channel
 :::
 
@@ -136,4 +136,4 @@ You don't need to uninstall xDrip to return to an older version (unless [switchi
 
 <br>
 
-[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

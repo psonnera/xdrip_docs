@@ -409,14 +409,14 @@ Puoi anche configurare avvisi per le variazioni rapide della glicemia e definire
 :::
 
 ::: xdripitem Soglia di discesa
-&ensp;3mg/dl/min (0.17mmol/l/min)
+&ensp;3 mg/dl/min (0.17 mmol/l/min)
 :::
 
 ::: xdripitem Glicemia in salita rapida<img src="../images/DIS.png" style="zoom:75%;">
 :::
 
 ::: xdripitem Soglia di salita 
-&ensp;3mg/dl/min (0.17mmol/l/min)
+&ensp;3 mg/dl/min (0.17 mmol/l/min)
 :::
 
 ##### Impostazioni allarmi per questi avvisi {#alert-preferences}
@@ -482,7 +482,6 @@ Invece di un avviso di glicemia alta che scatta non appena la glicemia raggiunge
 :::
 
 ::: xdripitem Ignora la modalità silenziosa<img src="../images/DIS.png" style="zoom:75%;">
-&ensp;Fai suonare questo avviso anche quando il telefono è in modalità silenziosa
 :::
 
 ::: xdripitem Attiva anche Vibrazione<img src="../images/EN.png" style="zoom:75%;">
@@ -523,7 +522,6 @@ Lows Previsione mostra un messaggio sulla schermata di xDrip. Per far suonare un
 :::
 
 ::: xdripitem Ignora la modalità silenziosa<img src="../images/DIS.png" style="zoom:75%;">
-&ensp;Fai suonare questo avviso anche quando il telefono è in modalità silenziosa
 :::
 
 ::: xdripitem Attiva anche Vibrazione<img src="../images/EN.png" style="zoom:75%;">
@@ -656,4 +654,4 @@ Puoi anche disattivare completamente i [canali di notifica](#notification-channe
 
 
 
-[*Ultima modifica 24/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

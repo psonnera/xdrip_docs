@@ -12,9 +12,6 @@ Scannez le QR code ci-dessus pour charger les paramètres nécessaires au Libre 
 
 Le scan du QR code ne modifie que les 3 paramètres suivants. 
 
-Paramètres moins courants/Paramètres Bluetooth/Utiliser le scan = false
-   
-Paramètres moins courants/Paramètres Bluetooth/Faire confiance à Auto-Connect = false
-    
-Paramètres moins courants/Paramètres Bluetooth/Utiliser les scans en arrière-plan = false
-    
+- Paramètres moins courants → Paramètres Bluetooth → Utiliser le scan = désactivé
+- Paramètres moins courants → Paramètres Bluetooth → Faire confiance à Auto-Connect = désactivé
+- Paramètres moins courants → Paramètres Bluetooth → Utiliser les scans en arrière-plan = désactivé

@@ -45,7 +45,7 @@ Désactiver le forçage du Service de Collecte Wear si des Minutes sont passées
 Utiliser uniquement Wear peut être activé si vous avez configuré la montre une fois mais n'utiliserez pas votre téléphone pour vous connecter au capteur ou au transmetteur.
 
 ::: xdripitem Utiliser uniquement Wear <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-If you plan to use a Wear Collector and never your phone
+Si vous prévoyez d'utiliser seulement un collecteur Wear et jamais votre téléphone.
 :::
 
 Si vous avez plusieurs montres Android Wear avec xDrip, vous pouvez choisir laquelle sera le collecteur. Les autres afficheront seulement les données de xDrip.
@@ -165,4 +165,4 @@ Ils n'ont pas besoin d'être au même endroit, mais la montre elle-même ne part
 
 <br>
 
-[*Dernière modification le 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

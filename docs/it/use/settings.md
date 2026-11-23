@@ -167,4 +167,4 @@ Alcune penne per insulina possono essere usate con xDrip.
 
 <br>
 
-[*Ultima modifica 12/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.11)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

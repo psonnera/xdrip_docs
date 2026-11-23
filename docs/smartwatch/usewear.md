@@ -199,7 +199,7 @@ If you're connecting to a G5 or G6 you'll find additional settings.
 
 <img src="./images/M-S-SW-AW-ST8.png" style="zoom:75%;" />
 
-These are replications of the phone G5/G6 Debug Settings - Old G5 Collector Settings.
+These are replications of the phone Dex Debug Settings - Old G5 Collector Settings.
 
 <img src="./images/M-S-SW-AW-ST9.png" style="zoom:75%;" />
 
@@ -215,5 +215,5 @@ Force screen on makes sure the watch will be fully awake when scanning.
 
 <br>
 
-[*Last modified 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
 

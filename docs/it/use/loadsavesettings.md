@@ -7,11 +7,11 @@ source_commit: 7a18e7c
 &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_content_save_grey600_48dp.png" style="width:5%;" />&ensp;Carica / Salva impostazioni su SDcard
 :::
 
-Puoi accedervi anche dal menu a 3 puntini: `Import Export features` e poi `Impostazioni di archiviazione esterna`
+Puoi accedervi anche dal menu a 3 puntini: `Funzioni di importazione / esportazione` e poi `Impostazioni di archiviazione esterna`
 
 <img src="../images/3dots_menu.png" style="zoom:75%;" /> 
 
-::: xdripitem Import Export features >
+::: xdripitem Funzioni di importazione / esportazione >
 :::
 
 ::: xdripitem Impostazioni di archiviazione esterna
@@ -57,4 +57,4 @@ Le impostazioni esportate contengono informazioni private: una volta trasferite 
 
 <br>
 
-[*Ultima modifica 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

@@ -63,11 +63,11 @@ If your sensor requires calibrations, after connecting it to xDrip and receiving
 
 Two initial calibration values are historical from G4. If you want to use that correctly: make two different measurements (two strips), this is a recommended approach. If you usually insert the same value you might want to make it a default [here](./advancedcal#calibrations).
 
-::: xdrip ☰&emsp;Initial calibration
+::: xdrip ☰&emsp;Initial Calibration
 &emsp;<u>Enter First BG Value</u>  
 &emsp;<u>Enter Second BG Value</u>  
 
-&emsp;<small>In order to get started, perform one or two finger prick tests and enter the values here!</small>    
+&emsp;<small>In order to get started, please perform one or two finger prick tests and enter the values here!</small>    
 :::
 
 If you're using native calibration, the value will be sent to the transmitter for processing.
@@ -196,4 +196,4 @@ xDrip will bring you back to [initial calibration](#first-calibration). Make sur
 
 <br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

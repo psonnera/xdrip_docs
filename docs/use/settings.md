@@ -56,7 +56,7 @@ This menu is only visible if you choose a Libre Bluetooth data source in the Har
 Auto configure will help you copy settings between two xDrip apps installed on different phones. This and [Show Settings QR Code](./copysettings#show-settings-qr-code) both live under the "Copying Settings" screen.
 
 ::: xdrip Auto configure
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Autoconfigure using a barcode
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_qrscan.png" style="width:5%;" />&ensp;Auto configure using a barcode.
 :::
 
 ### [Cloud Upload](./cloud)
@@ -116,7 +116,7 @@ More settings are available in this menu.
 ### [Predictive simulations](./predictions)
 
 ::: xdrip Predictive simulations
-&emsp;<img src="./images/CrystalBall.png" style="width:5%;" />&ensp;Insulin, carb ratios, etc. for models
+&emsp;<img src="./images/CrystalBall.png" style="width:5%;" />&ensp;Insulin, Carb ratios etc. for models
 :::
 
 ### [xDrip sync](./sync)
@@ -134,7 +134,7 @@ More settings are available in this menu.
 ### [Update settings](./update)
 
 ::: xdrip Update settings
-&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;Automatic updates, crash report and feedback to developer
+&emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_briefcase_download_grey600_48dp.png" style="width:5%;" />&ensp;Automatic Updates, crash reports and Feedback to Developer
 :::
 
 ### [Show Settings QR Code](./copysettings#show-settings-qr-code)
@@ -163,4 +163,4 @@ Some insulin pens can be used with xDrip.
 
 <br>
 
-[*Last modified 12/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.11)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

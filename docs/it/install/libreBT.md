@@ -57,14 +57,8 @@ Il Bluetooth deve essere acceso. **Attiva** `Attiva Bluetooth`.
 &ensp;Resetta Bluetooth (spegni e riaccendi) se non si ricevono dati in 20 minuti
 :::
 
-**Attiva** il Dex Watchdog, ma leggi le informazioni qui sotto.
-
-::: xdripitem Watchdog Bluetooth G5 <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Resetta Bluetooth (spegni/riaccendi) per mantenere la sorgente di dati G5 in funzione. Senza questo il collettore G5 potrebbe fallire.
-:::
-
 ::: info Informazioni
-Tieni presente che Watchdog Bluetooth e Watchdog Bluetooth G5 spengono e riaccendono il Bluetooth del telefono: questo provoca una disconnessione Bluetooth temporanea di tutti i dispositivi collegati. Potresti voler disattivare questa funzione se usi AAPS e il tuo bridge/microinfusore non recupera automaticamente la connessione Bluetooth.
+Tieni presente che Watchdog Bluetooth spegne e riaccende il Bluetooth del telefono: questo provoca una disconnessione Bluetooth temporanea di tutti i dispositivi collegati. Potresti voler disattivare questa funzione se usi AAPS e il tuo bridge/microinfusore non recupera automaticamente la connessione Bluetooth.
 :::
 
 **Disattiva** la chiusura GATT.
@@ -180,4 +174,4 @@ Questo azzererà tutte le calibrazioni e permetterà a xDrip di avviare un nuovo
 
 <br>
 
-[*Ultima modifica 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

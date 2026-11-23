@@ -116,4 +116,4 @@ Potrebbe essere necessario riavviare il telefono per applicare le modifiche.
 
 <br>
 
-[*Ultima modifica 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

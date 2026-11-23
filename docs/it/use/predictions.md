@@ -150,7 +150,7 @@ L'obiettivo è usato dal calcolatore del bolo. È l'obiettivo glicemico desidera
 
 La [durata](https://www.diabettech.com/insulin/why-we-are-regularly-wrong-in-the-duration-of-insulin-action-dia-times-we-use-and-why-it-matters/) dell'insulina dipende dal tipo di insulina. Per applicare una modifica del valore bisogna riavviare xDrip (o il telefono).
 
-Il valore glicemico obiettivo è quello usato per calcolare le correzioni suggerite.
+Obiettivo di glicemia predefinito è il valore usato per calcolare le correzioni suggerite.
 
 ::: xdripitem Obiettivo di glicemia predefinito
 &ensp;100 / 5.6
@@ -229,4 +229,4 @@ I diversi tipi di insulina vengono mostrati allo stesso modo sul grafico princip
 
 <br>
 
-[*Ultima modifica 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

@@ -3,11 +3,11 @@
 &emsp;<img src="https://raw.githubusercontent.com/NightscoutFoundation/xDrip/master/app/src/main/res/drawable-xhdpi/ic_content_save_grey600_48dp.png" style="width:5%;" />&ensp;Load / Save settings
 :::
 
-You also can access it from the 3 dots menu: `Import Export features` then `Load/Save settings`
+You also can access it from the 3 dots menu: `Import / Export features` then `Load/Save settings`
 
 <img src="../images/3dots_menu.png" style="zoom:75%;" /> 
 
-::: xdripitem Import Export features >
+::: xdripitem Import / Export features >
 :::
 
 ::: xdripitem Load/Save settings
@@ -53,4 +53,4 @@ Exported settings contain private information, once transferred to another phone
 
 <br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

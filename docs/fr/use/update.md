@@ -140,4 +140,4 @@ Vous n'avez pas besoin de désinstaller xDrip pour revenir à une version plus a
 
 <br>
 
-[*Dernière modification le 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

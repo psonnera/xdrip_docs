@@ -79,7 +79,7 @@ It is information on when xDrip received data against the expected time. Seconds
 
 #### G6, G7, 1 and 1+ 
 
-See [here](https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html).
+See the dedicated pages for [G6/ONE](./g6) and [G7/ONE+](./g7). More details on connectivity [here](https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html).
 
 #### Libre Bluetooth
 
@@ -119,4 +119,4 @@ Old Android versions might use expired certificates and hence prevent Nightscout
 
 <br>
 
-[*Last modified 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

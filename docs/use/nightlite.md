@@ -27,7 +27,8 @@ NightLite cannot be used while xDrip runs as a [Nightscout follower](../install/
 Enter your NightLite URL:
 
 ::: xdripitem NightLite URL
-&ensp;Contains your security key, do not disclose it.
+&ensp;Typically entered by scanning QR code from dashboard  
+&ensp;This contains your security key - do not disclose it
 :::
 
 Then enable the upload:
@@ -60,4 +61,4 @@ The NightLite service can send notifications back to xDrip and can remotely stop
 
 <br>
 
-[*Last modified 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

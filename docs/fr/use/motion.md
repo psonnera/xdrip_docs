@@ -16,7 +16,7 @@ La détection de mouvement sert à détecter le mode véhicule et à ajouter des
 Vous pouvez suivre les mouvements sur votre graphique principal.
 
 ::: xdripitem Loguer et grapher les déplacements <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Log recent motion types and plot these on the main graph (enregistrer les types de mouvement récents et les afficher sur le graphique principal)
+&ensp;Stocker les types de mouvement récents et les tracer sur le graphique principal
 :::
 
 <img src="./images/M-S-MT3a.png" style="zoom:75%;" />
@@ -74,4 +74,4 @@ Vous pouvez faire jouer un son lors du passage en mode véhicule, ainsi qu'un so
 
 <br>
 
-[*Dernière modification le 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

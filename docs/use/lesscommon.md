@@ -67,7 +67,7 @@ Only select those you really need to see every 5 minutes.
 :::
 
 ::: xdripitem External status <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Display status from other apps like AAPS
+&ensp;Display status from other apps like AndroidAPS
 :::
 
 ::: xdripitem Pump status <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
@@ -79,15 +79,15 @@ Only select those you really need to see every 5 minutes.
 :::
 
 ::: xdripitem Packet capture percentage <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Show percentage of sensor readings received 
+&ensp;Percentage of sensor readings received
 :::
 
 ::: xdripitem Realtime packet capture percentage <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Percentage of sensor readings received in realtime (non-backfilled). G5 native mode only.
+&ensp;Percentage of sensor readings received in realtime (non-backfilled). Dex Native mode ONLY
 :::
 
 ::: xdripitem Accuracy evaluation <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Show accuracy evaluation from last 3 days
+&ensp;Show calibration accuracy evaluation from last 3 days
 :::
 
 ::: xdripitem Time <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
@@ -146,14 +146,14 @@ Show additional information for Libre 2 sensors
 Display raw values on the [main graph](./display#graph-settings)
 
 ::: xdripitem Show raw values in graph <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;Switch on to show the raw values on the graph
+&ensp;Switch on to show raw values in graph.
 :::
 
 <img src="./images/M-S-DS6f3.png" style="zoom:75%;" />
 
 Show more information in status
 
-::: xdripitem Show sensor infos in status <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Show sensor info in Status <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 &ensp;Switch on to show additional information in Status for Libre 2 sensor.
 :::
 
@@ -170,7 +170,7 @@ Enabling this provokes a [collector restart](../troubleshoot/systemstatus#restar
 Display data when not available on the Dexcom receiver.
 
 ::: xdripitem Interpret raw values <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;If using share, xDrip will display values when they are normally hidden on the receiver
+&ensp;If using Share, xDrip will show values when they are normally hidden on the receiver.
 :::
 
 ### Extra Logging Settings
@@ -201,7 +201,7 @@ This feature is extremely useful if you calibrate using the xDrip algorithm (non
 It will add two entries in the drawer menu for visualization of calibration and data tables.
 
 ::: xdripitem Show Data tables <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Show calibration and BG datatables in the app drawer
+&ensp;Show Calibration and BG data tables in the app drawer.
 :::
 
 *Note: Calibration graph will not show in native mode.*
@@ -222,7 +222,7 @@ In follower mode it will most probably display the master phone battery level ra
 Disable battery warnings for bridges
 
 ::: xdripitem Disable Battery Warning <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Disable the warning for low transmitter battery state on the home screen (only relevant to DIY receivers)
+&ensp;Disable the warning for low transmitter battery state on the home screen. (Only relevant for DIY receivers.)
 :::
 
 ### Database automatic maintenance
@@ -241,7 +241,7 @@ Glucose retention will automatically delete data older than the number of days s
 Zero means don't delete anything. The shipped default is 180 days, so fresh installs auto-delete data older than 180 days unless you change this. You can use 90 days if you use a cloud backup like Nightscout, so that you will still have all statistics available in xDrip.
 
 ::: xdripitem Glucose retention
-&ensp;Erase data older than this many days. 0 = don't erase anything.
+&ensp;Erase data older than this many days. Setting 0 will keep all data, but xDrip should not be used as a repository — use Nightscout or Tidepool for long-term storage.
 :::
 
 ### [Other Miscellaneous Options](./misc)
@@ -253,4 +253,4 @@ See the dedicated section.
 
 <br>
 
-[*Last modified 19/1/2025*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.18)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

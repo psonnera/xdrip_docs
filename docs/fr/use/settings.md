@@ -167,4 +167,4 @@ Certains stylos à insuline peuvent être utilisés avec xDrip.
 
 <br>
 
-[*Dernière modification le 12/4/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.11)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

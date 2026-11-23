@@ -127,7 +127,7 @@ Utilisez [GeminiMan Wear OS Manager](https://play.google.com/store/apps/details?
 
 Google et Samsung ont apporté d'importants changements à Wear OS 5 et ne permettent plus facilement l'installation de cadrans personnalisés.
 
-L'installation du cadran AAPS doit se faire avec Wear Installer 2 en suivant [cette vidéo](https://www.youtube.com/watch?v=EvTGEnPA9PY).
+L'installation de l'application montre xDrip doit se faire avec Wear Installer 2 en suivant [cette vidéo](https://www.youtube.com/watch?v=EvTGEnPA9PY) (elle montre le cadran AAPS : la procédure est la même avec l'APK wear de xDrip).
 
 **Si vous changez de cadran par erreur, vous devrez refaire la procédure ci-dessus.**
 
@@ -165,4 +165,4 @@ Réinstallez le cadran avec [Wear Installer 2](#wear-os-5).
 
 <br>
 
-[*Dernière modification le 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

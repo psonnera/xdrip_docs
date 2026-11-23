@@ -10,6 +10,7 @@ source_commit: 7a18e7c
 Ce menu vous permet de personnaliser de nombreux aspects visuels de xDrip.
 
 ::: xdripitem xDrip+ Affichage
+&ensp;Afficher les personnalisations
 :::
 
 *Remarque : consultez les fonctions des [Paramètres de Graph](#graph-settings) avant d'utiliser les paramètres de couleur.*
@@ -76,7 +77,11 @@ Valeurs Hyperglycémies<span style="float: right; width: 40px; height: 40px; bac
 Valeurs de glycémie dans la cible<span style="float: right; width: 40px; height: 40px; background-color: #FFFFFF; display: inline-block;"></span>  
 
 Valeurs Hypoglycémies<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
+
+Prévision hypo (critique)<span style="float: right; width: 40px; height: 40px; background-color: #C30909; display: inline-block;"></span>  
 :::
+
+Prévision hypo (critique) est la couleur du message de prévision d'hypoglycémie sur l'écran principal lorsque l'hypoglycémie est proche.
 
 ##### Courbes de traitements et de prédictions {#treatments-and-predictions-curves}
 
@@ -247,7 +252,7 @@ Sélectionnez la langue dans Choisir une langue spécifique.
 
 <img src="./images/M-S-DS3a.png" style="zoom:75%;" />
 
-Activez l'interrupteur Forcer le texte anglais (forcer la langue).
+Activez l'interrupteur Forcer le texte anglais.
 
 ::: xdripitem Forcer le texte anglais<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
 :::
@@ -257,7 +262,7 @@ Activez l'interrupteur Forcer le texte anglais (forcer la langue).
 Le lissage affiche la courbe lissée (il ne modifie pas les valeurs) ; utile pour les mesures bruitées.  
 Vous pouvez aussi essayer le [Lissage du graphique](#graph-smoothing) pour nettoyer votre graphique.
 
-::: xdripitem Bruit du capteur lissé<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem ⚠ Bruit du capteur lissé<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
 &ensp;Essayez de pallier aux valeurs incorrectes
 :::
 
@@ -427,9 +432,10 @@ La [tendance Libre](./3dotsmenu#libre-trend) active un petit graphique accessibl
 
 ##### Prédictions du G6 {#g6-predictions}
 
-La prédiction G6 est une fonction intégrée à l'émetteur G6, affichée sous forme de petits points gris.
+La Prédiction Dexcom est une fonction intégrée à l'émetteur Dexcom G6, affichée sous forme de petits points gris.
 
 ::: xdripitem Prédiction Dexcom <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+&ensp;Afficher les points de glycémie prédictifs Dexcom
 :::
 
 <img src="./images/M-S-DS6j2.png" style="zoom:75%;" />
@@ -504,8 +510,8 @@ Par défaut, lorsque des valeurs sortent de cette plage, le graphique l'élargit
 Si vous préférez garder une plage fixe pour l'axe Y et faire défiler le graphique verticalement au lieu de l'élargir, activez Auto-pan Y-axis.
 
 ::: xdripitem Auto-pan Y-axis <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Enable: Pan the graph with a fixed Y-axis range (minimum-maximum) to show out-of-range readings.  
-&ensp;Disable: Expand the Y-axis range to include out-of-range readings.
+&ensp;**Enable:** Pan the graph with a fixed Y-axis range (minimum–maximum) to show out-of-range readings.  
+&ensp;**Disable:** Expand the Y-axis range to include out-of-range readings.
 :::
 
 ### Glycémie depuis les données filtrées {#glucose-number-from-filtered}
@@ -582,7 +588,7 @@ xDrip peut utiliser l'accessibilité Android pour afficher son widget sur l'écr
 Sur Android 16 et supérieur, vous pouvez aussi afficher votre glycémie sous forme de puce de notification sur l'écran de verrouillage / Always On Display, en utilisant la notification persistante au lieu de l'accessibilité. Cela repose sur les [canaux de notification](./alarms#notification-channels), toujours actifs sur Android 8.0 et supérieur.
 
 ::: xdripitem Use AOD chip style <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Display notification chip and lock screen notification. Android 16+ only
+&ensp;Display notification chip and lockscreen notification. Android 16+ only
 :::
 
 ### Mur de chiffres sur l'écran de verrouillage {#numbered-wall-on-locked-screen}
@@ -685,4 +691,4 @@ Il peut être utile de l'activer si votre téléphone effectue des mises à jour
 
 <br>
 
-[*Dernière modification le 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

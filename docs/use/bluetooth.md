@@ -36,19 +36,15 @@ If you see the message that **xDrip turned off Bluetooth** this is probably beca
 &ensp;Reset Bluetooth by turning it off and on if we don't get anything in 20 minutes
 :::
 
-::: info
-Mind the Bluetooth watchdog and G5 Bluetooth watchdog activating will lead to a temporary Bluetooth disconnection on all connected devices. You might want to disable this feature if you use AAPS and your bridge/pump doesn't automatically recover Bluetooth connection.  
-Note that G6/G7/1/1+ Bluetooth watchdog is not controlled by this setting
+When the watchdog is enabled, you can choose after how long without data it triggers: 20 (default), 15, 10 or 5 minutes.
+
+::: xdripitem Timer value for BT watchdog
+&ensp;Input value in minutes
 :::
 
-#### Dex Bluetooth Watchdog
-
-For G5 sensors you can systematically have xDrip turn off and on Bluetooth. Keep it enabled if you have connection issues.
-
-*Collector: OB1 Dex collector paths — Dexcom G5/G6/G7*
-
-::: xdripitem Dex Bluetooth Watchdog<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Reset Bluetooth by turning it off and on as a way to keep the data source working. Without this the collector may fail.
+::: info
+Mind the Bluetooth watchdog activating will lead to a temporary Bluetooth disconnection on all connected devices. You might want to disable this feature if you use AAPS and your bridge/pump doesn't automatically recover Bluetooth connection.  
+Note that the Dexcom collector (G5/G6/G7/ONE/ONE+/Stelo) has its own Bluetooth watchdog, always active and not controlled by this setting (the Dex Bluetooth Watchdog setting was removed in [2026.04.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.22)).
 :::
 
 #### Close GATT on BLE disconnect
@@ -88,7 +84,7 @@ Trust Auto-Connect really depends on your phone. It is **enabled** by default. I
 *Collector: Classic bridge collector + OB1 Dex collector — Dexcom G5/G6/G7, bridge devices*
 
 ::: xdripitem Trust auto-connect<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Use and trust Android Bluetooth auto-connect feature
+&ensp;Use and trust Android Bluetooth auto connect feature
 :::
 
 #### Use Background scan
@@ -108,7 +104,7 @@ Companion Bluetooth allows the app to work connected together with the Dex maste
 *Collector: BlueTails companion listener — Dexcom transmitters in companion/sniffer setups*
 
 ::: xdripitem Companion Bluetooth<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Use Bluetooth with Companion app data source
+&ensp;Use Bluetooth with companion app data source
 :::
 
 #### Bluetooth wakelocks
@@ -138,7 +134,7 @@ Enabled by default. Only visible with Engineering Mode enabled.
 *Collector: Classic bridge collector (`DexCollectionService`) — bridge-based BLE devices*
 
 ::: xdripitem Always discover services<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Probe Bluetooth service on every connect
+&ensp;Probe Bluetooth services on every connect
 :::
 
 #### Use GATT refresh
@@ -163,4 +159,4 @@ Allow BluCon unbonding is only useful if you use a BluCon bridge as others don't
 
 <br>
 
-[*Last modified 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

@@ -57,10 +57,10 @@ You can modify the voice tone and reading speed.
 
 And optionally add a shortcut to the main menu.
 
-::: xdripitem Speak Reading Shortcut <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
+::: xdripitem Speak Readings Shortcut <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
 &ensp;Show a shortcut in the ☰ menu to toggle Speak Readings
 :::
 
 <br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

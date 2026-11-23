@@ -409,14 +409,14 @@ Vous pouvez aussi configurer des alertes pour les variations rapides de glycémi
 :::
 
 ::: xdripitem seuil de chute
-&ensp;3mg/dl/min (0.17mmol/l/min)
+&ensp;3 mg/dl/min (0.17 mmol/l/min)
 :::
 
 ::: xdripitem Glycémie en augmentation rapide<img src="../images/DIS.png" style="zoom:75%;">
 :::
 
 ::: xdripitem seuil d'augmentation 
-&ensp;3mg/dl/min (0.17mmol/l/min)
+&ensp;3 mg/dl/min (0.17 mmol/l/min)
 :::
 
 ##### Préférences d'alerte {#alert-preferences}
@@ -461,8 +461,8 @@ Au lieu d'une alerte Haute qui se déclenche dès que la glycémie atteint la va
 :::
 
 ::: xdripitem Seuil : Valeur Haute<img src="../images/ON.png" style="zoom:75%;">
-&ensp;Si activé, le seuil est la Valeur Haute.  
-&ensp;Si désactivé, le seuil est la valeur définie ci-dessous.  
+&ensp;Lorsque cette option est activée, la valeur Haute est le seuil.  
+&ensp;Lorsqu'elle est désactivée, le seuil est la valeur spécifiée ci-dessous.  
 :::
 
 ::: xdripitem Seuil
@@ -482,7 +482,6 @@ Au lieu d'une alerte Haute qui se déclenche dès que la glycémie atteint la va
 :::
 
 ::: xdripitem Ignorer le mode silencieux<img src="../images/DIS.png" style="zoom:75%;">
-&ensp;Faire sonner cette alerte même si le téléphone est en mode silencieux
 :::
 
 ::: xdripitem Vibrer en cas d'alerte<img src="../images/EN.png" style="zoom:75%;">
@@ -506,8 +505,8 @@ Les prévisions d'hypoglycémie affichent un message sur l'écran de xDrip. Pour
 :::
 
 ::: xdripitem Seuil : Valeur basse<img src="../images/ON.png" style="zoom:75%;">
-&ensp;Si activé, le seuil est la Valeur Basse.  
-&ensp;Si désactivé, le seuil est la valeur définie ci-dessous.
+&ensp;Lorsque cette option est activée, la valeur basse est le seuil.  
+&ensp;Lorsqu'elle est désactivée, le seuil est la valeur spécifiée ci-dessous.
 :::
 
 ::: xdripitem Seuil
@@ -523,7 +522,6 @@ Les prévisions d'hypoglycémie affichent un message sur l'écran de xDrip. Pour
 :::
 
 ::: xdripitem Ignorer le mode silencieux<img src="../images/DIS.png" style="zoom:75%;">
-&ensp;Faire sonner cette alerte même si le téléphone est en mode silencieux
 :::
 
 ::: xdripitem Vibrer en cas d'alerte<img src="../images/EN.png" style="zoom:75%;">
@@ -656,4 +654,4 @@ Vous pouvez aussi désactiver complètement les [canaux de notification](#notifi
 
 
 
-[*Dernière modification le 24/10/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

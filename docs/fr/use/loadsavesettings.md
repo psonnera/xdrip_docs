@@ -57,4 +57,4 @@ Les paramètres exportés contiennent des informations privées : une fois trans
 
 <br>
 
-[*Dernière modification le 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

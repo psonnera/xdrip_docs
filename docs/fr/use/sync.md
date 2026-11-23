@@ -166,4 +166,4 @@ Consultez l'état du système pour vérifier que tout se connecte correctement.
 
 <br>
 
-[*Dernière modification le 18/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

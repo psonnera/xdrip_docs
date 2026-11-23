@@ -40,19 +40,15 @@ Si vous voyez le message indiquant que **xDrip a désactivé le Bluetooth**, c'e
 &ensp;Réinitialiser Bluetooth en le désactivant puis réactivant si nous n’obtenons rien pendant 20 minutes
 :::
 
-::: info Remarque
-Attention : le déclenchement du garde-fou Bluetooth et du garde-fou Bluetooth G5 entraîne une déconnexion Bluetooth temporaire de tous les appareils connectés. Vous voudrez peut-être désactiver cette fonction si vous utilisez AAPS et que votre transmetteur ou votre pompe ne rétablit pas automatiquement la connexion Bluetooth.  
-Notez que le garde-fou Bluetooth G6/G7/1/1+ n'est pas contrôlé par ce paramètre
+Lorsque le garde-fou est activé, vous pouvez choisir au bout de combien de temps sans données il se déclenche : 20 (par défaut), 15, 10 ou 5 minutes.
+
+::: xdripitem Délai pour le garde-fou BT
+&ensp;Saisir la valeur en minutes
 :::
 
-#### Chien de garde Bluetooth Dex {#dex-bluetooth-watchdog}
-
-Pour les capteurs G5, vous pouvez faire en sorte que xDrip désactive et réactive systématiquement le Bluetooth. Laissez cette option activée si vous avez des problèmes de connexion.
-
-*Collecteur : chemins du collecteur OB1 Dex — Dexcom G5/G6/G7*
-
-::: xdripitem Chien de garde Bluetooth Dex<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Réinitialiser Bluetooth en le désactivant et reactivant pour continuer de faire marcher la source de données. Sans cela, le collecteur peut échouer.
+::: info Remarque
+Attention : le déclenchement du garde-fou Bluetooth entraîne une déconnexion Bluetooth temporaire de tous les appareils connectés. Vous voudrez peut-être désactiver cette fonction si vous utilisez AAPS et que votre transmetteur ou votre pompe ne rétablit pas automatiquement la connexion Bluetooth.  
+Notez que le collecteur Dexcom (G5/G6/G7/ONE/ONE+/Stelo) possède son propre garde-fou Bluetooth, toujours actif et non contrôlé par ce paramètre (le paramètre Chien de garde Bluetooth Dex a été supprimé dans la version [2026.04.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.22)).
 :::
 
 #### Fermer GATT sur déconnexion BLE {#close-gatt-on-ble-disconnect}
@@ -112,7 +108,7 @@ Companion Bluetooth permet à l'application de fonctionner en même temps que l'
 *Collecteur : écouteur compagnon BlueTails — émetteurs Dexcom en configuration compagnon/sniffer*
 
 ::: xdripitem Companion Bluetooth<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Use Bluetooth with Companion app data source (utiliser le Bluetooth avec la source de données application compagnon)
+&ensp;Use Bluetooth with companion app data source (utiliser le Bluetooth avec la source de données application compagnon)
 :::
 
 #### Wakelocks Bluetooth {#bluetooth-wakelocks}
@@ -167,4 +163,4 @@ Permettre la dissociation du BluCon n'est utile que si vous utilisez un transmet
 
 <br>
 
-[*Dernière modification le 22/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

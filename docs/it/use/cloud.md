@@ -26,7 +26,7 @@ Dopo aver creato il tuo sito Nightscout, attiva la sincronizzazione per caricare
 
 Se vuoi usare Nightscout per condividere la tua glicemia, assicurati che questa opzione sia attiva se usi un telefono con SIM e piano dati. Altrimenti il caricamento avverrà solo quando sei connesso a una rete Wi-Fi, il che va bene se usi Nightscout per raccogliere dati per i report.
 
-::: xdripitem Utilizza rete dati mobile<span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem Utilizza rete dati mobile<span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
 &ensp;Upload anche con rete dati mobile  
 :::
 
@@ -40,7 +40,7 @@ L'URL di base è composto dal tuo API_SECRET (o da un token) e dall'URL del tuo 
 L'esempio fornito nella finestra di dialogo era per un Nightscout basato su Azure.
 
 ::: xdripitem URL di base
-&ensp;https://password.hostname/api/v1  
+&ensp;Formato: https://password@hostname/api/v1/  
 :::
 
 Il formato dell'URL deve essere come questo:
@@ -123,7 +123,7 @@ Seleziona il primo giorno del periodo che vuoi caricare (fino a oggi) e tocca **
 A seconda della quantità di dati e della velocità della rete, il caricamento può richiedere moltissimo tempo (ore).
 
 ::: xdrip <img src="../images/BDM.png" style="zoom:75%;" />Nightscout Backfill
-Choose the date for the oldest record to send to Nightscout, use with care!  
+Choose the date for the oldest record to send to Nightscout. Use with care!  
 
 
 <div style="background-color: gray; color: white; text-align: center;">  &emsp;FEBRUARY 12, 2022 11:29PM&emsp;</div>  
@@ -201,10 +201,12 @@ Se usi un account USA attiva questa opzione, **per qualsiasi altro paese lascial
 Inserisci le credenziali che usi per accedere a Clarity.
 
 ::: xdripitem Login account Dexcom
+&ensp;Il tuo login per il sito web di Dexcom
 :::
 
 
 ::: xdripitem Password dell'account Dexcom
+&ensp;La tua password per il sito Web di Dexcom
 :::
 
 ### Tidepool {#tidepool}
@@ -260,12 +262,6 @@ Se carichi anche manualmente i dati dal microinfusore, potresti voler disattivar
 Carica solo i dati CGM per evitare duplicati con il caricamento manuale dal micro
 :::
 
-Se il caricamento non riesce, attiva il nuovo protocollo di autenticazione.
-
-::: xdripitem Use new Auth<span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-2023 openid authentication method
-:::
-
 ##### Web Deposit {#web-deposit}
 
 Web Deposit è una semplice API di caricamento in blocco usata attualmente per la diagnostica. È nascosta dietro la modalità Engineering e non è pensata per l'uso normale.
@@ -285,7 +281,8 @@ Vedi [Configurazione del follower NightLite](./nightlite) per la sequenza di ins
 :::
 
 ::: xdripitem NightLite URL
-&ensp;Contains your security key, do not disclose it. Typically entered by scanning a QR code from the dashboard.
+&ensp;Typically entered by scanning QR code from dashboard  
+&ensp;This contains your security key - do not disclose it
 :::
 
 Una volta attivato, puoi mostrare un codice QR con i dati di connessione NightLite da far scansionare ai follower.
@@ -385,4 +382,4 @@ Seleziona quali dati caricare. Le letture di glicemia sono attivate per impostaz
 
 <br>
 
-[*Ultima modifica 6/9/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

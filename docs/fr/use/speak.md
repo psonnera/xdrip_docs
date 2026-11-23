@@ -67,4 +67,4 @@ Et, si vous le souhaitez, ajouter un raccourci dans le menu principal.
 
 <br>
 
-[*Dernière modification le 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

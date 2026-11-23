@@ -150,7 +150,7 @@ Mostra informazioni aggiuntive per i sensori Libre 2
 Mostra i valori grezzi sul [grafico principale](./display#graph-settings)
 
 ::: xdripitem Mostra i valori grezzi nel grafico <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;Switch on to show the raw values on the graph
+&ensp;Attiva per mostrare i valori grezzi nel grafico.
 :::
 
 <img src="./images/M-S-DS6f3.png" style="zoom:75%;" />
@@ -257,4 +257,4 @@ Vedi la sezione dedicata.
 
 <br>
 
-[*Ultima modifica 19/1/2025*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.18)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

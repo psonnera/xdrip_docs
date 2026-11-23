@@ -108,7 +108,7 @@ Pour forcer la mise à jour de la montre, vous pouvez envoyer une valeur manuell
 
 Si vous avez des problèmes d'affichage du graphique, essayez de désactiver les valeurs MTU élevées.
 
-::: xdripitem Disable high MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Disable hight MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 
 ### Fonctions {#features}
@@ -168,7 +168,7 @@ Laissez-les désactivées tant que vous n'avez pas correctement placé les fichi
 
 Pour des astuces et des exemples, regardez [ici](https://github.com/twinko).
 
-::: xdripitem Disable high MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Disable hight MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 
 Disable high MTU values (désactiver les valeurs MTU élevées) peut être utilisé en cas de problèmes d'affichage du cadran.
@@ -197,4 +197,4 @@ Activez API du service Broadcast dans Paramètres -> Paramètres inter applicati
 
 <br>
 
-[*Dernière modification le 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

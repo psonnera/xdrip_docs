@@ -10,7 +10,7 @@ Remember to first enable the NFC feature in Android settings.
 :::
 
 ::: xdripitem Use NFC Feature <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Allow sensors to be scanned when the app is open. Historic data will be backfilled.
+&ensp;Allow sensors to be scanned when app is open. Historic data will be back-filled. Highly experimental! Beware this can maybe break a sensor. Test phone compatibility with an almost expired sensor first. You have been warned!
 :::
 
 You can display sensor age at the bottom of the main graph (xDrip master).
@@ -87,4 +87,4 @@ Smoothing adds a delay in xDrip BG from raw data. The delay is about half the sm
 
 <br>
 
-[*Last modified 15/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

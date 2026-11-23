@@ -76,7 +76,7 @@ xDrip va maintenant attendre les valeurs et afficher la progression. Restez sur 
 
 ::: xdripitem Collecte des premières lectures
 &ensp;✔ Collecteur de données en cours d'exécution  
-&ensp;⧖  Réception des données du Collecteur  
+&ensp;⧖  Réception des données du Collecteur MiaoMiao  
 &emsp;&nbsp;Reçu quelques données récentes  
 &emsp;&nbsp;Reçu assez de bonnes données pour calibrer  
 &ensp;***No data received yet***  
@@ -89,10 +89,10 @@ L'indication ***No data received yet*** deviendra ***Need 3 recent readings***. 
 
 ::: xdripitem Collecte des premières lectures
 &ensp;✔ Collecteur de données en cours d'exécution  
-&ensp;✔ Réception des données du Collecteur  
+&ensp;✔ Réception des données du Collecteur MiaoMiao  
 &ensp;✔ Reçu quelques données récentes  
 &ensp;⧖ Reçu assez de bonnes données pour calibrer  
-&ensp;***Need 3 recent readings, got only one so far***  
+&ensp;***Need 3 recent readings, got only 1 so far***  
 &ensp;Next reading expected in 1 minute 
 :::
 
@@ -149,4 +149,4 @@ xDrip devrait récupérer les valeurs à la prochaine mesure.
 
 <br>
 
-[*Dernière modification le 6/7/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

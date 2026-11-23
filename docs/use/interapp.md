@@ -12,7 +12,7 @@ Inter-app settings offers two ways to interface xDrip with other apps: local bro
 Broadcast locally will make xDrip send internal messages that can be used by other apps like Nightwatch or AAPS.
 
 ::: xdripitem Broadcast locally <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Enable local broadcast of data so that other apps (e.g.Nightwatch) can listen on new values
+&ensp;Enable local broadcast of data so other apps (e.g. NightWatch) can listen on new values
 :::
 
 If you're using calibration plugins or filtering, you can select to broadcast raw data or filtered/calibrated data.
@@ -30,7 +30,7 @@ You can also block noisy data broadcast for safety. By default, only extreme noi
 Recent apps/phones should accept compatible broadcast. Do not uncheck.
 
 ::: xdripitem Compatible Broadcast <span class='symbol'><img src="../images/EN.png" style="zoom:75%;" /></span>
-&ensp;Send broadcasts without locking the old permission model
+&ensp;Send broadcasts without locking to the older permission model
 :::
 
 You can specify the identified receiver if you want xDrip to send messages only to a specific app. One of the most common uses is when xDrip is [AAPS](https://androidaps.readthedocs.io/en/latest/Configuration/xdrip.html#identify-receiver) data source.
@@ -53,7 +53,7 @@ xDrip can also receive messages using this feature: you can enable or disable re
 
 You can enable or disable (**disable for AAPS!!!**) the sound that plays after updating xDrip profile.
 
-::: xdripitem Import sounds <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Import Sounds <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
 &ensp;Play sounds when importing significant data such as profiles
 :::
 
@@ -76,17 +76,17 @@ Web service will open a local web service on your device to allow other devices 
 The web server will respond to requests on address `127.0.0.1` port `17580`
 
 ::: xdripitem xDrip Web Service <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
-&ensp;Operating a local web server for interacting with Fitbit Ionic etc.
+&ensp;Operate a local web server for interacting with Fitbit Ionic etc
 :::
 
 By default the web service is only available to your device; you can open it so that other devices on the network can access it. Make sure you need the feature enabled and understand the security implications. Make sure a Shared Secret is set.
 
 ::: xdripitem Open Web Service <span class='symbol'><img src="../images/DIS.png" style="zoom:75%;" /></span>
-&ensp;Accept connections from any network instead of just internally within this device. There are security implications to enabling this! Shared secret will be required if set. 
+&ensp;Accept connections from any network instead of just internally within this device. There are security implications to enabling this! Shared Secret will be required if set.
 :::
 
-::: xdripitem xDrip Web Service Secret
-&ensp;Shared secret for open web service.
+::: xdripitem Web service secret
+&ensp;Shared Secret for open web service (should match your Nightscout API secret)
 :::
 
 #### Open option
@@ -242,11 +242,11 @@ This should be the current heart rate in BPM on the measuring device. Not a hist
 This service allows broadcast of xDrip values as an API and can be used by external apps like [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration) (enable the feature for WatchDrip+).
 
 ::: xdripitem Broadcast Service API <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Enable xDrip communication with third-party applications by using new API
+&ensp;Enables xDrip communication with third-party applications by using new API
 :::
 
 ::: xdripitem Enable IoB reporting in API <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Enable IoB reporting in web service API endpoint used by some smartwatches.
+&ensp;Enable IoB value reporting in Web Service API endpoint used by some smartwatches
 :::
 
 ::: xdripitem Fetch IoB from Companion App <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
@@ -266,7 +266,7 @@ You can share information with Google Health.
 You need [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata&hl=en&gl=US) installed on your device, which is available for Android 8 and above.
 
 ::: xdripitem Use Health Connect <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Required Android 8+ and Google companion application
+&ensp;Requires Android 8+ and Google companion application or Android 14+
 :::
 
 You can then decide to use incoming and allow outgoing data.
@@ -285,4 +285,4 @@ xDrip can share steps, heart rate and BG with Google Health.
 
 On some Android versions (notably 15 and 16) xDrip isn't allowed to open its Health Connect permission screen directly. It then opens the Health Connect app instead: go to *App permissions* and select xDrip to manage them. If Health Connect can't be opened at all, a message asks you to open the Health Connect app yourself and manage xDrip's permissions there.
 
-[*Last modified 15/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

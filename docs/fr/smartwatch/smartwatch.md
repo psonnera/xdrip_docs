@@ -26,9 +26,7 @@ Si vous avez besoin de plus de cadrans ou de personnalisations, vous pouvez util
 ::: xdripitem Intégration Pebble
 :::
 
-L'utilisation de la montre Pebble est une étape historique du CGM dans le Cloud. Pebble a été rachetée par Fitbit en 2016 et ses ressources ont été déplacées vers des archives et vers [rebble.io](https://rebble.io/).
-
-Vous devez télécharger l'application de la montre depuis [APKMirror](https://www.apkmirror.com/apk/pebble-technology-corp/pebble/pebble-4-4-2-1405-62d45d7d7-endframe-release/pebble-4-4-2-1405-62d45d7d7-endframe-android-apk-download/).
+L'utilisation de la montre Pebble est une étape historique du CGM dans le Cloud. Les montres Pebble d'origine ont été abandonnées en 2016, lorsque Pebble a été rachetée par Fitbit (leurs ressources ont été déplacées vers des archives et vers [rebble.io](https://rebble.io/)). De nouveaux modèles Pebble ont été relancés en 2025 : xDrip prend en charge les deux, voir [Intégration Pebble](./pebble).
 
 ### [Service de synchronisation AmazFit](https://crazyinfo.de/2018/07/25/xdrip-smartwatch-widget-fuer-amazfit-pace-stratos/) {#amazfit-sync-service}
 
@@ -62,7 +60,7 @@ L'intégration MiBand est le fruit de l'énorme travail d'[Artem](https://bigdig
 De nombreuses montres et bracelets connectés sont désormais pris en charge grâce à l'application compagnon WatchDrip+.
 
 :::: info Désactivez MiBand dans xDrip si vous utilisez WatchDrip+
-::: xdripitem Use MiBand <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Utiliser le bracelet MiBand <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 ::::
 
@@ -164,4 +162,4 @@ Par [Roboleo1010](https://apps.garmin.com/en-US/developer/b61690c3-5e5c-4c4e-afe
 
 <br>
 
-[*Dernière modification le 8/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Dernière modification le 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

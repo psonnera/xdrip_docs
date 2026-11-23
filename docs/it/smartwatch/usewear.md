@@ -203,7 +203,7 @@ Se ti colleghi a un G5 o G6, troverai altre impostazioni.
 
 <img src="./images/M-S-SW-AW-ST8.png" style="zoom:75%;" />
 
-Sono la copia delle impostazioni del telefono G5/G6 Debug Settings - Old G5 Collector Settings.
+Sono la copia delle impostazioni del telefono Impostazioni di debug G5/G6 - Old G5 Collector Settings.
 
 <img src="./images/M-S-SW-AW-ST9.png" style="zoom:75%;" />
 
@@ -219,4 +219,4 @@ Force screen on garantisce che l'orologio sia completamente attivo durante la sc
 
 <br>
 
-[*Ultima modifica 28/3/2022*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.03.27)
+[*Ultima modifica 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)

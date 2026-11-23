@@ -52,7 +52,7 @@ You can uninstall the patched app. This is not mandatory. If you want to install
 
 Switch the MiBand feature on. Keep your watch close to your phone until it gets detected.
 
-::: xdripitem Use MiBand <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
+::: xdripitem Use MiBand Band <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
 :::
 
 <img src="./images/M-S-SW-MB-I1.png" style="zoom:80%;" />
@@ -104,7 +104,7 @@ To force the watch to update, you can manually send a reading. Look carefully at
 
 If you have trouble displaying the graph, try to disable high MTU values.
 
-::: xdripitem Disable high MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Disable hight MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 
 ### Features
@@ -164,7 +164,7 @@ Keep them disabled unless you have correctly set the files required in the phone
 
 For tips and examples look [here](https://github.com/twinko).
 
-::: xdripitem Disable high MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Disable hight MTU values <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 
 Disable High MTU can be used when experiencing watchface display issues.
@@ -174,7 +174,7 @@ Disable High MTU can be used when experiencing watchface display issues.
 ### Install [WatchDrip+](https://bigdigital.home.blog/2022/06/16/watchdrip-a-new-application-for-xdrip-watch-integration/)
 
 :::: info Disable MiBand in xDrip if you use WatchDrip+
-::: xdripitem Use MiBand <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
+::: xdripitem Use MiBand Band <span class='symbol'><img src="../images/OFF.png" style="zoom:75%;" /></span>
 :::
 ::::
 
@@ -188,9 +188,9 @@ Enable Broadcast Service API in Settings -> Inter-app Settings
 :::
 
 ::: xdripitem Broadcast Service API <span class='symbol'><img src="../images/ON.png" style="zoom:75%;" /></span>
-&ensp;Enable xDrip communication with third party applications by using new API
+&ensp;Enables xDrip communication with third-party applications by using new API
 :::
 
 <br>
 
-[*Last modified 7/12/2024*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26)
+[*Last modified 23/11/2026*](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21)
