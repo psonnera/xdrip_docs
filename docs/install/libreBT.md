@@ -22,8 +22,7 @@ Here below is a compatibility table for supported bridge devices; for compatible
 |    Atom     |       `Yes`       |                |                   |
 
 *Note:*  
-*`*` [external OOP add-on required](../use/OOP)*  
-*Bubble and Bubble mini are no longer supported since release 2026.11.20.*
+*`*` [external OOP add-on required](../use/OOP)*
 
 <br>
 

@@ -2,7 +2,7 @@
 source_hash: 51a5c41463
 source_commit: 7a18e7c
 ---
-De nombreux transmetteurs Libre commerciaux sont disponibles sur le marché ; par ordre de sortie, on trouve Blucon, MiaoMiao, Droplet et Bubble, pour ne citer que les plus connus. Ils reposent tous sur le concept LimiTTer et l'implémentation blueReader : une puce de lecture NFC CR95LF et un microcontrôleur BLE Nordic Semiconductor. La première lit le capteur et le second envoie les données en Bluetooth à votre téléphone (ou à votre montre Wear) toutes les 5 minutes.
+De nombreux transmetteurs Libre commerciaux sont disponibles sur le marché ; par ordre de sortie, on trouve Blucon, MiaoMiao et Droplet, pour ne citer que les plus connus. Ils reposent tous sur le concept LimiTTer et l'implémentation blueReader : une puce de lecture NFC CR95LF et un microcontrôleur BLE Nordic Semiconductor. La première lit le capteur et le second envoie les données en Bluetooth à votre téléphone (ou à votre montre Wear) toutes les 5 minutes.
 
 ::: info Remarque
 **Tant que votre transmetteur arrive à lire le capteur et à transmettre les données, vous pouvez considérer qu'il fonctionne correctement.**

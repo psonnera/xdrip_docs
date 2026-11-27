@@ -26,8 +26,7 @@ Qui sotto trovi una tabella di compatibilità dei bridge supportati; per i senso
 |    Atom     |       `Sì`       |                |                   |
 
 *Nota:*  
-*`*` [richiede l'add-on esterno OOP](../use/OOP)*  
-*Bubble e Bubble mini non sono più supportati dalla release 2026.11.20.*
+*`*` [richiede l'add-on esterno OOP](../use/OOP)*
 
 <br>
 

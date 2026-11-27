@@ -26,8 +26,7 @@ Voici ci-dessous un tableau de compatibilité des transmetteurs pris en charge ;
 |    Atom     |       `Oui`       |                |                   |
 
 *Remarque :*  
-*`*` [module externe OOP nécessaire](../use/OOP)*  
-*Bubble et Bubble mini ne sont plus pris en charge depuis la version 2026.11.20.*
+*`*` [module externe OOP nécessaire](../use/OOP)*
 
 <br>
 

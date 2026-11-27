@@ -1,4 +1,4 @@
-There are many commercial Libre bridges available on the market; in order of release, you'll find Blucon, MiaoMiao, Droplet and Bubble to name only the most famous. They're all based on the LimiTTer concept and the blueReader implementation: an NFC reading chip CR95LF and a Nordic Semiconductor BLE microcontroller. The first one reads the sensor and the second one sends data through Bluetooth to your phone (or Wear watch) every 5 minutes.
+There are many commercial Libre bridges available on the market; in order of release, you'll find Blucon, MiaoMiao and Droplet to name only the most famous. They're all based on the LimiTTer concept and the blueReader implementation: an NFC reading chip CR95LF and a Nordic Semiconductor BLE microcontroller. The first one reads the sensor and the second one sends data through Bluetooth to your phone (or Wear watch) every 5 minutes.
 
 ::: info Note
 **As long as your bridge can read the sensor and transmit data you can assume it is working correctly.**
