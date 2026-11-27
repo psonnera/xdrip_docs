@@ -7,6 +7,7 @@ Important changes with links to features.
 
 | Release date and link                                        | Notes, Added Feature, etc.                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [25th Nov 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.25) | Settings screen rebuilt on androidx (same settings), Dexcom Share now verifies TLS certificates and no longer logs credentials, update page shows version dates as YYYY-MM-DD |
 | [21st Nov 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21) | **New [Li3](./install/li3) data source** (direct NFC + Bluetooth collection), confirmation asked before importing settings from a settings wizard QR code, sync key and Tidepool token no longer written to logs |
 | [20th Nov 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20) | **[Bubble](./install/libreBT) bridge support discontinued**, MiniMed Mobile (EU) [companion](./install/companion) IoB read in all app languages |
 | [13th Nov 2026](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13) | G7/ONE+ transmitter low battery warning threshold lowered, Health Connect [Manage permissions](./use/interapp#google-health-connect) falls back to the Health Connect app on Android 14+ |
