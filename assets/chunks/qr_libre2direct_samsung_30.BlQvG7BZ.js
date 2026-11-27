@@ -1,0 +1,1 @@
+const s="/xdrip_docs/assets/classic-status-connected.DCcPvame.png",t="/xdrip_docs/assets/bt-device-connected.CAh-Evfz.png",e="/xdrip_docs/assets/event-log-normal.Buv4H7n0.png",c="/xdrip_docs/assets/libre2direct-failsafe-to-libre1.IJweebUO.png",o="/xdrip_docs/assets/qr_libre2direct_samsung_30.BBIb7EvI.png";export{s as _,t as a,e as b,c,o as d};

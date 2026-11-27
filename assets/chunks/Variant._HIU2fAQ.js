@@ -1,0 +1,1 @@
+const s="/xdrip_docs/assets/GitHubReleaseLatest.CeALVfbU.png",t="/xdrip_docs/assets/Install46.WuzRKb8-.png",e="/xdrip_docs/assets/GitHubReleaseAssets.DTS5FVeV.png",a="/xdrip_docs/assets/Variant.CeqoNOLc.png";export{s as _,t as a,e as b,a as c};
